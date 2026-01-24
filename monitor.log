@@ -1,0 +1,436 @@
+2026-01-21 18:51:52,499 - ERROR - Credentials not found in .env file. Please create one.
+2026-01-21 19:02:26,901 - INFO - ====== WebDriver manager ======
+2026-01-21 19:02:27,971 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:02:28,367 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:02:28,728 - INFO - There is no [mac64] chromedriver "143.0.7499.192" for browser google-chrome "143.0.7499" in cache
+2026-01-21 19:02:28,741 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:02:29,732 - INFO - WebDriver version 143.0.7499.192 selected
+2026-01-21 19:02:29,737 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-21 19:02:29,737 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-21 19:02:30,162 - INFO - Driver downloading response is 200
+2026-01-21 19:02:31,348 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:02:31,843 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192]
+2026-01-21 19:02:33,522 - INFO - Navigating to login page...
+2026-01-21 19:02:44,612 - ERROR - Could not find login fields. Page might have changed or network is slow.
+2026-01-21 19:02:44,613 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 130, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 40, in login
+    user_input = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//input[@type='text' or @id='username' or @name='username']"))
+    )
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102acbdfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000102ac3cb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x00000001025beb90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000102605ab4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 364788
+4   chromedriver                        0x0000000102646a28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+5   chromedriver                        0x00000001025fa22c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+6   chromedriver                        0x0000000102a90194 cxxbridge1$str$ptr + 2786176
+7   chromedriver                        0x0000000102a93900 cxxbridge1$str$ptr + 2800364
+8   chromedriver                        0x0000000102a7042c cxxbridge1$str$ptr + 2655768
+9   chromedriver                        0x0000000102a94170 cxxbridge1$str$ptr + 2802524
+10  chromedriver                        0x0000000102a60e10 cxxbridge1$str$ptr + 2592764
+11  chromedriver                        0x0000000102ab314c cxxbridge1$str$ptr + 2929464
+12  chromedriver                        0x0000000102ab32cc cxxbridge1$str$ptr + 2929848
+13  chromedriver                        0x0000000102ac3910 cxxbridge1$str$ptr + 2996988
+14  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:02:44,708 - INFO - Driver closed.
+2026-01-21 19:03:04,156 - INFO - ====== WebDriver manager ======
+2026-01-21 19:03:05,113 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:03:05,496 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:03:05,847 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:03:06,814 - INFO - Navigating to login page...
+2026-01-21 19:03:17,596 - ERROR - Could not find login fields. Page might have changed or network is slow.
+2026-01-21 19:03:17,596 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 130, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 40, in login
+    user_input = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//input[@type='text' or @id='username' or @name='username']"))
+    )
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010301fdfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000103017cb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x0000000102b12b90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000102b59ab4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 364788
+4   chromedriver                        0x0000000102b9aa28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+5   chromedriver                        0x0000000102b4e22c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+6   chromedriver                        0x0000000102fe4194 cxxbridge1$str$ptr + 2786176
+7   chromedriver                        0x0000000102fe7900 cxxbridge1$str$ptr + 2800364
+8   chromedriver                        0x0000000102fc442c cxxbridge1$str$ptr + 2655768
+9   chromedriver                        0x0000000102fe8170 cxxbridge1$str$ptr + 2802524
+10  chromedriver                        0x0000000102fb4e10 cxxbridge1$str$ptr + 2592764
+11  chromedriver                        0x000000010300714c cxxbridge1$str$ptr + 2929464
+12  chromedriver                        0x00000001030072cc cxxbridge1$str$ptr + 2929848
+13  chromedriver                        0x0000000103017910 cxxbridge1$str$ptr + 2996988
+14  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:03:17,681 - INFO - Driver closed.
+2026-01-21 19:04:23,258 - INFO - ====== WebDriver manager ======
+2026-01-21 19:04:24,322 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:04:24,889 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:04:25,288 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:04:26,785 - INFO - Navigating to login page...
+2026-01-21 19:04:27,639 - INFO - Waiting for input fields...
+2026-01-21 19:04:57,755 - ERROR - Could not find login fields. Page might have changed or network is slow.
+2026-01-21 19:04:57,755 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 169, in main
+    login(driver, username, password)
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 43, in login
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "input")))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101113dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x000000010110bcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x0000000100c06b90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000100c4dab4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 364788
+4   chromedriver                        0x0000000100c8ea28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+5   chromedriver                        0x0000000100c4222c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+6   chromedriver                        0x00000001010d8194 cxxbridge1$str$ptr + 2786176
+7   chromedriver                        0x00000001010db900 cxxbridge1$str$ptr + 2800364
+8   chromedriver                        0x00000001010b842c cxxbridge1$str$ptr + 2655768
+9   chromedriver                        0x00000001010dc170 cxxbridge1$str$ptr + 2802524
+10  chromedriver                        0x00000001010a8e10 cxxbridge1$str$ptr + 2592764
+11  chromedriver                        0x00000001010fb14c cxxbridge1$str$ptr + 2929464
+12  chromedriver                        0x00000001010fb2cc cxxbridge1$str$ptr + 2929848
+13  chromedriver                        0x000000010110b910 cxxbridge1$str$ptr + 2996988
+14  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:04:57,831 - INFO - Driver closed.
+2026-01-21 19:05:14,169 - INFO - ====== WebDriver manager ======
+2026-01-21 19:05:15,137 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:05:15,485 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:05:15,860 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:05:16,919 - INFO - Navigating to login page...
+2026-01-21 19:05:17,471 - INFO - Waiting for input fields...
+2026-01-21 19:05:47,585 - ERROR - Login failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001032c3dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x00000001032bbcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x0000000102db6b90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000102dfdab4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 364788
+4   chromedriver                        0x0000000102e3ea28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+5   chromedriver                        0x0000000102df222c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+6   chromedriver                        0x0000000103288194 cxxbridge1$str$ptr + 2786176
+7   chromedriver                        0x000000010328b900 cxxbridge1$str$ptr + 2800364
+8   chromedriver                        0x000000010326842c cxxbridge1$str$ptr + 2655768
+9   chromedriver                        0x000000010328c170 cxxbridge1$str$ptr + 2802524
+10  chromedriver                        0x0000000103258e10 cxxbridge1$str$ptr + 2592764
+11  chromedriver                        0x00000001032ab14c cxxbridge1$str$ptr + 2929464
+12  chromedriver                        0x00000001032ab2cc cxxbridge1$str$ptr + 2929848
+13  chromedriver                        0x00000001032bb910 cxxbridge1$str$ptr + 2996988
+14  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:05:47,589 - INFO - Current URL: https://wsp.kbtu.kz/
+2026-01-21 19:05:47,594 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-21 19:05:47,597 - INFO - Saved debug_page_source.html
+2026-01-21 19:05:47,663 - INFO - Saved debug_screenshot.png
+2026-01-21 19:05:47,663 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 182, in main
+    login(driver, username, password)
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 43, in login
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "input")))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001032c3dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x00000001032bbcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x0000000102db6b90 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74192
+3   chromedriver                        0x0000000102dfdab4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 364788
+4   chromedriver                        0x0000000102e3ea28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+5   chromedriver                        0x0000000102df222c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+6   chromedriver                        0x0000000103288194 cxxbridge1$str$ptr + 2786176
+7   chromedriver                        0x000000010328b900 cxxbridge1$str$ptr + 2800364
+8   chromedriver                        0x000000010326842c cxxbridge1$str$ptr + 2655768
+9   chromedriver                        0x000000010328c170 cxxbridge1$str$ptr + 2802524
+10  chromedriver                        0x0000000103258e10 cxxbridge1$str$ptr + 2592764
+11  chromedriver                        0x00000001032ab14c cxxbridge1$str$ptr + 2929464
+12  chromedriver                        0x00000001032ab2cc cxxbridge1$str$ptr + 2929848
+13  chromedriver                        0x00000001032bb910 cxxbridge1$str$ptr + 2996988
+14  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:05:47,737 - INFO - Driver closed.
+2026-01-21 19:06:26,235 - INFO - ====== WebDriver manager ======
+2026-01-21 19:06:27,181 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:06:27,554 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:06:27,952 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:06:29,080 - INFO - Navigating to login page...
+2026-01-21 19:06:29,964 - INFO - Checking for login inputs or login button...
+2026-01-21 19:06:30,505 - INFO - No inputs found, looking for login button...
+2026-01-21 19:06:30,510 - INFO - Found login button, clicking...
+2026-01-21 19:06:30,521 - ERROR - Login failed: Message: element not interactable
+  (Session info: chrome=143.0.7499.194); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x0000000102c73dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000102c6bcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x00000001027669f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73780
+3   chromedriver                        0x00000001027aeaa4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 368868
+4   chromedriver                        0x00000001027a3d64 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324516
+5   chromedriver                        0x00000001027a3808 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323144
+6   chromedriver                        0x00000001027eea28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+7   chromedriver                        0x00000001027a222c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+8   chromedriver                        0x0000000102c38194 cxxbridge1$str$ptr + 2786176
+9   chromedriver                        0x0000000102c3b900 cxxbridge1$str$ptr + 2800364
+10  chromedriver                        0x0000000102c1842c cxxbridge1$str$ptr + 2655768
+11  chromedriver                        0x0000000102c3c170 cxxbridge1$str$ptr + 2802524
+12  chromedriver                        0x0000000102c08e10 cxxbridge1$str$ptr + 2592764
+13  chromedriver                        0x0000000102c5b14c cxxbridge1$str$ptr + 2929464
+14  chromedriver                        0x0000000102c5b2cc cxxbridge1$str$ptr + 2929848
+15  chromedriver                        0x0000000102c6b910 cxxbridge1$str$ptr + 2996988
+16  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:06:30,523 - INFO - Current URL: https://wsp.kbtu.kz/
+2026-01-21 19:06:30,524 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-21 19:06:30,526 - INFO - Saved debug_page_source.html
+2026-01-21 19:06:30,599 - INFO - Saved debug_screenshot.png
+2026-01-21 19:06:30,599 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 213, in main
+    login(driver, username, password)
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 61, in login
+    login_btns[0].click()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=143.0.7499.194); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x0000000102c73dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000102c6bcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x00000001027669f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73780
+3   chromedriver                        0x00000001027aeaa4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 368868
+4   chromedriver                        0x00000001027a3d64 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324516
+5   chromedriver                        0x00000001027a3808 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323144
+6   chromedriver                        0x00000001027eea28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+7   chromedriver                        0x00000001027a222c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+8   chromedriver                        0x0000000102c38194 cxxbridge1$str$ptr + 2786176
+9   chromedriver                        0x0000000102c3b900 cxxbridge1$str$ptr + 2800364
+10  chromedriver                        0x0000000102c1842c cxxbridge1$str$ptr + 2655768
+11  chromedriver                        0x0000000102c3c170 cxxbridge1$str$ptr + 2802524
+12  chromedriver                        0x0000000102c08e10 cxxbridge1$str$ptr + 2592764
+13  chromedriver                        0x0000000102c5b14c cxxbridge1$str$ptr + 2929464
+14  chromedriver                        0x0000000102c5b2cc cxxbridge1$str$ptr + 2929848
+15  chromedriver                        0x0000000102c6b910 cxxbridge1$str$ptr + 2996988
+16  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:06:30,668 - INFO - Driver closed.
+2026-01-21 19:06:48,275 - INFO - ====== WebDriver manager ======
+2026-01-21 19:06:48,775 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:06:49,152 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:06:49,726 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:06:51,195 - INFO - Navigating to login page...
+2026-01-21 19:06:51,764 - INFO - Checking for login inputs or login button...
+2026-01-21 19:06:52,307 - INFO - No inputs found, looking for login button...
+2026-01-21 19:06:52,312 - INFO - Found login button, clicking via JS...
+2026-01-21 19:06:52,321 - INFO - Waiting for inputs to appear after click...
+2026-01-21 19:06:52,844 - INFO - Found 3 input fields.
+2026-01-21 19:06:52,855 - INFO - Entering credentials...
+2026-01-21 19:06:53,005 - ERROR - Login failed: Message: element not interactable
+  (Session info: chrome=143.0.7499.194); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x0000000100e17dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000100e0fcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x000000010090a9f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73780
+3   chromedriver                        0x0000000100952aa4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 368868
+4   chromedriver                        0x0000000100947d64 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324516
+5   chromedriver                        0x0000000100947808 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323144
+6   chromedriver                        0x0000000100992a28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+7   chromedriver                        0x000000010094622c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+8   chromedriver                        0x0000000100ddc194 cxxbridge1$str$ptr + 2786176
+9   chromedriver                        0x0000000100ddf900 cxxbridge1$str$ptr + 2800364
+10  chromedriver                        0x0000000100dbc42c cxxbridge1$str$ptr + 2655768
+11  chromedriver                        0x0000000100de0170 cxxbridge1$str$ptr + 2802524
+12  chromedriver                        0x0000000100dace10 cxxbridge1$str$ptr + 2592764
+13  chromedriver                        0x0000000100dff14c cxxbridge1$str$ptr + 2929464
+14  chromedriver                        0x0000000100dff2cc cxxbridge1$str$ptr + 2929848
+15  chromedriver                        0x0000000100e0f910 cxxbridge1$str$ptr + 2996988
+16  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:06:53,007 - INFO - Current URL: https://wsp.kbtu.kz/#!LoginView/
+2026-01-21 19:06:53,008 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-21 19:06:53,009 - INFO - Saved debug_page_source.html
+2026-01-21 19:06:53,072 - INFO - Saved debug_screenshot.png
+2026-01-21 19:06:53,072 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 213, in main
+    login(driver, username, password)
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 122, in login
+    buttons[0].click()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=143.0.7499.194); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x0000000100e17dfc cxxbridge1$str$ptr + 3031016
+1   chromedriver                        0x0000000100e0fcb8 cxxbridge1$str$ptr + 2997924
+2   chromedriver                        0x000000010090a9f4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73780
+3   chromedriver                        0x0000000100952aa4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 368868
+4   chromedriver                        0x0000000100947d64 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324516
+5   chromedriver                        0x0000000100947808 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323144
+6   chromedriver                        0x0000000100992a28 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630888
+7   chromedriver                        0x000000010094622c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317548
+8   chromedriver                        0x0000000100ddc194 cxxbridge1$str$ptr + 2786176
+9   chromedriver                        0x0000000100ddf900 cxxbridge1$str$ptr + 2800364
+10  chromedriver                        0x0000000100dbc42c cxxbridge1$str$ptr + 2655768
+11  chromedriver                        0x0000000100de0170 cxxbridge1$str$ptr + 2802524
+12  chromedriver                        0x0000000100dace10 cxxbridge1$str$ptr + 2592764
+13  chromedriver                        0x0000000100dff14c cxxbridge1$str$ptr + 2929464
+14  chromedriver                        0x0000000100dff2cc cxxbridge1$str$ptr + 2929848
+15  chromedriver                        0x0000000100e0f910 cxxbridge1$str$ptr + 2996988
+16  libsystem_pthread.dylib             0x0000000183bbdc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000183bb8ba8 thread_start + 8
+
+2026-01-21 19:06:53,139 - INFO - Driver closed.
+2026-01-21 19:07:11,045 - INFO - ====== WebDriver manager ======
+2026-01-21 19:07:11,479 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:07:11,892 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:07:12,244 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:07:13,338 - INFO - Navigating to login page...
+2026-01-21 19:07:14,213 - INFO - Checking for login inputs or login button...
+2026-01-21 19:07:14,751 - INFO - No inputs found, looking for login button...
+2026-01-21 19:07:14,756 - INFO - Found login button, clicking via JS...
+2026-01-21 19:07:14,762 - INFO - Waiting for inputs to appear after click...
+2026-01-21 19:07:15,288 - INFO - Found 3 input fields.
+2026-01-21 19:07:15,301 - INFO - Entering credentials...
+2026-01-21 19:07:15,448 - INFO - Clicking first available button via JS...
+2026-01-21 19:07:25,452 - INFO - Login attempt submitted.
+2026-01-21 19:07:25,453 - INFO - Navigating to https://wsp.kbtu.kz/RegistrationOnline...
+2026-01-21 19:07:25,482 - INFO - Starting monitoring loop. Press Ctrl+C to stop.
+2026-01-21 19:07:27,522 - INFO - No registration button found. Retrying in 60 seconds...
+2026-01-21 19:07:44,875 - INFO - Stopping script...
+2026-01-21 19:07:44,878 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/32f24462d17664a3b937e2da76ad3cb1
+2026-01-21 19:07:44,880 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53114): Failed to establish a new connection: [Errno 61] Connection refused")': /session/32f24462d17664a3b937e2da76ad3cb1
+2026-01-21 19:07:44,883 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53114): Failed to establish a new connection: [Errno 61] Connection refused")': /session/32f24462d17664a3b937e2da76ad3cb1
+2026-01-21 19:07:44,885 - INFO - Driver closed.
+2026-01-21 19:08:34,860 - INFO - ====== WebDriver manager ======
+2026-01-21 19:08:35,838 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:08:36,256 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:08:36,641 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:08:37,617 - INFO - Navigating to login page...
+2026-01-21 19:08:38,226 - INFO - Checking for login inputs or login button...
+2026-01-21 19:08:38,762 - INFO - No inputs found, looking for login button...
+2026-01-21 19:08:38,767 - INFO - Found login button, clicking via JS...
+2026-01-21 19:08:38,773 - INFO - Waiting for inputs to appear after click...
+2026-01-21 19:08:39,299 - INFO - Found 3 input fields.
+2026-01-21 19:08:39,313 - INFO - Entering credentials...
+2026-01-21 19:08:39,419 - INFO - Clicking first available button via JS...
+2026-01-21 19:08:49,426 - INFO - Login attempt submitted.
+2026-01-21 19:08:49,426 - INFO - Navigating to https://wsp.kbtu.kz/RegistrationOnline...
+2026-01-21 19:08:49,469 - INFO - Starting monitoring loop. Press Ctrl+C to stop.
+2026-01-21 19:08:51,530 - INFO - No registration button found. Retrying in 60 seconds...
+2026-01-21 19:09:53,593 - INFO - No registration button found. Retrying in 60 seconds...
+2026-01-21 19:10:55,641 - INFO - No registration button found. Retrying in 60 seconds...
+2026-01-21 19:11:05,122 - INFO - Stopping script...
+2026-01-21 19:11:05,124 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/fe9dcbcecce58e25172d2cf958c6844f
+2026-01-21 19:11:05,126 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53196): Failed to establish a new connection: [Errno 61] Connection refused")': /session/fe9dcbcecce58e25172d2cf958c6844f
+2026-01-21 19:11:05,127 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53196): Failed to establish a new connection: [Errno 61] Connection refused")': /session/fe9dcbcecce58e25172d2cf958c6844f
+2026-01-21 19:11:05,128 - INFO - Driver closed.
+2026-01-21 19:11:19,757 - INFO - ====== WebDriver manager ======
+2026-01-21 19:11:20,828 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:11:21,177 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:11:21,564 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:11:22,699 - INFO - Navigating to login page...
+2026-01-21 19:11:23,251 - INFO - Checking for login inputs or login button...
+2026-01-21 19:11:23,789 - INFO - No inputs found, looking for login button...
+2026-01-21 19:11:23,794 - INFO - Found login button, clicking via JS...
+2026-01-21 19:11:23,800 - INFO - Waiting for inputs to appear after click...
+2026-01-21 19:11:24,326 - INFO - Found 3 input fields.
+2026-01-21 19:11:24,340 - INFO - Entering credentials...
+2026-01-21 19:11:24,475 - INFO - Clicking first available button via JS...
+2026-01-21 19:11:29,482 - INFO - Verifying login by navigating to /Stud...
+2026-01-21 19:11:34,547 - ERROR - Login verification failed. Still finding login elements on /Stud page.
+2026-01-21 19:11:34,547 - ERROR - Login failed: Login failed - redirected to login page.
+2026-01-21 19:11:34,549 - INFO - Current URL: https://wsp.kbtu.kz/Stud
+2026-01-21 19:11:34,550 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-21 19:11:34,551 - INFO - Saved debug_page_source.html
+2026-01-21 19:11:34,590 - INFO - Saved debug_screenshot.png
+2026-01-21 19:11:34,590 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 229, in main
+    login(driver, username, password)
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 141, in login
+    raise Exception("Login failed - redirected to login page.")
+Exception: Login failed - redirected to login page.
+2026-01-21 19:11:34,660 - INFO - Driver closed.
+2026-01-21 19:12:09,148 - INFO - ====== WebDriver manager ======
+2026-01-21 19:12:10,097 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:12:10,550 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:12:11,725 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:12:13,690 - INFO - Navigating to login page...
+2026-01-21 19:12:14,279 - INFO - Checking for login inputs or login button...
+2026-01-21 19:12:14,799 - INFO - No inputs found, looking for login button...
+2026-01-21 19:12:14,802 - INFO - Found login button, clicking via JS...
+2026-01-21 19:12:14,805 - INFO - Waiting for inputs to appear after click...
+2026-01-21 19:12:15,317 - INFO - Found 3 input fields.
+2026-01-21 19:12:15,326 - INFO - Entering credentials...
+2026-01-21 19:12:15,464 - INFO - Found primary login button, clicking via JS...
+2026-01-21 19:12:20,472 - INFO - Verifying login by navigating to /Stud...
+2026-01-21 19:12:25,527 - INFO - Login verified successfully (No login fields found on /Stud).
+2026-01-21 19:12:25,527 - INFO - Navigating to https://wsp.kbtu.kz/RegistrationOnline...
+2026-01-21 19:12:25,555 - INFO - Starting monitoring loop. Press Ctrl+C to stop.
+2026-01-21 19:12:27,710 - INFO - No registration button found. Retrying in 60 seconds...
+2026-01-21 19:12:53,861 - INFO - Stopping script...
+2026-01-21 19:12:53,863 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/6628b3ddf756a9cdf727a4f167671fc7
+2026-01-21 19:12:53,863 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53397): Failed to establish a new connection: [Errno 61] Connection refused")': /session/6628b3ddf756a9cdf727a4f167671fc7
+2026-01-21 19:12:53,864 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53397): Failed to establish a new connection: [Errno 61] Connection refused")': /session/6628b3ddf756a9cdf727a4f167671fc7
+2026-01-21 19:12:53,866 - INFO - Driver closed.
+2026-01-21 19:13:38,451 - INFO - ====== WebDriver manager ======
+2026-01-21 19:13:39,457 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:13:39,803 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-21 19:13:40,197 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-21 19:13:41,166 - INFO - Navigating to login page...
+2026-01-21 19:13:41,701 - INFO - Checking for login inputs or login button...
+2026-01-21 19:13:42,232 - INFO - No inputs found, looking for login button...
+2026-01-21 19:13:42,234 - INFO - Found login button, clicking via JS...
+2026-01-21 19:13:42,237 - INFO - Waiting for inputs to appear after click...
+2026-01-21 19:13:42,760 - INFO - Found 3 input fields.
+2026-01-21 19:13:42,775 - INFO - Entering credentials...
+2026-01-21 19:13:42,910 - INFO - Found primary login button, clicking via JS...
+2026-01-21 19:13:47,916 - INFO - Verifying login by navigating to /Stud...
+2026-01-21 19:13:52,985 - INFO - Login verified successfully (No login fields found on /Stud).
+2026-01-21 19:13:52,986 - INFO - Navigating to https://wsp.kbtu.kz/RegistrationOnline...
+2026-01-21 19:13:53,018 - INFO - Starting monitoring loop. Press Ctrl+C to stop.
+2026-01-21 19:13:55,174 - INFO - No registration button found. Retrying in 60 seconds...
+2026-01-21 19:14:40,025 - INFO - Stopping script...
+2026-01-21 19:14:40,030 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/1b01fcf089367056a2e4b7c84a1dd0a8
+2026-01-21 19:14:40,032 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53697): Failed to establish a new connection: [Errno 61] Connection refused")': /session/1b01fcf089367056a2e4b7c84a1dd0a8
+2026-01-21 19:14:40,033 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53697): Failed to establish a new connection: [Errno 61] Connection refused")': /session/1b01fcf089367056a2e4b7c84a1dd0a8
+2026-01-21 19:14:40,034 - INFO - Driver closed.

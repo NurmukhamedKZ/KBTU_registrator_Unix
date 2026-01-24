@@ -1,0 +1,1665 @@
+2026-01-24 19:15:48,887 - INFO - Starting UniX Agent...
+2026-01-24 19:15:48,887 - INFO - ====== WebDriver manager ======
+2026-01-24 19:15:50,201 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:15:50,573 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:15:50,940 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:15:51,867 - INFO - WebDriver version 143.0.7499.192 selected
+2026-01-24 19:15:51,871 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-24 19:15:51,872 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-24 19:15:52,257 - INFO - Driver downloading response is 200
+2026-01-24 19:15:53,019 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:15:53,497 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192]
+2026-01-24 19:15:54,908 - INFO - WebDriver initialized successfully
+2026-01-24 19:15:55,093 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:15:55,093 - INFO - AI Helper initialized successfully
+2026-01-24 19:15:55,093 - INFO - Navigating to UniX platform...
+2026-01-24 19:16:18,115 - INFO - Looking for login elements...
+2026-01-24 19:16:18,127 - INFO - Entering credentials...
+2026-01-24 19:16:19,290 - INFO - Clicking login button...
+2026-01-24 19:16:24,322 - ERROR - Login verification failed
+2026-01-24 19:16:24,443 - INFO - Saved screenshot: debug_login_failed_1769264184.png
+2026-01-24 19:16:24,446 - INFO - Saved page source: debug_login_failed_1769264184.html
+2026-01-24 19:16:24,446 - ERROR - Failed to login. Exiting.
+2026-01-24 19:16:24,533 - INFO - WebDriver closed
+2026-01-24 19:16:36,308 - INFO - ====== WebDriver manager ======
+2026-01-24 19:16:37,245 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:16:37,629 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:16:38,024 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/143.0.7499.192/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:16:38,874 - INFO - WebDriver initialized successfully
+2026-01-24 19:16:38,874 - INFO - Navigating to UniX platform...
+2026-01-24 19:16:42,968 - INFO - Looking for login elements...
+2026-01-24 19:16:42,986 - INFO - Entering credentials...
+2026-01-24 19:16:44,156 - INFO - Clicking login button...
+2026-01-24 19:16:49,195 - ERROR - Login verification failed
+2026-01-24 19:16:49,276 - INFO - Saved screenshot: debug_login_failed_1769264209.png
+2026-01-24 19:16:49,277 - INFO - Saved page source: debug_login_failed_1769264209.html
+2026-01-24 19:16:49,355 - INFO - WebDriver closed
+2026-01-24 19:18:48,906 - INFO - ====== WebDriver manager ======
+2026-01-24 19:18:52,649 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:18:53,025 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:18:53,429 - INFO - There is no [mac64] chromedriver "144.0.7559.96" for browser google-chrome "144.0.7559" in cache
+2026-01-24 19:18:53,441 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:18:54,364 - INFO - WebDriver version 144.0.7559.96 selected
+2026-01-24 19:18:54,369 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-24 19:18:54,370 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-24 19:18:54,767 - INFO - Driver downloading response is 200
+2026-01-24 19:18:55,545 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:18:55,996 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96]
+2026-01-24 19:18:58,363 - INFO - WebDriver initialized successfully
+2026-01-24 19:18:58,364 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:19:04,717 - INFO - Looking for login elements...
+2026-01-24 19:19:04,739 - INFO - Entering credentials...
+2026-01-24 19:19:05,460 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:19:05,465 - INFO - Waiting for login to complete...
+2026-01-24 19:19:20,666 - WARNING - No redirect detected, checking page state...
+2026-01-24 19:19:22,675 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform/login
+2026-01-24 19:19:22,683 - ERROR - Login failed - still on login page
+2026-01-24 19:19:22,794 - INFO - Saved screenshot: debug_login_failed_1769264362.png
+2026-01-24 19:19:22,796 - INFO - Saved page source: debug_login_failed_1769264362.html
+2026-01-24 19:19:22,888 - INFO - WebDriver closed
+2026-01-24 19:20:18,997 - INFO - ====== WebDriver manager ======
+2026-01-24 19:20:19,949 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:20:20,343 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:20:20,693 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:20:21,651 - INFO - WebDriver initialized successfully
+2026-01-24 19:20:21,651 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:20:29,935 - INFO - Looking for login elements...
+2026-01-24 19:20:29,954 - INFO - Entering credentials...
+2026-01-24 19:20:30,690 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:20:30,697 - INFO - Waiting for login to complete...
+2026-01-24 19:20:31,207 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:20:33,219 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:20:33,219 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:20:33,327 - INFO - WebDriver closed
+2026-01-24 19:20:42,634 - INFO - Starting UniX Agent...
+2026-01-24 19:20:42,634 - INFO - ====== WebDriver manager ======
+2026-01-24 19:20:43,092 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:20:43,513 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:20:43,911 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:20:44,882 - INFO - WebDriver initialized successfully
+2026-01-24 19:20:44,961 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:20:44,961 - INFO - AI Helper initialized successfully
+2026-01-24 19:20:44,961 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:20:52,158 - INFO - Looking for login elements...
+2026-01-24 19:20:52,174 - INFO - Entering credentials...
+2026-01-24 19:20:52,905 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:20:52,911 - INFO - Waiting for login to complete...
+2026-01-24 19:20:53,417 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:20:55,427 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:20:55,427 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:20:55,428 - INFO - Fetching lesson list...
+2026-01-24 19:20:58,642 - INFO - Found 0 lessons
+2026-01-24 19:20:58,642 - WARNING - No lessons found
+2026-01-24 19:20:58,752 - INFO - WebDriver closed
+2026-01-24 19:30:27,713 - INFO - ====== WebDriver manager ======
+2026-01-24 19:30:28,700 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:30:29,056 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:30:29,445 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:30:30,758 - INFO - WebDriver initialized successfully
+2026-01-24 19:30:30,841 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:30:30,841 - INFO - AI Helper initialized successfully
+2026-01-24 19:30:30,841 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:30:35,027 - INFO - Looking for login elements...
+2026-01-24 19:30:35,046 - INFO - Entering credentials...
+2026-01-24 19:30:35,789 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:30:35,795 - INFO - Waiting for login to complete...
+2026-01-24 19:30:36,304 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:30:38,311 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:30:38,312 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:30:38,312 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9839
+2026-01-24 19:30:41,554 - INFO - Looking for video player...
+2026-01-24 19:30:41,624 - INFO - Clicked play button
+2026-01-24 19:30:41,624 - INFO - Watching video...
+2026-01-24 19:30:41,635 - INFO - Video progress: 0.0% (0s / 495s)
+2026-01-24 19:31:11,645 - INFO - Video progress: 5.4% (27s / 495s)
+2026-01-24 19:31:41,665 - INFO - Video progress: 11.5% (57s / 495s)
+2026-01-24 19:32:11,683 - INFO - Video progress: 17.6% (87s / 495s)
+2026-01-24 19:32:41,701 - INFO - Video progress: 23.6% (117s / 495s)
+2026-01-24 19:33:11,711 - INFO - Video progress: 29.7% (147s / 495s)
+2026-01-24 19:33:41,727 - INFO - Video progress: 35.7% (177s / 495s)
+2026-01-24 19:34:11,737 - INFO - Video progress: 41.8% (207s / 495s)
+2026-01-24 19:34:41,753 - INFO - Video progress: 45.5% (225s / 495s)
+2026-01-24 19:35:11,768 - INFO - Video progress: 50.9% (252s / 495s)
+2026-01-24 19:35:41,781 - INFO - Video progress: 57.0% (282s / 495s)
+2026-01-24 19:36:11,788 - INFO - Video progress: 63.0% (312s / 495s)
+2026-01-24 19:36:41,804 - INFO - Video progress: 69.1% (342s / 495s)
+2026-01-24 19:37:11,820 - INFO - Video progress: 75.1% (372s / 495s)
+2026-01-24 19:37:41,833 - INFO - Video progress: 81.2% (402s / 495s)
+2026-01-24 19:38:11,844 - INFO - Video progress: 87.3% (432s / 495s)
+2026-01-24 19:38:41,856 - INFO - Video progress: 93.3% (462s / 495s)
+2026-01-24 19:39:11,873 - INFO - Video progress: 99.4% (492s / 495s)
+2026-01-24 19:39:41,884 - INFO - Video completed!
+2026-01-24 19:39:41,885 - INFO - Looking for test button...
+2026-01-24 19:39:41,935 - INFO - Found test button: 'Go to test'
+2026-01-24 19:39:44,988 - INFO - No more questions found
+2026-01-24 19:39:44,988 - INFO - Answered 0 questions
+2026-01-24 19:39:44,988 - INFO - Lesson processing complete!
+2026-01-24 19:39:45,105 - INFO - WebDriver closed
+2026-01-24 19:42:27,487 - INFO - ====== WebDriver manager ======
+2026-01-24 19:42:28,581 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:42:28,918 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:42:29,309 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:42:30,587 - INFO - WebDriver initialized successfully
+2026-01-24 19:42:30,657 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:42:30,658 - INFO - AI Helper initialized successfully
+2026-01-24 19:42:30,658 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:42:34,827 - INFO - Looking for login elements...
+2026-01-24 19:42:34,841 - INFO - Entering credentials...
+2026-01-24 19:42:35,575 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:42:35,582 - INFO - Waiting for login to complete...
+2026-01-24 19:42:36,087 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:42:38,106 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:42:38,106 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:42:38,106 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9839
+2026-01-24 19:42:41,350 - INFO - Looking for video player...
+2026-01-24 19:42:41,411 - INFO - Clicked play button
+2026-01-24 19:42:41,411 - INFO - Watching video...
+2026-01-24 19:42:41,425 - INFO - Video progress: 0.0% (0s / 495s)
+2026-01-24 19:42:49,894 - INFO - Interrupted by user
+2026-01-24 19:42:49,897 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/403a21482d70676ae67f5a418fdf8607
+2026-01-24 19:42:49,898 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49252): Failed to establish a new connection: [Errno 61] Connection refused")': /session/403a21482d70676ae67f5a418fdf8607
+2026-01-24 19:42:49,899 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49252): Failed to establish a new connection: [Errno 61] Connection refused")': /session/403a21482d70676ae67f5a418fdf8607
+2026-01-24 19:42:49,901 - INFO - WebDriver closed
+2026-01-24 19:44:53,056 - INFO - ====== WebDriver manager ======
+2026-01-24 19:44:54,046 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:44:54,453 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:44:54,807 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:44:56,645 - INFO - WebDriver initialized successfully
+2026-01-24 19:44:56,717 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:44:56,717 - INFO - AI Helper initialized successfully
+2026-01-24 19:44:56,717 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:45:00,905 - INFO - Looking for login elements...
+2026-01-24 19:45:00,925 - INFO - Entering credentials...
+2026-01-24 19:45:01,670 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:45:01,678 - INFO - Waiting for login to complete...
+2026-01-24 19:45:02,230 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:45:04,241 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:45:04,241 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:45:04,241 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9839
+2026-01-24 19:45:07,489 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 19:45:07,490 - INFO - Looking for test button...
+2026-01-24 19:45:07,611 - INFO - Found test button: 'Test task'
+2026-01-24 19:45:07,620 - INFO - Waiting for test page to load...
+2026-01-24 19:45:10,625 - INFO - Looking for 'Start the test' button...
+2026-01-24 19:45:10,681 - INFO - Found start button: 'Restart'
+2026-01-24 19:45:10,683 - INFO - Clicked 'Start the test' button
+2026-01-24 19:45:13,944 - INFO - Saved screenshot: debug_test_questions_1769265913.png
+2026-01-24 19:45:13,949 - INFO - Saved page source: debug_test_questions_1769265913.html
+2026-01-24 19:45:13,967 - INFO - No more questions found
+2026-01-24 19:45:13,967 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 19:45:13,967 - INFO - Answered 0 questions
+2026-01-24 19:45:13,967 - INFO - Lesson processing complete!
+2026-01-24 19:45:14,065 - INFO - WebDriver closed
+2026-01-24 19:46:18,282 - INFO - ====== WebDriver manager ======
+2026-01-24 19:46:19,458 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:46:19,795 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:46:20,170 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:46:21,435 - INFO - WebDriver initialized successfully
+2026-01-24 19:46:21,503 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:46:21,503 - INFO - AI Helper initialized successfully
+2026-01-24 19:46:21,503 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:47:40,568 - INFO - Looking for login elements...
+2026-01-24 19:47:40,585 - INFO - Entering credentials...
+2026-01-24 19:47:41,362 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:47:41,367 - INFO - Waiting for login to complete...
+2026-01-24 19:47:41,877 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:47:43,883 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:47:43,883 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:47:43,883 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9839
+2026-01-24 19:47:47,253 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 19:47:47,254 - INFO - Looking for test button...
+2026-01-24 19:47:47,374 - INFO - Found test button: 'Test task'
+2026-01-24 19:47:47,383 - INFO - Waiting for test page to load...
+2026-01-24 19:47:50,384 - INFO - Looking for 'Start the test' button...
+2026-01-24 19:47:50,529 - INFO - Found button: 'Start the test'
+2026-01-24 19:47:50,534 - INFO - Clicked start/restart button
+2026-01-24 19:47:50,534 - INFO - Waiting for questions to load...
+2026-01-24 19:47:55,621 - INFO - Saved screenshot: debug_test_questions_1769266075.png
+2026-01-24 19:47:55,626 - INFO - Saved page source: debug_test_questions_1769266075.html
+2026-01-24 19:47:55,645 - INFO - No more questions found
+2026-01-24 19:47:55,645 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 19:47:55,645 - INFO - Answered 0 questions
+2026-01-24 19:47:55,645 - INFO - Lesson processing complete!
+2026-01-24 19:47:55,745 - INFO - WebDriver closed
+2026-01-24 19:50:39,975 - INFO - ====== WebDriver manager ======
+2026-01-24 19:50:40,950 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:50:41,348 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:50:41,689 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:50:43,001 - INFO - WebDriver initialized successfully
+2026-01-24 19:50:43,103 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:50:43,103 - INFO - AI Helper initialized successfully
+2026-01-24 19:50:43,103 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:50:47,239 - INFO - Looking for login elements...
+2026-01-24 19:50:47,259 - INFO - Entering credentials...
+2026-01-24 19:50:48,001 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:50:48,008 - INFO - Waiting for login to complete...
+2026-01-24 19:50:48,518 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:50:50,536 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:50:50,536 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:50:50,536 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9839
+2026-01-24 19:50:53,698 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 19:50:53,699 - INFO - Looking for test button...
+2026-01-24 19:50:53,803 - INFO - Found test button: 'Finish the test'
+2026-01-24 19:50:53,805 - INFO - Waiting for test page to load...
+2026-01-24 19:50:56,810 - INFO - Looking for 'Start the test' button...
+2026-01-24 19:50:56,962 - INFO - Found button: 'Restart'
+2026-01-24 19:50:56,965 - INFO - Clicked start/restart button
+2026-01-24 19:50:56,965 - INFO - Waiting for questions to load...
+2026-01-24 19:51:02,058 - INFO - Saved screenshot: debug_test_questions_1769266261.png
+2026-01-24 19:51:02,064 - INFO - Saved page source: debug_test_questions_1769266261.html
+2026-01-24 19:51:02,097 - INFO - Found question element: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:02,097 - INFO - Question: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:03,068 - INFO - Found 6 unique options: ['Support', 'Overview of Social Sciences', 'Sociology', 'Psychology', 'Political Science', 'Research in Social Sciences']
+2026-01-24 19:51:03,069 - ERROR - AI error: Models.generate_content() takes 1 positional argument but 2 were given. Defaulting to first option.
+2026-01-24 19:51:03,069 - INFO - Selecting answer 1: Support...
+2026-01-24 19:51:04,221 - INFO - Clicking: Next
+2026-01-24 19:51:08,295 - INFO - Found question element: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:08,295 - INFO - Question: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:09,305 - INFO - Found 6 unique options: ['Support', 'Overview of Social Sciences', 'Sociology', 'Psychology', 'Political Science', 'Research in Social Sciences']
+2026-01-24 19:51:09,305 - ERROR - AI error: Models.generate_content() takes 1 positional argument but 2 were given. Defaulting to first option.
+2026-01-24 19:51:09,305 - INFO - Selecting answer 1: Support...
+2026-01-24 19:51:10,449 - INFO - Clicking: Next
+2026-01-24 19:51:14,537 - INFO - Found question element: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:14,537 - INFO - Question: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:15,657 - INFO - Found 6 unique options: ['Support', 'Overview of Social Sciences', 'Sociology', 'Psychology', 'Political Science', 'Research in Social Sciences']
+2026-01-24 19:51:15,657 - ERROR - AI error: Models.generate_content() takes 1 positional argument but 2 were given. Defaulting to first option.
+2026-01-24 19:51:15,657 - INFO - Selecting answer 1: Support...
+2026-01-24 19:51:16,799 - INFO - Clicking: Next
+2026-01-24 19:51:20,858 - INFO - Found question element: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:20,858 - INFO - Question: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:21,912 - INFO - Found 6 unique options: ['Support', 'Overview of Social Sciences', 'Sociology', 'Psychology', 'Political Science', 'Research in Social Sciences']
+2026-01-24 19:51:21,912 - ERROR - AI error: Models.generate_content() takes 1 positional argument but 2 were given. Defaulting to first option.
+2026-01-24 19:51:21,913 - INFO - Selecting answer 1: Support...
+2026-01-24 19:51:23,038 - INFO - Clicking: Next
+2026-01-24 19:51:27,087 - INFO - Found question element: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:27,087 - INFO - Question: Is it Corruption? Grey Areas and Cultural Norms...
+2026-01-24 19:51:28,239 - INFO - Found 6 unique options: ['Support', 'Overview of Social Sciences', 'Sociology', 'Psychology', 'Political Science', 'Research in Social Sciences']
+2026-01-24 19:51:28,239 - ERROR - AI error: Models.generate_content() takes 1 positional argument but 2 were given. Defaulting to first option.
+2026-01-24 19:51:28,239 - INFO - Selecting answer 1: Support...
+2026-01-24 19:51:29,371 - INFO - Clicking: Next
+2026-01-24 19:51:29,621 - INFO - Interrupted by user
+2026-01-24 19:51:29,623 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/594677030d4322c76fccd2b1db60cd7a
+2026-01-24 19:51:29,625 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49965): Failed to establish a new connection: [Errno 61] Connection refused")': /session/594677030d4322c76fccd2b1db60cd7a
+2026-01-24 19:51:29,626 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49965): Failed to establish a new connection: [Errno 61] Connection refused")': /session/594677030d4322c76fccd2b1db60cd7a
+2026-01-24 19:51:29,628 - INFO - WebDriver closed
+2026-01-24 19:54:14,945 - INFO - ====== WebDriver manager ======
+2026-01-24 19:54:16,060 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:54:16,448 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:54:16,849 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:54:18,041 - INFO - WebDriver initialized successfully
+2026-01-24 19:54:18,125 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:54:18,125 - INFO - AI Helper initialized successfully
+2026-01-24 19:54:18,125 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 19:55:37,311 - INFO - Looking for login elements...
+2026-01-24 19:55:37,330 - INFO - Entering credentials...
+2026-01-24 19:55:38,151 - INFO - Clicking login button: 'Sign in'
+2026-01-24 19:55:38,161 - INFO - Waiting for login to complete...
+2026-01-24 19:55:38,670 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 19:55:40,683 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 19:55:40,683 - INFO - Login successful! (redirected from login page)
+2026-01-24 19:55:40,683 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9839
+2026-01-24 19:55:43,877 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 19:55:43,877 - INFO - Looking for test button...
+2026-01-24 19:55:43,982 - INFO - Found test button: 'Finish the test'
+2026-01-24 19:55:43,984 - INFO - Waiting for test page to load...
+2026-01-24 19:55:46,989 - INFO - Looking for 'Start the test' button...
+2026-01-24 19:55:47,139 - INFO - Found button: 'Restart'
+2026-01-24 19:55:47,142 - INFO - Clicked start/restart button
+2026-01-24 19:55:47,142 - INFO - Waiting for questions to load...
+2026-01-24 19:55:52,348 - INFO - Saved screenshot: debug_test_questions_1769266552.png
+2026-01-24 19:55:52,353 - INFO - Saved page source: debug_test_questions_1769266552.html
+2026-01-24 19:55:52,370 - INFO - Found main content area
+2026-01-24 19:55:52,387 - INFO - No question text found. Content text preview:
+2026-01-24 19:55:52,387 - INFO - Module
+Academic courses
+Course
+Socio-Political Knowledge
+Required lecture
+Introduction to Social Sciences
+Lesson Overview of Social Sciences
+Restart
+Rewind 10s
+Play
+00:00
+08:15
+Enter fullscreen
+Enable captions
+Settings
+% buffered
+Play
+Test task
+Finish the test
+Time for the test
+01:60
+Current Attempt
+1
+/3
+questions №
+1
+2
+3
+4
+5
+1.What method did Wilhelm Wundt use to study the human mind?
+Social observation
+Introspection
+Psychoanalysis
+Experimental anthropology
+Back
+Next
+2026-01-24 19:55:52,387 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 19:55:52,387 - INFO - Answered 0 questions
+2026-01-24 19:55:52,387 - INFO - Lesson processing complete!
+2026-01-24 19:55:52,486 - INFO - WebDriver closed
+2026-01-24 19:59:53,528 - INFO - ====== WebDriver manager ======
+2026-01-24 19:59:54,636 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:59:55,031 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 19:59:55,415 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 19:59:57,021 - INFO - WebDriver initialized successfully
+2026-01-24 19:59:57,102 - INFO - AI Helper initialized with model: gemini-1.5-flash
+2026-01-24 19:59:57,102 - INFO - AI Helper initialized successfully
+2026-01-24 19:59:57,102 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:00:01,284 - INFO - Looking for login elements...
+2026-01-24 20:00:01,294 - INFO - Entering credentials...
+2026-01-24 20:00:02,030 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:00:02,035 - INFO - Waiting for login to complete...
+2026-01-24 20:00:02,544 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:00:04,556 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:00:04,556 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:00:04,556 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9840
+2026-01-24 20:00:07,823 - INFO - Looking for video player...
+2026-01-24 20:00:07,884 - INFO - Clicked play button
+2026-01-24 20:00:07,884 - INFO - Watching video...
+2026-01-24 20:00:07,891 - INFO - Video progress: 0.0% (0s / 406s)
+2026-01-24 20:00:37,907 - INFO - Video progress: 7.4% (30s / 406s)
+2026-01-24 20:01:07,926 - INFO - Video progress: 14.8% (60s / 406s)
+2026-01-24 20:01:37,943 - INFO - Video progress: 22.2% (90s / 406s)
+2026-01-24 20:02:07,963 - INFO - Video progress: 29.6% (120s / 406s)
+2026-01-24 20:02:37,979 - INFO - Video progress: 37.0% (150s / 406s)
+2026-01-24 20:03:07,998 - INFO - Video progress: 42.2% (171s / 406s)
+2026-01-24 20:03:38,012 - INFO - Video progress: 49.6% (201s / 406s)
+2026-01-24 20:04:08,024 - INFO - Video progress: 56.9% (231s / 406s)
+2026-01-24 20:04:38,038 - INFO - Video progress: 64.3% (261s / 406s)
+2026-01-24 20:05:08,047 - INFO - Video progress: 71.5% (290s / 406s)
+2026-01-24 20:05:38,063 - INFO - Video progress: 78.9% (320s / 406s)
+2026-01-24 20:06:08,077 - INFO - Video progress: 86.3% (350s / 406s)
+2026-01-24 20:06:38,096 - INFO - Video progress: 93.6% (380s / 406s)
+2026-01-24 20:07:08,103 - INFO - Video completed!
+2026-01-24 20:07:08,103 - INFO - Looking for test button...
+2026-01-24 20:07:08,154 - INFO - Found test button: 'Go to test'
+2026-01-24 20:07:08,165 - INFO - Waiting for test page to load...
+2026-01-24 20:07:11,168 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:07:11,301 - INFO - Found button: 'Start the test'
+2026-01-24 20:07:11,305 - INFO - Clicked start/restart button
+2026-01-24 20:07:11,305 - INFO - Waiting for questions to load...
+2026-01-24 20:07:16,485 - INFO - Saved screenshot: debug_test_questions_1769267236.png
+2026-01-24 20:07:16,491 - INFO - Saved page source: debug_test_questions_1769267236.html
+2026-01-24 20:07:16,507 - INFO - Found main content area
+2026-01-24 20:07:16,525 - INFO - Found question via regex: 1.Why is empirical evidence important in sociology?...
+2026-01-24 20:07:16,525 - INFO - Question: 1.Why is empirical evidence important in sociology?...
+2026-01-24 20:07:16,722 - INFO - Found 4 unique options: ['It eliminates the need for theoretical analysis', 'It defines moral frameworks for society', 'It provides theoretical explanations for phenomena', 'It offers observations and evidence to support research']
+2026-01-24 20:07:16,723 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:07:17,207 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-24 20:07:17,209 - ERROR - AI error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Defaulting to first option.
+2026-01-24 20:07:17,209 - INFO - Selecting answer 1: It eliminates the need for theoretical analysis...
+2026-01-24 20:07:18,345 - INFO - Clicking: Next
+2026-01-24 20:07:22,381 - INFO - Found main content area
+2026-01-24 20:07:22,404 - INFO - Found question via regex: 2.What is culture in sociology?...
+2026-01-24 20:07:22,404 - INFO - Question: 2.What is culture in sociology?...
+2026-01-24 20:07:22,594 - INFO - Found 4 unique options: ['The shared language, beliefs, values, norms, and customs of a society', 'The economic system of a society', 'A system of laws that governs behavior', 'The political framework of a nation']
+2026-01-24 20:07:22,594 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:07:23,139 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-24 20:07:23,140 - ERROR - AI error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Defaulting to first option.
+2026-01-24 20:07:23,140 - INFO - Selecting answer 1: The shared language, beliefs, values, norms, and c...
+2026-01-24 20:07:24,242 - INFO - Clicking: Next
+2026-01-24 20:07:28,274 - INFO - Found main content area
+2026-01-24 20:07:28,301 - INFO - Found question via regex: 3.What are social institutions?...
+2026-01-24 20:07:28,301 - INFO - Question: 3.What are social institutions?...
+2026-01-24 20:07:28,484 - INFO - Found 4 unique options: ['Organized structures that provide guidelines for behavior and help societies function smoothly', 'The cultural norms of a specific society', 'Informal traditions that influence society', 'Groups of individuals sharing common goals']
+2026-01-24 20:07:28,484 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:07:28,975 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-24 20:07:28,976 - ERROR - AI error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Defaulting to first option.
+2026-01-24 20:07:28,976 - INFO - Selecting answer 1: Organized structures that provide guidelines for b...
+2026-01-24 20:07:30,106 - INFO - Clicking: Next
+2026-01-24 20:07:34,141 - INFO - Found main content area
+2026-01-24 20:07:34,163 - INFO - Found question via regex: 4.What is sociology?...
+2026-01-24 20:07:34,163 - INFO - Question: 4.What is sociology?...
+2026-01-24 20:07:34,346 - INFO - Found 4 unique options: ['The study of individual behavior and mental processes', 'The analysis of political systems and power distribution', 'The systematic study of human society, social relationships, and social institutions', 'The study of ancient civilizations and their development']
+2026-01-24 20:07:34,347 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:07:34,834 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-24 20:07:34,836 - ERROR - AI error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Defaulting to first option.
+2026-01-24 20:07:34,836 - INFO - Selecting answer 1: The study of individual behavior and mental proces...
+2026-01-24 20:07:35,969 - INFO - Clicking: Next
+2026-01-24 20:07:40,011 - INFO - Found main content area
+2026-01-24 20:07:40,033 - INFO - Found question via regex: 5.What type of question compares findings across different societies?...
+2026-01-24 20:07:40,033 - INFO - Question: 5.What type of question compares findings across different societies?...
+2026-01-24 20:07:40,224 - WARNING - No answer options found using any method
+2026-01-24 20:07:40,225 - INFO - Answered 4 questions
+2026-01-24 20:07:40,225 - INFO - Looking for submit button...
+2026-01-24 20:07:40,296 - INFO - Clicking submit button: 'Finish the test'
+2026-01-24 20:07:42,318 - INFO - Lesson processing complete!
+2026-01-24 20:07:42,458 - INFO - WebDriver closed
+2026-01-24 20:14:51,485 - INFO - ====== WebDriver manager ======
+2026-01-24 20:14:52,435 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:14:52,800 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:14:53,185 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:14:54,494 - INFO - WebDriver initialized successfully
+2026-01-24 20:14:54,578 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:14:54,578 - INFO - AI Helper initialized successfully with model: gemini-3-flash-preview
+2026-01-24 20:14:54,578 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:14:58,537 - INFO - Looking for login elements...
+2026-01-24 20:14:58,557 - INFO - Entering credentials...
+2026-01-24 20:14:59,342 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:14:59,350 - INFO - Waiting for login to complete...
+2026-01-24 20:14:59,893 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:15:01,899 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:15:01,899 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:15:01,899 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9840
+2026-01-24 20:15:05,156 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:15:05,158 - INFO - Looking for test button...
+2026-01-24 20:15:05,258 - INFO - Found test button: 'Finish the test'
+2026-01-24 20:15:05,259 - INFO - Waiting for test page to load...
+2026-01-24 20:15:08,264 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:15:08,404 - INFO - Found button: 'Restart'
+2026-01-24 20:15:08,407 - INFO - Clicked start/restart button
+2026-01-24 20:15:08,408 - INFO - Waiting for questions to load...
+2026-01-24 20:15:13,565 - INFO - Saved screenshot: debug_test_questions_1769267713.png
+2026-01-24 20:15:13,570 - INFO - Saved page source: debug_test_questions_1769267713.html
+2026-01-24 20:15:13,585 - INFO - Found main content area
+2026-01-24 20:15:13,602 - INFO - Found question via regex: 1.What concept did Émile Durkheim introduce in sociology?...
+2026-01-24 20:15:13,602 - INFO - Question: 1.What concept did Émile Durkheim introduce in sociology?...
+2026-01-24 20:15:13,810 - INFO - Retrying option detection (attempt 2)...
+2026-01-24 20:15:15,014 - INFO - Found 4 unique options: ['Social norms', 'Consensus theory', 'Social facts', 'Class struggle']
+2026-01-24 20:15:15,014 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:15:21,149 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:15:21,153 - INFO - AI selected answer 3: Social facts...
+2026-01-24 20:15:21,153 - INFO - Selecting answer 3: Social facts...
+2026-01-24 20:15:21,173 - ERROR - Failed to click option
+2026-01-24 20:15:21,173 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 20:15:21,173 - INFO - Answered 0 questions
+2026-01-24 20:15:21,173 - INFO - Lesson processing complete!
+2026-01-24 20:15:21,275 - INFO - WebDriver closed
+2026-01-24 20:17:22,735 - INFO - ====== WebDriver manager ======
+2026-01-24 20:17:23,746 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:17:24,265 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:17:24,636 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:17:25,932 - INFO - WebDriver initialized successfully
+2026-01-24 20:17:26,030 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:17:26,030 - INFO - AI Helper initialized successfully with model: gemini-3-flash-preview
+2026-01-24 20:17:26,030 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:18:45,105 - INFO - Looking for login elements...
+2026-01-24 20:18:45,121 - INFO - Entering credentials...
+2026-01-24 20:18:45,916 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:18:45,924 - INFO - Waiting for login to complete...
+2026-01-24 20:18:46,434 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:18:48,444 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:18:48,444 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:18:48,444 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9840
+2026-01-24 20:18:51,668 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:18:51,669 - INFO - Looking for test button...
+2026-01-24 20:18:51,790 - INFO - Found test button: 'Test task'
+2026-01-24 20:18:51,799 - INFO - Waiting for test page to load...
+2026-01-24 20:18:54,804 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:18:54,945 - INFO - Found button: 'Start the test'
+2026-01-24 20:18:54,947 - INFO - Clicked start/restart button
+2026-01-24 20:18:54,947 - INFO - Waiting for questions to load...
+2026-01-24 20:19:00,154 - INFO - Saved screenshot: debug_test_questions_1769267939.png
+2026-01-24 20:19:00,159 - INFO - Saved page source: debug_test_questions_1769267939.html
+2026-01-24 20:19:00,174 - INFO - Found main content area
+2026-01-24 20:19:00,195 - ERROR - Error answering question: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100948640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001009408b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000100426890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x000000010042cad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x000000010042ed54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x000000010042ee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010046af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001004657a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x00000001004af064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001004640e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x0000000100907620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x000000010090ad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x00000001008ec9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x000000010090b5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x00000001008dc990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x000000010092f9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x000000010092fb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x000000010094050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:19:00,198 - ERROR - Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 547, in _answer_current_question
+    text = elem.text.strip()
+           ^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 105, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100948640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001009408b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000100426890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x000000010042cad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x000000010042ed54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x000000010042ee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010046af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001004657a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x00000001004af064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001004640e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x0000000100907620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x000000010090ad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x00000001008ec9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x000000010090b5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x00000001008dc990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x000000010092f9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x000000010092fb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x000000010094050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+
+2026-01-24 20:19:00,198 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 20:19:00,198 - INFO - Answered 0 questions
+2026-01-24 20:19:00,198 - INFO - Lesson processing complete!
+2026-01-24 20:19:00,302 - INFO - WebDriver closed
+2026-01-24 20:20:33,570 - INFO - ====== WebDriver manager ======
+2026-01-24 20:20:34,586 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:20:34,990 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:20:35,351 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:20:36,660 - INFO - WebDriver initialized successfully
+2026-01-24 20:20:36,750 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:20:36,751 - INFO - AI Helper initialized successfully with model: gemini-3-flash-preview
+2026-01-24 20:20:36,751 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:20:40,869 - INFO - Looking for login elements...
+2026-01-24 20:20:40,881 - INFO - Entering credentials...
+2026-01-24 20:20:41,609 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:20:41,614 - INFO - Waiting for login to complete...
+2026-01-24 20:20:42,120 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:20:44,130 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:20:44,131 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:20:44,131 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9840
+2026-01-24 20:20:47,301 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:20:47,301 - INFO - Looking for test button...
+2026-01-24 20:20:47,408 - INFO - Found test button: 'Finish the test'
+2026-01-24 20:20:47,409 - INFO - Waiting for test page to load...
+2026-01-24 20:20:50,415 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:20:50,565 - INFO - Found button: 'Restart'
+2026-01-24 20:20:50,567 - INFO - Clicked start/restart button
+2026-01-24 20:20:50,567 - INFO - Waiting for questions to load...
+2026-01-24 20:20:55,655 - INFO - Saved screenshot: debug_test_questions_1769268055.png
+2026-01-24 20:20:55,660 - INFO - Saved page source: debug_test_questions_1769268055.html
+2026-01-24 20:20:55,674 - INFO - Found main content area
+2026-01-24 20:20:55,689 - INFO - Found question via regex: 1.What is Karl Marx known for in sociology?...
+2026-01-24 20:20:55,689 - INFO - Question: 1.What is Karl Marx known for in sociology?...
+2026-01-24 20:20:55,886 - INFO - Found 4 unique options: ['Developing the theory of functionalism', "Introducing the term 'sociology'", 'Analyzing social norms and customs', 'Viewing society through the lens of economic conflicts between classes']
+2026-01-24 20:20:55,886 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:20:58,357 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:20:58,362 - INFO - AI selected answer 4: Viewing society through the lens of economic confl...
+2026-01-24 20:20:58,362 - INFO - Selecting answer 4: Viewing society through the lens of economic confl...
+2026-01-24 20:20:58,368 - WARNING - Standard click failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001030b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001030a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102b8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102b94ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x0000000102b97008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000102c18010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000102c17064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x0000000102bcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x000000010306f620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000103072d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x00000001030549c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001030735e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000103044990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x00000001030979bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000103097b38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x00000001030a850c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+. Trying JS click...
+2026-01-24 20:20:58,372 - WARNING - JS click failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001030b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001030a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102b8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102b94ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x0000000102b97008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000102c18010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000102c17064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x0000000102bcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x000000010306f620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000103072d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x00000001030549c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001030735e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000103044990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x00000001030979bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000103097b38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x00000001030a850c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+. Looking for child input...
+2026-01-24 20:20:58,382 - ERROR - Failed to click option: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001030b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001030a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102b8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102b94ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x0000000102b96d54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x0000000102b96e0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x0000000102bd79d0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374600
+7   chromedriver                        0x0000000102bcd7a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x0000000102c17064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x0000000102bcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x000000010306f620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x0000000103072d5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x00000001030549c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001030735e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x0000000103044990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001030979bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x0000000103097b38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001030a850c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:20:58,382 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 20:20:58,382 - INFO - Answered 0 questions
+2026-01-24 20:20:58,382 - INFO - Lesson processing complete!
+2026-01-24 20:20:58,487 - INFO - WebDriver closed
+2026-01-24 20:22:25,870 - INFO - ====== WebDriver manager ======
+2026-01-24 20:22:27,023 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:22:27,604 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:22:28,156 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:22:29,258 - INFO - WebDriver initialized successfully
+2026-01-24 20:22:29,329 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:22:29,329 - INFO - AI Helper initialized successfully
+2026-01-24 20:22:29,329 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:23:00,778 - INFO - Interrupted by user
+2026-01-24 20:23:00,782 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=52298): Failed to establish a new connection: [Errno 61] Connection refused")': /session/203436cedcefb8fcfd1e1447737c729d
+2026-01-24 20:23:00,783 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=52298): Failed to establish a new connection: [Errno 61] Connection refused")': /session/203436cedcefb8fcfd1e1447737c729d
+2026-01-24 20:23:00,784 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=52298): Failed to establish a new connection: [Errno 61] Connection refused")': /session/203436cedcefb8fcfd1e1447737c729d
+2026-01-24 20:23:00,785 - INFO - WebDriver closed
+2026-01-24 20:26:11,870 - INFO - ====== WebDriver manager ======
+2026-01-24 20:26:12,807 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:26:13,156 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:26:13,508 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:26:14,826 - INFO - WebDriver initialized successfully
+2026-01-24 20:26:14,909 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:26:14,909 - INFO - AI Helper initialized successfully
+2026-01-24 20:26:14,909 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:26:22,010 - INFO - Looking for login elements...
+2026-01-24 20:26:22,031 - INFO - Entering credentials...
+2026-01-24 20:26:22,827 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:26:22,836 - INFO - Waiting for login to complete...
+2026-01-24 20:26:23,375 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:26:25,384 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:26:25,384 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:26:25,384 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:26:28,658 - INFO - Looking for video player...
+2026-01-24 20:26:28,701 - INFO - Clicked play button
+2026-01-24 20:26:28,701 - INFO - Watching video...
+2026-01-24 20:26:28,709 - INFO - Video progress: 0.0% (0s / 231s)
+2026-01-24 20:26:58,717 - INFO - Video progress: 13.0% (30s / 231s)
+2026-01-24 20:27:28,735 - INFO - Video progress: 26.0% (60s / 231s)
+2026-01-24 20:27:58,754 - INFO - Video progress: 39.0% (90s / 231s)
+2026-01-24 20:28:28,782 - INFO - Video progress: 52.0% (120s / 231s)
+2026-01-24 20:28:58,801 - INFO - Video progress: 65.0% (150s / 231s)
+2026-01-24 20:29:28,818 - INFO - Video progress: 78.0% (180s / 231s)
+2026-01-24 20:29:58,838 - INFO - Video progress: 91.0% (210s / 231s)
+2026-01-24 20:30:28,848 - INFO - Video completed!
+2026-01-24 20:30:28,849 - INFO - Looking for test button...
+2026-01-24 20:30:28,902 - INFO - Found test button: 'Go to test'
+2026-01-24 20:30:28,913 - INFO - Waiting for test page to load...
+2026-01-24 20:30:31,919 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:30:32,055 - INFO - Found button: 'Start the test'
+2026-01-24 20:30:32,059 - INFO - Clicked start/restart button
+2026-01-24 20:30:32,059 - INFO - Waiting for questions to load...
+2026-01-24 20:30:37,261 - INFO - Saved screenshot: debug_test_questions_1769268637.png
+2026-01-24 20:30:37,268 - INFO - Saved page source: debug_test_questions_1769268637.html
+2026-01-24 20:30:37,284 - INFO - Found main content area
+2026-01-24 20:30:37,302 - INFO - Found question via regex: 1.What does social psychology primarily study?...
+2026-01-24 20:30:37,302 - INFO - Question: 1.What does social psychology primarily study?...
+2026-01-24 20:30:37,532 - INFO - Found 4 unique options: ['Cultural traditions and practices', 'Political systems and governance', 'Historical development of societies', 'The influence of other people (actual, imagined, or implied) on an individual']
+2026-01-24 20:30:37,532 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:30:39,293 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:30:39,299 - INFO - AI selected answer 4: The influence of other people (actual, imagined, o...
+2026-01-24 20:30:39,300 - INFO - Selecting answer 4: The influence of other people (actual, imagined, o...
+2026-01-24 20:30:39,311 - ERROR - Failed to click option
+2026-01-24 20:30:39,312 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 20:30:39,312 - INFO - Answered 0 questions
+2026-01-24 20:30:39,312 - INFO - Lesson processing complete!
+2026-01-24 20:30:39,475 - INFO - WebDriver closed
+2026-01-24 20:34:31,787 - INFO - ====== WebDriver manager ======
+2026-01-24 20:34:32,697 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:34:33,082 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:34:33,441 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:34:34,795 - INFO - WebDriver initialized successfully
+2026-01-24 20:34:34,880 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:34:34,880 - INFO - AI Helper initialized successfully
+2026-01-24 20:34:34,880 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:36:01,061 - INFO - Looking for login elements...
+2026-01-24 20:36:01,080 - INFO - Entering credentials...
+2026-01-24 20:36:01,918 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:36:01,923 - INFO - Waiting for login to complete...
+2026-01-24 20:36:02,435 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:36:04,450 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:36:04,450 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:36:04,450 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:36:07,779 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:36:07,780 - INFO - Looking for test button...
+2026-01-24 20:36:07,885 - INFO - Found test button: 'Finish the test'
+2026-01-24 20:36:07,886 - INFO - Waiting for test page to load...
+2026-01-24 20:36:10,892 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:36:11,044 - INFO - Found button: 'Restart'
+2026-01-24 20:36:11,047 - INFO - Clicked start/restart button
+2026-01-24 20:36:11,048 - INFO - Waiting for questions to load...
+2026-01-24 20:36:16,275 - INFO - Saved screenshot: debug_test_questions_1769268976.png
+2026-01-24 20:36:16,281 - INFO - Saved page source: debug_test_questions_1769268976.html
+2026-01-24 20:36:16,298 - INFO - Found main content area
+2026-01-24 20:36:16,316 - INFO - Found question via regex: 1.What is the definition of psychology?...
+2026-01-24 20:36:16,316 - INFO - Question: 1.What is the definition of psychology?...
+2026-01-24 20:36:16,319 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:36:16,323 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:36:16,380 - INFO - Found 4 unique options: ['The analysis of historical events', 'The study of cultural norms and practices', 'The scientific study of behavior and mental processes', 'The study of political systems and structures']
+2026-01-24 20:36:16,380 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:36:18,337 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:36:18,341 - INFO - AI selected answer 3: The scientific study of behavior and mental proces...
+2026-01-24 20:36:18,342 - INFO - Selecting answer 3: The scientific study of behavior and mental proces...
+2026-01-24 20:36:18,346 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000103538640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001035308b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000103016890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x000000010301cad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x000000010301f008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x00000001030a0010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010309f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001030540e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x00000001034f7620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x00000001034fad5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x00000001034dc9c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001034fb5e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x00000001034cc990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x000000010351f9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x000000010351fb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x000000010353050c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:36:18,368 - ERROR - Failed to click option using any strategy
+2026-01-24 20:36:18,368 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 20:36:18,368 - INFO - Answered 0 questions
+2026-01-24 20:36:18,368 - INFO - Lesson processing complete!
+2026-01-24 20:36:18,518 - INFO - WebDriver closed
+2026-01-24 20:36:58,838 - INFO - ====== WebDriver manager ======
+2026-01-24 20:36:59,751 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:37:00,112 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:37:00,452 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:37:01,833 - INFO - WebDriver initialized successfully
+2026-01-24 20:37:01,965 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:37:01,965 - INFO - AI Helper initialized successfully
+2026-01-24 20:37:01,965 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:37:05,916 - INFO - Looking for login elements...
+2026-01-24 20:37:05,925 - INFO - Entering credentials...
+2026-01-24 20:37:06,669 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:37:06,673 - INFO - Waiting for login to complete...
+2026-01-24 20:37:07,179 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:37:09,183 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:37:09,183 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:37:09,183 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:37:12,434 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:37:12,435 - INFO - Looking for test button...
+2026-01-24 20:37:12,546 - INFO - Found test button: 'Finish the test'
+2026-01-24 20:37:12,548 - INFO - Waiting for test page to load...
+2026-01-24 20:37:15,552 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:37:15,695 - INFO - Found button: 'Restart'
+2026-01-24 20:37:15,698 - INFO - Clicked start/restart button
+2026-01-24 20:37:15,698 - INFO - Waiting for questions to load...
+2026-01-24 20:37:20,921 - INFO - Saved screenshot: debug_test_questions_1769269040.png
+2026-01-24 20:37:20,927 - INFO - Saved page source: debug_test_questions_1769269040.html
+2026-01-24 20:37:20,941 - INFO - Found main content area
+2026-01-24 20:37:20,958 - INFO - Found question via regex: 1.What is the focus of social psychology?...
+2026-01-24 20:37:20,958 - INFO - Question: 1.What is the focus of social psychology?...
+2026-01-24 20:37:20,961 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:37:20,964 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:37:21,013 - INFO - Found 4 unique options: ['The study of unconscious desires', 'Individual mental processes in isolation', 'The analysis of historical societal changes', 'The influence of social contexts on thoughts, feelings, and behaviors']
+2026-01-24 20:37:21,013 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:37:23,458 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:37:23,463 - INFO - AI selected answer 4: The influence of social contexts on thoughts, feel...
+2026-01-24 20:37:23,463 - INFO - Selecting answer 4: The influence of social contexts on thoughts, feel...
+2026-01-24 20:37:24,040 - ERROR - Failed to click option using any strategy
+2026-01-24 20:37:24,040 - WARNING - Could not find any questions. Check debug_test_questions screenshot.
+2026-01-24 20:37:24,040 - INFO - Answered 0 questions
+2026-01-24 20:37:24,040 - INFO - Lesson processing complete!
+2026-01-24 20:37:24,145 - INFO - WebDriver closed
+2026-01-24 20:37:56,337 - INFO - ====== WebDriver manager ======
+2026-01-24 20:37:57,332 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:37:57,673 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:37:58,059 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:37:59,348 - INFO - WebDriver initialized successfully
+2026-01-24 20:37:59,471 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:37:59,471 - INFO - AI Helper initialized successfully
+2026-01-24 20:37:59,471 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:38:03,525 - INFO - Looking for login elements...
+2026-01-24 20:38:03,541 - INFO - Entering credentials...
+2026-01-24 20:38:04,309 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:38:04,315 - INFO - Waiting for login to complete...
+2026-01-24 20:38:04,827 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:38:06,836 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:38:06,836 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:38:06,836 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:38:10,083 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:38:10,084 - INFO - Looking for test button...
+2026-01-24 20:38:10,167 - INFO - Found test button: 'Finish the test'
+2026-01-24 20:38:10,168 - INFO - Waiting for test page to load...
+2026-01-24 20:38:13,173 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:38:13,326 - INFO - Found button: 'Restart'
+2026-01-24 20:38:13,329 - INFO - Clicked start/restart button
+2026-01-24 20:38:13,329 - INFO - Waiting for questions to load...
+2026-01-24 20:38:18,417 - INFO - Saved screenshot: debug_test_questions_1769269098.png
+2026-01-24 20:38:18,422 - INFO - Saved page source: debug_test_questions_1769269098.html
+2026-01-24 20:38:18,437 - INFO - Found main content area
+2026-01-24 20:38:18,452 - INFO - Found question via regex: 1.Who is considered the father of modern psychology?...
+2026-01-24 20:38:18,452 - INFO - Question: 1.Who is considered the father of modern psychology?...
+2026-01-24 20:38:18,455 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:38:18,458 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:38:18,505 - INFO - Found 2 unique options: ['Sigmund Freud', 'Auguste Comte']
+2026-01-24 20:38:18,505 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:38:22,818 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:38:22,820 - INFO - AI selected answer 1: Sigmund Freud...
+2026-01-24 20:38:22,820 - INFO - Selecting answer 1: Sigmund Freud...
+2026-01-24 20:38:22,824 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:38:22,827 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Sigmund Freud'
+2026-01-24 20:38:22,830 - INFO - Comparing option text: '1' vs 'Sigmund Freud'
+2026-01-24 20:38:22,833 - INFO - Comparing option text: '2' vs 'Sigmund Freud'
+2026-01-24 20:38:22,836 - INFO - Comparing option text: '3' vs 'Sigmund Freud'
+2026-01-24 20:38:22,839 - INFO - Comparing option text: '4' vs 'Sigmund Freud'
+2026-01-24 20:38:22,842 - INFO - Comparing option text: '5' vs 'Sigmund Freud'
+2026-01-24 20:38:22,845 - INFO - Comparing option text: 'Sigmund Freud' vs 'Sigmund Freud'
+2026-01-24 20:38:22,845 - INFO - Re-found option element for: Sigmund Freud...
+2026-01-24 20:38:23,404 - INFO - Clicked using direct click
+2026-01-24 20:38:24,503 - INFO - Clicking: Next
+2026-01-24 20:38:28,545 - INFO - Found main content area
+2026-01-24 20:38:28,569 - INFO - Found question via regex: 2.What method did Wilhelm Wundt use to study the human mind?...
+2026-01-24 20:38:28,569 - INFO - Question: 2.What method did Wilhelm Wundt use to study the human mind?...
+2026-01-24 20:38:28,572 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:38:28,574 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:38:28,626 - INFO - Found 4 unique options: ['Introspection', 'Free association', 'Comparative analysis', 'Behavioral observation']
+2026-01-24 20:38:28,626 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:38:28,986 - INFO - ====== WebDriver manager ======
+2026-01-24 20:38:29,867 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:38:30,457 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:38:30,816 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:38:31,200 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:38:31,201 - INFO - AI selected answer 1: Introspection...
+2026-01-24 20:38:31,201 - INFO - Selecting answer 1: Introspection...
+2026-01-24 20:38:31,207 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:38:31,212 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Introspection'
+2026-01-24 20:38:31,215 - INFO - Comparing option text: '1' vs 'Introspection'
+2026-01-24 20:38:31,219 - INFO - Comparing option text: '2' vs 'Introspection'
+2026-01-24 20:38:31,222 - INFO - Comparing option text: '3' vs 'Introspection'
+2026-01-24 20:38:31,225 - INFO - Comparing option text: '4' vs 'Introspection'
+2026-01-24 20:38:31,228 - INFO - Comparing option text: '5' vs 'Introspection'
+2026-01-24 20:38:31,230 - INFO - Comparing option text: 'Introspection' vs 'Introspection'
+2026-01-24 20:38:31,230 - INFO - Re-found option element for: Introspection...
+2026-01-24 20:38:31,744 - ERROR - Failed to click option using any strategy
+2026-01-24 20:38:31,744 - INFO - Answered 1 questions
+2026-01-24 20:38:31,744 - INFO - Looking for submit button...
+2026-01-24 20:38:31,827 - INFO - Clicking submit button: 'Finish the test'
+2026-01-24 20:38:32,124 - INFO - WebDriver initialized successfully
+2026-01-24 20:38:32,210 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:38:32,210 - INFO - AI Helper initialized successfully
+2026-01-24 20:38:32,210 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:38:33,831 - INFO - Lesson processing complete!
+2026-01-24 20:38:33,934 - INFO - WebDriver closed
+2026-01-24 20:38:36,266 - INFO - Looking for login elements...
+2026-01-24 20:38:36,279 - INFO - Entering credentials...
+2026-01-24 20:38:37,010 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:38:37,014 - INFO - Waiting for login to complete...
+2026-01-24 20:38:37,520 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:38:39,528 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:38:39,528 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:38:39,528 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:38:42,749 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:38:42,749 - INFO - Looking for test button...
+2026-01-24 20:38:42,873 - INFO - Found test button: 'Finish the test'
+2026-01-24 20:38:42,875 - INFO - Waiting for test page to load...
+2026-01-24 20:38:45,877 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:38:46,021 - INFO - Found button: 'Restart'
+2026-01-24 20:38:46,024 - INFO - Clicked start/restart button
+2026-01-24 20:38:46,024 - INFO - Waiting for questions to load...
+2026-01-24 20:38:51,253 - INFO - Saved screenshot: debug_test_questions_1769269131.png
+2026-01-24 20:38:51,258 - INFO - Saved page source: debug_test_questions_1769269131.html
+2026-01-24 20:38:51,270 - INFO - Found main content area
+2026-01-24 20:38:51,286 - INFO - Found question via regex: 1.What does social psychology primarily study?...
+2026-01-24 20:38:51,286 - INFO - Question: 1.What does social psychology primarily study?...
+2026-01-24 20:38:51,289 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:38:51,292 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:38:51,339 - INFO - Found 4 unique options: ['Cultural traditions and practices', 'The influence of other people (actual, imagined, or implied) on an individual', 'Historical development of societies', 'Political systems and governance']
+2026-01-24 20:38:51,339 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:38:53,313 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:38:53,317 - INFO - AI selected answer 2: The influence of other people (actual, imagined, o...
+2026-01-24 20:38:53,317 - INFO - Selecting answer 2: The influence of other people (actual, imagined, o...
+2026-01-24 20:38:53,325 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:38:53,331 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,338 - INFO - Comparing option text: '1' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,342 - INFO - Comparing option text: '2' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,346 - INFO - Comparing option text: '3' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,350 - INFO - Comparing option text: '4' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,353 - INFO - Comparing option text: '5' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,357 - INFO - Comparing option text: 'Cultural traditions and practices' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,359 - INFO - Comparing option text: '' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,362 - INFO - Comparing option text: 'The influence of other people (actual, imagined, or implied) on an individual' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:38:53,362 - INFO - Re-found option element for: The influence of other people ...
+2026-01-24 20:38:53,922 - INFO - Clicked using direct click
+2026-01-24 20:38:55,017 - INFO - Clicking: Next
+2026-01-24 20:38:59,051 - INFO - Found main content area
+2026-01-24 20:38:59,074 - INFO - Found question via regex: 2.What techniques were used by Sigmund Freud in his psychoanalytic theory?...
+2026-01-24 20:38:59,075 - INFO - Question: 2.What techniques were used by Sigmund Freud in his psychoanalytic theory?...
+2026-01-24 20:38:59,077 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:38:59,080 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:38:59,130 - INFO - Found 3 unique options: ['Dream analysis and free association', 'Experimental methods', 'Social observation']
+2026-01-24 20:38:59,130 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:39:01,151 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:39:01,154 - INFO - AI selected answer 1: Dream analysis and free association...
+2026-01-24 20:39:01,154 - INFO - Selecting answer 1: Dream analysis and free association...
+2026-01-24 20:39:01,163 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:39:01,170 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Dream analysis and free association'
+2026-01-24 20:39:01,177 - INFO - Comparing option text: '1' vs 'Dream analysis and free association'
+2026-01-24 20:39:01,181 - INFO - Comparing option text: '2' vs 'Dream analysis and free association'
+2026-01-24 20:39:01,185 - INFO - Comparing option text: '3' vs 'Dream analysis and free association'
+2026-01-24 20:39:01,189 - INFO - Comparing option text: '4' vs 'Dream analysis and free association'
+2026-01-24 20:39:01,192 - INFO - Comparing option text: '5' vs 'Dream analysis and free association'
+2026-01-24 20:39:01,195 - INFO - Comparing option text: 'Dream analysis and free association' vs 'Dream analysis and free association'
+2026-01-24 20:39:01,195 - INFO - Re-found option element for: Dream analysis and free associ...
+2026-01-24 20:39:01,747 - INFO - Clicked using direct click
+2026-01-24 20:39:02,834 - INFO - Clicking: Next
+2026-01-24 20:39:06,870 - INFO - Found main content area
+2026-01-24 20:39:06,894 - INFO - Found question via regex: 3.What was Floyd Henry Allport's contribution to psychology?...
+2026-01-24 20:39:06,894 - INFO - Question: 3.What was Floyd Henry Allport's contribution to psychology?...
+2026-01-24 20:39:06,896 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:39:06,899 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:39:06,949 - INFO - Found 4 unique options: ['He established the first psychology laboratory', 'He laid the groundwork for social psychology', 'He introduced the theory of unconscious desires', 'He emphasized introspection']
+2026-01-24 20:39:06,950 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:39:09,444 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:39:09,445 - INFO - AI selected answer 2: He laid the groundwork for social psychology...
+2026-01-24 20:39:09,445 - INFO - Selecting answer 2: He laid the groundwork for social psychology...
+2026-01-24 20:39:09,451 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:39:09,456 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,459 - INFO - Comparing option text: '1' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,463 - INFO - Comparing option text: '2' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,466 - INFO - Comparing option text: '3' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,468 - INFO - Comparing option text: '4' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,471 - INFO - Comparing option text: '5' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,474 - INFO - Comparing option text: 'He established the first psychology laboratory' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,476 - INFO - Comparing option text: '' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,478 - INFO - Comparing option text: 'He laid the groundwork for social psychology' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:39:09,478 - INFO - Re-found option element for: He laid the groundwork for soc...
+2026-01-24 20:39:10,001 - ERROR - Failed to click option using any strategy
+2026-01-24 20:39:10,001 - INFO - Answered 2 questions
+2026-01-24 20:39:10,001 - INFO - Looking for submit button...
+2026-01-24 20:39:10,088 - INFO - Clicking submit button: 'Finish the test'
+2026-01-24 20:39:12,095 - INFO - Lesson processing complete!
+2026-01-24 20:39:12,224 - INFO - WebDriver closed
+2026-01-24 20:41:43,865 - INFO - ====== WebDriver manager ======
+2026-01-24 20:41:44,780 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:41:45,187 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:41:45,538 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:41:46,959 - INFO - WebDriver initialized successfully
+2026-01-24 20:41:47,078 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:41:47,078 - INFO - AI Helper initialized successfully
+2026-01-24 20:41:47,079 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:43:06,177 - INFO - Looking for login elements...
+2026-01-24 20:43:06,192 - INFO - Entering credentials...
+2026-01-24 20:43:07,053 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:43:07,061 - INFO - Waiting for login to complete...
+2026-01-24 20:43:07,565 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:43:09,575 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:43:09,575 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:43:09,575 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:43:12,823 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:43:12,823 - INFO - Looking for test button...
+2026-01-24 20:43:12,942 - INFO - Found test button: 'Test task'
+2026-01-24 20:43:12,948 - INFO - Waiting for test page to load...
+2026-01-24 20:43:15,950 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:43:16,100 - INFO - Found button: 'Start the test'
+2026-01-24 20:43:16,103 - INFO - Clicked start/restart button
+2026-01-24 20:43:16,103 - INFO - Waiting for questions to load...
+2026-01-24 20:43:21,204 - INFO - Saved screenshot: debug_test_questions_1769269401.png
+2026-01-24 20:43:21,209 - INFO - Saved page source: debug_test_questions_1769269401.html
+2026-01-24 20:43:21,209 - INFO - Attempting question 1 of 5
+2026-01-24 20:43:21,223 - INFO - Found main content area
+2026-01-24 20:43:21,239 - INFO - Found question via regex: 1.What is the focus of social psychology?...
+2026-01-24 20:43:21,239 - INFO - Question: 1.What is the focus of social psychology?...
+2026-01-24 20:43:21,242 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:43:21,245 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:43:21,292 - INFO - Found 4 unique options: ['The influence of social contexts on thoughts, feelings, and behaviors', 'Individual mental processes in isolation', 'The analysis of historical societal changes', 'The study of unconscious desires']
+2026-01-24 20:43:21,292 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:43:23,963 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:43:23,974 - INFO - AI selected answer 1: The influence of social contexts on thoughts, feel...
+2026-01-24 20:43:23,974 - INFO - Selecting answer 1: The influence of social contexts on thoughts, feel...
+2026-01-24 20:43:23,981 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:43:23,987 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The influence of social contexts on thoughts, feelings, and behaviors'
+2026-01-24 20:43:23,991 - INFO - Comparing option text: '1' vs 'The influence of social contexts on thoughts, feelings, and behaviors'
+2026-01-24 20:43:23,996 - INFO - Comparing option text: '2' vs 'The influence of social contexts on thoughts, feelings, and behaviors'
+2026-01-24 20:43:24,000 - INFO - Comparing option text: '3' vs 'The influence of social contexts on thoughts, feelings, and behaviors'
+2026-01-24 20:43:24,003 - INFO - Comparing option text: '4' vs 'The influence of social contexts on thoughts, feelings, and behaviors'
+2026-01-24 20:43:24,006 - INFO - Comparing option text: '5' vs 'The influence of social contexts on thoughts, feelings, and behaviors'
+2026-01-24 20:43:24,009 - INFO - Comparing option text: 'The influence of social contexts on thoughts, feelings, and behaviors' vs 'The influence of social contexts on thoughts, feelings, and behaviors'
+2026-01-24 20:43:24,009 - INFO - Re-found option element for: The influence of social contex...
+2026-01-24 20:43:24,520 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f94ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x0000000102f97008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000103018010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000103017064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:43:24,545 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 20:43:25,577 - INFO - Retry click succeeded!
+2026-01-24 20:43:26,666 - INFO - Clicking: Next
+2026-01-24 20:43:28,675 - INFO - Successfully answered question 1
+2026-01-24 20:43:30,676 - INFO - Attempting question 2 of 5
+2026-01-24 20:43:30,703 - INFO - Found main content area
+2026-01-24 20:43:30,725 - INFO - Found question via regex: 2.Who is considered the father of modern psychology?...
+2026-01-24 20:43:30,725 - INFO - Question: 2.Who is considered the father of modern psychology?...
+2026-01-24 20:43:30,728 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:43:30,731 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:43:30,780 - INFO - Found 4 unique options: ['Floyd Henry Allport', 'Wilhelm Wundt', 'Sigmund Freud', 'Auguste Comte']
+2026-01-24 20:43:30,780 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:43:33,741 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:43:33,744 - INFO - AI selected answer 2: Wilhelm Wundt...
+2026-01-24 20:43:33,744 - INFO - Selecting answer 2: Wilhelm Wundt...
+2026-01-24 20:43:33,752 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:43:33,759 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,766 - INFO - Comparing option text: '1' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,770 - INFO - Comparing option text: '2' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,774 - INFO - Comparing option text: '3' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,778 - INFO - Comparing option text: '4' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,783 - INFO - Comparing option text: '5' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,788 - INFO - Comparing option text: 'Floyd Henry Allport' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,791 - INFO - Comparing option text: '' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,794 - INFO - Comparing option text: 'Wilhelm Wundt' vs 'Wilhelm Wundt'
+2026-01-24 20:43:33,794 - INFO - Re-found option element for: Wilhelm Wundt...
+2026-01-24 20:43:34,833 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 20:43:35,891 - INFO - Retry click succeeded!
+2026-01-24 20:43:36,987 - INFO - Clicking: Next
+2026-01-24 20:43:38,996 - INFO - Successfully answered question 2
+2026-01-24 20:43:41,001 - INFO - Attempting question 3 of 5
+2026-01-24 20:43:41,026 - INFO - Found main content area
+2026-01-24 20:43:41,049 - INFO - Found question via regex: 3.What does social psychology primarily study?...
+2026-01-24 20:43:41,049 - INFO - Question: 3.What does social psychology primarily study?...
+2026-01-24 20:43:41,052 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:43:41,055 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:43:41,105 - INFO - Found 4 unique options: ['Cultural traditions and practices', 'Political systems and governance', 'Historical development of societies', 'The influence of other people (actual, imagined, or implied) on an individual']
+2026-01-24 20:43:41,105 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:44:41,041 - INFO - ====== WebDriver manager ======
+2026-01-24 20:44:44,187 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:44:44,675 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:44:45,186 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:44:46,026 - INFO - WebDriver initialized successfully
+2026-01-24 20:44:46,127 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:44:46,127 - INFO - AI Helper initialized successfully
+2026-01-24 20:44:46,127 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:44:54,812 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:44:54,818 - ERROR - AI error: 'NoneType' object has no attribute 'strip'. Defaulting to first option.
+2026-01-24 20:44:54,818 - INFO - Selecting answer 1: Cultural traditions and practices...
+2026-01-24 20:44:54,823 - ERROR - Could not re-find option element: object of type 'NoneType' has no len()
+2026-01-24 20:44:54,826 - ERROR - Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 728, in _answer_current_question
+    logger.info(f"Re-searching: found {len(potential_options)} cursor-pointer divs")
+                                       ~~~^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+
+2026-01-24 20:44:54,826 - WARNING - Failed to answer question 3, continuing to next...
+2026-01-24 20:44:54,828 - ERROR - Could not click Next button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:44:56,833 - INFO - Attempting question 4 of 5
+2026-01-24 20:44:56,836 - ERROR - Error answering question: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:44:56,841 - ERROR - Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 541, in _answer_current_question
+    search_context = self.driver.find_element(By.TAG_NAME, "body")
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+
+2026-01-24 20:44:56,841 - WARNING - Failed to answer question 4, continuing to next...
+2026-01-24 20:44:56,842 - ERROR - Could not click Next button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:44:58,846 - INFO - Attempting question 5 of 5
+2026-01-24 20:44:58,847 - ERROR - Error answering question: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:44:58,849 - ERROR - Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 541, in _answer_current_question
+    search_context = self.driver.find_element(By.TAG_NAME, "body")
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+
+2026-01-24 20:44:58,849 - WARNING - Failed to answer question 5, continuing to next...
+2026-01-24 20:44:58,850 - ERROR - Could not click Next button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:45:00,851 - INFO - Answered 2 out of 5 questions
+2026-01-24 20:45:00,852 - INFO - Looking for submit button...
+2026-01-24 20:45:00,853 - ERROR - Error completing test: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:45:00,854 - ERROR - Failed to save debug info: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x00000001034b0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001034a88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102f8e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000102f67274 chromedriver + 160372
+4   chromedriver                        0x0000000103000cb8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 543280
+5   chromedriver                        0x0000000103016bac _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633124
+6   chromedriver                        0x0000000102fcc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x000000010346f620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000103472d5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x00000001034549c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x00000001034735e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000103444990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x00000001034979bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000103497b38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x00000001034a850c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:45:00,854 - INFO - Lesson processing complete!
+2026-01-24 20:45:00,978 - INFO - WebDriver closed
+2026-01-24 20:45:56,869 - INFO - Looking for login elements...
+2026-01-24 20:45:56,887 - INFO - Entering credentials...
+2026-01-24 20:45:57,656 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:45:57,661 - INFO - Waiting for login to complete...
+2026-01-24 20:45:58,166 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:46:00,185 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:46:00,185 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:46:00,186 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:46:03,445 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:46:03,446 - INFO - Looking for test button...
+2026-01-24 20:46:03,554 - INFO - Found test button: 'Finish the test'
+2026-01-24 20:46:03,555 - INFO - Waiting for test page to load...
+2026-01-24 20:46:06,557 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:46:06,700 - INFO - Found button: 'Restart'
+2026-01-24 20:46:06,703 - INFO - Clicked start/restart button
+2026-01-24 20:46:06,703 - INFO - Waiting for questions to load...
+2026-01-24 20:46:11,788 - INFO - Saved screenshot: debug_test_questions_1769269571.png
+2026-01-24 20:46:11,794 - INFO - Saved page source: debug_test_questions_1769269571.html
+2026-01-24 20:46:11,794 - INFO - Attempting question 1 of 5
+2026-01-24 20:46:11,810 - INFO - Found main content area
+2026-01-24 20:46:11,825 - INFO - Found question via regex: 1.What significant contribution did Wilhelm Wundt make to psychology?...
+2026-01-24 20:46:11,825 - INFO - Question: 1.What significant contribution did Wilhelm Wundt make to psychology?...
+2026-01-24 20:46:11,828 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:46:11,831 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:46:11,878 - INFO - Found 4 unique options: ['He pioneered the study of social behavior', 'He established the first psychology laboratory', 'He analyzed cultural texts', 'He introduced the theory of psychoanalysis']
+2026-01-24 20:46:11,878 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:46:14,608 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:46:14,613 - INFO - AI selected answer 2: He established the first psychology laboratory...
+2026-01-24 20:46:14,613 - INFO - Selecting answer 2: He established the first psychology laboratory...
+2026-01-24 20:46:14,621 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:46:14,629 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,634 - INFO - Comparing option text: '1' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,639 - INFO - Comparing option text: '2' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,643 - INFO - Comparing option text: '3' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,647 - INFO - Comparing option text: '4' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,650 - INFO - Comparing option text: '5' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,654 - INFO - Comparing option text: 'He pioneered the study of social behavior' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,656 - INFO - Comparing option text: '' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,659 - INFO - Comparing option text: 'He established the first psychology laboratory' vs 'He established the first psychology laboratory'
+2026-01-24 20:46:14,659 - INFO - Re-found option element for: He established the first psych...
+2026-01-24 20:46:15,171 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001012a4640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x000000010129c8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000100d82890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000100d88ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x0000000100d8b008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000100e0c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000100e0b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x0000000100dc00e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000101263620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000101266d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x00000001012489c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001012675e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000101238990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x000000010128b9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x000000010128bb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x000000010129c50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:46:15,200 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 20:46:16,261 - INFO - Retry click succeeded!
+2026-01-24 20:46:17,357 - INFO - Clicking: Next
+2026-01-24 20:46:19,366 - INFO - Successfully answered question 1
+2026-01-24 20:46:21,369 - INFO - Attempting question 2 of 5
+2026-01-24 20:46:21,398 - INFO - Found main content area
+2026-01-24 20:46:21,422 - INFO - Found question via regex: 2.What does social psychology primarily study?...
+2026-01-24 20:46:21,423 - INFO - Question: 2.What does social psychology primarily study?...
+2026-01-24 20:46:21,425 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:46:21,428 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:46:21,478 - INFO - Found 4 unique options: ['Cultural traditions and practices', 'The influence of other people (actual, imagined, or implied) on an individual', 'Political systems and governance', 'Historical development of societies']
+2026-01-24 20:46:21,479 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:46:23,503 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:46:23,505 - INFO - AI selected answer 2: The influence of other people (actual, imagined, o...
+2026-01-24 20:46:23,505 - INFO - Selecting answer 2: The influence of other people (actual, imagined, o...
+2026-01-24 20:46:23,513 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:46:23,520 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,526 - INFO - Comparing option text: '1' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,531 - INFO - Comparing option text: '2' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,535 - INFO - Comparing option text: '3' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,538 - INFO - Comparing option text: '4' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,541 - INFO - Comparing option text: '5' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,545 - INFO - Comparing option text: 'Cultural traditions and practices' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,547 - INFO - Comparing option text: '' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,552 - INFO - Comparing option text: 'The influence of other people (actual, imagined, or implied) on an individual' vs 'The influence of other people (actual, imagined, or implied) on an individual'
+2026-01-24 20:46:23,552 - INFO - Re-found option element for: The influence of other people ...
+2026-01-24 20:46:24,583 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 20:46:25,641 - INFO - Retry click succeeded!
+2026-01-24 20:46:26,743 - INFO - Clicking: Next
+2026-01-24 20:46:28,747 - INFO - Successfully answered question 2
+2026-01-24 20:46:30,752 - INFO - Attempting question 3 of 5
+2026-01-24 20:46:30,780 - INFO - Found main content area
+2026-01-24 20:46:30,802 - INFO - Found question via regex: 3.Why is psychology considered a scientific discipline?...
+2026-01-24 20:46:30,802 - INFO - Question: 3.Why is psychology considered a scientific discipline?...
+2026-01-24 20:46:30,804 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:46:30,807 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:46:30,857 - INFO - Found 4 unique options: ['It focuses on philosophical concepts', 'It relies on anecdotal evidence', 'It solely focuses on individual experiences', 'It uses empirical research and theories to study behavior and mental processes']
+2026-01-24 20:46:30,857 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:46:33,053 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:46:33,054 - INFO - AI selected answer 4: It uses empirical research and theories to study b...
+2026-01-24 20:46:33,054 - INFO - Selecting answer 4: It uses empirical research and theories to study b...
+2026-01-24 20:46:33,060 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:46:33,064 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,068 - INFO - Comparing option text: '1' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,072 - INFO - Comparing option text: '2' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,075 - INFO - Comparing option text: '3' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,078 - INFO - Comparing option text: '4' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,080 - INFO - Comparing option text: '5' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,083 - INFO - Comparing option text: 'It focuses on philosophical concepts' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,086 - INFO - Comparing option text: '' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,088 - INFO - Comparing option text: 'It relies on anecdotal evidence' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,091 - INFO - Comparing option text: '' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,093 - INFO - Comparing option text: 'It solely focuses on individual experiences' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,095 - INFO - Comparing option text: '' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,098 - INFO - Comparing option text: 'It uses empirical research and theories to study behavior and mental processes' vs 'It uses empirical research and theories to study behavior and mental processes'
+2026-01-24 20:46:33,098 - INFO - Re-found option element for: It uses empirical research and...
+2026-01-24 20:46:34,134 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 20:46:35,202 - INFO - Retry click succeeded!
+2026-01-24 20:46:36,300 - INFO - Clicking: Next
+2026-01-24 20:46:38,308 - INFO - Successfully answered question 3
+2026-01-24 20:46:40,310 - INFO - Attempting question 4 of 5
+2026-01-24 20:46:40,336 - INFO - Found main content area
+2026-01-24 20:46:40,359 - INFO - Found question via regex: 4.What was Floyd Henry Allport's contribution to psychology?...
+2026-01-24 20:46:40,359 - INFO - Question: 4.What was Floyd Henry Allport's contribution to psychology?...
+2026-01-24 20:46:40,362 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:46:40,365 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:46:40,415 - INFO - Found 4 unique options: ['He laid the groundwork for social psychology', 'He introduced the theory of unconscious desires', 'He emphasized introspection', 'He established the first psychology laboratory']
+2026-01-24 20:46:40,415 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:46:42,825 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:46:42,827 - INFO - AI selected answer 1: He laid the groundwork for social psychology...
+2026-01-24 20:46:42,827 - INFO - Selecting answer 1: He laid the groundwork for social psychology...
+2026-01-24 20:46:42,836 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:46:42,843 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:46:42,848 - INFO - Comparing option text: '1' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:46:42,853 - INFO - Comparing option text: '2' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:46:42,857 - INFO - Comparing option text: '3' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:46:42,860 - INFO - Comparing option text: '4' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:46:42,864 - INFO - Comparing option text: '5' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:46:42,867 - INFO - Comparing option text: 'He laid the groundwork for social psychology' vs 'He laid the groundwork for social psychology'
+2026-01-24 20:46:42,867 - INFO - Re-found option element for: He laid the groundwork for soc...
+2026-01-24 20:46:43,378 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001012a4640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x000000010129c8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000100d82890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000100d88ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x0000000100d8b008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000100e0c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000100e0b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x0000000100dc00e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000101263620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000101266d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x00000001012489c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001012675e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000101238990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x000000010128b9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x000000010128bb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x000000010129c50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:46:43,402 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 20:46:44,455 - INFO - Retry click succeeded!
+2026-01-24 20:46:45,552 - INFO - Clicking: Next
+2026-01-24 20:46:47,561 - INFO - Successfully answered question 4
+2026-01-24 20:46:49,563 - INFO - Attempting question 5 of 5
+2026-01-24 20:46:49,589 - INFO - Found main content area
+2026-01-24 20:46:49,611 - INFO - Found question via regex: 5.What is Sigmund Freud most known for in psychology?...
+2026-01-24 20:46:49,611 - INFO - Question: 5.What is Sigmund Freud most known for in psychology?...
+2026-01-24 20:46:49,614 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 20:46:49,617 - INFO - Found 14 cursor-pointer divs
+2026-01-24 20:46:49,667 - INFO - Found 4 unique options: ['Introducing the study of group behavior', 'Developing the theory of psychoanalysis', 'Establishing the first psychology laboratory', 'Creating the concept of social influence']
+2026-01-24 20:46:49,668 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 20:46:52,596 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 20:46:52,598 - INFO - AI selected answer 2: Developing the theory of psychoanalysis...
+2026-01-24 20:46:52,599 - INFO - Selecting answer 2: Developing the theory of psychoanalysis...
+2026-01-24 20:46:52,607 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 20:46:52,614 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,620 - INFO - Comparing option text: '1' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,624 - INFO - Comparing option text: '2' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,628 - INFO - Comparing option text: '3' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,632 - INFO - Comparing option text: '4' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,636 - INFO - Comparing option text: '5' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,639 - INFO - Comparing option text: 'Introducing the study of group behavior' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,642 - INFO - Comparing option text: '' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,646 - INFO - Comparing option text: 'Developing the theory of psychoanalysis' vs 'Developing the theory of psychoanalysis'
+2026-01-24 20:46:52,646 - INFO - Re-found option element for: Developing the theory of psych...
+2026-01-24 20:46:53,684 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 20:46:54,742 - INFO - Retry click succeeded!
+2026-01-24 20:46:55,838 - INFO - Clicking: Next
+2026-01-24 20:46:57,847 - INFO - Successfully answered question 5
+2026-01-24 20:46:59,852 - INFO - Answered 5 out of 5 questions
+2026-01-24 20:46:59,853 - INFO - Looking for submit button...
+2026-01-24 20:46:59,959 - INFO - Clicking submit button: 'Send'
+2026-01-24 20:47:01,973 - INFO - Lesson processing complete!
+2026-01-24 20:47:02,129 - INFO - WebDriver closed
+2026-01-24 20:48:29,356 - INFO - ====== WebDriver manager ======
+2026-01-24 20:48:32,576 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:48:32,929 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:48:33,310 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:48:34,529 - INFO - WebDriver initialized successfully
+2026-01-24 20:48:34,616 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:48:34,616 - INFO - AI Helper initialized successfully
+2026-01-24 20:48:34,616 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:49:07,059 - ERROR - Error: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x0000000101014640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x000000010100c8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000100af2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000100aeaa54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42956
+4   chromedriver                        0x0000000100add068 cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000100adeb70 cxxbridge1$string$len + 12072
+6   chromedriver                        0x0000000100add4d4 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000100adccbc cxxbridge1$string$len + 4212
+8   chromedriver                        0x0000000100adc9a8 cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000100ada56c chromedriver + 222572
+10  chromedriver                        0x0000000100adb038 chromedriver + 225336
+11  chromedriver                        0x0000000100af5d84 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88828
+12  chromedriver                        0x0000000100b7bb50 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637128
+13  chromedriver                        0x0000000100b7b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+14  chromedriver                        0x0000000100b300e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+15  chromedriver                        0x0000000100fd3620 cxxbridge1$str$ptr + 2821448
+16  chromedriver                        0x0000000100fd6d5c cxxbridge1$str$ptr + 2835588
+17  chromedriver                        0x0000000100fb89c4 cxxbridge1$str$ptr + 2711788
+18  chromedriver                        0x0000000100fd75e0 cxxbridge1$str$ptr + 2837768
+19  chromedriver                        0x0000000100fa8990 cxxbridge1$str$ptr + 2646200
+20  chromedriver                        0x0000000100ffb9bc cxxbridge1$str$ptr + 2986212
+21  chromedriver                        0x0000000100ffbb38 cxxbridge1$str$ptr + 2986592
+22  chromedriver                        0x000000010100c50c cxxbridge1$str$ptr + 3054644
+23  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 1027, in main
+    if agent.login():
+       ~~~~~~~~~~~^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 98, in login
+    self.driver.get(LOGIN_URL)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 452, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+0   chromedriver                        0x0000000101014640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x000000010100c8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000100af2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x0000000100aeaa54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42956
+4   chromedriver                        0x0000000100add068 cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000100adeb70 cxxbridge1$string$len + 12072
+6   chromedriver                        0x0000000100add4d4 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000100adccbc cxxbridge1$string$len + 4212
+8   chromedriver                        0x0000000100adc9a8 cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000100ada56c chromedriver + 222572
+10  chromedriver                        0x0000000100adb038 chromedriver + 225336
+11  chromedriver                        0x0000000100af5d84 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88828
+12  chromedriver                        0x0000000100b7bb50 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 637128
+13  chromedriver                        0x0000000100b7b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+14  chromedriver                        0x0000000100b300e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+15  chromedriver                        0x0000000100fd3620 cxxbridge1$str$ptr + 2821448
+16  chromedriver                        0x0000000100fd6d5c cxxbridge1$str$ptr + 2835588
+17  chromedriver                        0x0000000100fb89c4 cxxbridge1$str$ptr + 2711788
+18  chromedriver                        0x0000000100fd75e0 cxxbridge1$str$ptr + 2837768
+19  chromedriver                        0x0000000100fa8990 cxxbridge1$str$ptr + 2646200
+20  chromedriver                        0x0000000100ffb9bc cxxbridge1$str$ptr + 2986212
+21  chromedriver                        0x0000000100ffbb38 cxxbridge1$str$ptr + 2986592
+22  chromedriver                        0x000000010100c50c cxxbridge1$str$ptr + 3054644
+23  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 20:49:07,181 - INFO - WebDriver closed
