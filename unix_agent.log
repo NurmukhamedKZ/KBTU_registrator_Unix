@@ -1663,3 +1663,194 @@ Stacktrace:
 24  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
 
 2026-01-24 20:49:07,181 - INFO - WebDriver closed
+2026-01-24 20:51:43,429 - INFO - ====== WebDriver manager ======
+2026-01-24 20:51:43,606 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:51:43,984 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:51:44,327 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:51:46,041 - INFO - WebDriver initialized successfully
+2026-01-24 20:51:46,175 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:51:46,175 - INFO - AI Helper initialized successfully
+2026-01-24 20:51:46,175 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:52:49,411 - INFO - Looking for login elements...
+2026-01-24 20:52:49,419 - INFO - Entering credentials...
+2026-01-24 20:52:50,198 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:52:50,203 - INFO - Waiting for login to complete...
+2026-01-24 20:52:50,707 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:52:52,718 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:52:52,718 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:52:52,719 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9842
+2026-01-24 20:52:55,894 - INFO - Looking for video player...
+2026-01-24 20:52:55,964 - INFO - Clicked play button
+2026-01-24 20:52:55,964 - INFO - Watching video...
+2026-01-24 20:52:55,974 - INFO - Video progress: 0.0% (0s / 237s)
+2026-01-24 20:53:25,983 - INFO - Video progress: 4.0% (9s / 237s)
+2026-01-24 20:53:30,867 - INFO - Interrupted by user
+2026-01-24 20:53:30,871 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/76339fca2714a7bbc13adf3084121d99
+2026-01-24 20:53:30,874 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55401): Failed to establish a new connection: [Errno 61] Connection refused")': /session/76339fca2714a7bbc13adf3084121d99
+2026-01-24 20:53:30,878 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55401): Failed to establish a new connection: [Errno 61] Connection refused")': /session/76339fca2714a7bbc13adf3084121d99
+2026-01-24 20:53:30,879 - INFO - WebDriver closed
+2026-01-24 20:55:41,502 - INFO - ====== WebDriver manager ======
+2026-01-24 20:55:42,578 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:55:42,948 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:55:43,328 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:55:44,772 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-24 20:55:44,888 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:55:44,888 - INFO - AI Helper initialized successfully
+2026-01-24 20:55:44,889 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:55:48,980 - INFO - Looking for login elements...
+2026-01-24 20:55:49,000 - INFO - Entering credentials...
+2026-01-24 20:55:49,735 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:55:49,748 - INFO - Waiting for login to complete...
+2026-01-24 20:55:50,255 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:55:52,260 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:55:52,260 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:55:52,260 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9842
+2026-01-24 20:55:55,542 - INFO - Skipping video (--skip-video flag set)
+2026-01-24 20:55:55,542 - INFO - Looking for test button...
+2026-01-24 20:55:55,661 - INFO - Found test button: 'Test task'
+2026-01-24 20:55:55,667 - INFO - Waiting for test page to load...
+2026-01-24 20:55:58,672 - INFO - Looking for 'Start the test' button...
+2026-01-24 20:55:58,818 - INFO - Found button: 'Restart'
+2026-01-24 20:55:58,823 - INFO - Clicked start/restart button
+2026-01-24 20:55:58,823 - INFO - Waiting for questions to load...
+2026-01-24 20:56:03,924 - INFO - Saved screenshot: debug_test_questions_1769270163.png
+2026-01-24 20:56:03,929 - INFO - Saved page source: debug_test_questions_1769270163.html
+2026-01-24 20:56:03,929 - INFO - Attempting question 1 of 5
+2026-01-24 20:56:03,943 - INFO - Found main content area
+2026-01-24 20:56:03,955 - INFO - No question text found. Content text preview:
+2026-01-24 20:56:03,955 - INFO - Module
+Academic courses
+Course
+Socio-Political Knowledge
+Required lecture
+Introduction to Social Sciences
+Lesson Political Science
+Restart
+Rewind 10s
+Play
+00:00
+03:56
+Enter fullscreen
+Enable captions
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-01-24 20:56:03,955 - WARNING - Failed to answer question 1, continuing to next...
+2026-01-24 20:56:06,015 - INFO - Attempting question 2 of 5
+2026-01-24 20:56:06,041 - INFO - Found main content area
+2026-01-24 20:56:06,058 - INFO - No question text found. Content text preview:
+2026-01-24 20:56:06,058 - INFO - Module
+Academic courses
+Course
+Socio-Political Knowledge
+Required lecture
+Introduction to Social Sciences
+Lesson Political Science
+Restart
+Rewind 10s
+Play
+00:00
+03:56
+Enter fullscreen
+Enable captions
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-01-24 20:56:06,058 - WARNING - Failed to answer question 2, continuing to next...
+2026-01-24 20:56:08,125 - INFO - Attempting question 3 of 5
+2026-01-24 20:56:08,151 - INFO - Found main content area
+2026-01-24 20:56:08,168 - INFO - No question text found. Content text preview:
+2026-01-24 20:56:08,168 - INFO - Module
+Academic courses
+Course
+Socio-Political Knowledge
+Required lecture
+Introduction to Social Sciences
+Lesson Political Science
+Restart
+Rewind 10s
+Play
+00:00
+03:56
+Enter fullscreen
+Enable captions
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-01-24 20:56:08,168 - WARNING - Failed to answer question 3, continuing to next...
+2026-01-24 20:56:10,238 - INFO - Attempting question 4 of 5
+2026-01-24 20:56:10,262 - INFO - Found main content area
+2026-01-24 20:56:10,279 - INFO - No question text found. Content text preview:
+2026-01-24 20:56:10,280 - INFO - Module
+Academic courses
+Course
+Socio-Political Knowledge
+Required lecture
+Introduction to Social Sciences
+Lesson Political Science
+Restart
+Rewind 10s
+Play
+00:00
+03:56
+Enter fullscreen
+Enable captions
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-01-24 20:56:10,280 - WARNING - Failed to answer question 4, continuing to next...
+2026-01-24 20:56:12,342 - INFO - Attempting question 5 of 5
+2026-01-24 20:56:12,359 - INFO - Found main content area
+2026-01-24 20:56:12,371 - INFO - No question text found. Content text preview:
+2026-01-24 20:56:12,371 - INFO - Module
+Academic courses
+Course
+Socio-Political Knowledge
+Required lecture
+Introduction to Social Sciences
+Lesson Political Science
+Restart
+Rewind 10s
+Play
+00:00
+03:56
+Enter fullscreen
+Enable captions
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-01-24 20:56:12,371 - WARNING - Failed to answer question 5, continuing to next...
+2026-01-24 20:56:14,434 - INFO - Answered 0 out of 5 questions
+2026-01-24 20:56:14,435 - INFO - Lesson processing complete!
+2026-01-24 20:56:14,540 - INFO - WebDriver closed
+2026-01-24 20:56:22,103 - INFO - ====== WebDriver manager ======
+2026-01-24 20:56:23,170 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:56:23,520 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 20:56:23,868 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 20:56:24,767 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-24 20:56:24,840 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 20:56:24,840 - INFO - AI Helper initialized successfully
+2026-01-24 20:56:24,840 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 20:56:35,947 - INFO - Looking for login elements...
+2026-01-24 20:56:35,957 - INFO - Entering credentials...
+2026-01-24 20:56:36,675 - INFO - Clicking login button: 'Sign in'
+2026-01-24 20:56:36,682 - INFO - Waiting for login to complete...
+2026-01-24 20:56:37,189 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 20:56:39,194 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 20:56:39,194 - INFO - Login successful! (redirected from login page)
+2026-01-24 20:56:39,194 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9841
+2026-01-24 20:56:42,454 - INFO - Looking for video player...
+2026-01-24 20:56:42,510 - INFO - Clicked play button
+2026-01-24 20:56:42,511 - INFO - Watching video...
+2026-01-24 20:56:42,523 - INFO - Video progress: 0.0% (0s / 231s)
+2026-01-24 20:57:12,534 - INFO - Video progress: 11.9% (28s / 231s)
+2026-01-24 20:57:13,904 - INFO - Interrupted by user
+2026-01-24 20:57:13,906 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/07f111aa7571a025dc11bf9bec58aa17
+2026-01-24 20:57:13,907 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55866): Failed to establish a new connection: [Errno 61] Connection refused")': /session/07f111aa7571a025dc11bf9bec58aa17
+2026-01-24 20:57:13,908 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55866): Failed to establish a new connection: [Errno 61] Connection refused")': /session/07f111aa7571a025dc11bf9bec58aa17
+2026-01-24 20:57:13,909 - INFO - WebDriver closed

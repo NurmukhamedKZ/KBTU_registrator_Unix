@@ -59,22 +59,79 @@ class UniXAgent:
         self.ai_helper = None
         
     def setup_driver(self):
-        """Set up the Chrome WebDriver."""
+        """Set up the Chrome WebDriver with anti-detection measures."""
         options = webdriver.ChromeOptions()
+        
+        # Basic options
         if self.headless:
-            options.add_argument("--headless")
+            options.add_argument("--headless=new")  # Use new headless mode
+        
+        # Anti-detection arguments
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--window-size=1920,1080")
+        options.add_argument("--start-maximized")
         options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_argument("--disable-web-security")
+        options.add_argument("--disable-features=IsolateOrigins,site-per-process")
+        
+        # User agent - use a real Chrome user agent
+        options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
+        
+        # Exclude automation flags
+        options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
+        options.add_experimental_option("useAutomationExtension", False)
+        
+        # Additional preferences
+        prefs = {
+            "profile.default_content_setting_values.notifications": 2,
+            "credentials_enable_service": False,
+            "profile.password_manager_enabled": False
+        }
+        options.add_experimental_option("prefs", prefs)
         
         self.driver = webdriver.Chrome(
             service=ChromeService(ChromeDriverManager().install()),
             options=options
         )
+        
+        # Set page load timeout to 60 seconds (default is too short sometimes)
+        self.driver.set_page_load_timeout(60)
+        
+        # Execute CDP commands to hide webdriver flag
+        self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": """
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                });
+                
+                // Overwrite the `plugins` property to use a custom getter.
+                Object.defineProperty(navigator, 'plugins', {
+                    get: () => [1, 2, 3, 4, 5]
+                });
+                
+                // Overwrite the `languages` property to use a custom getter.
+                Object.defineProperty(navigator, 'languages', {
+                    get: () => ['en-US', 'en']
+                });
+                
+                // Pass the Chrome Test.
+                window.chrome = {
+                    runtime: {}
+                };
+                
+                // Pass the Permissions Test.
+                const originalQuery = window.navigator.permissions.query;
+                window.navigator.permissions.query = (parameters) => (
+                    parameters.name === 'notifications' ?
+                        Promise.resolve({ state: Notification.permission }) :
+                        originalQuery(parameters)
+                );
+            """
+        })
+        
         self.wait = WebDriverWait(self.driver, 30)
-        logger.info("WebDriver initialized successfully")
+        logger.info("WebDriver initialized successfully with anti-detection")
         
     def setup_ai(self):
         """Initialize the AI helper for test answering."""
@@ -95,7 +152,22 @@ class UniXAgent:
         LOGIN_URL = f"{self.BASE_URL}/platform/login"
         
         logger.info(f"Navigating to login page: {LOGIN_URL}")
-        self.driver.get(LOGIN_URL)
+        
+        # Retry logic for initial page load
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                self.driver.get(LOGIN_URL)
+                break  # Success, exit retry loop
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    wait_time = (attempt + 1) * 5  # 5s, 10s, 15s
+                    logger.warning(f"Failed to load login page (attempt {attempt + 1}/{max_retries}): {e}")
+                    logger.info(f"Retrying in {wait_time} seconds...")
+                    time.sleep(wait_time)
+                else:
+                    logger.error(f"Failed to load login page after {max_retries} attempts: {e}")
+                    return False
         
         try:
             # Wait for page to load
