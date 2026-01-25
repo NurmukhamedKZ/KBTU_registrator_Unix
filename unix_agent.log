@@ -2281,3 +2281,121 @@ Socio-Political Knowledge' vs ''How has the unemployment rate changed over the p
 2026-01-25 10:34:14,385 - INFO - Clicking submit button: 'Finish the test'
 2026-01-25 10:34:16,392 - INFO - Lesson processing complete!
 2026-01-25 10:34:16,516 - INFO - WebDriver closed
+2026-01-25 10:38:14,597 - INFO - ====== WebDriver manager ======
+2026-01-25 10:38:15,616 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 10:38:16,007 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 10:38:16,350 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-25 10:38:17,667 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-25 10:38:17,753 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-25 10:38:17,753 - INFO - AI Helper initialized successfully
+2026-01-25 10:38:17,753 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-25 10:38:21,857 - INFO - Looking for login elements...
+2026-01-25 10:38:21,876 - INFO - Entering credentials...
+2026-01-25 10:38:22,605 - INFO - Clicking login button: 'Sign in'
+2026-01-25 10:38:22,611 - INFO - Waiting for login to complete...
+2026-01-25 10:38:23,116 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-25 10:38:25,119 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-25 10:38:25,119 - INFO - Login successful! (redirected from login page)
+2026-01-25 10:38:25,119 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9843
+2026-01-25 10:38:28,283 - INFO - Skipping video (--skip-video flag set)
+2026-01-25 10:38:28,283 - INFO - Looking for test button...
+2026-01-25 10:38:28,377 - INFO - Found test button: 'Finish the test'
+2026-01-25 10:38:28,379 - INFO - Waiting for test page to load...
+2026-01-25 10:38:31,379 - INFO - Looking for 'Start the test' button...
+2026-01-25 10:38:31,521 - INFO - Found button: 'Restart'
+2026-01-25 10:38:31,523 - INFO - Clicked start/restart button
+2026-01-25 10:38:31,524 - INFO - Waiting for questions to load...
+2026-01-25 10:38:36,681 - INFO - Saved screenshot: images/debug_test_questions_1769319516.png
+2026-01-25 10:38:36,686 - INFO - Saved page source: images/debug_test_questions_1769319516.html
+2026-01-25 10:38:36,686 - INFO - Attempting question 1 of 5
+2026-01-25 10:38:36,702 - INFO - Found main content area
+2026-01-25 10:38:36,718 - INFO - Found question via regex: 1.Why is it important to combine empirical and theoretical approaches?...
+2026-01-25 10:38:36,718 - INFO - Question: 1.Why is it important to combine empirical and theoretical approaches?...
+2026-01-25 10:38:36,722 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:38:36,725 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:38:36,777 - INFO - Found 4 unique options: ['To ensure both evidence and explanation are integrated', 'To focus solely on observation', 'To create speculative theories', 'To eliminate the need for data collection']
+2026-01-25 10:38:36,777 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 10:38:39,274 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 10:38:39,278 - INFO - AI selected answer 1: To ensure both evidence and explanation are integr...
+2026-01-25 10:38:39,278 - INFO - Selecting answer 1: To ensure both evidence and explanation are integr...
+2026-01-25 10:38:39,286 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 10:38:39,293 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'To ensure both evidence and explanation are integrated'
+2026-01-25 10:38:39,299 - INFO - Comparing option text: '1' vs 'To ensure both evidence and explanation are integrated'
+2026-01-25 10:38:39,304 - INFO - Comparing option text: '2' vs 'To ensure both evidence and explanation are integrated'
+2026-01-25 10:38:39,308 - INFO - Comparing option text: '3' vs 'To ensure both evidence and explanation are integrated'
+2026-01-25 10:38:39,312 - INFO - Comparing option text: '4' vs 'To ensure both evidence and explanation are integrated'
+2026-01-25 10:38:39,315 - INFO - Comparing option text: '5' vs 'To ensure both evidence and explanation are integrated'
+2026-01-25 10:38:39,319 - INFO - Comparing option text: 'To ensure both evidence and explanation are integrated' vs 'To ensure both evidence and explanation are integrated'
+2026-01-25 10:38:39,319 - INFO - Re-found option element for: To ensure both evidence and ex...
+2026-01-25 10:38:39,830 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102ed4640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000102ecc8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001029b2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001029b8ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001029bb008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000102a3c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000102a3b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001029f00e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000102e93620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000102e96d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000102e789c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000102e975e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000102e68990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000102ebb9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000102ebbb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000102ecc50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 10:38:39,861 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 10:38:40,908 - INFO - Retry click succeeded!
+2026-01-25 10:38:42,007 - INFO - Clicking: Next
+2026-01-25 10:38:44,016 - INFO - Successfully answered question 1
+2026-01-25 10:38:46,017 - INFO - Attempting question 2 of 5
+2026-01-25 10:38:46,044 - INFO - Found main content area
+2026-01-25 10:38:46,073 - INFO - Found question via regex: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:46,073 - INFO - Question: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:46,077 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:38:46,082 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:38:46,139 - INFO - Trying fallback method for option detection
+2026-01-25 10:38:46,326 - WARNING - No answer options found using any method
+2026-01-25 10:38:46,326 - WARNING - Failed to answer question 2, continuing to next...
+2026-01-25 10:38:46,394 - INFO - Clicking Next to skip to next question
+2026-01-25 10:38:50,403 - INFO - Attempting question 3 of 5
+2026-01-25 10:38:50,431 - INFO - Found main content area
+2026-01-25 10:38:50,454 - INFO - Found question via regex: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:50,454 - INFO - Question: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:50,456 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:38:50,459 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:38:50,514 - INFO - Trying fallback method for option detection
+2026-01-25 10:38:50,696 - WARNING - No answer options found using any method
+2026-01-25 10:38:50,696 - WARNING - Failed to answer question 3, continuing to next...
+2026-01-25 10:38:50,764 - INFO - Clicking Next to skip to next question
+2026-01-25 10:38:54,771 - INFO - Attempting question 4 of 5
+2026-01-25 10:38:54,799 - INFO - Found main content area
+2026-01-25 10:38:54,826 - INFO - Found question via regex: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:54,826 - INFO - Question: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:54,828 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:38:54,831 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:38:54,881 - INFO - Trying fallback method for option detection
+2026-01-25 10:38:55,065 - WARNING - No answer options found using any method
+2026-01-25 10:38:55,065 - WARNING - Failed to answer question 4, continuing to next...
+2026-01-25 10:38:55,133 - INFO - Clicking Next to skip to next question
+2026-01-25 10:38:59,142 - INFO - Attempting question 5 of 5
+2026-01-25 10:38:59,175 - INFO - Found main content area
+2026-01-25 10:38:59,195 - INFO - Found question via regex: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:59,195 - INFO - Question: 2.What type of question asks 'Why did this happen?...
+2026-01-25 10:38:59,197 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:38:59,200 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:38:59,251 - INFO - Trying fallback method for option detection
+2026-01-25 10:38:59,433 - WARNING - No answer options found using any method
+2026-01-25 10:38:59,433 - WARNING - Failed to answer question 5, continuing to next...
+2026-01-25 10:38:59,501 - INFO - Clicking Next to skip to next question
+2026-01-25 10:39:03,508 - INFO - Answered 1 out of 5 questions
+2026-01-25 10:39:03,508 - INFO - Looking for submit button...
+2026-01-25 10:39:03,602 - INFO - Clicking submit button: 'Finish the test'
+2026-01-25 10:39:05,608 - INFO - Lesson processing complete!
+2026-01-25 10:39:05,717 - INFO - WebDriver closed
