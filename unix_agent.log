@@ -1854,3 +1854,430 @@ Test task
 2026-01-24 20:57:13,907 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55866): Failed to establish a new connection: [Errno 61] Connection refused")': /session/07f111aa7571a025dc11bf9bec58aa17
 2026-01-24 20:57:13,908 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55866): Failed to establish a new connection: [Errno 61] Connection refused")': /session/07f111aa7571a025dc11bf9bec58aa17
 2026-01-24 20:57:13,909 - INFO - WebDriver closed
+2026-01-24 21:01:55,273 - INFO - ====== WebDriver manager ======
+2026-01-24 21:01:56,450 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 21:01:56,849 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 21:01:57,207 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-24 21:01:58,570 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-24 21:01:58,684 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-24 21:01:58,684 - INFO - AI Helper initialized successfully
+2026-01-24 21:01:58,684 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-24 21:02:02,826 - INFO - Looking for login elements...
+2026-01-24 21:02:02,842 - INFO - Entering credentials...
+2026-01-24 21:02:03,570 - INFO - Clicking login button: 'Sign in'
+2026-01-24 21:02:03,575 - INFO - Waiting for login to complete...
+2026-01-24 21:02:04,086 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-24 21:02:06,092 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-24 21:02:06,092 - INFO - Login successful! (redirected from login page)
+2026-01-24 21:02:06,092 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9842
+2026-01-24 21:02:09,286 - INFO - Looking for video player...
+2026-01-24 21:02:09,342 - INFO - Clicked play button
+2026-01-24 21:02:09,343 - INFO - Watching video...
+2026-01-24 21:02:09,358 - INFO - Video progress: 0.0% (0s / 237s)
+2026-01-24 21:02:39,378 - INFO - Video progress: 12.7% (30s / 237s)
+2026-01-24 21:03:09,396 - INFO - Video progress: 25.3% (60s / 237s)
+2026-01-24 21:03:39,410 - INFO - Video progress: 38.0% (90s / 237s)
+2026-01-24 21:04:09,426 - INFO - Video progress: 50.7% (120s / 237s)
+2026-01-24 21:04:39,441 - INFO - Video progress: 63.3% (150s / 237s)
+2026-01-24 21:05:09,459 - INFO - Video progress: 76.0% (180s / 237s)
+2026-01-24 21:05:39,478 - INFO - Video progress: 88.7% (210s / 237s)
+2026-01-24 21:06:09,486 - INFO - Video completed!
+2026-01-24 21:06:09,488 - INFO - Looking for test button...
+2026-01-24 21:06:09,537 - INFO - Found test button: 'Go to test'
+2026-01-24 21:06:09,546 - INFO - Waiting for test page to load...
+2026-01-24 21:06:12,551 - INFO - Looking for 'Start the test' button...
+2026-01-24 21:06:12,689 - INFO - Found button: 'Start the test'
+2026-01-24 21:06:12,694 - INFO - Clicked start/restart button
+2026-01-24 21:06:12,694 - INFO - Waiting for questions to load...
+2026-01-24 21:06:17,785 - INFO - Saved screenshot: debug_test_questions_1769270777.png
+2026-01-24 21:06:17,791 - INFO - Saved page source: debug_test_questions_1769270777.html
+2026-01-24 21:06:17,791 - INFO - Attempting question 1 of 5
+2026-01-24 21:06:17,805 - INFO - Found main content area
+2026-01-24 21:06:17,821 - INFO - Found question via regex: 1.What are political institutions?...
+2026-01-24 21:06:17,821 - INFO - Question: 1.What are political institutions?...
+2026-01-24 21:06:17,824 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 21:06:17,827 - INFO - Found 14 cursor-pointer divs
+2026-01-24 21:06:17,874 - INFO - Found 4 unique options: ['Structures dedicated to the arts', 'Systems of philosophical debate', 'The formal and informal rules and organizations that shape political behavior', 'Informal gatherings of political groups']
+2026-01-24 21:06:17,874 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 21:06:21,519 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 21:06:21,524 - INFO - AI selected answer 3: The formal and informal rules and organizations th...
+2026-01-24 21:06:21,524 - INFO - Selecting answer 3: The formal and informal rules and organizations th...
+2026-01-24 21:06:21,532 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 21:06:21,539 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,544 - INFO - Comparing option text: '1' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,549 - INFO - Comparing option text: '2' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,553 - INFO - Comparing option text: '3' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,556 - INFO - Comparing option text: '4' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,560 - INFO - Comparing option text: '5' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,563 - INFO - Comparing option text: 'Structures dedicated to the arts' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,566 - INFO - Comparing option text: '' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,569 - INFO - Comparing option text: 'Systems of philosophical debate' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,571 - INFO - Comparing option text: '' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,574 - INFO - Comparing option text: 'The formal and informal rules and organizations that shape political behavior' vs 'The formal and informal rules and organizations that shape political behavior'
+2026-01-24 21:06:21,574 - INFO - Re-found option element for: The formal and informal rules ...
+2026-01-24 21:06:22,086 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104ec0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000104eb88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x000000010499e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001049a4ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001049a7008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000104a28010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000104a27064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001049dc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000104e7f620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000104e82d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000104e649c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000104e835e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000104e54990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000104ea79bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000104ea7b38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000104eb850c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 21:06:22,115 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 21:06:23,178 - INFO - Retry click succeeded!
+2026-01-24 21:06:24,273 - INFO - Clicking: Next
+2026-01-24 21:06:26,282 - INFO - Successfully answered question 1
+2026-01-24 21:06:28,283 - INFO - Attempting question 2 of 5
+2026-01-24 21:06:28,309 - INFO - Found main content area
+2026-01-24 21:06:28,335 - INFO - Found question via regex: 2.Which methods are commonly used in political science research?...
+2026-01-24 21:06:28,335 - INFO - Question: 2.Which methods are commonly used in political science research?...
+2026-01-24 21:06:28,338 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 21:06:28,340 - INFO - Found 14 cursor-pointer divs
+2026-01-24 21:06:28,390 - INFO - Found 4 unique options: ['Dream analysis and introspection', 'Artistic critique and subjective interpretation', 'Surveys, experiments, case studies, and statistical analysis', 'Observation of natural phenomena']
+2026-01-24 21:06:28,390 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 21:06:30,361 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 21:06:30,364 - INFO - AI selected answer 3: Surveys, experiments, case studies, and statistica...
+2026-01-24 21:06:30,365 - INFO - Selecting answer 3: Surveys, experiments, case studies, and statistica...
+2026-01-24 21:06:30,373 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 21:06:30,379 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,383 - INFO - Comparing option text: '1' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,388 - INFO - Comparing option text: '2' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,391 - INFO - Comparing option text: '3' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,395 - INFO - Comparing option text: '4' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,398 - INFO - Comparing option text: '5' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,401 - INFO - Comparing option text: 'Dream analysis and introspection' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,404 - INFO - Comparing option text: '' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,407 - INFO - Comparing option text: 'Artistic critique and subjective interpretation' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,410 - INFO - Comparing option text: '' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,412 - INFO - Comparing option text: 'Surveys, experiments, case studies, and statistical analysis' vs 'Surveys, experiments, case studies, and statistical analysis'
+2026-01-24 21:06:30,412 - INFO - Re-found option element for: Surveys, experiments, case stu...
+2026-01-24 21:06:31,451 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 21:06:32,515 - INFO - Retry click succeeded!
+2026-01-24 21:06:33,609 - INFO - Clicking: Next
+2026-01-24 21:06:35,614 - INFO - Successfully answered question 2
+2026-01-24 21:06:37,619 - INFO - Attempting question 3 of 5
+2026-01-24 21:06:37,646 - INFO - Found main content area
+2026-01-24 21:06:37,669 - INFO - Found question via regex: 3.Why is political science important?...
+2026-01-24 21:06:37,669 - INFO - Question: 3.Why is political science important?...
+2026-01-24 21:06:37,672 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 21:06:37,675 - INFO - Found 14 cursor-pointer divs
+2026-01-24 21:06:37,725 - INFO - Found 4 unique options: ['It focuses solely on historical events', 'It explores the philosophical basis of ethics', 'It offers a systematic understanding of political systems and behavior', 'It provides a moral framework for societies']
+2026-01-24 21:06:37,725 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 21:06:40,446 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 21:06:40,449 - INFO - AI selected answer 3: It offers a systematic understanding of political ...
+2026-01-24 21:06:40,449 - INFO - Selecting answer 3: It offers a systematic understanding of political ...
+2026-01-24 21:06:40,456 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 21:06:40,464 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,469 - INFO - Comparing option text: '1' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,474 - INFO - Comparing option text: '2' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,478 - INFO - Comparing option text: '3' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,481 - INFO - Comparing option text: '4' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,485 - INFO - Comparing option text: '5' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,488 - INFO - Comparing option text: 'It focuses solely on historical events' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,491 - INFO - Comparing option text: '' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,494 - INFO - Comparing option text: 'It explores the philosophical basis of ethics' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,497 - INFO - Comparing option text: '' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,500 - INFO - Comparing option text: 'It offers a systematic understanding of political systems and behavior' vs 'It offers a systematic understanding of political systems and behavior'
+2026-01-24 21:06:40,500 - INFO - Re-found option element for: It offers a systematic underst...
+2026-01-24 21:06:41,011 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104ec0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000104eb88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x000000010499e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001049a4ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001049a7008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000104a28010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000104a27064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001049dc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000104e7f620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000104e82d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000104e649c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000104e835e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000104e54990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000104ea79bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000104ea7b38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000104eb850c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 21:06:41,033 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 21:06:42,095 - INFO - Retry click succeeded!
+2026-01-24 21:06:43,189 - INFO - Clicking: Next
+2026-01-24 21:06:45,198 - INFO - Successfully answered question 3
+2026-01-24 21:06:47,202 - INFO - Attempting question 4 of 5
+2026-01-24 21:06:47,228 - INFO - Found main content area
+2026-01-24 21:06:47,250 - INFO - Found question via regex: 4.What type of governments are studied under political science?...
+2026-01-24 21:06:47,250 - INFO - Question: 4.What type of governments are studied under political science?...
+2026-01-24 21:06:47,253 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 21:06:47,256 - INFO - Found 14 cursor-pointer divs
+2026-01-24 21:06:47,306 - INFO - Found 4 unique options: ['Only theocracies', 'Democracies, autocracies, and hybrid systems', 'Only monarchies', 'Only democracies']
+2026-01-24 21:06:47,306 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 21:06:49,893 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 21:06:49,895 - INFO - AI selected answer 2: Democracies, autocracies, and hybrid systems...
+2026-01-24 21:06:49,896 - INFO - Selecting answer 2: Democracies, autocracies, and hybrid systems...
+2026-01-24 21:06:49,904 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 21:06:49,912 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,917 - INFO - Comparing option text: '1' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,922 - INFO - Comparing option text: '2' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,926 - INFO - Comparing option text: '3' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,929 - INFO - Comparing option text: '4' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,932 - INFO - Comparing option text: '5' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,936 - INFO - Comparing option text: 'Only theocracies' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,939 - INFO - Comparing option text: '' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,941 - INFO - Comparing option text: 'Democracies, autocracies, and hybrid systems' vs 'Democracies, autocracies, and hybrid systems'
+2026-01-24 21:06:49,941 - INFO - Re-found option element for: Democracies, autocracies, and ...
+2026-01-24 21:06:50,453 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104ec0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000104eb88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x000000010499e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001049a4ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001049a7008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000104a28010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000104a27064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001049dc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000104e7f620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000104e82d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000104e649c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000104e835e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000104e54990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000104ea79bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000104ea7b38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000104eb850c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 21:06:50,474 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 21:06:51,533 - INFO - Retry click succeeded!
+2026-01-24 21:06:52,625 - INFO - Clicking: Next
+2026-01-24 21:06:54,635 - INFO - Successfully answered question 4
+2026-01-24 21:06:56,636 - INFO - Attempting question 5 of 5
+2026-01-24 21:06:56,662 - INFO - Found main content area
+2026-01-24 21:06:56,684 - INFO - Found question via regex: 5.When did political science emerge as a distinct academic discipline?...
+2026-01-24 21:06:56,684 - INFO - Question: 5.When did political science emerge as a distinct academic discipline?...
+2026-01-24 21:06:56,687 - INFO - No radio inputs found, looking for clickable div options
+2026-01-24 21:06:56,689 - INFO - Found 14 cursor-pointer divs
+2026-01-24 21:06:56,740 - INFO - Found 4 unique options: ['The Renaissance', 'Ancient Greece', 'The Industrial Revolution', 'The 19th century']
+2026-01-24 21:06:56,740 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-24 21:07:00,443 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-24 21:07:00,446 - INFO - AI selected answer 4: The 19th century...
+2026-01-24 21:07:00,446 - INFO - Selecting answer 4: The 19th century...
+2026-01-24 21:07:00,454 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-24 21:07:00,461 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The 19th century'
+2026-01-24 21:07:00,467 - INFO - Comparing option text: '1' vs 'The 19th century'
+2026-01-24 21:07:00,471 - INFO - Comparing option text: '2' vs 'The 19th century'
+2026-01-24 21:07:00,475 - INFO - Comparing option text: '3' vs 'The 19th century'
+2026-01-24 21:07:00,479 - INFO - Comparing option text: '4' vs 'The 19th century'
+2026-01-24 21:07:00,482 - INFO - Comparing option text: '5' vs 'The 19th century'
+2026-01-24 21:07:00,485 - INFO - Comparing option text: 'The Renaissance' vs 'The 19th century'
+2026-01-24 21:07:00,488 - INFO - Comparing option text: '' vs 'The 19th century'
+2026-01-24 21:07:00,491 - INFO - Comparing option text: 'Ancient Greece' vs 'The 19th century'
+2026-01-24 21:07:00,493 - INFO - Comparing option text: '' vs 'The 19th century'
+2026-01-24 21:07:00,496 - INFO - Comparing option text: 'The Industrial Revolution' vs 'The 19th century'
+2026-01-24 21:07:00,498 - INFO - Comparing option text: '' vs 'The 19th century'
+2026-01-24 21:07:00,501 - INFO - Comparing option text: 'The 19th century' vs 'The 19th century'
+2026-01-24 21:07:00,501 - INFO - Re-found option element for: The 19th century...
+2026-01-24 21:07:01,013 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104ec0640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000104eb88b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x000000010499e890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001049a4ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001049a7008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000104a28010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x0000000104a27064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001049dc0e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000104e7f620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000104e82d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000104e649c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000104e835e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000104e54990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000104ea79bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000104ea7b38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000104eb850c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x000000018191dc08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000181918ba8 thread_start + 8
+
+2026-01-24 21:07:01,034 - ERROR - Failed to click option using any strategy - will retry
+2026-01-24 21:07:02,101 - INFO - Retry click succeeded!
+2026-01-24 21:07:03,194 - INFO - Clicking: Next
+2026-01-24 21:07:05,204 - INFO - Successfully answered question 5
+2026-01-24 21:07:07,207 - INFO - Answered 5 out of 5 questions
+2026-01-24 21:07:07,208 - INFO - Looking for submit button...
+2026-01-24 21:07:07,305 - INFO - Clicking submit button: 'Send'
+2026-01-24 21:07:09,324 - INFO - Lesson processing complete!
+2026-01-24 21:07:09,519 - INFO - WebDriver closed
+2026-01-25 10:28:16,882 - INFO - ====== WebDriver manager ======
+2026-01-25 10:28:21,455 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 10:28:21,872 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 10:28:22,265 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 10:28:23,111 - INFO - WebDriver version 144.0.7559.96 selected
+2026-01-25 10:28:23,113 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-25 10:28:23,113 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-25 10:28:23,506 - INFO - Driver downloading response is 200
+2026-01-25 10:28:24,541 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 10:28:24,925 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96]
+2026-01-25 10:28:26,952 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-25 10:28:27,041 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-25 10:28:27,041 - INFO - AI Helper initialized successfully
+2026-01-25 10:28:27,041 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-25 10:28:31,074 - INFO - Looking for login elements...
+2026-01-25 10:28:31,092 - INFO - Entering credentials...
+2026-01-25 10:28:31,881 - INFO - Clicking login button: 'Sign in'
+2026-01-25 10:28:31,886 - INFO - Waiting for login to complete...
+2026-01-25 10:28:32,395 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-25 10:28:34,404 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-25 10:28:34,405 - INFO - Login successful! (redirected from login page)
+2026-01-25 10:28:34,405 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9843
+2026-01-25 10:28:37,666 - INFO - Looking for video player...
+2026-01-25 10:28:37,728 - INFO - Clicked play button
+2026-01-25 10:28:37,728 - INFO - Watching video...
+2026-01-25 10:28:37,736 - INFO - Video progress: 0.0% (0s / 287s)
+2026-01-25 10:29:07,752 - INFO - Video progress: 10.5% (30s / 287s)
+2026-01-25 10:29:37,765 - INFO - Video progress: 20.9% (60s / 287s)
+2026-01-25 10:30:07,780 - INFO - Video progress: 31.4% (90s / 287s)
+2026-01-25 10:30:37,792 - INFO - Video progress: 41.9% (120s / 287s)
+2026-01-25 10:31:07,808 - INFO - Video progress: 52.4% (150s / 287s)
+2026-01-25 10:31:37,823 - INFO - Video progress: 62.8% (180s / 287s)
+2026-01-25 10:32:07,838 - INFO - Video progress: 73.3% (210s / 287s)
+2026-01-25 10:32:37,858 - INFO - Video progress: 83.8% (240s / 287s)
+2026-01-25 10:33:07,879 - INFO - Video progress: 94.2% (270s / 287s)
+2026-01-25 10:33:37,886 - INFO - Video completed!
+2026-01-25 10:33:37,887 - INFO - Looking for test button...
+2026-01-25 10:33:37,926 - INFO - Found test button: 'Go to test'
+2026-01-25 10:33:37,935 - INFO - Waiting for test page to load...
+2026-01-25 10:33:40,941 - INFO - Looking for 'Start the test' button...
+2026-01-25 10:33:41,088 - INFO - Found button: 'Start the test'
+2026-01-25 10:33:41,092 - INFO - Clicked start/restart button
+2026-01-25 10:33:41,092 - INFO - Waiting for questions to load...
+2026-01-25 10:33:46,250 - INFO - Saved screenshot: images/debug_test_questions_1769319226.png
+2026-01-25 10:33:46,255 - INFO - Saved page source: images/debug_test_questions_1769319226.html
+2026-01-25 10:33:46,255 - INFO - Attempting question 1 of 5
+2026-01-25 10:33:46,274 - INFO - Found main content area
+2026-01-25 10:33:46,291 - INFO - Found question via regex: 1.What is the main characteristic of empirical research?...
+2026-01-25 10:33:46,292 - INFO - Question: 1.What is the main characteristic of empirical research?...
+2026-01-25 10:33:46,295 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:33:46,299 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:33:46,348 - INFO - Found 4 unique options: ['It relies solely on theoretical frameworks', 'It is based on philosophical speculation', 'It focuses on creative narratives', 'It uses observation and evidence']
+2026-01-25 10:33:46,348 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 10:33:46,726 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 403 Forbidden"
+2026-01-25 10:33:46,728 - ERROR - AI error: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Please use another API key.', 'status': 'PERMISSION_DENIED'}}. Defaulting to first option.
+2026-01-25 10:33:46,729 - INFO - Selecting answer 1: It relies solely on theoretical frameworks...
+2026-01-25 10:33:46,738 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 10:33:46,745 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'It relies solely on theoretical frameworks'
+2026-01-25 10:33:46,751 - INFO - Comparing option text: '1' vs 'It relies solely on theoretical frameworks'
+2026-01-25 10:33:46,755 - INFO - Comparing option text: '2' vs 'It relies solely on theoretical frameworks'
+2026-01-25 10:33:46,759 - INFO - Comparing option text: '3' vs 'It relies solely on theoretical frameworks'
+2026-01-25 10:33:46,762 - INFO - Comparing option text: '4' vs 'It relies solely on theoretical frameworks'
+2026-01-25 10:33:46,766 - INFO - Comparing option text: '5' vs 'It relies solely on theoretical frameworks'
+2026-01-25 10:33:46,769 - INFO - Comparing option text: 'It relies solely on theoretical frameworks' vs 'It relies solely on theoretical frameworks'
+2026-01-25 10:33:46,769 - INFO - Re-found option element for: It relies solely on theoretica...
+2026-01-25 10:33:47,275 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001049a8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001049a08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000104486890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x000000010448cad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x000000010448f008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000104510010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010450f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001044c40e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000104967620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x000000010496ad5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x000000010494c9c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x000000010496b5e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x000000010493c990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x000000010498f9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x000000010498fb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x00000001049a050c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 10:33:47,296 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 10:33:48,340 - INFO - Retry click succeeded!
+2026-01-25 10:33:49,434 - INFO - Clicking: Next
+2026-01-25 10:33:51,444 - INFO - Successfully answered question 1
+2026-01-25 10:33:53,445 - INFO - Attempting question 2 of 5
+2026-01-25 10:33:53,472 - INFO - Found main content area
+2026-01-25 10:33:53,494 - INFO - Found question via regex: 2.Which type of question examines how social phenomena change over time?...
+2026-01-25 10:33:53,494 - INFO - Question: 2.Which type of question examines how social phenomena change over time?...
+2026-01-25 10:33:53,496 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:33:53,499 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:33:53,550 - INFO - Trying fallback method for option detection
+2026-01-25 10:33:53,727 - WARNING - No answer options found using any method
+2026-01-25 10:33:53,727 - WARNING - Failed to answer question 2, continuing to next...
+2026-01-25 10:33:53,790 - INFO - Clicking Next to skip to next question
+2026-01-25 10:33:57,799 - INFO - Attempting question 3 of 5
+2026-01-25 10:33:57,827 - INFO - Found main content area
+2026-01-25 10:33:57,849 - INFO - Found question via regex: 2.Which type of question examines how social phenomena change over time?...
+2026-01-25 10:33:57,849 - INFO - Question: 2.Which type of question examines how social phenomena change over time?...
+2026-01-25 10:33:57,851 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:33:57,854 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:33:57,908 - INFO - Trying fallback method for option detection
+2026-01-25 10:33:58,080 - WARNING - No answer options found using any method
+2026-01-25 10:33:58,080 - WARNING - Failed to answer question 3, continuing to next...
+2026-01-25 10:33:58,142 - INFO - Clicking Next to skip to next question
+2026-01-25 10:34:02,151 - INFO - Attempting question 4 of 5
+2026-01-25 10:34:02,176 - INFO - Found main content area
+2026-01-25 10:34:02,208 - INFO - Found question via regex: 1.What is an example of a developmental research question?...
+2026-01-25 10:34:02,208 - INFO - Question: 1.What is an example of a developmental research question?...
+2026-01-25 10:34:02,210 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:34:02,212 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:34:02,256 - INFO - Found 4 unique options: ["'How has the unemployment rate changed over the past decade?'", "'Why is the unemployment rate higher in urban areas?'", "'What is the unemployment rate in rural areas?'", "'How do rural and urban unemployment rates compare?'"]
+2026-01-25 10:34:02,256 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 10:34:02,713 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 403 Forbidden"
+2026-01-25 10:34:02,714 - ERROR - AI error: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Please use another API key.', 'status': 'PERMISSION_DENIED'}}. Defaulting to first option.
+2026-01-25 10:34:02,714 - INFO - Selecting answer 1: 'How has the unemployment rate changed over the pa...
+2026-01-25 10:34:02,722 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 10:34:02,728 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs ''How has the unemployment rate changed over the past decade?''
+2026-01-25 10:34:02,733 - INFO - Comparing option text: '1' vs ''How has the unemployment rate changed over the past decade?''
+2026-01-25 10:34:02,737 - INFO - Comparing option text: '2' vs ''How has the unemployment rate changed over the past decade?''
+2026-01-25 10:34:02,740 - INFO - Comparing option text: '3' vs ''How has the unemployment rate changed over the past decade?''
+2026-01-25 10:34:02,744 - INFO - Comparing option text: '4' vs ''How has the unemployment rate changed over the past decade?''
+2026-01-25 10:34:02,747 - INFO - Comparing option text: '5' vs ''How has the unemployment rate changed over the past decade?''
+2026-01-25 10:34:02,750 - INFO - Comparing option text: ''How has the unemployment rate changed over the past decade?'' vs ''How has the unemployment rate changed over the past decade?''
+2026-01-25 10:34:02,751 - INFO - Re-found option element for: 'How has the unemployment rate...
+2026-01-25 10:34:03,791 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 10:34:04,844 - INFO - Retry click succeeded!
+2026-01-25 10:34:05,932 - INFO - Clicking: Next
+2026-01-25 10:34:07,940 - INFO - Successfully answered question 4
+2026-01-25 10:34:09,942 - INFO - Attempting question 5 of 5
+2026-01-25 10:34:09,968 - INFO - Found main content area
+2026-01-25 10:34:09,990 - INFO - Found question via regex: 2.Which type of research question asks 'What happened?...
+2026-01-25 10:34:09,991 - INFO - Question: 2.Which type of research question asks 'What happened?...
+2026-01-25 10:34:09,993 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 10:34:09,996 - INFO - Found 14 cursor-pointer divs
+2026-01-25 10:34:10,045 - INFO - Trying fallback method for option detection
+2026-01-25 10:34:10,220 - WARNING - No answer options found using any method
+2026-01-25 10:34:10,220 - WARNING - Failed to answer question 5, continuing to next...
+2026-01-25 10:34:10,282 - INFO - Clicking Next to skip to next question
+2026-01-25 10:34:14,292 - INFO - Answered 2 out of 5 questions
+2026-01-25 10:34:14,292 - INFO - Looking for submit button...
+2026-01-25 10:34:14,385 - INFO - Clicking submit button: 'Finish the test'
+2026-01-25 10:34:16,392 - INFO - Lesson processing complete!
+2026-01-25 10:34:16,516 - INFO - WebDriver closed

@@ -2,3 +2,5 @@ selenium
 python-dotenv
 webdriver-manager
 google-genai
+psycopg2-binary
+sqlalchemy

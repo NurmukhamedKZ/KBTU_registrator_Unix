@@ -23,6 +23,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 from selenium.webdriver.common.action_chains import ActionChains
 
 from ai_helper import AIHelper
+from db_models import DatabaseManager
 
 # Configure logging
 logging.basicConfig(
@@ -57,6 +58,9 @@ class UniXAgent:
         self.driver = None
         self.wait = None
         self.ai_helper = None
+        self.db_manager = None
+        self.current_lesson_name = None  # Track current lesson for context
+        self.current_lesson_url = None
         
     def setup_driver(self):
         """Set up the Chrome WebDriver with anti-detection measures."""
@@ -141,6 +145,25 @@ class UniXAgent:
         except ValueError as e:
             logger.warning(f"AI Helper not available: {e}")
             logger.warning("Tests will require manual intervention")
+    
+    def setup_database(self):
+        """Initialize the database connection for storing questions/answers."""
+        try:
+            database_url = os.getenv("DATABASE_URL")
+            if database_url:
+                self.db_manager = DatabaseManager(database_url)
+                # Test connection
+                if self.db_manager.test_connection():
+                    logger.info("Database connection established successfully")
+                else:
+                    logger.warning("Database connection test failed")
+                    self.db_manager = None
+            else:
+                logger.info("No DATABASE_URL found, continuing without database storage")
+        except Exception as e:
+            logger.warning(f"Database initialization failed: {e}")
+            logger.warning("Continuing without database storage")
+            self.db_manager = None
     
     def login(self) -> bool:
         """
@@ -784,6 +807,24 @@ class UniXAgent:
                 logger.warning("AI not available, selecting first option")
                 answer_idx = 0
             
+            # Save question and answers to database BEFORE clicking
+            if self.db_manager and answer_idx < len(options):
+                try:
+                    success = self.db_manager.save_question_with_answers(
+                        user_email=self.email,
+                        question_text=question_text,
+                        answer_options=options,
+                        selected_answer_idx=answer_idx,
+                        lesson_name=self.current_lesson_name,
+                        lesson_url=self.current_lesson_url
+                    )
+                    if success:
+                        logger.info("Question and answers saved to database")
+                    else:
+                        logger.warning("Failed to save question to database")
+                except Exception as e:
+                    logger.error(f"Error saving to database: {e}")
+            
             # Click the answer - re-find element to avoid stale reference
             if answer_idx < len(options):
                 selected_option_text = options[answer_idx]
@@ -960,6 +1001,8 @@ class UniXAgent:
             True if lesson processed successfully
         """
         logger.info(f"Processing lesson: {lesson_name}")
+        self.current_lesson_name = lesson_name
+        self.current_lesson_url = self.driver.current_url  # Initial URL
         
         # Click on the lesson
         try:
@@ -974,6 +1017,7 @@ class UniXAgent:
             if target_lesson:
                 self.driver.execute_script("arguments[0].click();", target_lesson["element"])
                 time.sleep(3)
+                self.current_lesson_url = self.driver.current_url  # Update URL after navigation
         except:
             pass
         
@@ -992,6 +1036,7 @@ class UniXAgent:
         try:
             self.setup_driver()
             self.setup_ai()
+            self.setup_database()
             
             if not self.login():
                 logger.error("Failed to login. Exiting.")
@@ -1031,13 +1076,15 @@ class UniXAgent:
             timestamp = int(time.time())
             
             # Save screenshot
-            self.driver.save_screenshot(f"debug_{prefix}_{timestamp}.png")
-            logger.info(f"Saved screenshot: debug_{prefix}_{timestamp}.png")
+            screenshot_path = f"images/debug_{prefix}_{timestamp}.png"
+            self.driver.save_screenshot(screenshot_path)
+            logger.info(f"Saved screenshot: {screenshot_path}")
             
             # Save page source
-            with open(f"debug_{prefix}_{timestamp}.html", "w", encoding="utf-8") as f:
+            html_path = f"images/debug_{prefix}_{timestamp}.html"
+            with open(html_path, "w", encoding="utf-8") as f:
                 f.write(self.driver.page_source)
-            logger.info(f"Saved page source: debug_{prefix}_{timestamp}.html")
+            logger.info(f"Saved page source: {html_path}")
             
         except Exception as e:
             logger.error(f"Failed to save debug info: {e}")

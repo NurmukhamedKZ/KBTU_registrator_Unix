@@ -10,6 +10,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
+
+
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -83,7 +86,8 @@ def login(driver, username, password):
             # Fallback for Vaadin specific structure if needed or if username is not 'text'
             # Sometimes username is the first visible input
              logging.warning("Could not clearly identify user/pass inputs. Dumping page source.")
-             with open("debug_page_source.html", "w", encoding="utf-8") as f:
+             html_path = "images/debug_page_source.html"
+             with open(html_path, "w", encoding="utf-8") as f:
                  f.write(driver.page_source)
              raise NoSuchElementException("Username or Password field not identified uniquely.")
 
@@ -162,12 +166,14 @@ def login(driver, username, password):
         logging.info(f"Page Title: {driver.title}")
         
         try:
-            with open("debug_page_source.html", "w", encoding="utf-8") as f:
+            html_path = "images/debug_page_source.html"
+            with open(html_path, "w", encoding="utf-8") as f:
                 f.write(driver.page_source)
-            logging.info("Saved debug_page_source.html")
+            logging.info(f"Saved {html_path}")
             
-            driver.save_screenshot("debug_screenshot.png")
-            logging.info("Saved debug_screenshot.png")
+            screenshot_path = "images/debug_screenshot.png"
+            driver.save_screenshot(screenshot_path)
+            logging.info(f"Saved {screenshot_path}")
         except Exception as dump_e:
             logging.error(f"Failed to save debug info: {dump_e}")
             
