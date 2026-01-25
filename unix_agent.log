@@ -2399,3 +2399,1234 @@ Stacktrace:
 2026-01-25 10:39:03,602 - INFO - Clicking submit button: 'Finish the test'
 2026-01-25 10:39:05,608 - INFO - Lesson processing complete!
 2026-01-25 10:39:05,717 - INFO - WebDriver closed
+2026-01-25 10:54:05,573 - ERROR - UNIX_EMAIL and UNIX_PASSWORD must be set in .env file
+2026-01-25 10:54:10,623 - ERROR - UNIX_EMAIL and UNIX_PASSWORD must be set in .env file
+2026-01-25 11:03:07,821 - INFO - ====== WebDriver manager ======
+2026-01-25 11:03:08,879 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 11:03:09,271 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 11:03:09,621 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-25 11:03:11,005 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-25 11:03:11,088 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-25 11:03:11,088 - INFO - AI Helper initialized successfully
+2026-01-25 11:03:11,088 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-25 11:03:15,189 - INFO - Looking for login elements...
+2026-01-25 11:03:15,209 - INFO - Entering credentials...
+2026-01-25 11:03:15,951 - INFO - Clicking login button: 'Sign in'
+2026-01-25 11:03:15,965 - INFO - Waiting for login to complete...
+2026-01-25 11:03:16,476 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-25 11:03:18,486 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-25 11:03:18,487 - INFO - Login successful! (redirected from login page)
+2026-01-25 11:03:18,487 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9843
+2026-01-25 11:03:21,741 - INFO - Skipping video (--skip-video flag set)
+2026-01-25 11:03:21,742 - INFO - Looking for test button...
+2026-01-25 11:03:21,861 - INFO - Found test button: 'Test task'
+2026-01-25 11:03:21,870 - INFO - Waiting for test page to load...
+2026-01-25 11:03:24,875 - INFO - Looking for 'Start the test' button...
+2026-01-25 11:03:25,019 - INFO - Found button: 'Start the test'
+2026-01-25 11:03:25,023 - INFO - Clicked start/restart button
+2026-01-25 11:03:25,023 - INFO - Waiting for questions to load...
+2026-01-25 11:03:30,147 - INFO - Saved screenshot: images/debug_test_questions_1769321010.png
+2026-01-25 11:03:30,152 - INFO - Saved page source: images/debug_test_questions_1769321010.html
+2026-01-25 11:03:30,152 - INFO - Attempting question 1 of 5
+2026-01-25 11:03:30,168 - INFO - Found main content area
+2026-01-25 11:03:30,185 - INFO - Found question via regex: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:30,185 - INFO - Question: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:30,189 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:03:30,197 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:03:30,250 - INFO - Trying fallback method for option detection
+2026-01-25 11:03:30,543 - WARNING - No answer options found using any method
+2026-01-25 11:03:30,543 - WARNING - Failed to answer question 1, continuing to next...
+2026-01-25 11:03:30,616 - INFO - Clicking Next to skip to next question
+2026-01-25 11:03:34,626 - INFO - Attempting question 2 of 5
+2026-01-25 11:03:34,652 - INFO - Found main content area
+2026-01-25 11:03:34,675 - INFO - Found question via regex: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:34,675 - INFO - Question: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:34,677 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:03:34,680 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:03:34,733 - INFO - Trying fallback method for option detection
+2026-01-25 11:03:35,012 - WARNING - No answer options found using any method
+2026-01-25 11:03:35,012 - WARNING - Failed to answer question 2, continuing to next...
+2026-01-25 11:03:35,082 - INFO - Clicking Next to skip to next question
+2026-01-25 11:03:39,092 - INFO - Attempting question 3 of 5
+2026-01-25 11:03:39,119 - INFO - Found main content area
+2026-01-25 11:03:39,142 - INFO - Found question via regex: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:39,142 - INFO - Question: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:39,144 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:03:39,147 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:03:39,197 - INFO - Trying fallback method for option detection
+2026-01-25 11:03:39,475 - WARNING - No answer options found using any method
+2026-01-25 11:03:39,475 - WARNING - Failed to answer question 3, continuing to next...
+2026-01-25 11:03:39,540 - INFO - Clicking Next to skip to next question
+2026-01-25 11:03:43,550 - INFO - Attempting question 4 of 5
+2026-01-25 11:03:43,576 - INFO - Found main content area
+2026-01-25 11:03:43,602 - INFO - Found question via regex: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:43,602 - INFO - Question: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:43,605 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:03:43,608 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:03:43,659 - INFO - Trying fallback method for option detection
+2026-01-25 11:03:43,933 - WARNING - No answer options found using any method
+2026-01-25 11:03:43,933 - WARNING - Failed to answer question 4, continuing to next...
+2026-01-25 11:03:43,999 - INFO - Clicking Next to skip to next question
+2026-01-25 11:03:48,008 - INFO - Attempting question 5 of 5
+2026-01-25 11:03:48,035 - INFO - Found main content area
+2026-01-25 11:03:48,058 - INFO - Found question via regex: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:48,058 - INFO - Question: 1.Which type of question examines how social phenomena change over time?...
+2026-01-25 11:03:48,061 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:03:48,063 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:03:48,113 - INFO - Trying fallback method for option detection
+2026-01-25 11:03:48,359 - WARNING - No answer options found using any method
+2026-01-25 11:03:48,359 - WARNING - Failed to answer question 5, continuing to next...
+2026-01-25 11:03:48,423 - INFO - Clicking Next to skip to next question
+2026-01-25 11:03:52,435 - INFO - Answered 0 out of 5 questions
+2026-01-25 11:03:52,435 - INFO - Lesson processing complete!
+2026-01-25 11:03:52,554 - INFO - WebDriver closed
+2026-01-25 11:04:17,782 - INFO - ====== WebDriver manager ======
+2026-01-25 11:04:18,763 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 11:04:19,118 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 11:04:19,459 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-25 11:04:20,829 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-25 11:04:20,915 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-25 11:04:20,915 - INFO - AI Helper initialized successfully
+2026-01-25 11:04:20,915 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-25 11:04:25,025 - INFO - Looking for login elements...
+2026-01-25 11:04:25,036 - INFO - Entering credentials...
+2026-01-25 11:04:25,784 - INFO - Clicking login button: 'Sign in'
+2026-01-25 11:04:25,788 - INFO - Waiting for login to complete...
+2026-01-25 11:04:26,296 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-25 11:04:28,298 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-25 11:04:28,298 - INFO - Login successful! (redirected from login page)
+2026-01-25 11:04:28,298 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9843
+2026-01-25 11:04:31,467 - INFO - Skipping video (--skip-video flag set)
+2026-01-25 11:04:31,467 - INFO - Looking for test button...
+2026-01-25 11:04:31,575 - INFO - Found test button: 'Finish the test'
+2026-01-25 11:04:31,576 - INFO - Waiting for test page to load...
+2026-01-25 11:04:34,581 - INFO - Looking for 'Start the test' button...
+2026-01-25 11:04:34,722 - INFO - Found button: 'Restart'
+2026-01-25 11:04:34,725 - INFO - Clicked start/restart button
+2026-01-25 11:04:34,725 - INFO - Waiting for questions to load...
+2026-01-25 11:04:39,887 - INFO - Saved screenshot: images/debug_test_questions_1769321079.png
+2026-01-25 11:04:39,892 - INFO - Saved page source: images/debug_test_questions_1769321079.html
+2026-01-25 11:04:39,892 - INFO - Attempting question 1 of 5
+2026-01-25 11:04:39,907 - INFO - Found main content area
+2026-01-25 11:04:39,924 - INFO - Found question via regex: 1.What do comparative questions focus on?...
+2026-01-25 11:04:39,924 - INFO - Question: 1.What do comparative questions focus on?...
+2026-01-25 11:04:39,927 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:04:39,931 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:04:39,983 - INFO - Found 4 unique options: ['Explaining underlying factors of phenomena', 'Comparing different social phenomena across contexts', 'Examining temporal changes in phenomena', 'Uncovering factual information']
+2026-01-25 11:04:39,983 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 11:04:42,516 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 11:04:42,520 - INFO - AI selected answer 2: Comparing different social phenomena across contex...
+2026-01-25 11:04:42,520 - INFO - Selecting answer 2: Comparing different social phenomena across contex...
+2026-01-25 11:04:42,528 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 11:04:42,534 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,539 - INFO - Comparing option text: '1' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,544 - INFO - Comparing option text: '2' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,548 - INFO - Comparing option text: '3' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,551 - INFO - Comparing option text: '4' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,554 - INFO - Comparing option text: '5' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,558 - INFO - Comparing option text: 'Explaining underlying factors of phenomena' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,561 - INFO - Comparing option text: '' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,563 - INFO - Comparing option text: 'Comparing different social phenomena across contexts' vs 'Comparing different social phenomena across contexts'
+2026-01-25 11:04:42,563 - INFO - Re-found option element for: Comparing different social phe...
+2026-01-25 11:04:43,073 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001cf008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000100250010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:04:43,092 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 11:04:44,151 - INFO - Retry click succeeded!
+2026-01-25 11:04:45,254 - INFO - Clicking: Next
+2026-01-25 11:04:47,263 - INFO - Successfully answered question 1
+2026-01-25 11:04:49,268 - INFO - Attempting question 2 of 5
+2026-01-25 11:04:49,299 - INFO - Found main content area
+2026-01-25 11:04:49,321 - INFO - Found question via regex: 2.What method would be used to collect data in empirical research?...
+2026-01-25 11:04:49,321 - INFO - Question: 2.What method would be used to collect data in empirical research?...
+2026-01-25 11:04:49,324 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:04:49,326 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:04:49,375 - INFO - Found 4 unique options: ['Surveys and experiments', 'Speculative reasoning', 'Historical comparisons', 'Philosophical debates']
+2026-01-25 11:04:49,375 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 11:04:51,832 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 11:04:51,833 - INFO - AI selected answer 1: Surveys and experiments...
+2026-01-25 11:04:51,833 - INFO - Selecting answer 1: Surveys and experiments...
+2026-01-25 11:04:51,841 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 11:04:51,847 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Surveys and experiments'
+2026-01-25 11:04:51,852 - INFO - Comparing option text: '1' vs 'Surveys and experiments'
+2026-01-25 11:04:51,856 - INFO - Comparing option text: '2' vs 'Surveys and experiments'
+2026-01-25 11:04:51,862 - INFO - Comparing option text: '3' vs 'Surveys and experiments'
+2026-01-25 11:04:51,866 - INFO - Comparing option text: '4' vs 'Surveys and experiments'
+2026-01-25 11:04:51,869 - INFO - Comparing option text: '5' vs 'Surveys and experiments'
+2026-01-25 11:04:51,871 - INFO - Comparing option text: 'Surveys and experiments' vs 'Surveys and experiments'
+2026-01-25 11:04:51,872 - INFO - Re-found option element for: Surveys and experiments...
+2026-01-25 11:04:52,381 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001d84e0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 148056
+4   chromedriver                        0x00000001001d7110 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 142984
+5   chromedriver                        0x00000001001cd388 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 102656
+6   chromedriver                        0x00000001001cd494 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 102924
+7   chromedriver                        0x00000001001cbb0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 96388
+8   chromedriver                        0x00000001001cf008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+9   chromedriver                        0x0000000100250010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+10  chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+11  chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+12  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+13  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+14  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+15  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+16  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+17  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+18  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+19  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+20  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:04:52,400 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 11:04:53,455 - INFO - Retry click succeeded!
+2026-01-25 11:04:54,550 - INFO - Clicking: Next
+2026-01-25 11:04:56,559 - INFO - Successfully answered question 2
+2026-01-25 11:04:58,564 - INFO - Attempting question 3 of 5
+2026-01-25 11:04:58,594 - INFO - Found main content area
+2026-01-25 11:04:58,617 - INFO - Found question via regex: 3.What do theoretical approaches aim to provide in social sciences?...
+2026-01-25 11:04:58,617 - INFO - Question: 3.What do theoretical approaches aim to provide in social sciences?...
+2026-01-25 11:04:58,619 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:04:58,622 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:04:58,671 - INFO - Found 4 unique options: ['Empirical data for analysis', 'A focus on cultural traditions', 'Comparative case studies', 'Systematic explanations of social phenomena']
+2026-01-25 11:04:58,671 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 11:05:01,602 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 11:05:01,605 - INFO - AI selected answer 4: Systematic explanations of social phenomena...
+2026-01-25 11:05:01,605 - INFO - Selecting answer 4: Systematic explanations of social phenomena...
+2026-01-25 11:05:01,614 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 11:05:01,623 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,630 - INFO - Comparing option text: '1' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,636 - INFO - Comparing option text: '2' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,640 - INFO - Comparing option text: '3' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,644 - INFO - Comparing option text: '4' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,647 - INFO - Comparing option text: '5' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,650 - INFO - Comparing option text: 'Empirical data for analysis' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,653 - INFO - Comparing option text: '' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,656 - INFO - Comparing option text: 'A focus on cultural traditions' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,659 - INFO - Comparing option text: '' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,662 - INFO - Comparing option text: 'Comparative case studies' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,665 - INFO - Comparing option text: '' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,667 - INFO - Comparing option text: 'Systematic explanations of social phenomena' vs 'Systematic explanations of social phenomena'
+2026-01-25 11:05:01,667 - INFO - Re-found option element for: Systematic explanations of soc...
+2026-01-25 11:05:02,707 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 11:05:03,777 - INFO - Retry click succeeded!
+2026-01-25 11:05:04,881 - INFO - Clicking: Next
+2026-01-25 11:05:06,890 - INFO - Successfully answered question 3
+2026-01-25 11:05:08,896 - INFO - Attempting question 4 of 5
+2026-01-25 11:05:08,926 - INFO - Found main content area
+2026-01-25 11:05:08,948 - INFO - Found question via regex: 4.What is the cornerstone of social sciences?...
+2026-01-25 11:05:08,948 - INFO - Question: 4.What is the cornerstone of social sciences?...
+2026-01-25 11:05:08,951 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:05:08,954 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:05:09,004 - INFO - Found 4 unique options: ['Historical narratives', 'Theoretical models', 'Cultural traditions', 'Research methods and tools']
+2026-01-25 11:05:09,004 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 11:05:15,319 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 11:05:15,322 - INFO - AI selected answer 4: Research methods and tools...
+2026-01-25 11:05:15,322 - INFO - Selecting answer 4: Research methods and tools...
+2026-01-25 11:05:15,331 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 11:05:15,339 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Research methods and tools'
+2026-01-25 11:05:15,346 - INFO - Comparing option text: '1' vs 'Research methods and tools'
+2026-01-25 11:05:15,353 - INFO - Comparing option text: '2' vs 'Research methods and tools'
+2026-01-25 11:05:15,357 - INFO - Comparing option text: '3' vs 'Research methods and tools'
+2026-01-25 11:05:15,365 - INFO - Comparing option text: '4' vs 'Research methods and tools'
+2026-01-25 11:05:15,371 - INFO - Comparing option text: '5' vs 'Research methods and tools'
+2026-01-25 11:05:15,374 - INFO - Comparing option text: 'Historical narratives' vs 'Research methods and tools'
+2026-01-25 11:05:15,378 - INFO - Comparing option text: '' vs 'Research methods and tools'
+2026-01-25 11:05:15,380 - INFO - Comparing option text: 'Theoretical models' vs 'Research methods and tools'
+2026-01-25 11:05:15,383 - INFO - Comparing option text: '' vs 'Research methods and tools'
+2026-01-25 11:05:15,388 - INFO - Comparing option text: 'Cultural traditions' vs 'Research methods and tools'
+2026-01-25 11:05:15,390 - INFO - Comparing option text: '' vs 'Research methods and tools'
+2026-01-25 11:05:15,394 - INFO - Comparing option text: 'Research methods and tools' vs 'Research methods and tools'
+2026-01-25 11:05:15,395 - INFO - Re-found option element for: Research methods and tools...
+2026-01-25 11:05:15,906 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001cf008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x0000000100250010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:15,929 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 11:05:16,999 - INFO - Retry click succeeded!
+2026-01-25 11:05:18,092 - INFO - Clicking: Next
+2026-01-25 11:05:20,102 - INFO - Successfully answered question 4
+2026-01-25 11:05:22,102 - INFO - Attempting question 5 of 5
+2026-01-25 11:05:22,116 - INFO - Found main content area
+2026-01-25 11:05:22,134 - INFO - Found question via regex: 5.What is the main characteristic of empirical research?...
+2026-01-25 11:05:22,134 - INFO - Question: 5.What is the main characteristic of empirical research?...
+2026-01-25 11:05:22,139 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 11:05:22,141 - INFO - Found 14 cursor-pointer divs
+2026-01-25 11:05:22,192 - INFO - Found 4 unique options: ['It focuses on creative narratives', 'It uses observation and evidence', 'It relies solely on theoretical frameworks', 'It is based on philosophical speculation']
+2026-01-25 11:05:22,192 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 11:05:23,988 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 11:05:23,990 - INFO - AI selected answer 2: It uses observation and evidence...
+2026-01-25 11:05:23,990 - INFO - Selecting answer 2: It uses observation and evidence...
+2026-01-25 11:05:24,004 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 11:05:24,014 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'It uses observation and evidence'
+2026-01-25 11:05:24,021 - INFO - Comparing option text: '1' vs 'It uses observation and evidence'
+2026-01-25 11:05:24,025 - INFO - Comparing option text: '2' vs 'It uses observation and evidence'
+2026-01-25 11:05:24,029 - INFO - Comparing option text: '3' vs 'It uses observation and evidence'
+2026-01-25 11:05:24,032 - INFO - Comparing option text: '4' vs 'It uses observation and evidence'
+2026-01-25 11:05:24,035 - INFO - Comparing option text: '5' vs 'It uses observation and evidence'
+2026-01-25 11:05:24,040 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,043 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,046 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,049 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,052 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,056 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,058 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,061 - WARNING - Error getting text from div: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001006e8640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x00000001006e08b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001001c6890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001001ccad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001001ced54 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109260
+5   chromedriver                        0x00000001001cee0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109444
+6   chromedriver                        0x000000010020af0c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 355460
+7   chromedriver                        0x00000001002057a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+8   chromedriver                        0x000000010024f064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+9   chromedriver                        0x00000001002040e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+10  chromedriver                        0x00000001006a7620 cxxbridge1$str$ptr + 2821448
+11  chromedriver                        0x00000001006aad5c cxxbridge1$str$ptr + 2835588
+12  chromedriver                        0x000000010068c9c4 cxxbridge1$str$ptr + 2711788
+13  chromedriver                        0x00000001006ab5e0 cxxbridge1$str$ptr + 2837768
+14  chromedriver                        0x000000010067c990 cxxbridge1$str$ptr + 2646200
+15  chromedriver                        0x00000001006cf9bc cxxbridge1$str$ptr + 2986212
+16  chromedriver                        0x00000001006cfb38 cxxbridge1$str$ptr + 2986592
+17  chromedriver                        0x00000001006e050c cxxbridge1$str$ptr + 3054644
+18  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+19  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 11:05:24,061 - INFO - Trying XPath to find option by text
+2026-01-25 11:05:24,066 - INFO - Found using XPath exact match
+2026-01-25 11:05:25,100 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 11:05:26,148 - INFO - Retry click succeeded!
+2026-01-25 11:05:27,244 - INFO - Clicking: Next
+2026-01-25 11:05:29,254 - INFO - Successfully answered question 5
+2026-01-25 11:05:31,260 - INFO - Answered 5 out of 5 questions
+2026-01-25 11:05:31,260 - INFO - Looking for submit button...
+2026-01-25 11:05:31,363 - INFO - Clicking submit button: 'Send'
+2026-01-25 11:05:33,382 - INFO - Lesson processing complete!
+2026-01-25 11:05:33,504 - INFO - WebDriver closed
+2026-01-25 13:51:39,041 - INFO - ====== WebDriver manager ======
+2026-01-25 13:51:40,156 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 13:51:40,580 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 13:51:40,954 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-25 13:51:42,363 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-25 13:51:42,448 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-25 13:51:42,448 - INFO - AI Helper initialized successfully
+2026-01-25 13:51:45,536 - INFO - Database tables created successfully
+2026-01-25 13:51:45,537 - INFO - Database initialized successfully
+2026-01-25 13:51:46,014 - INFO - Database connection test successful
+2026-01-25 13:51:46,015 - INFO - Database connection established successfully
+2026-01-25 13:51:46,015 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-25 13:51:52,932 - INFO - Looking for login elements...
+2026-01-25 13:51:52,940 - INFO - Entering credentials...
+2026-01-25 13:51:53,734 - INFO - Clicking login button: 'Sign in'
+2026-01-25 13:51:53,740 - INFO - Waiting for login to complete...
+2026-01-25 13:51:54,252 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-25 13:51:56,274 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-25 13:51:56,274 - INFO - Login successful! (redirected from login page)
+2026-01-25 13:51:56,274 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9844
+2026-01-25 13:51:59,473 - INFO - Looking for video player...
+2026-01-25 13:51:59,537 - INFO - Clicked play button
+2026-01-25 13:51:59,538 - INFO - Watching video...
+2026-01-25 13:51:59,543 - INFO - Video progress: 0.0% (0s / 340s)
+2026-01-25 13:52:29,560 - INFO - Video progress: 8.8% (30s / 340s)
+2026-01-25 13:52:59,572 - INFO - Video progress: 17.6% (60s / 340s)
+2026-01-25 13:53:29,592 - INFO - Video progress: 26.4% (90s / 340s)
+2026-01-25 13:53:59,611 - INFO - Video progress: 35.3% (120s / 340s)
+2026-01-25 13:54:29,629 - INFO - Video progress: 44.1% (150s / 340s)
+2026-01-25 13:54:59,645 - INFO - Video progress: 52.9% (180s / 340s)
+2026-01-25 13:55:29,662 - INFO - Video progress: 61.7% (210s / 340s)
+2026-01-25 13:55:59,681 - INFO - Video progress: 70.5% (240s / 340s)
+2026-01-25 13:56:29,699 - INFO - Video progress: 79.4% (270s / 340s)
+2026-01-25 13:56:59,714 - INFO - Video progress: 88.2% (300s / 340s)
+2026-01-25 13:57:29,726 - INFO - Video progress: 97.0% (330s / 340s)
+2026-01-25 13:57:59,733 - INFO - Video completed!
+2026-01-25 13:57:59,733 - INFO - Looking for test button...
+2026-01-25 13:57:59,787 - INFO - Found test button: 'Go to test'
+2026-01-25 13:57:59,797 - INFO - Waiting for test page to load...
+2026-01-25 13:58:02,802 - INFO - Looking for 'Start the test' button...
+2026-01-25 13:58:02,944 - INFO - Found button: 'Start the test'
+2026-01-25 13:58:02,948 - INFO - Clicked start/restart button
+2026-01-25 13:58:02,948 - INFO - Waiting for questions to load...
+2026-01-25 13:58:08,118 - INFO - Saved screenshot: images/debug_test_questions_1769331487.png
+2026-01-25 13:58:08,126 - INFO - Saved page source: images/debug_test_questions_1769331487.html
+2026-01-25 13:58:08,126 - INFO - Attempting question 1 of 5
+2026-01-25 13:58:08,143 - INFO - Found main content area
+2026-01-25 13:58:08,165 - INFO - Found question via regex: 1.What approach focuses on measurable, external aspects of social problems?...
+2026-01-25 13:58:08,165 - INFO - Question: 1.What approach focuses on measurable, external aspects of social problems?...
+2026-01-25 13:58:08,169 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 13:58:08,173 - INFO - Found 14 cursor-pointer divs
+2026-01-25 13:58:08,225 - INFO - Found 4 unique options: ['Comparative approach', 'Objectivist approach', 'Developmental approach', 'Social constructionist approach']
+2026-01-25 13:58:08,225 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 13:58:10,749 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 13:58:10,754 - INFO - AI selected answer 2: Objectivist approach...
+2026-01-25 13:58:11,635 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 13:58:11,636 - INFO - Question and answers saved to database
+2026-01-25 13:58:11,636 - INFO - Selecting answer 2: Objectivist approach...
+2026-01-25 13:58:11,645 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 13:58:11,654 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Objectivist approach'
+2026-01-25 13:58:11,660 - INFO - Comparing option text: '1' vs 'Objectivist approach'
+2026-01-25 13:58:11,665 - INFO - Comparing option text: '2' vs 'Objectivist approach'
+2026-01-25 13:58:11,669 - INFO - Comparing option text: '3' vs 'Objectivist approach'
+2026-01-25 13:58:11,672 - INFO - Comparing option text: '4' vs 'Objectivist approach'
+2026-01-25 13:58:11,676 - INFO - Comparing option text: '5' vs 'Objectivist approach'
+2026-01-25 13:58:11,679 - INFO - Comparing option text: 'Comparative approach' vs 'Objectivist approach'
+2026-01-25 13:58:11,681 - INFO - Comparing option text: '' vs 'Objectivist approach'
+2026-01-25 13:58:11,684 - INFO - Comparing option text: 'Objectivist approach' vs 'Objectivist approach'
+2026-01-25 13:58:11,684 - INFO - Re-found option element for: Objectivist approach...
+2026-01-25 13:58:12,197 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100c04640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000100bfc8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001006e2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001006e8ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001006eb008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x000000010076c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010076b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001007200e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000100bc3620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000100bc6d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000100ba89c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000100bc75e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000100b98990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000100beb9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000100bebb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000100bfc50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 13:58:12,229 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 13:58:13,287 - INFO - Retry click succeeded!
+2026-01-25 13:58:14,382 - INFO - Clicking: Next
+2026-01-25 13:58:16,387 - INFO - Successfully answered question 1
+2026-01-25 13:58:18,390 - INFO - Attempting question 2 of 5
+2026-01-25 13:58:18,419 - INFO - Found main content area
+2026-01-25 13:58:18,440 - INFO - Found question via regex: 2.What is an example of an objective indicator of poverty?...
+2026-01-25 13:58:18,440 - INFO - Question: 2.What is an example of an objective indicator of poverty?...
+2026-01-25 13:58:18,443 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 13:58:18,445 - INFO - Found 14 cursor-pointer divs
+2026-01-25 13:58:18,494 - INFO - Found 4 unique options: ['Cultural narratives about poverty', 'Public opinion surveys on poverty', 'Media coverage of poverty issues', 'Statistics on access to basic necessities']
+2026-01-25 13:58:18,494 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 13:58:21,481 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 13:58:21,482 - INFO - AI selected answer 4: Statistics on access to basic necessities...
+2026-01-25 13:58:22,196 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 13:58:22,196 - INFO - Question and answers saved to database
+2026-01-25 13:58:22,196 - INFO - Selecting answer 4: Statistics on access to basic necessities...
+2026-01-25 13:58:22,204 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 13:58:22,211 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,216 - INFO - Comparing option text: '1' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,221 - INFO - Comparing option text: '2' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,223 - INFO - Comparing option text: '3' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,226 - INFO - Comparing option text: '4' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,230 - INFO - Comparing option text: '5' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,232 - INFO - Comparing option text: 'Cultural narratives about poverty' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,235 - INFO - Comparing option text: '' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,239 - INFO - Comparing option text: 'Public opinion surveys on poverty' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,241 - INFO - Comparing option text: '' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,244 - INFO - Comparing option text: 'Media coverage of poverty issues' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,246 - INFO - Comparing option text: '' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,249 - INFO - Comparing option text: 'Statistics on access to basic necessities' vs 'Statistics on access to basic necessities'
+2026-01-25 13:58:22,249 - INFO - Re-found option element for: Statistics on access to basic ...
+2026-01-25 13:58:22,760 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100c04640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000100bfc8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001006e2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001006e8ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001006eb008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x000000010076c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010076b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001007200e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000100bc3620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000100bc6d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000100ba89c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000100bc75e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000100b98990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000100beb9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000100bebb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000100bfc50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 13:58:22,788 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 13:58:23,856 - INFO - Retry click succeeded!
+2026-01-25 13:58:24,953 - INFO - Clicking: Next
+2026-01-25 13:58:26,962 - INFO - Successfully answered question 2
+2026-01-25 13:58:28,968 - INFO - Attempting question 3 of 5
+2026-01-25 13:58:28,998 - INFO - Found main content area
+2026-01-25 13:58:29,019 - INFO - Found question via regex: 3.What does the process of problematization involve?...
+2026-01-25 13:58:29,019 - INFO - Question: 3.What does the process of problematization involve?...
+2026-01-25 13:58:29,022 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 13:58:29,024 - INFO - Found 14 cursor-pointer divs
+2026-01-25 13:58:29,074 - INFO - Found 4 unique options: ['Identifying the empirical data of a problem', 'Measuring the prevalence of a social issue', 'Defining certain conditions as problems requiring intervention', 'Implementing policies to address a social problem']
+2026-01-25 13:58:29,074 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 13:58:31,947 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 13:58:31,950 - INFO - AI selected answer 3: Defining certain conditions as problems requiring ...
+2026-01-25 13:58:32,670 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 13:58:32,670 - INFO - Question and answers saved to database
+2026-01-25 13:58:32,670 - INFO - Selecting answer 3: Defining certain conditions as problems requiring ...
+2026-01-25 13:58:32,679 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 13:58:32,687 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,694 - INFO - Comparing option text: '1' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,699 - INFO - Comparing option text: '2' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,704 - INFO - Comparing option text: '3' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,707 - INFO - Comparing option text: '4' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,714 - INFO - Comparing option text: '5' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,718 - INFO - Comparing option text: 'Identifying the empirical data of a problem' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,721 - INFO - Comparing option text: '' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,724 - INFO - Comparing option text: 'Measuring the prevalence of a social issue' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,726 - INFO - Comparing option text: '' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,729 - INFO - Comparing option text: 'Defining certain conditions as problems requiring intervention' vs 'Defining certain conditions as problems requiring intervention'
+2026-01-25 13:58:32,729 - INFO - Re-found option element for: Defining certain conditions as...
+2026-01-25 13:58:33,240 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100c04640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000100bfc8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001006e2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001006e8ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001006eb008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x000000010076c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010076b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001007200e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000100bc3620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000100bc6d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000100ba89c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000100bc75e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000100b98990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000100beb9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000100bebb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000100bfc50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 13:58:33,263 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 13:58:34,327 - INFO - Retry click succeeded!
+2026-01-25 13:58:35,419 - INFO - Clicking: Next
+2026-01-25 13:58:37,428 - INFO - Successfully answered question 3
+2026-01-25 13:58:39,434 - INFO - Attempting question 4 of 5
+2026-01-25 13:58:39,463 - INFO - Found main content area
+2026-01-25 13:58:39,484 - INFO - Found question via regex: 4.According to social constructionists, when does a condition become a social pr...
+2026-01-25 13:58:39,484 - INFO - Question: 4.According to social constructionists, when does a condition become a social problem?...
+2026-01-25 13:58:39,486 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 13:58:39,489 - INFO - Found 14 cursor-pointer divs
+2026-01-25 13:58:39,536 - INFO - Found 4 unique options: ['When policies are enacted to address it', 'When it is measurable with data', 'When society defines it as a problem', 'When it affects more than half of the population']
+2026-01-25 13:58:39,537 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 13:58:43,229 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 13:58:43,231 - INFO - AI selected answer 3: When society defines it as a problem...
+2026-01-25 13:58:43,950 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 13:58:43,951 - INFO - Question and answers saved to database
+2026-01-25 13:58:43,951 - INFO - Selecting answer 3: When society defines it as a problem...
+2026-01-25 13:58:43,961 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 13:58:43,970 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'When society defines it as a problem'
+2026-01-25 13:58:43,976 - INFO - Comparing option text: '1' vs 'When society defines it as a problem'
+2026-01-25 13:58:43,980 - INFO - Comparing option text: '2' vs 'When society defines it as a problem'
+2026-01-25 13:58:43,984 - INFO - Comparing option text: '3' vs 'When society defines it as a problem'
+2026-01-25 13:58:43,988 - INFO - Comparing option text: '4' vs 'When society defines it as a problem'
+2026-01-25 13:58:43,991 - INFO - Comparing option text: '5' vs 'When society defines it as a problem'
+2026-01-25 13:58:43,995 - INFO - Comparing option text: 'When policies are enacted to address it' vs 'When society defines it as a problem'
+2026-01-25 13:58:43,998 - INFO - Comparing option text: '' vs 'When society defines it as a problem'
+2026-01-25 13:58:44,001 - INFO - Comparing option text: 'When it is measurable with data' vs 'When society defines it as a problem'
+2026-01-25 13:58:44,006 - INFO - Comparing option text: '' vs 'When society defines it as a problem'
+2026-01-25 13:58:44,010 - INFO - Comparing option text: 'When society defines it as a problem' vs 'When society defines it as a problem'
+2026-01-25 13:58:44,010 - INFO - Re-found option element for: When society defines it as a p...
+2026-01-25 13:58:44,519 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100c04640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000100bfc8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001006e2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001006e8ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001006eb008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x000000010076c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010076b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001007200e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000100bc3620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000100bc6d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000100ba89c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000100bc75e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000100b98990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000100beb9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000100bebb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000100bfc50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 13:58:44,535 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 13:58:45,599 - INFO - Retry click succeeded!
+2026-01-25 13:58:46,694 - INFO - Clicking: Next
+2026-01-25 13:58:48,704 - INFO - Successfully answered question 4
+2026-01-25 13:58:50,707 - INFO - Attempting question 5 of 5
+2026-01-25 13:58:50,736 - INFO - Found main content area
+2026-01-25 13:58:50,757 - INFO - Found question via regex: 5.What is a social problem?...
+2026-01-25 13:58:50,757 - INFO - Question: 5.What is a social problem?...
+2026-01-25 13:58:50,760 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 13:58:50,762 - INFO - Found 14 cursor-pointer divs
+2026-01-25 13:58:50,812 - INFO - Found 4 unique options: ['A universal condition that cannot be changed', 'A condition that a significant number of people perceive as harmful or undesirable', 'A natural phenomenon without human intervention', 'An isolated issue affecting only a small group']
+2026-01-25 13:58:50,812 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 13:58:52,754 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 13:58:52,756 - INFO - AI selected answer 2: A condition that a significant number of people pe...
+2026-01-25 13:58:53,472 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 13:58:53,472 - INFO - Question and answers saved to database
+2026-01-25 13:58:53,472 - INFO - Selecting answer 2: A condition that a significant number of people pe...
+2026-01-25 13:58:53,481 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 13:58:53,489 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,498 - INFO - Comparing option text: '1' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,504 - INFO - Comparing option text: '2' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,509 - INFO - Comparing option text: '3' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,513 - INFO - Comparing option text: '4' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,516 - INFO - Comparing option text: '5' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,519 - INFO - Comparing option text: 'A universal condition that cannot be changed' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,522 - INFO - Comparing option text: '' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,524 - INFO - Comparing option text: 'A condition that a significant number of people perceive as harmful or undesirable' vs 'A condition that a significant number of people perceive as harmful or undesirable'
+2026-01-25 13:58:53,524 - INFO - Re-found option element for: A condition that a significant...
+2026-01-25 13:58:54,037 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100c04640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000100bfc8b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x00000001006e2890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x00000001006e8ad0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100424
+4   chromedriver                        0x00000001006eb008 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109952
+5   chromedriver                        0x000000010076c010 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638344
+6   chromedriver                        0x000000010076b064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+7   chromedriver                        0x00000001007200e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+8   chromedriver                        0x0000000100bc3620 cxxbridge1$str$ptr + 2821448
+9   chromedriver                        0x0000000100bc6d5c cxxbridge1$str$ptr + 2835588
+10  chromedriver                        0x0000000100ba89c4 cxxbridge1$str$ptr + 2711788
+11  chromedriver                        0x0000000100bc75e0 cxxbridge1$str$ptr + 2837768
+12  chromedriver                        0x0000000100b98990 cxxbridge1$str$ptr + 2646200
+13  chromedriver                        0x0000000100beb9bc cxxbridge1$str$ptr + 2986212
+14  chromedriver                        0x0000000100bebb38 cxxbridge1$str$ptr + 2986592
+15  chromedriver                        0x0000000100bfc50c cxxbridge1$str$ptr + 3054644
+16  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 13:58:54,061 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 13:58:55,120 - INFO - Retry click succeeded!
+2026-01-25 13:58:56,215 - INFO - Clicking: Next
+2026-01-25 13:58:58,224 - INFO - Successfully answered question 5
+2026-01-25 13:59:00,230 - INFO - Answered 5 out of 5 questions
+2026-01-25 13:59:00,230 - INFO - Looking for submit button...
+2026-01-25 13:59:00,327 - INFO - Clicking submit button: 'Send'
+2026-01-25 13:59:02,348 - INFO - Lesson processing complete!
+2026-01-25 13:59:02,520 - INFO - WebDriver closed
+2026-01-25 14:12:26,111 - INFO - ====== WebDriver manager ======
+2026-01-25 14:12:27,029 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 14:12:27,386 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 14:12:27,766 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-25 14:12:29,372 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-25 14:12:29,457 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-25 14:12:29,457 - INFO - AI Helper initialized successfully
+2026-01-25 14:12:32,042 - INFO - Database tables created successfully
+2026-01-25 14:12:32,043 - INFO - Database initialized successfully
+2026-01-25 14:12:32,497 - INFO - Database connection test successful
+2026-01-25 14:12:32,497 - INFO - Database connection established successfully
+2026-01-25 14:12:32,497 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-25 14:12:36,470 - INFO - Looking for login elements...
+2026-01-25 14:12:36,479 - INFO - Entering credentials...
+2026-01-25 14:12:37,273 - INFO - Clicking login button: 'Sign in'
+2026-01-25 14:12:37,281 - INFO - Waiting for login to complete...
+2026-01-25 14:12:37,791 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-25 14:12:39,794 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-25 14:12:39,794 - INFO - Login successful! (redirected from login page)
+2026-01-25 14:12:39,794 - INFO - === BATCH MODE: Starting from lesson 9845 ===
+2026-01-25 14:12:39,794 - INFO - Will process until lesson 9846
+2026-01-25 14:12:39,794 - INFO - 
+==================================================
+2026-01-25 14:12:39,794 - INFO - Processing lesson 9845 (1/6)
+2026-01-25 14:12:39,794 - INFO - ==================================================
+2026-01-25 14:12:43,031 - INFO - Watching video...
+2026-01-25 14:12:43,032 - INFO - Looking for video player...
+2026-01-25 14:12:43,069 - INFO - Clicked play button
+2026-01-25 14:12:43,069 - INFO - Watching video...
+2026-01-25 14:12:43,075 - INFO - Video progress: 0.0% (0s / 260s)
+2026-01-25 14:13:13,094 - INFO - Video progress: 11.5% (30s / 260s)
+2026-01-25 14:13:43,113 - INFO - Video progress: 23.1% (60s / 260s)
+2026-01-25 14:14:13,126 - INFO - Video progress: 34.6% (90s / 260s)
+2026-01-25 14:14:43,142 - INFO - Video progress: 46.2% (120s / 260s)
+2026-01-25 14:15:13,156 - INFO - Video progress: 57.7% (150s / 260s)
+2026-01-25 14:15:43,174 - INFO - Video progress: 69.3% (180s / 260s)
+2026-01-25 14:16:13,192 - INFO - Video progress: 80.8% (210s / 260s)
+2026-01-25 14:16:43,206 - INFO - Video progress: 92.3% (240s / 260s)
+2026-01-25 14:17:13,218 - INFO - Video completed!
+2026-01-25 14:17:13,219 - INFO - Starting test...
+2026-01-25 14:17:13,219 - INFO - Looking for test button...
+2026-01-25 14:17:13,267 - INFO - Found test button: 'Go to test'
+2026-01-25 14:17:13,276 - INFO - Waiting for test page to load...
+2026-01-25 14:17:16,282 - INFO - Looking for 'Start the test' button...
+2026-01-25 14:17:16,416 - INFO - Found button: 'Start the test'
+2026-01-25 14:17:16,421 - INFO - Clicked start/restart button
+2026-01-25 14:17:16,421 - INFO - Waiting for questions to load...
+2026-01-25 14:17:21,570 - INFO - Saved screenshot: images/debug_test_questions_1769332641.png
+2026-01-25 14:17:21,576 - INFO - Saved page source: images/debug_test_questions_1769332641.html
+2026-01-25 14:17:21,576 - INFO - Attempting question 1 of 5
+2026-01-25 14:17:21,597 - INFO - Found main content area
+2026-01-25 14:17:21,618 - INFO - Found question via regex: 1.What are examples of domestic violence?...
+2026-01-25 14:17:21,618 - INFO - Question: 1.What are examples of domestic violence?...
+2026-01-25 14:17:21,622 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:17:21,626 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:17:21,687 - INFO - Found 4 unique options: ['Physical assault, psychological abuse, and coercive control', 'Substance abuse and addiction', 'Unjust treatment based on gender', 'Harassment and vandalism']
+2026-01-25 14:17:21,687 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 14:17:25,081 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 14:17:25,085 - INFO - AI selected answer 1: Physical assault, psychological abuse, and coerciv...
+2026-01-25 14:17:25,795 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 14:17:25,795 - INFO - Question and answers saved to database
+2026-01-25 14:17:25,795 - INFO - Selecting answer 1: Physical assault, psychological abuse, and coerciv...
+2026-01-25 14:17:25,805 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 14:17:25,811 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,816 - INFO - Comparing option text: '1' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,820 - INFO - Comparing option text: '2' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,824 - INFO - Comparing option text: '3' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,827 - INFO - Comparing option text: '4' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,830 - INFO - Comparing option text: '5' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,833 - INFO - Comparing option text: 'Poverty leads to inequality in all cases' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,836 - INFO - Comparing option text: '' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,839 - INFO - Comparing option text: 'Inequality often exacerbates the conditions of poverty' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,841 - INFO - Comparing option text: '' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,844 - INFO - Comparing option text: 'They are completely independent of each other' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,846 - INFO - Comparing option text: '' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,848 - INFO - Comparing option text: 'Inequality is unrelated to resource distribution' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,850 - INFO - Comparing option text: '' vs 'Physical assault, psychological abuse, and coercive control'
+2026-01-25 14:17:25,850 - INFO - Trying XPath to find option by text
+2026-01-25 14:17:25,858 - ERROR - Could not re-find option element: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'cursor-pointer') and contains(normalize-space(.), 'Physical assault, psychologica')]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000102c58640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000102c508b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102736890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x000000010277fde4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 375644
+4   chromedriver                        0x00000001027757a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+5   chromedriver                        0x00000001027bf064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+6   chromedriver                        0x00000001027740e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x0000000102c17620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000102c1ad5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x0000000102bfc9c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x0000000102c1b5e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000102bec990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x0000000102c3f9bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000102c3fb38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x0000000102c5050c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+2026-01-25 14:17:25,863 - ERROR - Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 872, in _answer_current_question
+    option = search_context.find_element(By.XPATH, xpath)
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 532, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'cursor-pointer') and normalize-space(.)='Physical assault, psychological abuse, and coercive control']"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000102c58640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000102c508b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102736890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x000000010277fde4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 375644
+4   chromedriver                        0x00000001027757a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+5   chromedriver                        0x00000001027bf064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+6   chromedriver                        0x00000001027740e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x0000000102c17620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000102c1ad5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x0000000102bfc9c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x0000000102c1b5e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000102bec990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x0000000102c3f9bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000102c3fb38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x0000000102c5050c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/unix_agent.py", line 877, in _answer_current_question
+    option = search_context.find_element(By.XPATH, xpath)
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 532, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'cursor-pointer') and contains(normalize-space(.), 'Physical assault, psychologica')]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000102c58640 cxxbridge1$str$ptr + 3087720
+1   chromedriver                        0x0000000102c508b4 cxxbridge1$str$ptr + 3055580
+2   chromedriver                        0x0000000102736890 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75272
+3   chromedriver                        0x000000010277fde4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 375644
+4   chromedriver                        0x00000001027757a4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333084
+5   chromedriver                        0x00000001027bf064 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634332
+6   chromedriver                        0x00000001027740e4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327260
+7   chromedriver                        0x0000000102c17620 cxxbridge1$str$ptr + 2821448
+8   chromedriver                        0x0000000102c1ad5c cxxbridge1$str$ptr + 2835588
+9   chromedriver                        0x0000000102bfc9c4 cxxbridge1$str$ptr + 2711788
+10  chromedriver                        0x0000000102c1b5e0 cxxbridge1$str$ptr + 2837768
+11  chromedriver                        0x0000000102bec990 cxxbridge1$str$ptr + 2646200
+12  chromedriver                        0x0000000102c3f9bc cxxbridge1$str$ptr + 2986212
+13  chromedriver                        0x0000000102c3fb38 cxxbridge1$str$ptr + 2986592
+14  chromedriver                        0x0000000102c5050c cxxbridge1$str$ptr + 3054644
+15  libsystem_pthread.dylib             0x00000001a0439c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001a0434ba8 thread_start + 8
+
+
+2026-01-25 14:17:25,863 - WARNING - Failed to answer question 1, continuing to next...
+2026-01-25 14:17:25,926 - INFO - Clicking Next to skip to next question
+2026-01-25 14:17:29,938 - INFO - Attempting question 2 of 5
+2026-01-25 14:17:29,965 - INFO - Found main content area
+2026-01-25 14:17:29,989 - INFO - Found question via regex: 1.What is the relationship between poverty and inequality?...
+2026-01-25 14:17:29,989 - INFO - Question: 1.What is the relationship between poverty and inequality?...
+2026-01-25 14:17:29,991 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:17:29,994 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:17:30,041 - INFO - Found 4 unique options: ['Poverty leads to inequality in all cases', 'Inequality often exacerbates the conditions of poverty', 'They are completely independent of each other', 'Inequality is unrelated to resource distribution']
+2026-01-25 14:17:30,041 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 14:17:32,918 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 14:17:32,922 - INFO - AI selected answer 2: Inequality often exacerbates the conditions of pov...
+2026-01-25 14:17:33,610 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 14:17:33,610 - INFO - Question and answers saved to database
+2026-01-25 14:17:33,610 - INFO - Selecting answer 2: Inequality often exacerbates the conditions of pov...
+2026-01-25 14:17:33,617 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 14:17:33,622 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,626 - INFO - Comparing option text: '1' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,629 - INFO - Comparing option text: '2' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,632 - INFO - Comparing option text: '3' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,635 - INFO - Comparing option text: '4' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,638 - INFO - Comparing option text: '5' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,641 - INFO - Comparing option text: 'Poverty leads to inequality in all cases' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,643 - INFO - Comparing option text: '' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,646 - INFO - Comparing option text: 'Inequality often exacerbates the conditions of poverty' vs 'Inequality often exacerbates the conditions of poverty'
+2026-01-25 14:17:33,646 - INFO - Re-found option element for: Inequality often exacerbates t...
+2026-01-25 14:17:34,700 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 14:17:35,756 - INFO - Retry click succeeded!
+2026-01-25 14:17:36,851 - INFO - Clicking: Next
+2026-01-25 14:17:38,860 - INFO - Successfully answered question 2
+2026-01-25 14:17:40,862 - INFO - Attempting question 3 of 5
+2026-01-25 14:17:40,883 - INFO - Found main content area
+2026-01-25 14:17:40,901 - INFO - Found question via regex: 2.What is addiction?...
+2026-01-25 14:17:40,901 - INFO - Question: 2.What is addiction?...
+2026-01-25 14:17:40,903 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:17:40,906 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:17:40,954 - INFO - Found 4 unique options: ['A behavior limited to drug use', 'The compulsive use of substances despite harmful consequences', 'An issue unrelated to brain and behavior', 'A temporary condition caused by social factors']
+2026-01-25 14:17:40,954 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 14:17:43,179 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 14:17:43,182 - INFO - AI selected answer 2: The compulsive use of substances despite harmful c...
+2026-01-25 14:17:43,867 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 14:17:43,867 - INFO - Question and answers saved to database
+2026-01-25 14:17:43,868 - INFO - Selecting answer 2: The compulsive use of substances despite harmful c...
+2026-01-25 14:17:43,877 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 14:17:43,884 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,889 - INFO - Comparing option text: '1' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,894 - INFO - Comparing option text: '2' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,898 - INFO - Comparing option text: '3' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,902 - INFO - Comparing option text: '4' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,905 - INFO - Comparing option text: '5' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,909 - INFO - Comparing option text: 'A behavior limited to drug use' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,912 - INFO - Comparing option text: '' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,915 - INFO - Comparing option text: 'The compulsive use of substances despite harmful consequences' vs 'The compulsive use of substances despite harmful consequences'
+2026-01-25 14:17:43,915 - INFO - Re-found option element for: The compulsive use of substanc...
+2026-01-25 14:17:44,954 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 14:17:46,011 - INFO - Retry click succeeded!
+2026-01-25 14:17:47,110 - INFO - Clicking: Next
+2026-01-25 14:17:49,119 - INFO - Successfully answered question 3
+2026-01-25 14:17:51,121 - INFO - Attempting question 4 of 5
+2026-01-25 14:17:51,146 - INFO - Found main content area
+2026-01-25 14:17:51,169 - INFO - Found question via regex: 3.What do sociologists study in relation to domestic violence?...
+2026-01-25 14:17:51,169 - INFO - Question: 3.What do sociologists study in relation to domestic violence?...
+2026-01-25 14:17:51,172 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:17:51,175 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:17:51,224 - INFO - Found 4 unique options: ['The relationship between substance abuse and education', 'Patterns, dynamics, and prevention strategies of domestic violence', 'The effects of inequality on addiction', 'The political implications of criminal justice systems']
+2026-01-25 14:17:51,224 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 14:17:53,767 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 14:17:53,768 - INFO - AI selected answer 2: Patterns, dynamics, and prevention strategies of d...
+2026-01-25 14:17:54,453 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 14:17:54,453 - INFO - Question and answers saved to database
+2026-01-25 14:17:54,453 - INFO - Selecting answer 2: Patterns, dynamics, and prevention strategies of d...
+2026-01-25 14:17:54,462 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 14:17:54,469 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,475 - INFO - Comparing option text: '1' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,480 - INFO - Comparing option text: '2' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,485 - INFO - Comparing option text: '3' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,488 - INFO - Comparing option text: '4' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,492 - INFO - Comparing option text: '5' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,495 - INFO - Comparing option text: 'The relationship between substance abuse and education' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,498 - INFO - Comparing option text: '' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,501 - INFO - Comparing option text: 'Patterns, dynamics, and prevention strategies of domestic violence' vs 'Patterns, dynamics, and prevention strategies of domestic violence'
+2026-01-25 14:17:54,501 - INFO - Re-found option element for: Patterns, dynamics, and preven...
+2026-01-25 14:17:55,543 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 14:17:56,602 - INFO - Retry click succeeded!
+2026-01-25 14:17:57,695 - INFO - Clicking: Next
+2026-01-25 14:17:59,703 - INFO - Successfully answered question 4
+2026-01-25 14:18:01,709 - INFO - Attempting question 5 of 5
+2026-01-25 14:18:01,730 - INFO - Found main content area
+2026-01-25 14:18:01,749 - INFO - Found question via regex: 4.What is the impact of discrimination?...
+2026-01-25 14:18:01,749 - INFO - Question: 4.What is the impact of discrimination?...
+2026-01-25 14:18:01,752 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:18:01,754 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:18:01,802 - INFO - Found 4 unique options: ['It solely affects economic conditions', 'It perpetuates social inequalities', 'It has no effect on marginalized groups', 'It leads to equal access to resources']
+2026-01-25 14:18:01,802 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 14:18:04,007 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-01-25 14:18:04,010 - INFO - AI selected answer 2: It perpetuates social inequalities...
+2026-01-25 14:18:04,704 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 14:18:04,704 - INFO - Question and answers saved to database
+2026-01-25 14:18:04,704 - INFO - Selecting answer 2: It perpetuates social inequalities...
+2026-01-25 14:18:04,713 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 14:18:04,719 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,725 - INFO - Comparing option text: '1' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,730 - INFO - Comparing option text: '2' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,734 - INFO - Comparing option text: '3' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,738 - INFO - Comparing option text: '4' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,741 - INFO - Comparing option text: '5' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,744 - INFO - Comparing option text: 'It solely affects economic conditions' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,747 - INFO - Comparing option text: '' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,751 - INFO - Comparing option text: 'It perpetuates social inequalities' vs 'It perpetuates social inequalities'
+2026-01-25 14:18:04,751 - INFO - Re-found option element for: It perpetuates social inequali...
+2026-01-25 14:18:05,786 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 14:18:06,844 - INFO - Retry click succeeded!
+2026-01-25 14:18:07,936 - INFO - Clicking: Next
+2026-01-25 14:18:09,945 - INFO - Successfully answered question 5
+2026-01-25 14:18:11,947 - INFO - Answered 4 out of 5 questions
+2026-01-25 14:18:11,948 - INFO - Looking for submit button...
+2026-01-25 14:18:12,043 - INFO - Clicking submit button: 'Finish the test'
+2026-01-25 14:18:14,057 - INFO - Lesson 9845 completed successfully!
+2026-01-25 14:18:14,058 - INFO - Waiting before next lesson...
+2026-01-25 14:18:16,063 - INFO - 
+==================================================
+2026-01-25 14:18:16,063 - INFO - Processing lesson 9846 (2/6)
+2026-01-25 14:18:16,063 - INFO - ==================================================
+2026-01-25 14:18:19,150 - INFO - Watching video...
+2026-01-25 14:18:19,150 - INFO - Looking for video player...
+2026-01-25 14:18:19,179 - INFO - Clicked play button
+2026-01-25 14:18:19,179 - INFO - Watching video...
+2026-01-25 14:18:19,193 - INFO - Video progress: 0.0% (0s / 260s)
+2026-01-25 14:18:49,207 - INFO - Video progress: 2.0% (5s / 260s)
+2026-01-25 14:19:06,397 - INFO - 
+Batch interrupted by user
+2026-01-25 14:19:06,401 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/33e95e47b57a105bdf1b3a8a5d80f6ce
+2026-01-25 14:19:06,405 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54759): Failed to establish a new connection: [Errno 61] Connection refused")': /session/33e95e47b57a105bdf1b3a8a5d80f6ce
+2026-01-25 14:19:06,407 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54759): Failed to establish a new connection: [Errno 61] Connection refused")': /session/33e95e47b57a105bdf1b3a8a5d80f6ce
+2026-01-25 14:19:06,408 - INFO - WebDriver closed
+2026-01-25 14:23:24,532 - INFO - ====== WebDriver manager ======
+2026-01-25 14:23:25,443 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 14:23:25,801 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-25 14:23:26,164 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-25 14:23:27,571 - INFO - WebDriver initialized successfully with anti-detection
+2026-01-25 14:23:27,655 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-01-25 14:23:27,655 - INFO - AI Helper initialized successfully
+2026-01-25 14:23:29,880 - INFO - Database tables created successfully
+2026-01-25 14:23:29,880 - INFO - Database initialized successfully
+2026-01-25 14:23:30,295 - INFO - Database connection test successful
+2026-01-25 14:23:30,296 - INFO - Database connection established successfully
+2026-01-25 14:23:30,296 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-01-25 14:23:34,151 - INFO - Looking for login elements...
+2026-01-25 14:23:34,160 - INFO - Entering credentials...
+2026-01-25 14:23:34,944 - INFO - Clicking login button: 'Sign in'
+2026-01-25 14:23:34,952 - INFO - Waiting for login to complete...
+2026-01-25 14:23:35,463 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-01-25 14:23:37,473 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-01-25 14:23:37,473 - INFO - Login successful! (redirected from login page)
+2026-01-25 14:23:37,473 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9845
+2026-01-25 14:23:40,742 - INFO - Skipping video (--skip-video flag set)
+2026-01-25 14:23:40,743 - INFO - Looking for test button...
+2026-01-25 14:23:40,849 - INFO - Found test button: 'Finish the test'
+2026-01-25 14:23:40,851 - INFO - Waiting for test page to load...
+2026-01-25 14:23:43,856 - INFO - Looking for 'Start the test' button...
+2026-01-25 14:23:44,006 - INFO - Found button: 'Restart'
+2026-01-25 14:23:44,008 - INFO - Clicked start/restart button
+2026-01-25 14:23:44,008 - INFO - Waiting for questions to load...
+2026-01-25 14:23:49,230 - INFO - Saved screenshot: images/debug_test_questions_1769333029.png
+2026-01-25 14:23:49,236 - INFO - Saved page source: images/debug_test_questions_1769333029.html
+2026-01-25 14:23:49,236 - INFO - Attempting question 1 of 5
+2026-01-25 14:23:49,249 - INFO - Found main content area
+2026-01-25 14:23:49,265 - INFO - Found question via regex: 1.What does the study of crime and anti-social behavior involve?...
+2026-01-25 14:23:49,265 - INFO - Question: 1.What does the study of crime and anti-social behavior involve?...
+2026-01-25 14:23:49,268 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:23:49,271 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:23:49,316 - INFO - Found 4 unique options: ['The analysis of biological causes of substance abuse', 'Exploring the social dynamics of discrimination', 'Studying only legal reforms', 'The causes and consequences of criminal behavior and the effectiveness of law enforcement']
+2026-01-25 14:23:49,316 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 14:24:01,799 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-01-25 14:24:01,801 - ERROR - AI error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}. Defaulting to first option.
+2026-01-25 14:24:02,439 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 14:24:02,439 - INFO - Question and answers saved to database
+2026-01-25 14:24:02,440 - INFO - Selecting answer 1: The analysis of biological causes of substance abu...
+2026-01-25 14:24:02,449 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 14:24:02,457 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The analysis of biological causes of substance abuse'
+2026-01-25 14:24:02,464 - INFO - Comparing option text: '1' vs 'The analysis of biological causes of substance abuse'
+2026-01-25 14:24:02,468 - INFO - Comparing option text: '2' vs 'The analysis of biological causes of substance abuse'
+2026-01-25 14:24:02,472 - INFO - Comparing option text: '3' vs 'The analysis of biological causes of substance abuse'
+2026-01-25 14:24:02,476 - INFO - Comparing option text: '4' vs 'The analysis of biological causes of substance abuse'
+2026-01-25 14:24:02,479 - INFO - Comparing option text: '5' vs 'The analysis of biological causes of substance abuse'
+2026-01-25 14:24:02,482 - INFO - Comparing option text: 'The analysis of biological causes of substance abuse' vs 'The analysis of biological causes of substance abuse'
+2026-01-25 14:24:02,482 - INFO - Re-found option element for: The analysis of biological cau...
+2026-01-25 14:24:03,522 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 14:24:04,579 - INFO - Retry click succeeded!
+2026-01-25 14:24:05,678 - INFO - Clicking: Next
+2026-01-25 14:24:07,687 - INFO - Successfully answered question 1
+2026-01-25 14:24:09,689 - INFO - Attempting question 2 of 5
+2026-01-25 14:24:09,717 - INFO - Found main content area
+2026-01-25 14:24:09,739 - INFO - Found question via regex: 2.What do sociologists study in relation to domestic violence?...
+2026-01-25 14:24:09,739 - INFO - Question: 2.What do sociologists study in relation to domestic violence?...
+2026-01-25 14:24:09,741 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:24:09,744 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:24:09,793 - INFO - Found 4 unique options: ['The political implications of criminal justice systems', 'Patterns, dynamics, and prevention strategies of domestic violence', 'The effects of inequality on addiction', 'The relationship between substance abuse and education']
+2026-01-25 14:24:09,794 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-25 14:24:13,166 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-01-25 14:24:13,167 - ERROR - AI error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}. Defaulting to first option.
+2026-01-25 14:24:13,793 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-01-25 14:24:13,793 - INFO - Question and answers saved to database
+2026-01-25 14:24:13,793 - INFO - Selecting answer 1: The political implications of criminal justice sys...
+2026-01-25 14:24:13,804 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-01-25 14:24:13,813 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The political implications of criminal justice systems'
+2026-01-25 14:24:13,819 - INFO - Comparing option text: '1' vs 'The political implications of criminal justice systems'
+2026-01-25 14:24:13,824 - INFO - Comparing option text: '2' vs 'The political implications of criminal justice systems'
+2026-01-25 14:24:13,828 - INFO - Comparing option text: '3' vs 'The political implications of criminal justice systems'
+2026-01-25 14:24:13,832 - INFO - Comparing option text: '4' vs 'The political implications of criminal justice systems'
+2026-01-25 14:24:13,835 - INFO - Comparing option text: '5' vs 'The political implications of criminal justice systems'
+2026-01-25 14:24:13,838 - INFO - Comparing option text: 'The political implications of criminal justice systems' vs 'The political implications of criminal justice systems'
+2026-01-25 14:24:13,838 - INFO - Re-found option element for: The political implications of ...
+2026-01-25 14:24:14,882 - ERROR - Failed to click option using any strategy - will retry
+2026-01-25 14:24:15,939 - INFO - Retry click succeeded!
+2026-01-25 14:24:17,040 - INFO - Clicking: Next
+2026-01-25 14:24:19,049 - INFO - Successfully answered question 2
+2026-01-25 14:24:21,054 - INFO - Attempting question 3 of 5
+2026-01-25 14:24:21,081 - INFO - Found main content area
+2026-01-25 14:24:21,103 - INFO - Found question via regex: 1.What is poverty?...
+2026-01-25 14:24:21,103 - INFO - Question: 1.What is poverty?...
+2026-01-25 14:24:21,106 - INFO - No radio inputs found, looking for clickable div options
+2026-01-25 14:24:21,109 - INFO - Found 14 cursor-pointer divs
+2026-01-25 14:24:21,158 - INFO - Found 4 unique options: ['The uneven distribution of resources in society', 'A condition caused solely by inequality', 'The state of having insufficient financial resources to meet basic living needs', 'The inability to access education']
+2026-01-25 14:24:21,158 - INFO - AFC is enabled with max remote calls: 10.

@@ -4,3 +4,5 @@ webdriver-manager
 google-genai
 psycopg2-binary
 sqlalchemy
+fastapi
+uvicorn[standard]

@@ -741,13 +741,17 @@ class UniXAgent:
                         class_attr = div.get_attribute('class') or ''
                         
                         # Check if this looks like an option container
-                        # Should have moderate length text, rounded corners, padding
+                        # Answer options typically have bg-gray-cool class OR rounded+padding styles
+                        is_answer_option = (
+                            'bg-gray-cool' in class_attr or  # Primary answer option indicator
+                            ('rounded' in class_attr and 'px-' in class_attr)  # Alternative style
+                        )
+                        
                         if (text and 
                             5 < len(text) < 150 and  # Reasonable option length
                             '\n' not in text and  # Single line
                             not text[0].isdigit() and  # Not a question number
-                            'rounded' in class_attr and  # Has rounded borders
-                            'px-' in class_attr):  # Has padding
+                            is_answer_option):
                             
                             # Filter out navigation/control elements
                             if not any(kw in text.lower() for kw in [
@@ -768,15 +772,22 @@ class UniXAgent:
                 for div in all_divs:
                     try:
                         text = div.text.strip()
+                        class_attr = div.get_attribute('class') or ''
+                        
                         # Options are usually short text (person names, single phrases)
                         if text and 2 < len(text) < 100 and '\n' not in text:
                             # Must NOT start with a number (that would be the question)
                             if not text[0].isdigit():
                                 if not any(kw in text.lower() for kw in ['next', 'back', 'submit', 'start', 'finish', 'question', 'test', 'time']):
-                                    # Check visual cues
-                                    class_attr = div.get_attribute('class') or ''
-                                    if 'cursor' in class_attr or 'rounded' in class_attr:
-                                         if text not in options:
+                                    # Check visual cues - look for clickable/option-like elements
+                                    is_clickable = (
+                                        'cursor' in class_attr or 
+                                        'rounded' in class_attr or
+                                        'bg-gray-cool' in class_attr or
+                                        'text-unix' in class_attr
+                                    )
+                                    if is_clickable:
+                                        if text not in options:
                                             options.append(text)
                                             option_elements.append(div)
                     except:
@@ -1099,6 +1110,10 @@ def main():
     parser.add_argument("--headless", action="store_true", help="Run in headless mode")
     parser.add_argument("--lesson", type=str, help="Specific lesson URL to process (e.g., https://uni-x.almv.kz/platform/lessons/9839)")
     parser.add_argument("--skip-video", action="store_true", help="Skip video watching and go directly to test (use if video already watched)")
+    parser.add_argument("--batch", action="store_true", help="Process multiple lessons in sequence")
+    parser.add_argument("--start-id", type=int, help="Starting lesson ID for batch mode")
+    parser.add_argument("--end-id", type=int, help="Ending lesson ID for batch mode (optional, will continue until lesson not found)")
+    parser.add_argument("--max-lessons", type=int, default=50, help="Maximum number of lessons to process in batch mode (default: 50)")
     args = parser.parse_args()
     
     load_dotenv()
@@ -1138,15 +1153,136 @@ def main():
             agent.cleanup()
         return
     
+    # Batch mode - process multiple lessons in sequence
+    if args.batch:
+        if not args.start_id:
+            logger.error("--start-id is required for batch mode")
+            return
+        
+        agent.setup_driver()
+        agent.setup_ai()
+        agent.setup_database()
+        
+        try:
+            if not agent.login():
+                logger.error("Login failed, cannot process lessons")
+                return
+            
+            current_id = args.start_id
+            end_id = args.end_id if args.end_id else (args.start_id + args.max_lessons)
+            lessons_processed = 0
+            lessons_failed = 0
+            consecutive_failures = 0
+            max_consecutive_failures = 3  # Stop after 3 consecutive failures (likely reached end)
+            
+            logger.info(f"=== BATCH MODE: Starting from lesson {current_id} ===")
+            if args.end_id:
+                logger.info(f"Will process until lesson {end_id}")
+            else:
+                logger.info(f"Will process up to {args.max_lessons} lessons or until not found")
+            
+            while current_id <= end_id and lessons_processed < args.max_lessons:
+                lesson_url = f"https://uni-x.almv.kz/platform/lessons/{current_id}"
+                logger.info(f"\n{'='*50}")
+                logger.info(f"Processing lesson {current_id} ({lessons_processed + 1}/{args.max_lessons})")
+                logger.info(f"{'='*50}")
+                
+                try:
+                    # Navigate to lesson
+                    agent.driver.get(lesson_url)
+                    time.sleep(3)
+                    
+                    # Check if lesson exists (look for error page or redirect)
+                    current_url = agent.driver.current_url
+                    page_source = agent.driver.page_source.lower()
+                    
+                    # Check for signs that lesson doesn't exist
+                    if (
+                        "404" in page_source or 
+                        "not found" in page_source or
+                        "error" in agent.driver.title.lower() or
+                        "/platform/lessons/" not in current_url
+                    ):
+                        logger.warning(f"Lesson {current_id} not found or not accessible, skipping...")
+                        consecutive_failures += 1
+                        if consecutive_failures >= max_consecutive_failures:
+                            logger.info(f"Reached {max_consecutive_failures} consecutive failures, likely at the end of available lessons")
+                            break
+                        current_id += 1
+                        continue
+                    
+                    # Reset consecutive failures on success
+                    consecutive_failures = 0
+                    
+                    # Update current lesson info
+                    agent.current_lesson_url = lesson_url
+                    agent.current_lesson_name = f"Lesson {current_id}"
+                    
+                    # Try to get lesson title from page
+                    try:
+                        title_elem = agent.driver.find_element(By.CSS_SELECTOR, "h1, .lesson-title, [class*='title']")
+                        if title_elem:
+                            agent.current_lesson_name = title_elem.text.strip()[:100]
+                    except:
+                        pass
+                    
+                    # Watch video (unless skipped)
+                    if args.skip_video:
+                        logger.info("Skipping video (--skip-video flag set)")
+                    else:
+                        logger.info("Watching video...")
+                        agent.watch_video()
+                    
+                    # Complete test
+                    logger.info("Starting test...")
+                    agent.complete_test()
+                    
+                    lessons_processed += 1
+                    logger.info(f"Lesson {current_id} completed successfully!")
+                    
+                except Exception as e:
+                    logger.error(f"Error processing lesson {current_id}: {e}")
+                    lessons_failed += 1
+                    consecutive_failures += 1
+                    if consecutive_failures >= max_consecutive_failures:
+                        logger.info(f"Reached {max_consecutive_failures} consecutive failures, stopping batch")
+                        break
+                
+                # Move to next lesson
+                current_id += 1
+                
+                # Small delay between lessons
+                if current_id <= end_id:
+                    logger.info("Waiting before next lesson...")
+                    time.sleep(2)
+            
+            logger.info(f"\n{'='*50}")
+            logger.info(f"BATCH COMPLETE")
+            logger.info(f"Lessons processed: {lessons_processed}")
+            logger.info(f"Lessons failed: {lessons_failed}")
+            logger.info(f"{'='*50}")
+            
+        except KeyboardInterrupt:
+            logger.info("\nBatch interrupted by user")
+        except Exception as e:
+            logger.exception(f"Batch error: {e}")
+        finally:
+            agent.cleanup()
+        return
+    
     # Process specific lesson
     if args.lesson:
         agent.setup_driver()
         agent.setup_ai()
+        agent.setup_database()
         try:
             if agent.login():
                 logger.info(f"Navigating to lesson: {args.lesson}")
                 agent.driver.get(args.lesson)
                 time.sleep(3)
+                
+                # Update lesson info
+                agent.current_lesson_url = args.lesson
                 
                 # Watch video (unless skipped)
                 if args.skip_video:
