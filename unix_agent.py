@@ -66,6 +66,14 @@ class UniXAgent:
         """Set up the Chrome WebDriver with anti-detection measures."""
         options = webdriver.ChromeOptions()
         
+        # Check if running on Railway/Docker (system Chrome available)
+        is_railway = os.getenv("RAILWAY_ENVIRONMENT") or os.path.exists("/usr/bin/chromium")
+        
+        # Force headless on Railway
+        if is_railway:
+            self.headless = True
+            logger.info("Detected Railway/Docker environment, forcing headless mode")
+        
         # Basic options
         if self.headless:
             options.add_argument("--headless=new")  # Use new headless mode
@@ -78,6 +86,9 @@ class UniXAgent:
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--disable-web-security")
         options.add_argument("--disable-features=IsolateOrigins,site-per-process")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--disable-software-rasterizer")
+        options.add_argument("--mute-audio")  # Mute all audio in the browser
         
         # User agent - use a real Chrome user agent
         options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
@@ -94,10 +105,21 @@ class UniXAgent:
         }
         options.add_experimental_option("prefs", prefs)
         
-        self.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()),
-            options=options
-        )
+        # Use system Chrome on Railway/Docker, otherwise use webdriver-manager
+        if is_railway:
+            chrome_path = os.getenv("CHROME_BIN", "/usr/bin/chromium")
+            chromedriver_path = os.getenv("CHROMEDRIVER_PATH", "/usr/bin/chromedriver")
+            options.binary_location = chrome_path
+            logger.info(f"Using system Chrome: {chrome_path}")
+            self.driver = webdriver.Chrome(
+                service=ChromeService(chromedriver_path),
+                options=options
+            )
+        else:
+            self.driver = webdriver.Chrome(
+                service=ChromeService(ChromeDriverManager().install()),
+                options=options
+            )
         
         # Set page load timeout to 60 seconds (default is too short sometimes)
         self.driver.set_page_load_timeout(60)
@@ -476,74 +498,91 @@ class UniXAgent:
         Returns:
             True if test completed successfully
         """
-        logger.info("Looking for test button...")
-        
         try:
-            # Find "Test task" / "Go to test" button
-            test_button = None
+            import re
             
-            # Look for button/link with test-related text
-            buttons = self.driver.find_elements(By.TAG_NAME, "button")
-            buttons.extend(self.driver.find_elements(By.TAG_NAME, "a"))
+            # First, check if test is already in progress (question visible on page)
+            page_text = self.driver.find_element(By.TAG_NAME, "body").text
+            test_already_open = False
             
-            for btn in buttons:
-                try:
-                    text = btn.text.lower()
-                    if ('test' in text or 'тест' in text) and btn.is_displayed():
-                        test_button = btn
-                        break
-                except:
-                    continue
+            # Check for question pattern like "1.Calculate..." or "questions №"
+            if re.search(r'\d+\.\s*[A-ZА-Яa-zа-я].{20,}', page_text) and 'questions' in page_text.lower():
+                test_already_open = True
+                logger.info("Test already in progress (question visible on page)")
             
-            if not test_button:
-                logger.warning("No test button found")
-                return True  # Maybe no test for this lesson
+            # Also check for "Time for the test" indicator
+            if 'time for the test' in page_text.lower() or 'время на тест' in page_text.lower():
+                test_already_open = True
+                logger.info("Test already in progress (timer visible)")
             
-            logger.info(f"Found test button: '{test_button.text}'")
-            
-            # Click the test button
-            self.driver.execute_script("arguments[0].click();", test_button)
-            
-            # Wait for test page to load
-            logger.info("Waiting for test page to load...")
-            time.sleep(3)
-            
-            # Now look for "Start the test" button (NOT "Restart")
-            logger.info("Looking for 'Start the test' button...")
-            start_button = None
-            restart_button = None  # Fallback
-            
-            buttons = self.driver.find_elements(By.TAG_NAME, "button")
-            for btn in buttons:
-                try:
-                    text = btn.text.lower().strip()
-                    if not btn.is_displayed():
-                        continue
-                    
-                    # Prefer "start the test" over "restart"
-                    if 'start the test' in text or 'начать тест' in text:
-                        start_button = btn
-                        break  # Found the exact button
-                    elif 'start' in text and 'restart' not in text:
-                        start_button = btn
-                    elif 'restart' in text or 'перезапустить' in text:
-                        restart_button = btn
-                except:
-                    continue
-            
-            # Use start button, or fallback to restart
-            button_to_click = start_button or restart_button
-            
-            if button_to_click:
-                logger.info(f"Found button: '{button_to_click.text}'")
-                self.driver.execute_script("arguments[0].click();", button_to_click)
-                logger.info("Clicked start/restart button")
+            if not test_already_open:
+                logger.info("Looking for test button...")
                 
-                # Wait longer for questions to load
-                logger.info("Waiting for questions to load...")
-                time.sleep(5)
-            else:
-                logger.warning("No 'Start the test' button found, trying to proceed anyway")
+                # Find "Test task" / "Go to test" button
+                test_button = None
+                
+                # Look for button/link with test-related text
+                buttons = self.driver.find_elements(By.TAG_NAME, "button")
+                buttons.extend(self.driver.find_elements(By.TAG_NAME, "a"))
+                
+                for btn in buttons:
+                    try:
+                        text = btn.text.lower()
+                        if ('test' in text or 'тест' in text) and btn.is_displayed():
+                            test_button = btn
+                            break
+                    except:
+                        continue
+                
+                if not test_button:
+                    logger.warning("No test button found")
+                    return True  # Maybe no test for this lesson
+                
+                logger.info(f"Found test button: '{test_button.text}'")
+                
+                # Click the test button
+                self.driver.execute_script("arguments[0].click();", test_button)
+                
+                # Wait for test page to load
+                logger.info("Waiting for test page to load...")
+                time.sleep(3)
+                
+                # Now look for "Start the test" button (NOT "Restart")
+                logger.info("Looking for 'Start the test' button...")
+                start_button = None
+                restart_button = None  # Fallback
+                
+                buttons = self.driver.find_elements(By.TAG_NAME, "button")
+                for btn in buttons:
+                    try:
+                        text = btn.text.lower().strip()
+                        if not btn.is_displayed():
+                            continue
+                        
+                        # Prefer "start the test" over "restart"
+                        if 'start the test' in text or 'начать тест' in text:
+                            start_button = btn
+                            break  # Found the exact button
+                        elif 'start' in text and 'restart' not in text:
+                            start_button = btn
+                        elif 'restart' in text or 'перезапустить' in text:
+                            restart_button = btn
+                    except:
+                        continue
+                
+                # Use start button, or fallback to restart
+                button_to_click = start_button or restart_button
+                
+                if button_to_click:
+                    logger.info(f"Found button: '{button_to_click.text}'")
+                    self.driver.execute_script("arguments[0].click();", button_to_click)
+                    logger.info("Clicked start/restart button")
+                    
+                    # Wait longer for questions to load
+                    logger.info("Waiting for questions to load...")
+                    time.sleep(5)
+                else:
+                    logger.warning("No 'Start the test' button found, trying to proceed anyway")
             
             # Wait for any loading indicators to disappear
             try:
@@ -563,7 +602,12 @@ class UniXAgent:
             for question_num in range(1, total_questions + 1):
                 logger.info(f"Attempting question {question_num} of {total_questions}")
                 
-                if self._answer_current_question():
+                # Navigate to the question by clicking on the question number button
+                # The test interface has numbered buttons (1, 2, 3, 4, 5) at the top
+                self._navigate_to_question(question_num)
+                time.sleep(1)
+                
+                if self._answer_current_question(expected_question_num=question_num):
                     answered_count += 1
                     logger.info(f"Successfully answered question {question_num}")
                 else:
@@ -623,9 +667,56 @@ class UniXAgent:
         
         logger.info("No submit button found")
     
-    def _answer_current_question(self) -> bool:
+    def _navigate_to_question(self, question_num: int):
+        """Navigate to a specific question by clicking on the question number button."""
+        try:
+            # Look for question number buttons in the test interface
+            # They're usually divs or buttons with just the number as text
+            
+            # Method 1: Look for elements with exact number text
+            all_clickable = self.driver.find_elements(By.CSS_SELECTOR, "div.cursor-pointer, button")
+            
+            for elem in all_clickable:
+                try:
+                    text = elem.text.strip()
+                    # Match exact number (but not longer numbers like "10" when looking for "1")
+                    if text == str(question_num):
+                        # Verify it's not a navigation button by checking parent context
+                        parent_text = elem.find_element(By.XPATH, "..").text if elem else ""
+                        # Question number buttons are usually near "questions №" or similar
+                        if len(text) <= 2:  # Single or double digit
+                            logger.info(f"Clicking question number button: {question_num}")
+                            self.driver.execute_script("arguments[0].click();", elem)
+                            time.sleep(1)
+                            return
+                except:
+                    continue
+            
+            # Method 2: XPath for specific number in question selector area
+            try:
+                # Look for question numbers area (usually has "questions №" nearby)
+                xpath = f"//div[contains(text(), 'questions')]/following-sibling::*//div[text()='{question_num}'] | //div[text()='{question_num}' and contains(@class, 'cursor-pointer')]"
+                buttons = self.driver.find_elements(By.XPATH, xpath)
+                for btn in buttons:
+                    if btn.is_displayed():
+                        logger.info(f"Clicking question number via XPath: {question_num}")
+                        self.driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(1)
+                        return
+            except:
+                pass
+            
+            logger.warning(f"Could not find question number button {question_num}")
+            
+        except Exception as e:
+            logger.warning(f"Error navigating to question {question_num}: {e}")
+    
+    def _answer_current_question(self, expected_question_num: int = None) -> bool:
         """
         Answer the current question on screen.
+        
+        Args:
+            expected_question_num: Expected question number (1-5) to verify we're on the right question
         
         Returns:
             True if question was answered AND there are more questions
@@ -657,26 +748,28 @@ class UniXAgent:
             # Try to find question text - look for numbered questions or text with ?
             question_text = None
             
-            # First, try to find elements with text that starts with a number and ends with ?
-            all_elements = search_context.find_elements(By.XPATH, ".//*[contains(text(), '?')]")
+            # First, try to find elements that look like questions
+            # Questions may end with ? or . (some are "Calculate..." not "What is...?")
+            import re
+            all_elements = search_context.find_elements(By.CSS_SELECTOR, "p, div, span")
             for elem in all_elements:
-                text = elem.text.strip()
-                # Check if it looks like a question (starts with number like "1.", contains ?)
-                if text and len(text) > 10 and '?' in text:
-                    # STRICT check: must start with digit and dot
-                    import re
-                    if re.match(r'^\d+\.', text):
+                try:
+                    text = elem.text.strip()
+                    # Check if it looks like a question: starts with "N." and is long enough
+                    if text and len(text) > 30 and re.match(r'^\d+\.', text):
                         # Avoid navigation elements
-                        if not any(kw in text.lower() for kw in ['next', 'back', 'submit', 'start', 'finish']):
+                        if not any(kw in text.lower() for kw in ['next', 'back', 'submit', 'start', 'finish', 'restart']):
                             question_text = text
                             logger.info(f"Found question element: {text[:80]}...")
                             break
+                except:
+                    continue  # Skip stale elements
             
             # Fallback: search for numbered text via regex in the page text
             if not question_text:
-                import re
                 # Allow optional space after dot: "1.What" or "1. What"
-                question_match = re.search(r'\d+\.\s*[A-ZА-Яa-zа-я].*\?', page_text)
+                # Question may end with ? or . (some questions are "Calculate..." not "What is...?")
+                question_match = re.search(r'\d+\.\s*[A-ZА-Яa-zа-я].{20,}[\?\.]', page_text)
                 if question_match:
                     question_text = question_match.group(0)
                     logger.info(f"Found question via regex: {question_text[:80]}...")
@@ -686,6 +779,15 @@ class UniXAgent:
                 logger.info("No question text found. Content text preview:")
                 logger.info(page_text[:500] if len(page_text) > 500 else page_text)
                 return False
+            
+            # Log if we're on a different question than expected (but don't fail)
+            if expected_question_num is not None:
+                found_num_match = re.match(r'^(\d+)\.', question_text)
+                if found_num_match:
+                    found_question_num = int(found_num_match.group(1))
+                    if found_question_num != expected_question_num:
+                        logger.warning(f"Expected question {expected_question_num}, but found question {found_question_num}. Answering anyway.")
+                        # Don't return False - try to answer the visible question
             
             logger.info(f"Question: {question_text[:100]}...")
             
@@ -747,16 +849,24 @@ class UniXAgent:
                             ('rounded' in class_attr and 'px-' in class_attr)  # Alternative style
                         )
                         
+                        # Check if it's a pure question number like "1." or "2." (not an answer)
+                        is_question_number = (
+                            len(text) <= 3 and 
+                            text[0].isdigit() and 
+                            (text.endswith('.') or text.isdigit())
+                        )
+                        
                         if (text and 
-                            5 < len(text) < 150 and  # Reasonable option length
+                            1 < len(text) < 150 and  # Allow short numeric answers like "0.5"
                             '\n' not in text and  # Single line
-                            not text[0].isdigit() and  # Not a question number
+                            not is_question_number and  # Not a question number like "1."
                             is_answer_option):
                             
                             # Filter out navigation/control elements
                             if not any(kw in text.lower() for kw in [
                                 'next', 'back', 'submit', 'start', 'finish', 
-                                'restart', 'question', 'test', 'timer', 'deadline'
+                                'restart', 'question', 'timer', 'deadline',
+                                'ответьте на все', 'answer all'
                             ]):
                                 if text not in options:
                                     options.append(text)
@@ -774,11 +884,21 @@ class UniXAgent:
                         text = div.text.strip()
                         class_attr = div.get_attribute('class') or ''
                         
-                        # Options are usually short text (person names, single phrases)
-                        if text and 2 < len(text) < 100 and '\n' not in text:
-                            # Must NOT start with a number (that would be the question)
-                            if not text[0].isdigit():
-                                if not any(kw in text.lower() for kw in ['next', 'back', 'submit', 'start', 'finish', 'question', 'test', 'time']):
+                        # Check if it's a pure question number like "1." or "2."
+                        is_question_number = (
+                            len(text) <= 3 and 
+                            text[0].isdigit() and 
+                            (text.endswith('.') or text.isdigit())
+                        )
+                        
+                        # Options can be various lengths, allow numbers at start (math answers)
+                        # Allow short numeric answers like "0.5", "0.7854"
+                        if text and 1 < len(text) < 100 and '\n' not in text:
+                            if not is_question_number:
+                                if not any(kw in text.lower() for kw in [
+                                    'next', 'back', 'submit', 'start', 'finish', 
+                                    'question', 'time', 'ответьте на все', 'answer all'
+                                ]):
                                     # Check visual cues - look for clickable/option-like elements
                                     is_clickable = (
                                         'cursor' in class_attr or 
@@ -988,7 +1108,8 @@ class UniXAgent:
                 if next_button:
                     logger.info(f"Clicking: {next_button.text}")
                     self.driver.execute_script("arguments[0].click();", next_button)
-                    time.sleep(2)
+                    # Wait longer for page to update
+                    time.sleep(3)
                 
                 return True
             

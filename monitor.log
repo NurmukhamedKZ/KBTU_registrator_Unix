@@ -434,3 +434,201 @@ Exception: Login failed - redirected to login page.
 2026-01-21 19:14:40,032 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53697): Failed to establish a new connection: [Errno 61] Connection refused")': /session/1b01fcf089367056a2e4b7c84a1dd0a8
 2026-01-21 19:14:40,033 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53697): Failed to establish a new connection: [Errno 61] Connection refused")': /session/1b01fcf089367056a2e4b7c84a1dd0a8
 2026-01-21 19:14:40,034 - INFO - Driver closed.
+2026-01-26 10:10:28,090 - INFO - ====== WebDriver manager ======
+2026-01-26 10:10:28,327 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:10:28,719 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:10:29,102 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:10:30,055 - INFO - WebDriver version 144.0.7559.96 selected
+2026-01-26 10:10:30,059 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-26 10:10:30,060 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-26 10:10:30,539 - INFO - Driver downloading response is 200
+2026-01-26 10:10:34,706 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:10:35,155 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96]
+2026-01-26 10:10:36,793 - INFO - Navigating to login page...
+2026-01-26 10:10:37,458 - INFO - Checking for login inputs or login button...
+2026-01-26 10:10:37,998 - INFO - No inputs found, looking for login button...
+2026-01-26 10:10:38,004 - INFO - Found login button, clicking via JS...
+2026-01-26 10:10:38,011 - INFO - Waiting for inputs to appear after click...
+2026-01-26 10:10:38,530 - INFO - Found 3 input fields.
+2026-01-26 10:10:38,540 - INFO - Entering credentials...
+2026-01-26 10:10:38,645 - INFO - Found primary login button, clicking via JS...
+2026-01-26 10:10:43,652 - INFO - Verifying login by navigating to /Stud...
+2026-01-26 10:10:48,725 - ERROR - Login verification failed. Still finding login elements on /Stud page.
+2026-01-26 10:10:48,726 - ERROR - Login failed: Login failed - redirected to login page.
+2026-01-26 10:10:48,728 - INFO - Current URL: https://wsp.kbtu.kz/Stud
+2026-01-26 10:10:48,730 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-26 10:10:48,733 - INFO - Saved images/debug_page_source.html
+2026-01-26 10:10:48,874 - INFO - Saved images/debug_screenshot.png
+2026-01-26 10:10:48,874 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 249, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 159, in login
+    raise Exception("Login failed - redirected to login page.")
+Exception: Login failed - redirected to login page.
+2026-01-26 10:10:48,954 - INFO - Driver closed.
+2026-01-26 10:11:40,729 - INFO - ====== WebDriver manager ======
+2026-01-26 10:11:41,273 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:11:41,632 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:11:42,104 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-26 10:11:43,189 - INFO - Navigating to login page...
+2026-01-26 10:11:43,964 - INFO - Checking for login inputs or login button...
+2026-01-26 10:11:44,502 - INFO - No inputs found, looking for login button...
+2026-01-26 10:11:44,505 - INFO - Found login button, clicking via JS...
+2026-01-26 10:11:44,511 - INFO - Waiting for inputs to appear after click...
+2026-01-26 10:11:45,033 - INFO - Found 3 input fields.
+2026-01-26 10:11:45,046 - INFO - Entering credentials...
+2026-01-26 10:11:45,182 - INFO - Found primary login button, clicking via JS...
+2026-01-26 10:11:50,189 - INFO - Verifying login by navigating to /Stud...
+2026-01-26 10:11:55,265 - ERROR - Login verification failed. Still finding login elements on /Stud page.
+2026-01-26 10:11:55,265 - ERROR - Login failed: Login failed - redirected to login page.
+2026-01-26 10:11:55,268 - INFO - Current URL: https://wsp.kbtu.kz/Stud
+2026-01-26 10:11:55,271 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-26 10:11:55,274 - INFO - Saved images/debug_page_source.html
+2026-01-26 10:11:55,384 - INFO - Saved images/debug_screenshot.png
+2026-01-26 10:11:55,384 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 249, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 159, in login
+    raise Exception("Login failed - redirected to login page.")
+Exception: Login failed - redirected to login page.
+2026-01-26 10:11:55,466 - INFO - Driver closed.
+2026-01-26 10:13:49,194 - INFO - ====== WebDriver manager ======
+2026-01-26 10:13:49,746 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:13:50,237 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:13:50,621 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-26 10:13:51,804 - INFO - Navigating to login page...
+2026-01-26 10:13:52,325 - INFO - Waiting for login form...
+2026-01-26 10:13:55,330 - INFO - Looking for username dropdown...
+2026-01-26 10:13:55,344 - INFO - Looking for dropdown container...
+2026-01-26 10:13:55,349 - INFO - Looking for password field...
+2026-01-26 10:13:55,355 - ERROR - Password field not found!
+2026-01-26 10:13:55,355 - ERROR - Login failed: Message: Password field not found; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-01-26 10:13:55,357 - INFO - Current URL: https://wsp.kbtu.kz/
+2026-01-26 10:13:55,360 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-26 10:13:55,362 - INFO - Saved images/debug_page_source.html
+2026-01-26 10:13:55,488 - INFO - Saved images/debug_screenshot.png
+2026-01-26 10:13:55,488 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 267, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 92, in login
+    raise NoSuchElementException("Password field not found")
+selenium.common.exceptions.NoSuchElementException: Message: Password field not found; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-01-26 10:13:55,570 - INFO - Driver closed.
+2026-01-26 10:14:47,413 - INFO - ====== WebDriver manager ======
+2026-01-26 10:14:47,940 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:14:48,381 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:14:48,790 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-26 10:14:49,968 - INFO - Navigating to login page...
+2026-01-26 10:14:50,447 - INFO - Waiting for page to load...
+2026-01-26 10:14:53,452 - INFO - Looking for login button (key icon)...
+2026-01-26 10:14:53,470 - INFO - Found login button, clicking to open login form...
+2026-01-26 10:14:55,484 - INFO - Waiting for login form to appear...
+2026-01-26 10:14:56,500 - INFO - Looking for username field...
+2026-01-26 10:14:56,522 - INFO - Found username input with selector: input[type='text']
+2026-01-26 10:14:56,522 - INFO - Looking for password field...
+2026-01-26 10:14:56,532 - INFO - Found password input field
+2026-01-26 10:14:56,533 - INFO - Entering username: n_ashekei
+2026-01-26 10:14:57,654 - INFO - Entering password...
+2026-01-26 10:14:58,198 - INFO - Looking for login button (Кіру)...
+2026-01-26 10:14:58,225 - INFO - Found login button with selector: //div[contains(@class, 'v-button')][contains(., 'Кіру')]
+2026-01-26 10:14:58,225 - INFO - Clicking login button...
+2026-01-26 10:14:58,229 - INFO - Waiting for login to complete...
+2026-01-26 10:15:03,234 - INFO - Verifying login by navigating to /Stud...
+2026-01-26 10:15:08,314 - ERROR - Login verification failed. Still finding login elements on /Stud page.
+2026-01-26 10:15:08,314 - ERROR - Login failed: Login failed - redirected to login page.
+2026-01-26 10:15:08,316 - INFO - Current URL: https://wsp.kbtu.kz/Stud
+2026-01-26 10:15:08,320 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-26 10:15:08,323 - INFO - Saved images/debug_page_source.html
+2026-01-26 10:15:08,433 - INFO - Saved images/debug_screenshot.png
+2026-01-26 10:15:08,433 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 273, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 183, in login
+    raise Exception("Login failed - redirected to login page.")
+Exception: Login failed - redirected to login page.
+2026-01-26 10:15:08,513 - INFO - Driver closed.
+2026-01-26 10:16:14,908 - INFO - ====== WebDriver manager ======
+2026-01-26 10:16:15,435 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:16:15,834 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:16:16,239 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-26 10:16:17,312 - INFO - Navigating to login page...
+2026-01-26 10:16:17,978 - INFO - Waiting for page to load...
+2026-01-26 10:16:20,983 - INFO - Looking for login button (key icon)...
+2026-01-26 10:16:21,002 - INFO - Found login button, clicking to open login form...
+2026-01-26 10:16:23,015 - INFO - Waiting for login form to appear...
+2026-01-26 10:16:24,032 - INFO - Looking for username field...
+2026-01-26 10:16:24,054 - INFO - Found username input with selector: input[type='text']
+2026-01-26 10:16:24,054 - INFO - Looking for password field...
+2026-01-26 10:16:24,065 - INFO - Found password input field
+2026-01-26 10:16:24,065 - INFO - Entering username: n_ashekei
+2026-01-26 10:16:25,483 - INFO - Re-finding password field...
+2026-01-26 10:16:25,499 - INFO - Entering password...
+2026-01-26 10:16:26,176 - INFO - Password field value length: 9
+2026-01-26 10:16:26,682 - INFO - Looking for login button (Кіру)...
+2026-01-26 10:16:26,709 - INFO - Found login button with selector: //div[contains(@class, 'v-button')][contains(., 'Кіру')]
+2026-01-26 10:16:26,711 - INFO - Clicking login button...
+2026-01-26 10:16:26,715 - INFO - Waiting for login to complete...
+2026-01-26 10:16:31,720 - INFO - Verifying login by navigating to /Stud...
+2026-01-26 10:16:36,795 - ERROR - Login verification failed. Still finding login elements on /Stud page.
+2026-01-26 10:16:36,796 - ERROR - Login failed: Login failed - redirected to login page.
+2026-01-26 10:16:36,799 - INFO - Current URL: https://wsp.kbtu.kz/Stud
+2026-01-26 10:16:36,803 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-26 10:16:36,806 - INFO - Saved images/debug_page_source.html
+2026-01-26 10:16:36,933 - INFO - Saved images/debug_screenshot.png
+2026-01-26 10:16:36,933 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 303, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 213, in login
+    raise Exception("Login failed - redirected to login page.")
+Exception: Login failed - redirected to login page.
+2026-01-26 10:16:37,022 - INFO - Driver closed.
+2026-01-26 10:18:31,384 - INFO - ====== WebDriver manager ======
+2026-01-26 10:18:32,013 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:18:32,436 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-26 10:18:32,809 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.96/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-26 10:18:34,227 - INFO - Navigating to login page...
+2026-01-26 10:18:34,685 - INFO - Waiting for page to load...
+2026-01-26 10:18:37,692 - INFO - Looking for login button (key icon)...
+2026-01-26 10:18:37,710 - INFO - Found login button, clicking to open login form...
+2026-01-26 10:18:39,723 - INFO - Waiting for login form to appear...
+2026-01-26 10:18:40,740 - INFO - Looking for username field...
+2026-01-26 10:18:40,762 - INFO - Found username input with selector: input[type='text']
+2026-01-26 10:18:40,762 - INFO - Looking for password field...
+2026-01-26 10:18:40,773 - INFO - Found password input field
+2026-01-26 10:18:40,773 - INFO - Entering username: n_ashekei
+2026-01-26 10:18:42,195 - INFO - Re-finding password field...
+2026-01-26 10:18:42,214 - INFO - Entering password...
+2026-01-26 10:18:42,897 - INFO - Password field value length: 9
+2026-01-26 10:18:43,403 - INFO - Looking for login button (Кіру)...
+2026-01-26 10:18:43,425 - INFO - Found login button with selector: //div[contains(@class, 'v-button')][contains(., 'Кіру')]
+2026-01-26 10:18:43,425 - INFO - Clicking login button...
+2026-01-26 10:18:43,428 - INFO - Waiting for login response...
+2026-01-26 10:18:46,555 - INFO - Saved screenshot after login click
+2026-01-26 10:18:48,599 - INFO - Verifying login by navigating to /Stud...
+2026-01-26 10:18:53,689 - ERROR - Login verification failed. Still finding login elements on /Stud page.
+2026-01-26 10:18:53,689 - ERROR - Login failed: Login failed - redirected to login page.
+2026-01-26 10:18:53,691 - INFO - Current URL: https://wsp.kbtu.kz/Stud
+2026-01-26 10:18:53,696 - INFO - Page Title: Тіркеуші кеңсесі
+2026-01-26 10:18:53,700 - INFO - Saved images/debug_page_source.html
+2026-01-26 10:18:53,831 - INFO - Saved images/debug_screenshot.png
+2026-01-26 10:18:53,831 - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 325, in main
+    login(driver, username, password)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nurma/vscode_projects/AutoLessonRegistration/monitor.py", line 235, in login
+    raise Exception("Login failed - redirected to login page.")
+Exception: Login failed - redirected to login page.
+2026-01-26 10:18:53,911 - INFO - Driver closed.

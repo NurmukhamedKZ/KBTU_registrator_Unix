@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv
+ENV
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+.cursor
+
+# Logs and debug files
+*.log
+images/debug_*.png
+images/debug_*.html
+
+# Environment (will be set in Railway)
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.md
+LICENSE
+.DS_Store
+Thumbs.db
+uv.lock

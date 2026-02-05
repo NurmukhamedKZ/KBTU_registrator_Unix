@@ -38,110 +38,186 @@ def login(driver, username, password):
     driver.get("https://wsp.kbtu.kz/")
     
     try:
-        # Wait longer for Vaadin to load
         wait = WebDriverWait(driver, 30)
+        from selenium.webdriver.common.keys import Keys
         
-        logging.info("Checking for login inputs or login button...")
+        # Wait for the page to load
+        logging.info("Waiting for page to load...")
+        time.sleep(3)
         
-        # Check for inputs OR login button
-        # XPath to find login button by icon src
+        # Step 1: Click the login button (key icon) to open the login modal
+        logging.info("Looking for login button (key icon)...")
         login_btn_xpath = "//img[contains(@src, 'login_24.png')]/ancestor::div[contains(@class, 'v-button')]"
         
-        try:
-            # Wait for either input or login button
-            wait.until(lambda d: d.find_elements(By.TAG_NAME, "input") or d.find_elements(By.XPATH, login_btn_xpath))
-        except TimeoutException:
-             # Just proceed to failure logic if nothing found
-             pass
+        login_btns = driver.find_elements(By.XPATH, login_btn_xpath)
+        if login_btns:
+            logging.info("Found login button, clicking to open login form...")
+            driver.execute_script("arguments[0].click();", login_btns[0])
+            time.sleep(2)  # Wait for modal to appear
+        else:
+            logging.warning("Login button not found, form might already be visible")
         
-        # If no inputs, check for login button and click it
-        inputs = driver.find_elements(By.TAG_NAME, "input")
-        if not inputs:
-            logging.info("No inputs found, looking for login button...")
-            login_btns = driver.find_elements(By.XPATH, login_btn_xpath)
-            if login_btns:
-                logging.info("Found login button, clicking via JS...")
-                driver.execute_script("arguments[0].click();", login_btns[0])
-                # Now wait for inputs
-                logging.info("Waiting for inputs to appear after click...")
-                wait.until(EC.presence_of_element_located((By.TAG_NAME, "input")))
-                inputs = driver.find_elements(By.TAG_NAME, "input")
-            else:
-                 logging.warning("No inputs and no login button found.")
+        # Step 2: Wait for the login form to appear
+        logging.info("Waiting for login form to appear...")
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='password']")))
+        time.sleep(1)
         
-        logging.info(f"Found {len(inputs)} input fields.")
-        
+        # Find username field - could be text input or combobox
+        logging.info("Looking for username field...")
         user_input = None
+        
+        # Try various selectors for username
+        username_selectors = [
+            "input[type='text']",
+            ".v-filterselect input",
+            ".v-textfield"
+        ]
+        
+        for selector in username_selectors:
+            inputs = driver.find_elements(By.CSS_SELECTOR, selector)
+            for inp in inputs:
+                if inp.is_displayed():
+                    user_input = inp
+                    logging.info(f"Found username input with selector: {selector}")
+                    break
+            if user_input:
+                break
+        
+        # Find password field
+        logging.info("Looking for password field...")
         pass_input = None
-        
-        # Heuristic to identify fields
-        for inp in inputs:
-            type_attr = inp.get_attribute("type")
-            if type_attr == "text" and not user_input:
-                user_input = inp
-            elif type_attr == "password":
+        password_inputs = driver.find_elements(By.CSS_SELECTOR, "input[type='password']")
+        for inp in password_inputs:
+            if inp.is_displayed():
                 pass_input = inp
+                logging.info("Found password input field")
+                break
         
-        if not user_input or not pass_input:
-            # Fallback for Vaadin specific structure if needed or if username is not 'text'
-            # Sometimes username is the first visible input
-             logging.warning("Could not clearly identify user/pass inputs. Dumping page source.")
-             html_path = "images/debug_page_source.html"
-             with open(html_path, "w", encoding="utf-8") as f:
-                 f.write(driver.page_source)
-             raise NoSuchElementException("Username or Password field not identified uniquely.")
-
-        logging.info("Entering credentials...")
-        user_input.clear()
-        user_input.send_keys(username)
+        if not pass_input:
+            logging.error("Password field not found!")
+            raise NoSuchElementException("Password field not found")
+        
+        # Enter username
+        if user_input:
+            logging.info(f"Entering username: {username}")
+            # Click to focus, then use JS to set value
+            user_input.click()
+            time.sleep(0.3)
+            user_input.clear()
+            user_input.send_keys(username)
+            time.sleep(0.5)
+            # Press Tab to confirm and move to password
+            user_input.send_keys(Keys.TAB)
+            time.sleep(0.5)
+        else:
+            logging.warning("Username input not found!")
+        
+        # Re-find password field (DOM might have changed)
+        logging.info("Re-finding password field...")
+        pass_input = None
+        password_inputs = driver.find_elements(By.CSS_SELECTOR, "input[type='password']")
+        for inp in password_inputs:
+            if inp.is_displayed():
+                pass_input = inp
+                break
+        
+        if not pass_input:
+            raise NoSuchElementException("Password field not found after username entry")
+        
+        # Enter password using multiple methods
+        logging.info("Entering password...")
+        pass_input.click()
+        time.sleep(0.3)
+        
+        # Method 1: Direct send_keys
         pass_input.clear()
         pass_input.send_keys(password)
+        time.sleep(0.3)
         
-        # Look for login button - generic approach
-        # Vaadin buttons often are divs with role button or specific classes
-        # After entering creds, the button might be different.
-        # Often it's another button "Войти" or similar.
+        # Verify password was entered
+        entered_pass = pass_input.get_attribute("value")
+        logging.info(f"Password field value length: {len(entered_pass) if entered_pass else 0}")
         
-        # Ensure values are committed (Vaadin sometimes needs blur)
-        from selenium.webdriver.common.keys import Keys
-        if pass_input:
-            pass_input.send_keys(Keys.TAB)
+        # If password is empty, try JS method
+        if not entered_pass:
+            logging.warning("Password not entered via send_keys, trying JavaScript...")
+            driver.execute_script("""
+                arguments[0].value = arguments[1];
+                arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+                arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+            """, pass_input, password)
+            time.sleep(0.3)
         
-        # Let's re-scan for buttons since the DOM might have changed or overlay opened
-        buttons = driver.find_elements(By.XPATH, "//div[contains(@class, 'v-button')] | //button | //input[@type='submit']")
+        time.sleep(0.5)
         
-        clicked = False
+        # Find and click the login button "Кіру"
+        logging.info("Looking for login button (Кіру)...")
+        login_button = None
         
-        # First priority: Primary buttons
-        primary_buttons = driver.find_elements(By.XPATH, "//div[contains(@class, 'v-button-primary')]")
-        if primary_buttons:
-             logging.info("Found primary login button, clicking via JS...")
-             driver.execute_script("arguments[0].click();", primary_buttons[0])
-             clicked = True
+        # Try multiple selectors
+        button_selectors = [
+            "//button[contains(text(), 'Кіру')]",
+            "//div[contains(@class, 'v-button')][contains(., 'Кіру')]",
+            "//span[contains(text(), 'Кіру')]/ancestor::button",
+            "//span[contains(text(), 'Кіру')]/ancestor::div[contains(@class, 'v-button')]",
+            "//button[contains(@class, 'primary')]",
+            "//div[contains(@class, 'v-button-primary')]"
+        ]
         
-        if not clicked:
+        for selector in button_selectors:
+            buttons = driver.find_elements(By.XPATH, selector)
             for btn in buttons:
                 if btn.is_displayed():
-                    # Prefer buttons with text like "Login" "Войти" etc
-                    txt = btn.text.lower()
-                    # Also check for "success" icon or new login button
-                    if any(k in txt for k in ['login', 'enter', 'вход', 'войти', 'кіру']) or not txt:
-                        # Avoid clicking the specific "Key" login button we just clicked if it's still there
-                        # But usually a modal appears.
-                        logging.info(f"Clicking potential submit button '{txt}' via JS...")
-                        driver.execute_script("arguments[0].click();", btn)
-                        clicked = True
+                    login_button = btn
+                    logging.info(f"Found login button with selector: {selector}")
+                    break
+            if login_button:
+                break
+        
+        # Fallback: find any button with "Кіру" or "Войти" text
+        if not login_button:
+            all_buttons = driver.find_elements(By.CSS_SELECTOR, "button, .v-button, [role='button']")
+            for btn in all_buttons:
+                text = btn.text.lower()
+                if any(kw in text for kw in ['кіру', 'войти', 'login', 'enter', 'вход']):
+                    if btn.is_displayed():
+                        login_button = btn
+                        logging.info(f"Found login button by text: {btn.text}")
                         break
         
-        if not clicked and buttons:
-            # Be careful not to click 'Cancel' or X
-            # Vaadin modals usually have [Login] [Cancel]
-            # We hope the first one or primary one is Login
-            logging.info("Clicking first available button via JS...")
-            driver.execute_script("arguments[0].click();", buttons[0])
+        if login_button:
+            logging.info("Clicking login button...")
+            driver.execute_script("arguments[0].click();", login_button)
+        else:
+            # Try pressing Enter on password field
+            logging.warning("Login button not found, pressing Enter...")
+            pass_input.send_keys(Keys.RETURN)
         
-        # Wait for redirect or check for successful login element
-        time.sleep(5) # Simple wait for transition
+        # Wait for login to complete
+        logging.info("Waiting for login response...")
+        time.sleep(3)
+        
+        # Take screenshot right after login attempt to see any error message
+        try:
+            driver.save_screenshot("images/debug_after_login_click.png")
+            logging.info("Saved screenshot after login click")
+        except:
+            pass
+        
+        # Check for error messages
+        error_selectors = [
+            ".v-Notification",
+            ".v-errorindicator",
+            "[class*='error']",
+            "[class*='notification']"
+        ]
+        for sel in error_selectors:
+            errors = driver.find_elements(By.CSS_SELECTOR, sel)
+            for err in errors:
+                if err.is_displayed() and err.text:
+                    logging.error(f"Found error message: {err.text}")
+        
+        time.sleep(2)
         
         # Verification Step
         logging.info("Verifying login by navigating to /Stud...")
@@ -149,16 +225,16 @@ def login(driver, username, password):
         time.sleep(5)
         
         current_url = driver.current_url
-        page_source = driver.page_source
         
         # Check if we are still on login page or have access
-        # Heuristic: If we see "Login" or "Вход" inputs again, we failed.
-        # If we see student info or specific text, we succeeded.
-        if "LoginView" in current_url or len(driver.find_elements(By.XPATH, "//input[@type='password']")) > 0:
-             logging.error("Login verification failed. Still finding login elements on /Stud page.")
-             raise Exception("Login failed - redirected to login page.")
+        password_fields = driver.find_elements(By.CSS_SELECTOR, "input[type='password']")
+        visible_password_fields = [f for f in password_fields if f.is_displayed()]
         
-        logging.info("Login verified successfully (No login fields found on /Stud).")
+        if visible_password_fields:
+            logging.error("Login verification failed. Still finding login elements on /Stud page.")
+            raise Exception("Login failed - redirected to login page.")
+        
+        logging.info("Login verified successfully!")
         
     except Exception as e:
         logging.error(f"Login failed: {e}")
