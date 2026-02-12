@@ -11837,3 +11837,38 @@ Calculus II' vs 'a_n = 1/n'
 2026-02-12 19:48:20,573 - INFO - Clicking submit button: 'Send'
 2026-02-12 19:48:22,594 - INFO - Lesson processing complete!
 2026-02-12 19:48:22,721 - INFO - WebDriver closed
+2026-02-12 23:16:13,595 - INFO - ====== WebDriver manager ======
+2026-02-12 23:16:14,616 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 23:16:15,438 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 23:16:16,072 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 23:16:17,761 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 23:16:17,986 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 23:16:17,986 - INFO - AI Helper initialized successfully
+2026-02-12 23:16:20,386 - INFO - Database tables created successfully
+2026-02-12 23:16:20,386 - INFO - Database initialized successfully
+2026-02-12 23:16:20,834 - INFO - Database connection test successful
+2026-02-12 23:16:20,835 - INFO - Database connection established successfully
+2026-02-12 23:16:20,835 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 23:16:24,912 - INFO - Looking for login elements...
+2026-02-12 23:16:24,919 - INFO - Entering credentials...
+2026-02-12 23:16:25,667 - INFO - Clicking login button: 'Sign in'
+2026-02-12 23:16:25,672 - INFO - Waiting for login to complete...
+2026-02-12 23:16:26,181 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 23:16:28,192 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 23:16:28,193 - INFO - Login successful! (redirected from login page)
+2026-02-12 23:16:28,193 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9860
+2026-02-12 23:16:31,445 - INFO - Looking for video player...
+2026-02-12 23:16:31,504 - INFO - Clicked play button
+2026-02-12 23:16:31,504 - INFO - Watching video...
+2026-02-12 23:16:31,513 - INFO - Video progress: 0.0% (0s / 860s)
+2026-02-12 23:17:01,524 - INFO - Video progress: 3.5% (30s / 860s)
+2026-02-12 23:17:31,536 - INFO - Video progress: 7.0% (60s / 860s)
+2026-02-12 23:18:01,543 - INFO - Video progress: 10.5% (90s / 860s)
+2026-02-12 23:18:31,558 - INFO - Video progress: 14.0% (120s / 860s)
+2026-02-12 23:19:01,571 - INFO - Video progress: 17.4% (150s / 860s)
+2026-02-12 23:19:31,582 - INFO - Video progress: 20.9% (180s / 860s)
+2026-02-12 23:20:01,597 - INFO - Video progress: 24.4% (210s / 860s)
+2026-02-12 23:20:31,608 - INFO - Video progress: 27.9% (240s / 860s)
+2026-02-12 23:21:01,623 - INFO - Video progress: 31.4% (270s / 860s)
+2026-02-12 23:21:31,636 - INFO - Video progress: 34.9% (300s / 860s)
+2026-02-12 23:22:01,654 - INFO - Video progress: 37.7% (324s / 860s)

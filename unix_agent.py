@@ -664,14 +664,16 @@ class UniXAgent:
             return False
     
     def _submit_test(self):
-        """Submit/finish the test after answering all questions."""
+        """Submit/finish the test after answering all questions.
+        Per inspect.html: button with text 'Finish the test' or 'Send'.
+        """
         logger.info("Looking for submit button...")
         
         buttons = self.driver.find_elements(By.TAG_NAME, "button")
         for btn in buttons:
             try:
-                text = btn.text.lower()
-                if any(kw in text for kw in ['finish', 'submit', 'complete', 'завершить', 'отправить', 'end']):
+                text = btn.text.lower().strip()
+                if any(kw in text for kw in ['finish the test', 'finish', 'send', 'submit', 'complete', 'завершить', 'отправить', 'end']):
                     if btn.is_displayed() and btn.is_enabled():
                         logger.info(f"Clicking submit button: '{btn.text}'")
                         self.driver.execute_script("arguments[0].click();", btn)
@@ -683,34 +685,30 @@ class UniXAgent:
         logger.info("No submit button found")
     
     def _navigate_to_question(self, question_num: int):
-        """Navigate to a specific question by clicking on the question number button."""
+        """Navigate to a specific question by clicking on the question number button.
+        Per inspect.html: div.cursor-pointer.rounded-[100%] inside questions № area.
+        """
         try:
-            # Look for question number buttons in the test interface
-            # They're usually divs or buttons with just the number as text
-            
-            # Method 1: Look for elements with exact number text
-            all_clickable = self.driver.find_elements(By.CSS_SELECTOR, "div.cursor-pointer, button")
-            
-            for elem in all_clickable:
+            # Method 1: Find question number buttons - rounded-[100%] divs (per inspect.html)
+            # Structure: div.flex.flex-row.overflow-x-auto contains div.rounded-[100%] with numbers 1-5
+            q_num_buttons = self.driver.find_elements(
+                By.CSS_SELECTOR, 
+                "div.cursor-pointer[class*='rounded-[100%]']"
+            )
+            for elem in q_num_buttons:
                 try:
                     text = elem.text.strip()
-                    # Match exact number (but not longer numbers like "10" when looking for "1")
                     if text == str(question_num):
-                        # Verify it's not a navigation button by checking parent context
-                        parent_text = elem.find_element(By.XPATH, "..").text if elem else ""
-                        # Question number buttons are usually near "questions №" or similar
-                        if len(text) <= 2:  # Single or double digit
-                            logger.info(f"Clicking question number button: {question_num}")
-                            self.driver.execute_script("arguments[0].click();", elem)
-                            time.sleep(1)
-                            return
+                        logger.info(f"Clicking question number button: {question_num}")
+                        self.driver.execute_script("arguments[0].click();", elem)
+                        time.sleep(1)
+                        return
                 except:
                     continue
             
-            # Method 2: XPath for specific number in question selector area
+            # Method 2: XPath - find div inside overflow-x-auto (questions area) with number
             try:
-                # Look for question numbers area (usually has "questions №" nearby)
-                xpath = f"//div[contains(text(), 'questions')]/following-sibling::*//div[text()='{question_num}'] | //div[text()='{question_num}' and contains(@class, 'cursor-pointer')]"
+                xpath = f"//div[contains(@class, 'overflow-x-auto')]//div[contains(@class, 'cursor-pointer') and contains(@class, 'rounded-[100%]') and normalize-space(text())='{question_num}']"
                 buttons = self.driver.find_elements(By.XPATH, xpath)
                 for btn in buttons:
                     if btn.is_displayed():
@@ -720,6 +718,21 @@ class UniXAgent:
                         return
             except:
                 pass
+            
+            # Method 3: Fallback - div with number, exclude answer options (px-6 = options)
+            all_clickable = self.driver.find_elements(By.CSS_SELECTOR, "div.cursor-pointer")
+            for elem in all_clickable:
+                try:
+                    text = elem.text.strip()
+                    class_attr = elem.get_attribute('class') or ''
+                    if text == str(question_num) and len(text) <= 2:
+                        if 'rounded-[100%]' in class_attr or ('rounded-full' in class_attr and 'px-6' not in class_attr):
+                            logger.info(f"Clicking question number (fallback): {question_num}")
+                            self.driver.execute_script("arguments[0].click();", elem)
+                            time.sleep(1)
+                            return
+                except:
+                    continue
             
             logger.warning(f"Could not find question number button {question_num}")
             
@@ -806,144 +819,138 @@ class UniXAgent:
             
             logger.info(f"Question: {question_text[:100]}...")
             
-            # Find answer options - look for radio/checkbox inputs or clickable divs with option text
+            # Find answer options - retry up to 5 times if count != 4
             options = []
             option_elements = []
-            
-            # Method 1: Look for inputs (radio/checkbox) - best method
-            radio_inputs = search_context.find_elements(By.CSS_SELECTOR, "input[type='radio'], input[type='checkbox']")
-            
-            if radio_inputs:
-                logger.info(f"Found {len(radio_inputs)} radio/checkbox inputs")
-                for radio in radio_inputs:
-                    try:
-                        # Find the label or parent element containing the text
-                        # Usually the text is in a sibling or parent
-                        parent = radio.find_element(By.XPATH, "./..")
-                        text = parent.text.strip()
-                        if text:
-                            options.append(text)
-                            option_elements.append(parent)
-                        else:
-                            # Try label associated with id
-                            radio_id = radio.get_attribute("id")
-                            if radio_id:
-                                try:
-                                    label = search_context.find_element(By.CSS_SELECTOR, f"label[for='{radio_id}']")
-                                    text = label.text.strip()
-                                    if text:
-                                        options.append(text)
-                                        option_elements.append(label)
-                                except:
-                                    pass
-                    except:
-                        continue
-            
-            # Method 2: Look for clickable option divs with cursor-pointer class
-            # This is the primary method for this website
-            if not options:
-                logger.info("No radio inputs found, looking for clickable div options")
-                # Look for divs with cursor-pointer class that have option-like structure
-                # Based on HTML: div.cursor-pointer containing a p tag with the option text
-                potential_options = search_context.find_elements(
-                    By.CSS_SELECTOR, 
-                    "div.cursor-pointer"
-                )
+            for attempt in range(5):
+                options = []
+                option_elements = []
                 
-                logger.info(f"Found {len(potential_options)} cursor-pointer divs")
+                # Method 1: Look for inputs (radio/checkbox) - best method
+                radio_inputs = search_context.find_elements(By.CSS_SELECTOR, "input[type='radio'], input[type='checkbox']")
                 
-                for div in potential_options:
-                    try:
-                        text = div.text.strip()
-                        class_attr = div.get_attribute('class') or ''
-                        
-                        # Check if this looks like an option container
-                        # Answer options typically have bg-gray-cool class OR rounded+padding styles
-                        is_answer_option = (
-                            'bg-gray-cool' in class_attr or  # Primary answer option indicator
-                            ('rounded' in class_attr and 'px-' in class_attr)  # Alternative style
+                if radio_inputs:
+                    logger.info(f"Found {len(radio_inputs)} radio/checkbox inputs")
+                    for radio in radio_inputs:
+                        try:
+                            parent = radio.find_element(By.XPATH, "./..")
+                            text = parent.text.strip()
+                            if text:
+                                options.append(text)
+                                option_elements.append(parent)
+                            else:
+                                radio_id = radio.get_attribute("id")
+                                if radio_id:
+                                    try:
+                                        label = search_context.find_element(By.CSS_SELECTOR, f"label[for='{radio_id}']")
+                                        text = label.text.strip()
+                                        if text:
+                                            options.append(text)
+                                            option_elements.append(label)
+                                    except:
+                                        pass
+                        except:
+                            continue
+                
+                # Method 2: Look for clickable option divs - based on inspect.html structure
+                if not options:
+                    logger.info("No radio inputs found, looking for clickable div options")
+                    potential_options = search_context.find_elements(
+                        By.CSS_SELECTOR, "div.cursor-pointer.bg-gray-cool"
+                    )
+                    if not potential_options:
+                        potential_options = search_context.find_elements(
+                            By.CSS_SELECTOR, "div.cursor-pointer[class*='rounded-[24px]']"
                         )
-                        
-                        # Check if it's a pure question number like "1." or "2." (not an answer)
-                        is_question_number = (
-                            len(text) <= 3 and 
-                            text[0].isdigit() and 
-                            (text.endswith('.') or text.isdigit())
+                    if not potential_options:
+                        potential_options = search_context.find_elements(
+                            By.CSS_SELECTOR, "div.cursor-pointer"
                         )
-                        
-                        if (text and 
-                            1 < len(text) < 150 and  # Allow short numeric answers like "0.5"
-                            '\n' not in text and  # Single line
-                            not is_question_number and  # Not a question number like "1."
-                            is_answer_option):
-                            
-                            # Filter out navigation/control elements
-                            if not any(kw in text.lower() for kw in [
-                                'next', 'back', 'submit', 'start', 'finish', 
-                                'restart', 'question', 'timer', 'deadline',
-                                'ответьте на все', 'answer all'
-                            ]):
-                                if text not in options:
-                                    options.append(text)
-                                    option_elements.append(div)
-                                    logger.debug(f"Found option: {text[:50]}...")
-                    except:
-                        continue
-            
-            # Method 3: Fallback - look for any divs that might be options
-            if not options:
-                logger.info("Trying fallback method for option detection")
-                all_divs = search_context.find_elements(By.CSS_SELECTOR, "div")
-                for div in all_divs:
-                    try:
-                        text = div.text.strip()
-                        class_attr = div.get_attribute('class') or ''
-                        
-                        # Check if it's a pure question number like "1." or "2."
-                        is_question_number = (
-                            len(text) <= 3 and 
-                            text[0].isdigit() and 
-                            (text.endswith('.') or text.isdigit())
-                        )
-                        
-                        # Options can be various lengths, allow numbers at start (math answers)
-                        # Allow short numeric answers like "0.5", "0.7854"
-                        if text and 1 < len(text) < 100 and '\n' not in text:
-                            if not is_question_number:
+                    
+                    logger.info(f"Found {len(potential_options)} cursor-pointer divs (options area)")
+                    
+                    for div in potential_options:
+                        try:
+                            class_attr = div.get_attribute('class') or ''
+                            if 'rounded-[100%]' in class_attr or ('rounded-full' in class_attr and 'px-6' not in class_attr):
+                                continue
+                            try:
+                                p_elem = div.find_element(By.CSS_SELECTOR, "p.ml-4")
+                                text = p_elem.text.strip()
+                            except:
+                                text = div.text.strip()
+                            is_answer_option = (
+                                'bg-gray-cool' in class_attr or
+                                ('rounded-[24px]' in class_attr and 'px-6' in class_attr)
+                            )
+                            is_question_number = (
+                                len(text) <= 3 and text and text[0].isdigit() and
+                                (text.endswith('.') or text.isdigit())
+                            )
+                            if (text and 1 < len(text) < 150 and '\n' not in text and
+                                    not is_question_number and is_answer_option):
                                 if not any(kw in text.lower() for kw in [
-                                    'next', 'back', 'submit', 'start', 'finish', 
-                                    'question', 'time', 'ответьте на все', 'answer all'
+                                    'next', 'back', 'submit', 'start', 'finish',
+                                    'restart', 'question', 'timer', 'deadline',
+                                    'ответьте на все', 'answer all'
                                 ]):
-                                    # Check visual cues - look for clickable/option-like elements
-                                    is_clickable = (
-                                        'cursor' in class_attr or 
-                                        'rounded' in class_attr or
-                                        'bg-gray-cool' in class_attr or
-                                        'text-unix' in class_attr
-                                    )
-                                    if is_clickable:
-                                        if text not in options:
+                                    if text not in options:
+                                        options.append(text)
+                                        option_elements.append(div)
+                        except:
+                            continue
+                
+                # Method 3: Fallback - look for any divs that might be options
+                if not options:
+                    logger.info("Trying fallback method for option detection")
+                    all_divs = search_context.find_elements(By.CSS_SELECTOR, "div")
+                    for div in all_divs:
+                        try:
+                            text = div.text.strip()
+                            class_attr = div.get_attribute('class') or ''
+                            is_question_number = (
+                                len(text) <= 3 and text and text[0].isdigit() and
+                                (text.endswith('.') or text.isdigit())
+                            )
+                            if text and 1 < len(text) < 100 and '\n' not in text:
+                                if not is_question_number:
+                                    if not any(kw in text.lower() for kw in [
+                                        'next', 'back', 'submit', 'start', 'finish',
+                                        'question', 'time', 'ответьте на все', 'answer all'
+                                    ]):
+                                        is_clickable = (
+                                            'cursor' in class_attr or 'rounded' in class_attr or
+                                            'bg-gray-cool' in class_attr or 'text-unix' in class_attr
+                                        )
+                                        if is_clickable and text not in options:
                                             options.append(text)
                                             option_elements.append(div)
-                    except:
-                        continue
+                        except:
+                            continue
+                
+                # Filter and deduplicate
+                unique_options = []
+                unique_elements = []
+                for i, opt in enumerate(options):
+                    opt = opt.strip()
+                    if opt and opt not in unique_options and len(unique_options) < 6:
+                        unique_options.append(opt)
+                        unique_elements.append(option_elements[i])
+                
+                options = unique_options
+                option_elements = unique_elements
+                logger.info(f"Attempt {attempt + 1}/5: found {len(options)} options")
+                
+                if len(options) == 4:
+                    break
+                if attempt < 4:
+                    logger.info(f"Expected 4 options, got {len(options)}. Retrying in 1 sec...")
+                    time.sleep(1)
             
             if not options:
-                logger.warning("No answer options found using any method")
+                logger.warning("No answer options found after 5 attempts")
                 return False
             
-            # Filter and deduplicate
-            unique_options = []
-            unique_elements = []
-            for i, opt in enumerate(options):
-                # Simple cleanup
-                opt = opt.strip() 
-                if opt and opt not in unique_options and len(unique_options) < 6:
-                    unique_options.append(opt)
-                    unique_elements.append(option_elements[i])
-            
-            options = unique_options
-            option_elements = unique_elements
             logger.info(f"Found {len(options)} unique options: {options}")
             
             # Use AI to get the answer
@@ -980,37 +987,46 @@ class UniXAgent:
                 # The page may have re-rendered since we first found the elements
                 option = None
                 
-                # Try to find the element containing this exact text
+                # Re-find the option element (per inspect.html: div.bg-gray-cool with p.ml-4)
                 try:
-                    # Find all cursor-pointer divs again
-                    potential_options = search_context.find_elements(By.CSS_SELECTOR, "div.cursor-pointer")
-                    logger.info(f"Re-searching: found {len(potential_options)} cursor-pointer divs")
+                    # Strategy 1: div.bg-gray-cool.cursor-pointer - iterate and match text from p.ml-4
+                    potential_options = search_context.find_elements(
+                        By.CSS_SELECTOR, "div.cursor-pointer.bg-gray-cool"
+                    )
+                    if not potential_options:
+                        potential_options = search_context.find_elements(
+                            By.CSS_SELECTOR, "div.cursor-pointer[class*='rounded-[24px]']"
+                        )
+                    if not potential_options:
+                        potential_options = search_context.find_elements(By.CSS_SELECTOR, "div.cursor-pointer")
                     
+                    logger.info(f"Re-searching: found {len(potential_options)} candidate divs")
                     for div in potential_options:
                         try:
-                            div_text = div.text.strip()
-                            logger.info(f"Comparing option text: '{div_text}' vs '{selected_option_text}'")
+                            if 'rounded-[100%]' in (div.get_attribute('class') or ''):
+                                continue
+                            try:
+                                p_div = div.find_element(By.CSS_SELECTOR, "p.ml-4")
+                                div_text = p_div.text.strip()
+                            except:
+                                div_text = div.text.strip()
                             if div_text == selected_option_text:
                                 option = div
-                                logger.info(f"Re-found option element for: {selected_option_text[:30]}...")
+                                logger.info(f"Re-found option for: {selected_option_text[:30]}...")
                                 break
                         except Exception as inner_e:
-                            logger.warning(f"Error getting text from div: {inner_e}")
                             continue
                     
-                    # Fallback: use xpath to find element by text
-                    if not option:
-                        logger.info("Trying XPath to find option by text")
-                        # Look for any element containing this exact text
-                        xpath = f"//div[contains(@class, 'cursor-pointer') and normalize-space(.)='{selected_option_text}']"
+                    # Strategy 2: XPath - find p by contains with safe substring
+                    if not option and len(selected_option_text) > 10:
+                        safe_sub = selected_option_text[:40].replace("'", "\\'").replace('"', '\\"')
                         try:
-                            option = search_context.find_element(By.XPATH, xpath)
-                            logger.info("Found using XPath exact match")
+                            xpath = f"//p[contains(@class, 'ml-4') and contains(normalize-space(.), '{safe_sub}')]"
+                            p_elem = search_context.find_element(By.XPATH, xpath)
+                            option = p_elem.find_element(By.XPATH, "..")
+                            logger.info("Re-found option via p.ml-4 XPath")
                         except:
-                            # Try partial match if exact doesn't work
-                            xpath = f"//div[contains(@class, 'cursor-pointer') and contains(normalize-space(.), '{selected_option_text[:30]}')]"
-                            option = search_context.find_element(By.XPATH, xpath)
-                            logger.info("Found using XPath partial match")
+                            pass
                 
                 except Exception as e:
                     logger.error(f"Could not re-find option element: {e}")
@@ -1135,7 +1151,6 @@ class UniXAgent:
             import traceback
             logger.error(traceback.format_exc())
             return False
-            return False
     
     def process_lesson(self, lesson_name: str) -> bool:
         """
@@ -1245,6 +1260,7 @@ def main():
     parser.add_argument("--test-ai", action="store_true", help="Test AI helper")
     parser.add_argument("--headless", action="store_true", help="Run in headless mode")
     parser.add_argument("--lesson", type=str, help="Specific lesson URL to process (e.g., https://uni-x.almv.kz/platform/lessons/9839)")
+    parser.add_argument("--lesson-ids", type=str, help="Comma-separated lesson IDs for batch (e.g., 9858,9859,9860). Same logic as single mode, one browser session.")
     parser.add_argument("--skip-video", action="store_true", help="Skip video watching and go directly to test (use if video already watched)")
     parser.add_argument("--batch", action="store_true", help="Process multiple lessons in sequence")
     parser.add_argument("--start-id", type=int, help="Starting lesson ID for batch mode")
@@ -1398,6 +1414,59 @@ def main():
             logger.info(f"Lessons failed: {lessons_failed}")
             logger.info(f"{'='*50}")
             
+        except KeyboardInterrupt:
+            logger.info("\nBatch interrupted by user")
+        except Exception as e:
+            logger.exception(f"Batch error: {e}")
+        finally:
+            agent.cleanup()
+        return
+    
+    # Batch mode with explicit IDs - same logic as single lesson, one browser session
+    if args.lesson_ids:
+        ids = [x.strip() for x in args.lesson_ids.split(",") if x.strip()]
+        if not ids:
+            logger.error("No valid lesson IDs in --lesson-ids")
+            return
+        
+        agent.setup_driver()
+        agent.setup_ai()
+        agent.setup_database()
+        try:
+            if not agent.login():
+                logger.error("Login failed, cannot process lessons")
+                return
+            
+            for i, lesson_id in enumerate(ids):
+                lesson_url = f"https://uni-x.almv.kz/platform/lessons/{lesson_id}"
+                logger.info(f"\n{'='*50}")
+                logger.info(f"Processing lesson {lesson_id} ({i + 1}/{len(ids)})")
+                logger.info(f"{'='*50}")
+                
+                try:
+                    agent.current_lesson_url = lesson_url
+                    agent.current_lesson_name = f"Lesson {lesson_id}"
+                    logger.info(f"Navigating to lesson: {lesson_url}")
+                    agent.driver.get(lesson_url)
+                    time.sleep(3)
+                    
+                    if args.skip_video:
+                        logger.info("Skipping video (--skip-video flag set)")
+                    else:
+                        agent.watch_video()
+                    
+                    agent.complete_test()
+                    logger.info(f"Lesson {lesson_id} completed successfully!")
+                except Exception as e:
+                    logger.error(f"Error processing lesson {lesson_id}: {e}")
+                
+                if i < len(ids) - 1:
+                    logger.info("Waiting before next lesson...")
+                    time.sleep(2)
+            
+            logger.info(f"\n{'='*50}")
+            logger.info("BATCH COMPLETE")
+            logger.info(f"{'='*50}")
         except KeyboardInterrupt:
             logger.info("\nBatch interrupted by user")
         except Exception as e:
