@@ -299,7 +299,7 @@ async def home():
                     <input 
                         type="text" 
                         x-model="lessonId" 
-                        placeholder="e.g., 9843"
+                        placeholder="https://uni-x.almv.kz/platform/lessons/191 | нужно написать только id (191)"
                         class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                         :disabled="agentStatus.running"
                     >
