@@ -11320,3 +11320,80 @@ Stacktrace:
 2026-02-12 13:07:57,423 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59223): Failed to establish a new connection: [Errno 61] Connection refused")': /session/d6b36577dc387127e94fa741f70c67ba
 2026-02-12 13:07:57,424 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59223): Failed to establish a new connection: [Errno 61] Connection refused")': /session/d6b36577dc387127e94fa741f70c67ba
 2026-02-12 13:07:57,428 - INFO - WebDriver closed
+2026-02-12 13:54:40,210 - INFO - ====== WebDriver manager ======
+2026-02-12 13:54:44,039 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 13:54:44,577 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 13:54:45,099 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 13:54:46,956 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 13:54:47,174 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 13:54:47,174 - INFO - AI Helper initialized successfully
+2026-02-12 13:54:50,984 - INFO - Database tables created successfully
+2026-02-12 13:54:50,984 - INFO - Database initialized successfully
+2026-02-12 13:54:51,580 - INFO - Database connection test successful
+2026-02-12 13:54:51,580 - INFO - Database connection established successfully
+2026-02-12 13:54:51,580 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 13:54:55,364 - INFO - Looking for login elements...
+2026-02-12 13:54:55,371 - INFO - Entering credentials...
+2026-02-12 13:54:56,078 - INFO - Clicking login button: 'Sign in'
+2026-02-12 13:54:56,083 - INFO - Waiting for login to complete...
+2026-02-12 13:54:56,592 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 13:54:58,609 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 13:54:58,609 - INFO - Login successful! (redirected from login page)
+2026-02-12 13:54:58,609 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15340
+2026-02-12 13:55:01,945 - INFO - Looking for video player...
+2026-02-12 13:55:02,010 - INFO - Clicked play button
+2026-02-12 13:55:02,010 - INFO - Watching video...
+2026-02-12 13:55:02,039 - INFO - Video progress: 0.0% (0s / 1056s)
+2026-02-12 14:28:39,992 - INFO - Interrupted by user
+2026-02-12 14:28:40,004 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61341): Failed to establish a new connection: [Errno 61] Connection refused")': /session/340377c0fbfb1f7fcbfe312883438094
+2026-02-12 14:28:40,007 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61341): Failed to establish a new connection: [Errno 61] Connection refused")': /session/340377c0fbfb1f7fcbfe312883438094
+2026-02-12 14:28:40,009 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61341): Failed to establish a new connection: [Errno 61] Connection refused")': /session/340377c0fbfb1f7fcbfe312883438094
+2026-02-12 14:28:40,012 - INFO - WebDriver closed
+2026-02-12 19:00:00,168 - INFO - ====== WebDriver manager ======
+2026-02-12 19:00:01,296 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:00:01,772 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:00:02,323 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 19:00:03,950 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 19:00:04,211 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 19:00:04,211 - INFO - AI Helper initialized successfully
+2026-02-12 19:00:06,627 - INFO - Database tables created successfully
+2026-02-12 19:00:06,628 - INFO - Database initialized successfully
+2026-02-12 19:00:07,081 - INFO - Database connection test successful
+2026-02-12 19:00:07,081 - INFO - Database connection established successfully
+2026-02-12 19:00:07,081 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 19:00:10,917 - INFO - Looking for login elements...
+2026-02-12 19:00:10,924 - INFO - Entering credentials...
+2026-02-12 19:00:11,676 - INFO - Clicking login button: 'Sign in'
+2026-02-12 19:00:11,681 - INFO - Waiting for login to complete...
+2026-02-12 19:00:26,853 - WARNING - No redirect detected, checking page state...
+2026-02-12 19:00:28,861 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform/login
+2026-02-12 19:00:28,864 - ERROR - Login failed - still on login page
+2026-02-12 19:00:29,986 - INFO - Saved screenshot: images/debug_login_failed_1770904828.png
+2026-02-12 19:00:29,988 - INFO - Saved page source: images/debug_login_failed_1770904828.html
+2026-02-12 19:00:29,988 - ERROR - Login failed, cannot process lesson
+2026-02-12 19:00:30,073 - INFO - WebDriver closed
+2026-02-12 19:00:46,849 - INFO - ====== WebDriver manager ======
+2026-02-12 19:00:47,949 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:00:48,442 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:00:49,369 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 19:00:50,784 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 19:00:51,019 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 19:00:51,019 - INFO - AI Helper initialized successfully
+2026-02-12 19:00:53,793 - INFO - Database tables created successfully
+2026-02-12 19:00:53,793 - INFO - Database initialized successfully
+2026-02-12 19:00:54,281 - INFO - Database connection test successful
+2026-02-12 19:00:54,282 - INFO - Database connection established successfully
+2026-02-12 19:00:54,282 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 19:00:58,229 - INFO - Looking for login elements...
+2026-02-12 19:00:58,236 - INFO - Entering credentials...
+2026-02-12 19:00:58,987 - INFO - Clicking login button: 'Sign in'
+2026-02-12 19:00:58,991 - INFO - Waiting for login to complete...
+2026-02-12 19:00:59,495 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 19:01:01,513 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 19:01:01,514 - INFO - Login successful! (redirected from login page)
+2026-02-12 19:01:01,514 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/190
+2026-02-12 19:01:04,697 - INFO - Looking for video player...
+2026-02-12 19:01:04,741 - INFO - Clicked play button
+2026-02-12 19:01:04,741 - INFO - Watching video...
+2026-02-12 19:01:04,750 - INFO - Video progress: 0.0% (0s / 330s)
+2026-02-12 19:01:34,761 - INFO - Video progress: 9.1% (30s / 330s)

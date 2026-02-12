@@ -298,6 +298,68 @@ class DatabaseManager:
         finally:
             session.close()
     
+    def get_all_questions(
+        self,
+        limit: int = 50,
+        offset: int = 0
+    ) -> List[Dict[str, Any]]:
+        """Get all questions from all users (for shared demo)."""
+        session = self.Session()
+        try:
+            questions = (
+                session.query(Question)
+                .order_by(Question.created_at.desc())
+                .limit(limit)
+                .offset(offset)
+                .all()
+            )
+            
+            result = []
+            for q in questions:
+                user = session.query(User).filter_by(id=q.user_id).first()
+                answers = (
+                    session.query(Answer)
+                    .filter_by(question_id=q.id)
+                    .order_by(Answer.position)
+                    .all()
+                )
+                
+                result.append({
+                    'id': q.id,
+                    'question_text': q.question_text,
+                    'lesson_name': q.lesson_name,
+                    'lesson_url': q.lesson_url,
+                    'created_at': q.created_at.isoformat(),
+                    'user_email': user.email if user else None,
+                    'answers': [
+                        {
+                            'text': a.answer_text,
+                            'is_selected': a.is_selected,
+                            'position': a.position
+                        }
+                        for a in answers
+                    ]
+                })
+            
+            return result
+            
+        except SQLAlchemyError as e:
+            logger.error(f"Error retrieving questions: {e}")
+            return []
+        finally:
+            session.close()
+    
+    def get_all_question_count(self) -> int:
+        """Get total count of all questions."""
+        session = self.Session()
+        try:
+            return session.query(Question).count()
+        except SQLAlchemyError as e:
+            logger.error(f"Error counting questions: {e}")
+            return 0
+        finally:
+            session.close()
+    
     def test_connection(self) -> bool:
         """
         Test database connection.

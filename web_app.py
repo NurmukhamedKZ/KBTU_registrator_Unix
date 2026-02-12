@@ -52,6 +52,8 @@ def get_db():
 class LessonRequest(BaseModel):
     lesson_id: str
     skip_video: bool = True
+    unix_email: str = ""
+    unix_password: str = ""
 
 
 class BatchRequest(BaseModel):
@@ -59,6 +61,8 @@ class BatchRequest(BaseModel):
     end_id: Optional[int] = None
     max_lessons: int = 50
     skip_video: bool = False
+    unix_email: str = ""
+    unix_password: str = ""
 
 
 class AgentStatus(BaseModel):
@@ -68,7 +72,7 @@ class AgentStatus(BaseModel):
     log_count: int
 
 
-def run_agent(lesson_id: str, skip_video: bool = True):
+def run_agent(lesson_id: str, skip_video: bool = True, unix_email: str = "", unix_password: str = ""):
     """Run the agent in a background thread."""
     global agent_state
     
@@ -86,12 +90,20 @@ def run_agent(lesson_id: str, skip_video: bool = True):
         
         agent_state["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] Starting agent for lesson {lesson_id}...")
         
+        # Pass credentials via env - never stored
+        env = os.environ.copy()
+        if unix_email:
+            env["UNIX_EMAIL"] = unix_email
+        if unix_password:
+            env["UNIX_PASSWORD"] = unix_password
+        
         process = subprocess.Popen(
             cmd,
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
-            bufsize=1
+            bufsize=1,
+            env=env
         )
         agent_state["process"] = process
         
@@ -120,7 +132,7 @@ def run_agent(lesson_id: str, skip_video: bool = True):
         agent_state["last_run"] = datetime.now().isoformat()
 
 
-def run_batch_agent(start_id: int, end_id: Optional[int], max_lessons: int, skip_video: bool):
+def run_batch_agent(start_id: int, end_id: Optional[int], max_lessons: int, skip_video: bool, unix_email: str = "", unix_password: str = ""):
     """Run the agent in batch mode to process multiple lessons."""
     global agent_state
     
@@ -140,12 +152,20 @@ def run_batch_agent(start_id: int, end_id: Optional[int], max_lessons: int, skip
         agent_state["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] 🚀 Starting BATCH mode from lesson {start_id}...")
         agent_state["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] Max lessons: {max_lessons}, Skip video: {skip_video}")
         
+        # Pass credentials via env - never stored
+        env = os.environ.copy()
+        if unix_email:
+            env["UNIX_EMAIL"] = unix_email
+        if unix_password:
+            env["UNIX_PASSWORD"] = unix_password
+        
         process = subprocess.Popen(
             cmd,
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
-            bufsize=1
+            bufsize=1,
+            env=env
         )
         agent_state["process"] = process
         
@@ -216,6 +236,33 @@ async def home():
         <div class="bg-white rounded-lg shadow-md p-6 mb-6">
             <h2 class="text-xl font-semibold text-gray-800 mb-4">Agent Control</h2>
             
+            <!-- UniX Credentials - not stored, used only for login -->
+            <div class="mb-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <p class="text-sm text-gray-600 mb-2">UniX credentials (not saved, used only for agent login)</p>
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex-1 min-w-[200px]">
+                        <label class="block text-sm font-medium text-gray-700 mb-1">UniX Email</label>
+                        <input 
+                            type="email" 
+                            x-model="unixEmail" 
+                            placeholder="your@kbtu.kz"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            :disabled="agentStatus.running"
+                        >
+                    </div>
+                    <div class="flex-1 min-w-[200px]">
+                        <label class="block text-sm font-medium text-gray-700 mb-1">UniX Password</label>
+                        <input 
+                            type="password" 
+                            x-model="unixPassword" 
+                            placeholder="••••••••"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            :disabled="agentStatus.running"
+                        >
+                    </div>
+                </div>
+            </div>
+            
             <!-- Mode Tabs -->
             <div class="flex border-b border-gray-200 mb-4">
                 <button 
@@ -254,7 +301,7 @@ async def home():
                 
                 <button 
                     @click="startAgent()"
-                    :disabled="agentStatus.running || !lessonId"
+                    :disabled="agentStatus.running || !lessonId || !unixEmail || !unixPassword"
                     class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
                 >
                     Start Agent
@@ -304,7 +351,7 @@ async def home():
                     
                     <button 
                         @click="startBatchAgent()"
-                        :disabled="agentStatus.running || !batchStartId"
+                        :disabled="agentStatus.running || !batchStartId || !unixEmail || !unixPassword"
                         class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors flex items-center gap-2"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -417,8 +464,9 @@ async def home():
                         
                         <p class="font-medium text-gray-800 mb-3" x-text="question.question_text"></p>
                         
-                        <div x-show="question.lesson_name" class="text-xs text-gray-500 mb-2">
-                            Lesson: <span x-text="question.lesson_name"></span>
+                        <div class="flex gap-2 flex-wrap text-xs text-gray-500 mb-2">
+                            <span x-show="question.lesson_name">Lesson: <span x-text="question.lesson_name"></span></span>
+                            <span x-show="question.user_email" class="text-gray-400">• by <span x-text="question.user_email"></span></span>
                         </div>
                         
                         <div class="space-y-2">
@@ -472,8 +520,10 @@ async def home():
         function dashboard() {
             return {
                 mode: 'single',
+                unixEmail: '',
+                unixPassword: '',
                 lessonId: '',
-                skipVideo: true,
+                skipVideo: false,
                 batchStartId: '',
                 batchEndId: '',
                 maxLessons: 50,
@@ -496,13 +546,18 @@ async def home():
                 },
                 
                 async startAgent() {
-                    if (!this.lessonId || this.agentStatus.running) return;
+                    if (!this.lessonId || !this.unixEmail || !this.unixPassword || this.agentStatus.running) return;
                     
                     try {
                         const response = await fetch('/api/agent/start', {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({ lesson_id: this.lessonId, skip_video: this.skipVideo })
+                            body: JSON.stringify({ 
+                                lesson_id: this.lessonId, 
+                                skip_video: this.skipVideo,
+                                unix_email: this.unixEmail,
+                                unix_password: this.unixPassword
+                            })
                         });
                         
                         if (response.ok) {
@@ -516,7 +571,7 @@ async def home():
                 },
                 
                 async startBatchAgent() {
-                    if (!this.batchStartId || this.agentStatus.running) return;
+                    if (!this.batchStartId || !this.unixEmail || !this.unixPassword || this.agentStatus.running) return;
                     
                     try {
                         const response = await fetch('/api/agent/batch', {
@@ -526,7 +581,9 @@ async def home():
                                 start_id: parseInt(this.batchStartId), 
                                 end_id: this.batchEndId ? parseInt(this.batchEndId) : null,
                                 max_lessons: parseInt(this.maxLessons) || 50,
-                                skip_video: this.batchSkipVideo 
+                                skip_video: this.batchSkipVideo,
+                                unix_email: this.unixEmail,
+                                unix_password: this.unixPassword
                             })
                         });
                         
@@ -573,9 +630,9 @@ async def home():
                             const logsResponse = await fetch('/api/agent/logs');
                             const newLogs = await logsResponse.json();
                             
-                            // Auto-scroll if new logs
-                            if (newLogs.length > this.logs.length) {
-                                this.logs = newLogs;
+                            // Always update logs from server (handles restart when logs are cleared)
+                            this.logs = newLogs;
+                            if (newLogs.length > 0) {
                                 this.$nextTick(() => {
                                     const container = this.$refs.logContainer;
                                     if (container) {
@@ -642,11 +699,13 @@ async def start_agent(request: LessonRequest, background_tasks: BackgroundTasks)
     """Start the agent to process a lesson."""
     if agent_state["running"]:
         raise HTTPException(status_code=400, detail="Agent is already running")
+    if not request.unix_email or not request.unix_password:
+        raise HTTPException(status_code=400, detail="UniX email and password are required")
     
-    # Start agent in background
+    # Start agent in background (credentials passed via env, never stored)
     thread = threading.Thread(
         target=run_agent, 
-        args=(request.lesson_id, request.skip_video)
+        args=(request.lesson_id, request.skip_video, request.unix_email, request.unix_password)
     )
     thread.daemon = True
     thread.start()
@@ -659,11 +718,13 @@ async def start_batch_agent(request: BatchRequest):
     """Start the agent in batch mode to process multiple lessons."""
     if agent_state["running"]:
         raise HTTPException(status_code=400, detail="Agent is already running")
+    if not request.unix_email or not request.unix_password:
+        raise HTTPException(status_code=400, detail="UniX email and password are required")
     
-    # Start agent in background
+    # Start agent in background (credentials passed via env, never stored)
     thread = threading.Thread(
         target=run_batch_agent, 
-        args=(request.start_id, request.end_id, request.max_lessons, request.skip_video)
+        args=(request.start_id, request.end_id, request.max_lessons, request.skip_video, request.unix_email, request.unix_password)
     )
     thread.daemon = True
     thread.start()
@@ -724,17 +785,13 @@ async def get_agent_logs() -> List[str]:
 
 @app.get("/api/questions")
 async def get_questions(limit: int = 20, offset: int = 0):
-    """Get saved questions with pagination."""
+    """Get saved questions with pagination. Shows all questions (shared demo - no user filter)."""
     db = get_db()
     if not db:
         return {"questions": [], "total": 0}
     
-    user_email = os.getenv("UNIX_EMAIL")
-    if not user_email:
-        return {"questions": [], "total": 0}
-    
-    questions = db.get_user_questions(user_email, limit=limit, offset=offset)
-    total = db.get_question_count(user_email)
+    questions = db.get_all_questions(limit=limit, offset=offset)
+    total = db.get_all_question_count()
     
     return {"questions": questions, "total": total}
 
@@ -746,11 +803,7 @@ async def get_question_count():
     if not db:
         return {"count": 0}
     
-    user_email = os.getenv("UNIX_EMAIL")
-    if not user_email:
-        return {"count": 0}
-    
-    count = db.get_question_count(user_email)
+    count = db.get_all_question_count()
     return {"count": count}
 
 
