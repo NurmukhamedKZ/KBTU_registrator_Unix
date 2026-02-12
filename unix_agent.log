@@ -11397,3 +11397,443 @@ Stacktrace:
 2026-02-12 19:01:04,741 - INFO - Watching video...
 2026-02-12 19:01:04,750 - INFO - Video progress: 0.0% (0s / 330s)
 2026-02-12 19:01:34,761 - INFO - Video progress: 9.1% (30s / 330s)
+2026-02-12 19:02:04,771 - INFO - Video progress: 18.2% (60s / 330s)
+2026-02-12 19:02:34,783 - INFO - Video progress: 27.2% (90s / 330s)
+2026-02-12 19:03:04,794 - INFO - Video progress: 36.3% (120s / 330s)
+2026-02-12 19:03:34,807 - INFO - Video progress: 45.4% (150s / 330s)
+2026-02-12 19:04:04,816 - INFO - Video progress: 54.5% (180s / 330s)
+2026-02-12 19:04:34,826 - INFO - Video progress: 63.6% (210s / 330s)
+2026-02-12 19:05:04,837 - INFO - Video progress: 72.6% (240s / 330s)
+2026-02-12 19:05:34,850 - INFO - Video progress: 81.7% (270s / 330s)
+2026-02-12 19:06:04,861 - INFO - Video progress: 90.8% (300s / 330s)
+2026-02-12 19:06:34,870 - INFO - Video completed!
+2026-02-12 19:06:34,903 - INFO - Looking for test button...
+2026-02-12 19:06:34,989 - INFO - Found test button: 'Test task'
+2026-02-12 19:06:34,998 - INFO - Waiting for test page to load...
+2026-02-12 19:06:38,003 - INFO - Looking for 'Start the test' button...
+2026-02-12 19:06:38,139 - INFO - Found button: 'Start the test'
+2026-02-12 19:06:38,143 - INFO - Clicked start/restart button
+2026-02-12 19:06:38,143 - INFO - Waiting for questions to load...
+2026-02-12 19:06:43,384 - INFO - Saved screenshot: images/debug_test_questions_1770905203.png
+2026-02-12 19:06:43,391 - INFO - Saved page source: images/debug_test_questions_1770905203.html
+2026-02-12 19:06:43,391 - INFO - Attempting question 1 of 5
+2026-02-12 19:06:43,531 - INFO - Clicking question number button: 1
+2026-02-12 19:06:45,572 - INFO - Found main content area
+2026-02-12 19:06:45,839 - INFO - Found question element: 1.For which of the following sequences is M = 1 the least upper bound?...
+2026-02-12 19:06:45,839 - INFO - Question: 1.For which of the following sequences is M = 1 the least upper bound?...
+2026-02-12 19:06:45,842 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:06:45,845 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:06:45,892 - INFO - Found 4 unique options: ['a_n = (2 - 1/2^n)(3 + 1/2^n)', 'a_n = n', 'a_n = (1 + 7/n)^n', 'a_n = n/(n + 1)']
+2026-02-12 19:06:54,820 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:06:55,594 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:06:55,594 - INFO - Question and answers saved to database
+2026-02-12 19:06:55,595 - INFO - Selecting answer 4: a_n = n/(n + 1)...
+2026-02-12 19:06:55,604 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:06:55,610 - INFO - Comparing option text: 'Course
+Calculus II' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,616 - INFO - Comparing option text: '1' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,621 - INFO - Comparing option text: '2' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,626 - INFO - Comparing option text: '3' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,629 - INFO - Comparing option text: '4' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,633 - INFO - Comparing option text: '5' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,636 - INFO - Comparing option text: 'a_n = (2 - 1/2^n)(3 + 1/2^n)' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,639 - INFO - Comparing option text: '' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,643 - INFO - Comparing option text: 'a_n = n' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,646 - INFO - Comparing option text: '' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,648 - INFO - Comparing option text: 'a_n = (1 + 7/n)^n' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,651 - INFO - Comparing option text: '' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,653 - INFO - Comparing option text: 'a_n = n/(n + 1)' vs 'a_n = n/(n + 1)'
+2026-02-12 19:06:55,654 - INFO - Re-found option element for: a_n = n/(n + 1)...
+2026-02-12 19:06:56,704 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:06:57,771 - INFO - Retry click succeeded!
+2026-02-12 19:06:58,866 - INFO - Clicking: Next
+2026-02-12 19:07:01,872 - INFO - Successfully answered question 1
+2026-02-12 19:07:03,877 - INFO - Attempting question 2 of 5
+2026-02-12 19:07:04,034 - INFO - Clicking question number button: 2
+2026-02-12 19:07:06,068 - INFO - Found main content area
+2026-02-12 19:07:06,340 - INFO - Found question element: 2.What does it mean for a sequence to be nondecreasing?...
+2026-02-12 19:07:06,340 - INFO - Question: 2.What does it mean for a sequence to be nondecreasing?...
+2026-02-12 19:07:06,342 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:07:06,344 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:07:06,391 - INFO - Found 4 unique options: ['The terms are strictly smaller than the previous term.', 'Each term is either equal to or greater than the previous term.', 'The terms fluctuate between increasing and decreasing.', 'Each term is strictly larger than the previous term.']
+2026-02-12 19:07:08,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:07:09,266 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:07:09,267 - INFO - Question and answers saved to database
+2026-02-12 19:07:09,267 - INFO - Selecting answer 2: Each term is either equal to or greater than the p...
+2026-02-12 19:07:09,276 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:07:09,282 - INFO - Comparing option text: 'Course
+Calculus II' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,287 - INFO - Comparing option text: '1' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,293 - INFO - Comparing option text: '2' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,297 - INFO - Comparing option text: '3' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,301 - INFO - Comparing option text: '4' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,304 - INFO - Comparing option text: '5' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,307 - INFO - Comparing option text: 'The terms are strictly smaller than the previous term.' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,310 - INFO - Comparing option text: '' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,313 - INFO - Comparing option text: 'Each term is either equal to or greater than the previous term.' vs 'Each term is either equal to or greater than the previous term.'
+2026-02-12 19:07:09,313 - INFO - Re-found option element for: Each term is either equal to o...
+2026-02-12 19:07:09,823 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001008a3cdc cxxbridge1$str$ptr + 3127864
+1   chromedriver                        0x000000010089c0cc cxxbridge1$str$ptr + 3096104
+2   chromedriver                        0x00000001003799f4 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75356
+3   chromedriver                        0x000000010037f96c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 99796
+4   chromedriver                        0x0000000100381ea0 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109320
+5   chromedriver                        0x0000000100401b18 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632704
+6   chromedriver                        0x0000000100400b8c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 628724
+7   chromedriver                        0x00000001003b62bc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323364
+8   chromedriver                        0x0000000100862800 cxxbridge1$str$ptr + 2860380
+9   chromedriver                        0x0000000100865f40 cxxbridge1$str$ptr + 2874524
+10  chromedriver                        0x0000000100847c1c cxxbridge1$str$ptr + 2750840
+11  chromedriver                        0x00000001008667c4 cxxbridge1$str$ptr + 2876704
+12  chromedriver                        0x0000000100838224 cxxbridge1$str$ptr + 2686848
+13  chromedriver                        0x000000010088aec0 cxxbridge1$str$ptr + 3025948
+14  chromedriver                        0x000000010088b03c cxxbridge1$str$ptr + 3026328
+15  chromedriver                        0x000000010089bd24 cxxbridge1$str$ptr + 3095168
+16  libsystem_pthread.dylib             0x0000000184d99c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000184d94ba8 thread_start + 8
+
+2026-02-12 19:07:09,839 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:07:10,887 - INFO - Retry click succeeded!
+2026-02-12 19:07:11,984 - INFO - Clicking: Next
+2026-02-12 19:07:14,990 - INFO - Successfully answered question 2
+2026-02-12 19:07:16,995 - INFO - Attempting question 3 of 5
+2026-02-12 19:07:17,153 - INFO - Clicking question number button: 3
+2026-02-12 19:07:19,186 - INFO - Found main content area
+2026-02-12 19:07:19,454 - INFO - Found question element: 3.Which example illustrates a non-monotonic sequence?...
+2026-02-12 19:07:19,454 - INFO - Question: 3.Which example illustrates a non-monotonic sequence?...
+2026-02-12 19:07:19,456 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:07:19,458 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:07:19,506 - INFO - Found 4 unique options: ['1, -1, 1, -1, ...', '3, 3, 3, 3, ...', '1, 1/2, 1/4, 1/8, ...', '1, 2, 3, 4, ...']
+2026-02-12 19:07:25,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:07:25,944 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:07:25,944 - INFO - Question and answers saved to database
+2026-02-12 19:07:25,944 - INFO - Selecting answer 1: 1, -1, 1, -1, ......
+2026-02-12 19:07:25,952 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:07:25,958 - INFO - Comparing option text: 'Course
+Calculus II' vs '1, -1, 1, -1, ...'
+2026-02-12 19:07:25,962 - INFO - Comparing option text: '1' vs '1, -1, 1, -1, ...'
+2026-02-12 19:07:25,966 - INFO - Comparing option text: '2' vs '1, -1, 1, -1, ...'
+2026-02-12 19:07:25,969 - INFO - Comparing option text: '3' vs '1, -1, 1, -1, ...'
+2026-02-12 19:07:25,972 - INFO - Comparing option text: '4' vs '1, -1, 1, -1, ...'
+2026-02-12 19:07:25,975 - INFO - Comparing option text: '5' vs '1, -1, 1, -1, ...'
+2026-02-12 19:07:25,978 - INFO - Comparing option text: '1, -1, 1, -1, ...' vs '1, -1, 1, -1, ...'
+2026-02-12 19:07:25,978 - INFO - Re-found option element for: 1, -1, 1, -1, ......
+2026-02-12 19:07:27,017 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:07:28,070 - INFO - Retry click succeeded!
+2026-02-12 19:07:29,165 - INFO - Clicking: Next
+2026-02-12 19:07:32,172 - INFO - Successfully answered question 3
+2026-02-12 19:07:34,177 - INFO - Attempting question 4 of 5
+2026-02-12 19:07:34,335 - INFO - Clicking question number button: 4
+2026-02-12 19:07:36,369 - INFO - Found main content area
+2026-02-12 19:07:36,636 - INFO - Found question element: 4.If a sequence is bounded from below, which of the following statements is true...
+2026-02-12 19:07:36,637 - INFO - Question: 4.If a sequence is bounded from below, which of the following statements is true?...
+2026-02-12 19:07:36,638 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:07:36,640 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:07:36,687 - INFO - Found 4 unique options: ['The sequence is unbounded from above.', 'No term in the sequence is less than a certain number.', 'The sequence converges.', 'All terms are positive.']
+2026-02-12 19:07:45,696 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:07:46,428 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:07:46,428 - INFO - Question and answers saved to database
+2026-02-12 19:07:46,428 - INFO - Selecting answer 2: No term in the sequence is less than a certain num...
+2026-02-12 19:07:46,438 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:07:46,446 - INFO - Comparing option text: 'Course
+Calculus II' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,452 - INFO - Comparing option text: '1' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,457 - INFO - Comparing option text: '2' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,461 - INFO - Comparing option text: '3' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,465 - INFO - Comparing option text: '4' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,468 - INFO - Comparing option text: '5' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,472 - INFO - Comparing option text: 'The sequence is unbounded from above.' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,475 - INFO - Comparing option text: '' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,478 - INFO - Comparing option text: 'No term in the sequence is less than a certain number.' vs 'No term in the sequence is less than a certain number.'
+2026-02-12 19:07:46,478 - INFO - Re-found option element for: No term in the sequence is les...
+2026-02-12 19:07:47,514 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:07:48,572 - INFO - Retry click succeeded!
+2026-02-12 19:07:49,661 - INFO - Clicking: Next
+2026-02-12 19:07:52,670 - INFO - Successfully answered question 4
+2026-02-12 19:07:54,670 - INFO - Attempting question 5 of 5
+2026-02-12 19:07:54,834 - INFO - Clicking question number button: 5
+2026-02-12 19:07:56,865 - INFO - Found main content area
+2026-02-12 19:07:57,130 - INFO - Found question element: 5.A sequence is considered monotonic if:...
+2026-02-12 19:07:57,130 - INFO - Question: 5.A sequence is considered monotonic if:...
+2026-02-12 19:07:57,132 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:07:57,134 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:07:57,180 - INFO - Found 4 unique options: ['It is either nondecreasing or nonincreasing.', 'It has a fixed upper bound.', 'It oscillates without limits.', 'It contains both increasing and decreasing terms.']
+2026-02-12 19:08:00,170 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:08:00,910 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:08:00,910 - INFO - Question and answers saved to database
+2026-02-12 19:08:00,910 - INFO - Selecting answer 1: It is either nondecreasing or nonincreasing....
+2026-02-12 19:08:00,919 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:08:00,930 - INFO - Comparing option text: 'Course
+Calculus II' vs 'It is either nondecreasing or nonincreasing.'
+2026-02-12 19:08:00,936 - INFO - Comparing option text: '1' vs 'It is either nondecreasing or nonincreasing.'
+2026-02-12 19:08:00,939 - INFO - Comparing option text: '2' vs 'It is either nondecreasing or nonincreasing.'
+2026-02-12 19:08:00,942 - INFO - Comparing option text: '3' vs 'It is either nondecreasing or nonincreasing.'
+2026-02-12 19:08:00,944 - INFO - Comparing option text: '4' vs 'It is either nondecreasing or nonincreasing.'
+2026-02-12 19:08:00,947 - INFO - Comparing option text: '5' vs 'It is either nondecreasing or nonincreasing.'
+2026-02-12 19:08:00,950 - INFO - Comparing option text: 'It is either nondecreasing or nonincreasing.' vs 'It is either nondecreasing or nonincreasing.'
+2026-02-12 19:08:00,950 - INFO - Re-found option element for: It is either nondecreasing or ...
+2026-02-12 19:08:01,990 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:08:03,042 - INFO - Retry click succeeded!
+2026-02-12 19:08:04,123 - INFO - Clicking: Next
+2026-02-12 19:08:07,133 - INFO - Successfully answered question 5
+2026-02-12 19:08:09,138 - INFO - Answered 5 out of 5 questions
+2026-02-12 19:08:09,138 - INFO - Looking for submit button...
+2026-02-12 19:08:09,233 - INFO - Clicking submit button: 'Send'
+2026-02-12 19:08:11,252 - INFO - Lesson processing complete!
+2026-02-12 19:08:11,416 - INFO - WebDriver closed
+2026-02-12 19:40:59,520 - INFO - ====== WebDriver manager ======
+2026-02-12 19:41:00,618 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:41:01,841 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:41:02,304 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 19:41:03,910 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 19:41:04,169 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 19:41:04,169 - INFO - AI Helper initialized successfully
+2026-02-12 19:41:06,753 - INFO - Database tables created successfully
+2026-02-12 19:41:06,753 - INFO - Database initialized successfully
+2026-02-12 19:41:07,230 - INFO - Database connection test successful
+2026-02-12 19:41:07,230 - INFO - Database connection established successfully
+2026-02-12 19:41:07,231 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 19:41:11,096 - INFO - Looking for login elements...
+2026-02-12 19:41:11,103 - INFO - Entering credentials...
+2026-02-12 19:41:11,865 - INFO - Clicking login button: 'Sign in'
+2026-02-12 19:41:11,875 - INFO - Waiting for login to complete...
+2026-02-12 19:41:12,384 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 19:41:14,394 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 19:41:14,394 - INFO - Login successful! (redirected from login page)
+2026-02-12 19:41:14,395 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/191
+2026-02-12 19:41:17,619 - INFO - Looking for video player...
+2026-02-12 19:41:17,686 - INFO - Clicked play button
+2026-02-12 19:41:17,686 - INFO - Watching video...
+2026-02-12 19:41:17,700 - INFO - Video progress: 0.0% (0s / 318s)
+2026-02-12 19:41:47,726 - INFO - Video progress: 9.5% (30s / 318s)
+2026-02-12 19:41:57,479 - INFO - ====== WebDriver manager ======
+2026-02-12 19:41:58,485 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:41:59,088 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 19:41:59,954 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 19:42:01,031 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 19:42:01,334 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 19:42:01,334 - INFO - AI Helper initialized successfully
+2026-02-12 19:42:03,819 - INFO - Database tables created successfully
+2026-02-12 19:42:03,820 - INFO - Database initialized successfully
+2026-02-12 19:42:04,255 - INFO - Database connection test successful
+2026-02-12 19:42:04,255 - INFO - Database connection established successfully
+2026-02-12 19:42:04,255 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 19:42:15,153 - INFO - Looking for login elements...
+2026-02-12 19:42:15,160 - INFO - Entering credentials...
+2026-02-12 19:42:15,906 - INFO - Clicking login button: 'Sign in'
+2026-02-12 19:42:15,911 - INFO - Waiting for login to complete...
+2026-02-12 19:42:16,421 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 19:42:17,741 - INFO - Video progress: 18.9% (60s / 318s)
+2026-02-12 19:42:18,428 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 19:42:18,428 - INFO - Login successful! (redirected from login page)
+2026-02-12 19:42:18,428 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/190
+2026-02-12 19:42:21,645 - INFO - Looking for video player...
+2026-02-12 19:42:21,689 - INFO - Clicked play button
+2026-02-12 19:42:21,689 - INFO - Watching video...
+2026-02-12 19:42:21,697 - INFO - Video progress: 0.0% (0s / 330s)
+2026-02-12 19:42:47,756 - INFO - Video progress: 28.3% (90s / 318s)
+2026-02-12 19:42:51,713 - INFO - Video progress: 9.1% (30s / 330s)
+2026-02-12 19:43:17,784 - INFO - Video progress: 37.8% (120s / 318s)
+2026-02-12 19:43:47,800 - INFO - Video progress: 47.2% (150s / 318s)
+2026-02-12 19:44:17,808 - INFO - Video progress: 56.7% (180s / 318s)
+2026-02-12 19:44:47,822 - INFO - Video progress: 66.1% (210s / 318s)
+2026-02-12 19:45:17,833 - INFO - Video progress: 75.6% (240s / 318s)
+2026-02-12 19:45:47,841 - INFO - Video progress: 85.0% (270s / 318s)
+2026-02-12 19:46:17,852 - INFO - Video progress: 94.5% (300s / 318s)
+2026-02-12 19:46:47,860 - INFO - Video completed!
+2026-02-12 19:46:47,894 - INFO - Looking for test button...
+2026-02-12 19:46:47,923 - INFO - Found test button: 'Go to test'
+2026-02-12 19:46:47,932 - INFO - Waiting for test page to load...
+2026-02-12 19:46:50,934 - INFO - Looking for 'Start the test' button...
+2026-02-12 19:46:51,075 - INFO - Found button: 'Start the test'
+2026-02-12 19:46:51,079 - INFO - Clicked start/restart button
+2026-02-12 19:46:51,080 - INFO - Waiting for questions to load...
+2026-02-12 19:46:56,388 - INFO - Saved screenshot: images/debug_test_questions_1770907616.png
+2026-02-12 19:46:56,396 - INFO - Saved page source: images/debug_test_questions_1770907616.html
+2026-02-12 19:46:56,396 - INFO - Attempting question 1 of 5
+2026-02-12 19:46:56,575 - INFO - Clicking question number button: 1
+2026-02-12 19:46:58,601 - INFO - Found main content area
+2026-02-12 19:46:58,874 - INFO - Found question element: 1.Which of the following statements best describes the Monotonic Sequence Theore...
+2026-02-12 19:46:58,874 - INFO - Question: 1.Which of the following statements best describes the Monotonic Sequence Theorem?...
+2026-02-12 19:46:58,878 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:46:58,881 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:46:58,931 - INFO - Found 4 unique options: ['It applies to sequences that are both bounded and monotonic.', 'It applies only to sequences that are non-constant.', 'It applies to any sequence that is bounded.', 'It applies only to sequences that are unbounded.']
+2026-02-12 19:47:03,441 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:47:04,178 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:47:04,178 - INFO - Question and answers saved to database
+2026-02-12 19:47:04,178 - INFO - Selecting answer 1: It applies to sequences that are both bounded and ...
+2026-02-12 19:47:04,183 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:47:04,186 - INFO - Comparing option text: 'Course
+Calculus II' vs 'It applies to sequences that are both bounded and monotonic.'
+2026-02-12 19:47:04,189 - INFO - Comparing option text: '1' vs 'It applies to sequences that are both bounded and monotonic.'
+2026-02-12 19:47:04,192 - INFO - Comparing option text: '2' vs 'It applies to sequences that are both bounded and monotonic.'
+2026-02-12 19:47:04,195 - INFO - Comparing option text: '3' vs 'It applies to sequences that are both bounded and monotonic.'
+2026-02-12 19:47:04,198 - INFO - Comparing option text: '4' vs 'It applies to sequences that are both bounded and monotonic.'
+2026-02-12 19:47:04,201 - INFO - Comparing option text: '5' vs 'It applies to sequences that are both bounded and monotonic.'
+2026-02-12 19:47:04,203 - INFO - Comparing option text: 'It applies to sequences that are both bounded and monotonic.' vs 'It applies to sequences that are both bounded and monotonic.'
+2026-02-12 19:47:04,203 - INFO - Re-found option element for: It applies to sequences that a...
+2026-02-12 19:47:04,713 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104cebcdc cxxbridge1$str$ptr + 3127864
+1   chromedriver                        0x0000000104ce40cc cxxbridge1$str$ptr + 3096104
+2   chromedriver                        0x00000001047c19f4 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75356
+3   chromedriver                        0x00000001047c796c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 99796
+4   chromedriver                        0x00000001047c9ea0 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109320
+5   chromedriver                        0x0000000104849b18 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632704
+6   chromedriver                        0x0000000104848b8c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 628724
+7   chromedriver                        0x00000001047fe2bc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323364
+8   chromedriver                        0x0000000104caa800 cxxbridge1$str$ptr + 2860380
+9   chromedriver                        0x0000000104cadf40 cxxbridge1$str$ptr + 2874524
+10  chromedriver                        0x0000000104c8fc1c cxxbridge1$str$ptr + 2750840
+11  chromedriver                        0x0000000104cae7c4 cxxbridge1$str$ptr + 2876704
+12  chromedriver                        0x0000000104c80224 cxxbridge1$str$ptr + 2686848
+13  chromedriver                        0x0000000104cd2ec0 cxxbridge1$str$ptr + 3025948
+14  chromedriver                        0x0000000104cd303c cxxbridge1$str$ptr + 3026328
+15  chromedriver                        0x0000000104ce3d24 cxxbridge1$str$ptr + 3095168
+16  libsystem_pthread.dylib             0x0000000184d99c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000184d94ba8 thread_start + 8
+
+2026-02-12 19:47:04,731 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:47:05,770 - INFO - Retry click succeeded!
+2026-02-12 19:47:06,858 - INFO - Clicking: Next
+2026-02-12 19:47:09,868 - INFO - Successfully answered question 1
+2026-02-12 19:47:11,873 - INFO - Attempting question 2 of 5
+2026-02-12 19:47:12,019 - INFO - Clicking question number button: 2
+2026-02-12 19:47:14,044 - INFO - Found main content area
+2026-02-12 19:47:14,315 - INFO - Found question element: 2.For a sequence to be bounded, it must have:...
+2026-02-12 19:47:14,315 - INFO - Question: 2.For a sequence to be bounded, it must have:...
+2026-02-12 19:47:14,317 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:47:14,320 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:47:14,368 - INFO - Found 4 unique options: ['Both an upper and a lower limit.', 'Values that only increase over time.', 'A finite number of terms.', 'Terms that never repeat.']
+2026-02-12 19:47:18,846 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:47:19,575 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:47:19,575 - INFO - Question and answers saved to database
+2026-02-12 19:47:19,575 - INFO - Selecting answer 1: Both an upper and a lower limit....
+2026-02-12 19:47:19,581 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:47:19,584 - INFO - Comparing option text: 'Course
+Calculus II' vs 'Both an upper and a lower limit.'
+2026-02-12 19:47:19,590 - INFO - Comparing option text: '1' vs 'Both an upper and a lower limit.'
+2026-02-12 19:47:19,594 - INFO - Comparing option text: '2' vs 'Both an upper and a lower limit.'
+2026-02-12 19:47:19,597 - INFO - Comparing option text: '3' vs 'Both an upper and a lower limit.'
+2026-02-12 19:47:19,599 - INFO - Comparing option text: '4' vs 'Both an upper and a lower limit.'
+2026-02-12 19:47:19,602 - INFO - Comparing option text: '5' vs 'Both an upper and a lower limit.'
+2026-02-12 19:47:19,604 - INFO - Comparing option text: 'Both an upper and a lower limit.' vs 'Both an upper and a lower limit.'
+2026-02-12 19:47:19,605 - INFO - Re-found option element for: Both an upper and a lower limi...
+2026-02-12 19:47:20,113 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000104cebcdc cxxbridge1$str$ptr + 3127864
+1   chromedriver                        0x0000000104ce40cc cxxbridge1$str$ptr + 3096104
+2   chromedriver                        0x00000001047c19f4 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75356
+3   chromedriver                        0x00000001047c796c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 99796
+4   chromedriver                        0x00000001047c9ea0 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109320
+5   chromedriver                        0x0000000104849b18 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632704
+6   chromedriver                        0x0000000104848b8c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 628724
+7   chromedriver                        0x00000001047fe2bc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323364
+8   chromedriver                        0x0000000104caa800 cxxbridge1$str$ptr + 2860380
+9   chromedriver                        0x0000000104cadf40 cxxbridge1$str$ptr + 2874524
+10  chromedriver                        0x0000000104c8fc1c cxxbridge1$str$ptr + 2750840
+11  chromedriver                        0x0000000104cae7c4 cxxbridge1$str$ptr + 2876704
+12  chromedriver                        0x0000000104c80224 cxxbridge1$str$ptr + 2686848
+13  chromedriver                        0x0000000104cd2ec0 cxxbridge1$str$ptr + 3025948
+14  chromedriver                        0x0000000104cd303c cxxbridge1$str$ptr + 3026328
+15  chromedriver                        0x0000000104ce3d24 cxxbridge1$str$ptr + 3095168
+16  libsystem_pthread.dylib             0x0000000184d99c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000184d94ba8 thread_start + 8
+
+2026-02-12 19:47:20,126 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:47:21,164 - INFO - Retry click succeeded!
+2026-02-12 19:47:22,240 - INFO - Clicking: Next
+2026-02-12 19:47:25,249 - INFO - Successfully answered question 2
+2026-02-12 19:47:27,254 - INFO - Attempting question 3 of 5
+2026-02-12 19:47:27,397 - INFO - Clicking question number button: 3
+2026-02-12 19:47:29,426 - INFO - Found main content area
+2026-02-12 19:47:29,701 - INFO - Found question element: 3.Which of these statements is false about a bounded monotonic sequence?...
+2026-02-12 19:47:29,701 - INFO - Question: 3.Which of these statements is false about a bounded monotonic sequence?...
+2026-02-12 19:47:29,703 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:47:29,705 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:47:29,753 - INFO - Found 4 unique options: ['It will have a limit if it’s bounded and monotonic.', 'It must alternate between values.', 'It may converge to its lower bound.', 'It may converge to its upper bound.']
+2026-02-12 19:47:34,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:47:35,550 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:47:35,550 - INFO - Question and answers saved to database
+2026-02-12 19:47:35,550 - INFO - Selecting answer 2: It must alternate between values....
+2026-02-12 19:47:35,556 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:47:35,560 - INFO - Comparing option text: 'Course
+Calculus II' vs 'It must alternate between values.'
+2026-02-12 19:47:35,564 - INFO - Comparing option text: '1' vs 'It must alternate between values.'
+2026-02-12 19:47:35,567 - INFO - Comparing option text: '2' vs 'It must alternate between values.'
+2026-02-12 19:47:35,570 - INFO - Comparing option text: '3' vs 'It must alternate between values.'
+2026-02-12 19:47:35,573 - INFO - Comparing option text: '4' vs 'It must alternate between values.'
+2026-02-12 19:47:35,576 - INFO - Comparing option text: '5' vs 'It must alternate between values.'
+2026-02-12 19:47:35,579 - INFO - Comparing option text: 'It will have a limit if it’s bounded and monotonic.' vs 'It must alternate between values.'
+2026-02-12 19:47:35,581 - INFO - Comparing option text: '' vs 'It must alternate between values.'
+2026-02-12 19:47:35,584 - INFO - Comparing option text: 'It must alternate between values.' vs 'It must alternate between values.'
+2026-02-12 19:47:35,584 - INFO - Re-found option element for: It must alternate between valu...
+2026-02-12 19:47:36,609 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:47:37,654 - INFO - Retry click succeeded!
+2026-02-12 19:47:38,730 - INFO - Clicking: Next
+2026-02-12 19:47:41,739 - INFO - Successfully answered question 3
+2026-02-12 19:47:43,740 - INFO - Attempting question 4 of 5
+2026-02-12 19:47:43,883 - INFO - Clicking question number button: 4
+2026-02-12 19:47:45,910 - INFO - Found main content area
+2026-02-12 19:47:46,184 - INFO - Found question element: 4.What would be an example of a monotonic and bounded sequence that converges to...
+2026-02-12 19:47:46,184 - INFO - Question: 4.What would be an example of a monotonic and bounded sequence that converges to zero?...
+2026-02-12 19:47:46,186 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:47:46,188 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:47:46,237 - INFO - Found 4 unique options: ['a_n = 1/n', 'a_n = n^2', 'a_n = (-1)^n', 'a_n = 1 + 1/n']
+2026-02-12 19:47:53,958 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:47:54,680 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:47:54,680 - INFO - Question and answers saved to database
+2026-02-12 19:47:54,680 - INFO - Selecting answer 1: a_n = 1/n...
+2026-02-12 19:47:54,686 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:47:54,691 - INFO - Comparing option text: 'Course
+Calculus II' vs 'a_n = 1/n'
+2026-02-12 19:47:54,695 - INFO - Comparing option text: '1' vs 'a_n = 1/n'
+2026-02-12 19:47:54,699 - INFO - Comparing option text: '2' vs 'a_n = 1/n'
+2026-02-12 19:47:54,702 - INFO - Comparing option text: '3' vs 'a_n = 1/n'
+2026-02-12 19:47:54,706 - INFO - Comparing option text: '4' vs 'a_n = 1/n'
+2026-02-12 19:47:54,709 - INFO - Comparing option text: '5' vs 'a_n = 1/n'
+2026-02-12 19:47:54,712 - INFO - Comparing option text: 'a_n = 1/n' vs 'a_n = 1/n'
+2026-02-12 19:47:54,712 - INFO - Re-found option element for: a_n = 1/n...
+2026-02-12 19:47:55,754 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:47:56,807 - INFO - Retry click succeeded!
+2026-02-12 19:47:57,902 - INFO - Clicking: Next
+2026-02-12 19:48:00,911 - INFO - Successfully answered question 4
+2026-02-12 19:48:02,916 - INFO - Attempting question 5 of 5
+2026-02-12 19:48:03,084 - INFO - Clicking question number button: 5
+2026-02-12 19:48:05,118 - INFO - Found main content area
+2026-02-12 19:48:05,392 - INFO - Found question element: 5.Which of the following sequences can be used to demonstrate the Monotonic Sequ...
+2026-02-12 19:48:05,392 - INFO - Question: 5.Which of the following sequences can be used to demonstrate the Monotonic Sequence Theorem?...
+2026-02-12 19:48:05,394 - INFO - No radio inputs found, looking for clickable div options
+2026-02-12 19:48:05,396 - INFO - Found 14 cursor-pointer divs
+2026-02-12 19:48:05,443 - INFO - Found 4 unique options: ['a_n = (-1)^n', 'a_n = n*(-1)^n', 'a_n = 1/n', 'a_n = n^2']
+2026-02-12 19:48:11,513 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 19:48:12,241 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-12 19:48:12,241 - INFO - Question and answers saved to database
+2026-02-12 19:48:12,241 - INFO - Selecting answer 3: a_n = 1/n...
+2026-02-12 19:48:12,244 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-12 19:48:12,246 - INFO - Comparing option text: 'Course
+Calculus II' vs 'a_n = 1/n'
+2026-02-12 19:48:12,249 - INFO - Comparing option text: '1' vs 'a_n = 1/n'
+2026-02-12 19:48:12,251 - INFO - Comparing option text: '2' vs 'a_n = 1/n'
+2026-02-12 19:48:12,253 - INFO - Comparing option text: '3' vs 'a_n = 1/n'
+2026-02-12 19:48:12,255 - INFO - Comparing option text: '4' vs 'a_n = 1/n'
+2026-02-12 19:48:12,257 - INFO - Comparing option text: '5' vs 'a_n = 1/n'
+2026-02-12 19:48:12,259 - INFO - Comparing option text: 'a_n = (-1)^n' vs 'a_n = 1/n'
+2026-02-12 19:48:12,261 - INFO - Comparing option text: '' vs 'a_n = 1/n'
+2026-02-12 19:48:12,264 - INFO - Comparing option text: 'a_n = n*(-1)^n' vs 'a_n = 1/n'
+2026-02-12 19:48:12,266 - INFO - Comparing option text: '' vs 'a_n = 1/n'
+2026-02-12 19:48:12,268 - INFO - Comparing option text: 'a_n = 1/n' vs 'a_n = 1/n'
+2026-02-12 19:48:12,268 - INFO - Re-found option element for: a_n = 1/n...
+2026-02-12 19:48:13,307 - ERROR - Failed to click option using any strategy - will retry
+2026-02-12 19:48:14,371 - INFO - Retry click succeeded!
+2026-02-12 19:48:15,468 - INFO - Clicking: Next
+2026-02-12 19:48:18,473 - INFO - Successfully answered question 5
+2026-02-12 19:48:20,475 - INFO - Answered 5 out of 5 questions
+2026-02-12 19:48:20,476 - INFO - Looking for submit button...
+2026-02-12 19:48:20,573 - INFO - Clicking submit button: 'Send'
+2026-02-12 19:48:22,594 - INFO - Lesson processing complete!
+2026-02-12 19:48:22,721 - INFO - WebDriver closed

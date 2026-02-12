@@ -300,19 +300,16 @@ class DatabaseManager:
     
     def get_all_questions(
         self,
-        limit: int = 50,
+        limit: Optional[int] = 50,
         offset: int = 0
     ) -> List[Dict[str, Any]]:
         """Get all questions from all users (for shared demo)."""
         session = self.Session()
         try:
-            questions = (
-                session.query(Question)
-                .order_by(Question.created_at.desc())
-                .limit(limit)
-                .offset(offset)
-                .all()
-            )
+            query = session.query(Question).order_by(Question.created_at.desc()).offset(offset)
+            if limit is not None:
+                query = query.limit(limit)
+            questions = query.all()
             
             result = []
             for q in questions:
