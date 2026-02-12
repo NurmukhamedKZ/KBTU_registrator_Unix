@@ -404,12 +404,12 @@ class UniXAgent:
         except:
             return False
     
-    def watch_video(self, timeout_seconds: int = 600) -> bool:
+    def watch_video(self, timeout_seconds: int = 6000) -> bool:
         """
         Watch the current video until completion.
         
         Args:
-            timeout_seconds: Maximum time to wait for video
+            timeout_seconds: Maximum time to wait for video (auto-detected if None)
             
         Returns:
             True if video watched successfully
@@ -456,8 +456,23 @@ class UniXAgent:
                 except:
                     pass
             
-            # Get video duration and wait
+            # Get video duration and set timeout dynamically
             logger.info("Watching video...")
+            # time.sleep(2)  # Wait for video metadata to load
+            
+            # # Auto-detect timeout based on video duration
+            # if timeout_seconds is None:
+            #     try:
+            #         duration = self.driver.execute_script("return arguments[0].duration", video)
+            #         if duration and duration > 0:
+            #             # Add 60 second buffer for loading/delays
+            #             timeout_seconds = int(duration) + 60
+            #             logger.info(f"Video duration: {duration:.0f}s, timeout set to {timeout_seconds}s")
+            #         else:
+            #             timeout_seconds = 1800  # Default 30 minutes if can't detect
+            #     except:
+            #         timeout_seconds = 1800  # Default 30 minutes
+            
             start_time = time.time()
             
             while time.time() - start_time < timeout_seconds:

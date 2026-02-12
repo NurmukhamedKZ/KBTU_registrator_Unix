@@ -9249,3 +9249,2074 @@ Stacktrace:
 2026-02-05 13:27:41,297 - WARNING - No test button found
 2026-02-05 13:27:41,298 - INFO - Lesson processing complete!
 2026-02-05 13:27:41,496 - INFO - WebDriver closed
+2026-02-05 13:52:05,659 - INFO - ====== WebDriver manager ======
+2026-02-05 13:52:06,905 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 13:52:07,286 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 13:52:07,623 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 13:52:09,361 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 13:52:09,446 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 13:52:09,446 - INFO - AI Helper initialized successfully
+2026-02-05 13:52:12,456 - INFO - Database tables created successfully
+2026-02-05 13:52:12,457 - INFO - Database initialized successfully
+2026-02-05 13:52:12,959 - INFO - Database connection test successful
+2026-02-05 13:52:12,959 - INFO - Database connection established successfully
+2026-02-05 13:52:12,960 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 13:52:16,915 - INFO - Looking for login elements...
+2026-02-05 13:52:16,924 - INFO - Entering credentials...
+2026-02-05 13:52:17,701 - INFO - Clicking login button: 'Sign in'
+2026-02-05 13:52:17,706 - INFO - Waiting for login to complete...
+2026-02-05 13:52:18,213 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 13:52:20,224 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 13:52:20,224 - INFO - Login successful! (redirected from login page)
+2026-02-05 13:52:20,224 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15332
+2026-02-05 13:52:23,456 - INFO - Looking for video player...
+2026-02-05 13:52:23,505 - INFO - Clicked play button
+2026-02-05 13:52:23,505 - INFO - Watching video...
+2026-02-05 13:52:25,515 - INFO - Video duration: 781s, timeout set to 840s
+2026-02-05 13:52:25,522 - INFO - Video progress: 0.3% (2s / 781s)
+2026-02-05 13:52:55,535 - INFO - Video progress: 4.1% (32s / 781s)
+2026-02-05 13:53:25,553 - INFO - Video progress: 7.9% (62s / 781s)
+2026-02-05 13:53:55,568 - INFO - Video progress: 11.8% (92s / 781s)
+2026-02-05 13:54:25,584 - INFO - Video progress: 15.6% (122s / 781s)
+2026-02-05 13:54:55,596 - INFO - Video progress: 19.5% (152s / 781s)
+2026-02-05 13:55:25,618 - INFO - Video progress: 23.3% (182s / 781s)
+2026-02-05 13:55:55,634 - INFO - Video progress: 27.2% (212s / 781s)
+2026-02-05 13:56:25,647 - INFO - Video progress: 31.0% (242s / 781s)
+2026-02-05 13:56:55,656 - INFO - Video progress: 34.9% (272s / 781s)
+2026-02-05 13:57:25,672 - INFO - Video progress: 38.7% (302s / 781s)
+2026-02-05 13:57:55,684 - INFO - Video progress: 42.5% (332s / 781s)
+2026-02-05 13:58:25,704 - INFO - Video progress: 46.4% (362s / 781s)
+2026-02-05 13:58:55,711 - INFO - Video progress: 50.2% (392s / 781s)
+2026-02-05 13:59:25,727 - INFO - Video progress: 54.1% (422s / 781s)
+2026-02-05 13:59:55,740 - INFO - Video progress: 57.9% (452s / 781s)
+2026-02-05 14:00:25,754 - INFO - Video progress: 61.8% (482s / 781s)
+2026-02-05 14:00:55,768 - INFO - Video progress: 65.6% (512s / 781s)
+2026-02-05 14:01:25,783 - INFO - Video progress: 69.5% (542s / 781s)
+2026-02-05 14:01:55,796 - INFO - Video progress: 73.3% (572s / 781s)
+2026-02-05 14:02:25,812 - INFO - Video progress: 77.1% (602s / 781s)
+2026-02-05 14:02:55,821 - INFO - Video progress: 81.0% (632s / 781s)
+2026-02-05 14:03:25,835 - INFO - Video progress: 84.8% (662s / 781s)
+2026-02-05 14:03:55,843 - INFO - Video progress: 88.7% (692s / 781s)
+2026-02-05 14:04:25,855 - INFO - Video progress: 92.5% (722s / 781s)
+2026-02-05 14:04:55,870 - INFO - Video progress: 96.4% (752s / 781s)
+2026-02-05 14:05:25,881 - INFO - Video completed!
+2026-02-05 14:05:25,943 - INFO - Looking for test button...
+2026-02-05 14:05:26,035 - WARNING - No test button found
+2026-02-05 14:05:26,036 - INFO - Lesson processing complete!
+2026-02-05 14:05:26,182 - INFO - WebDriver closed
+2026-02-05 15:19:30,921 - INFO - ====== WebDriver manager ======
+2026-02-05 15:19:32,108 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 15:19:32,510 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 15:19:32,864 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 15:19:34,530 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 15:19:34,632 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 15:19:34,632 - INFO - AI Helper initialized successfully
+2026-02-05 15:19:37,722 - INFO - Database tables created successfully
+2026-02-05 15:19:37,722 - INFO - Database initialized successfully
+2026-02-05 15:19:38,199 - INFO - Database connection test successful
+2026-02-05 15:19:38,199 - INFO - Database connection established successfully
+2026-02-05 15:19:38,199 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 15:19:42,159 - INFO - Looking for login elements...
+2026-02-05 15:19:42,166 - INFO - Entering credentials...
+2026-02-05 15:19:42,923 - INFO - Clicking login button: 'Sign in'
+2026-02-05 15:19:42,931 - INFO - Waiting for login to complete...
+2026-02-05 15:19:43,437 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 15:19:45,452 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 15:19:45,453 - INFO - Login successful! (redirected from login page)
+2026-02-05 15:19:45,454 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15333
+2026-02-05 15:19:48,701 - INFO - Looking for video player...
+2026-02-05 15:19:48,745 - INFO - Clicked play button
+2026-02-05 15:19:48,745 - INFO - Watching video...
+2026-02-05 15:19:48,755 - INFO - Video progress: 0.0% (0s / 589s)
+2026-02-05 15:20:18,770 - INFO - Video progress: 5.1% (30s / 589s)
+2026-02-05 15:20:48,785 - INFO - Video progress: 10.2% (60s / 589s)
+2026-02-05 15:21:18,796 - INFO - Video progress: 15.3% (90s / 589s)
+2026-02-05 15:21:48,810 - INFO - Video progress: 20.4% (120s / 589s)
+2026-02-05 15:22:18,819 - INFO - Video progress: 25.5% (150s / 589s)
+2026-02-05 15:22:48,831 - INFO - Video progress: 30.6% (180s / 589s)
+2026-02-05 15:23:18,846 - INFO - Video progress: 35.7% (210s / 589s)
+2026-02-05 15:23:48,862 - INFO - Video progress: 40.8% (240s / 589s)
+2026-02-05 15:24:18,876 - INFO - Video progress: 45.9% (270s / 589s)
+2026-02-05 15:24:48,889 - INFO - Video progress: 51.0% (300s / 589s)
+2026-02-05 15:25:18,904 - INFO - Video progress: 56.1% (330s / 589s)
+2026-02-05 15:25:48,918 - INFO - Video progress: 61.2% (360s / 589s)
+2026-02-05 15:26:18,931 - INFO - Video progress: 66.3% (390s / 589s)
+2026-02-05 15:26:48,945 - INFO - Video progress: 71.4% (420s / 589s)
+2026-02-05 15:27:18,962 - INFO - Video progress: 76.5% (450s / 589s)
+2026-02-05 15:27:48,976 - INFO - Video progress: 81.6% (480s / 589s)
+2026-02-05 15:28:18,993 - INFO - Video progress: 86.7% (510s / 589s)
+2026-02-05 15:28:49,007 - INFO - Video progress: 91.8% (540s / 589s)
+2026-02-05 15:29:19,023 - INFO - Video progress: 96.9% (570s / 589s)
+2026-02-05 15:29:49,040 - INFO - Video completed!
+2026-02-05 15:29:49,086 - INFO - Looking for test button...
+2026-02-05 15:29:49,179 - WARNING - No test button found
+2026-02-05 15:29:49,179 - INFO - Lesson processing complete!
+2026-02-05 15:29:49,360 - INFO - WebDriver closed
+2026-02-05 15:30:35,237 - INFO - ====== WebDriver manager ======
+2026-02-05 15:30:36,224 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 15:30:36,650 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 15:30:37,042 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 15:30:38,570 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 15:30:38,657 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 15:30:38,657 - INFO - AI Helper initialized successfully
+2026-02-05 15:30:41,368 - INFO - Database tables created successfully
+2026-02-05 15:30:41,370 - INFO - Database initialized successfully
+2026-02-05 15:30:41,849 - INFO - Database connection test successful
+2026-02-05 15:30:41,850 - INFO - Database connection established successfully
+2026-02-05 15:30:41,850 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 15:30:45,665 - INFO - Looking for login elements...
+2026-02-05 15:30:45,673 - INFO - Entering credentials...
+2026-02-05 15:30:46,468 - INFO - Clicking login button: 'Sign in'
+2026-02-05 15:30:46,473 - INFO - Waiting for login to complete...
+2026-02-05 15:30:46,979 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 15:30:48,983 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 15:30:48,983 - INFO - Login successful! (redirected from login page)
+2026-02-05 15:30:48,984 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15334
+2026-02-05 15:30:52,255 - INFO - Looking for video player...
+2026-02-05 15:30:52,327 - INFO - Clicked play button
+2026-02-05 15:30:52,327 - INFO - Watching video...
+2026-02-05 15:30:52,339 - INFO - Video progress: 0.0% (0s / 1222s)
+2026-02-05 15:31:22,354 - INFO - Video progress: 2.5% (30s / 1222s)
+2026-02-05 15:31:52,368 - INFO - Video progress: 4.9% (60s / 1222s)
+2026-02-05 15:32:22,379 - INFO - Video progress: 7.4% (90s / 1222s)
+2026-02-05 15:32:52,392 - INFO - Video progress: 9.8% (120s / 1222s)
+2026-02-05 15:33:22,401 - INFO - Video progress: 12.3% (150s / 1222s)
+2026-02-05 15:33:52,414 - INFO - Video progress: 14.7% (180s / 1222s)
+2026-02-05 15:34:22,426 - INFO - Video progress: 17.2% (210s / 1222s)
+2026-02-05 15:34:52,439 - INFO - Video progress: 19.6% (240s / 1222s)
+2026-02-05 15:35:22,450 - INFO - Video progress: 22.1% (270s / 1222s)
+2026-02-05 15:35:52,462 - INFO - Video progress: 24.6% (300s / 1222s)
+2026-02-05 15:36:22,469 - INFO - Video progress: 27.0% (330s / 1222s)
+2026-02-05 15:36:52,478 - INFO - Video progress: 29.5% (360s / 1222s)
+2026-02-05 15:37:22,493 - INFO - Video progress: 31.9% (390s / 1222s)
+2026-02-05 15:37:52,505 - INFO - Video progress: 34.4% (420s / 1222s)
+2026-02-05 15:38:22,519 - INFO - Video progress: 36.8% (450s / 1222s)
+2026-02-05 15:38:52,534 - INFO - Video progress: 39.3% (480s / 1222s)
+2026-02-05 15:39:22,545 - INFO - Video progress: 41.8% (510s / 1222s)
+2026-02-05 15:39:52,554 - INFO - Video progress: 44.2% (540s / 1222s)
+2026-02-05 15:40:22,569 - INFO - Video progress: 46.7% (570s / 1222s)
+2026-02-05 15:40:52,581 - INFO - Video progress: 49.1% (600s / 1222s)
+2026-02-05 15:41:22,589 - INFO - Video progress: 51.6% (630s / 1222s)
+2026-02-05 15:41:52,603 - INFO - Video progress: 54.0% (660s / 1222s)
+2026-02-05 15:42:22,621 - INFO - Video progress: 56.5% (690s / 1222s)
+2026-02-05 15:42:52,631 - INFO - Video progress: 59.0% (720s / 1222s)
+2026-02-05 15:43:22,646 - INFO - Video progress: 61.4% (750s / 1222s)
+2026-02-05 15:43:52,661 - INFO - Video progress: 63.9% (780s / 1222s)
+2026-02-05 15:44:22,674 - INFO - Video progress: 66.3% (810s / 1222s)
+2026-02-05 15:44:52,689 - INFO - Video progress: 68.8% (840s / 1222s)
+2026-02-05 15:45:22,710 - INFO - Video progress: 71.2% (870s / 1222s)
+2026-02-05 15:45:52,725 - INFO - Video progress: 73.7% (900s / 1222s)
+2026-02-05 15:46:22,737 - INFO - Video progress: 76.1% (930s / 1222s)
+2026-02-05 15:46:52,760 - INFO - Video progress: 78.6% (960s / 1222s)
+2026-02-05 15:47:22,784 - INFO - Video progress: 81.1% (990s / 1222s)
+2026-02-05 15:47:52,802 - INFO - Video progress: 83.5% (1020s / 1222s)
+2026-02-05 15:48:22,814 - INFO - Video progress: 86.0% (1050s / 1222s)
+2026-02-05 15:48:52,824 - INFO - Video progress: 88.4% (1080s / 1222s)
+2026-02-05 15:49:22,838 - INFO - Video progress: 90.9% (1110s / 1222s)
+2026-02-05 15:49:52,853 - INFO - Video progress: 93.3% (1140s / 1222s)
+2026-02-05 15:50:22,866 - INFO - Video progress: 95.8% (1170s / 1222s)
+2026-02-05 15:50:52,876 - INFO - Video progress: 98.3% (1201s / 1222s)
+2026-02-05 15:51:22,889 - INFO - Video completed!
+2026-02-05 15:51:22,948 - INFO - Looking for test button...
+2026-02-05 15:51:23,042 - WARNING - No test button found
+2026-02-05 15:51:23,042 - INFO - Lesson processing complete!
+2026-02-05 15:51:23,195 - INFO - WebDriver closed
+2026-02-05 16:14:08,125 - INFO - ====== WebDriver manager ======
+2026-02-05 16:14:09,265 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 16:14:09,685 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 16:14:10,067 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 16:14:11,750 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 16:14:11,836 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 16:14:11,836 - INFO - AI Helper initialized successfully
+2026-02-05 16:14:15,028 - INFO - Database tables created successfully
+2026-02-05 16:14:15,028 - INFO - Database initialized successfully
+2026-02-05 16:14:15,505 - INFO - Database connection test successful
+2026-02-05 16:14:15,505 - INFO - Database connection established successfully
+2026-02-05 16:14:15,505 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 16:14:19,551 - INFO - Looking for login elements...
+2026-02-05 16:14:19,561 - INFO - Entering credentials...
+2026-02-05 16:14:20,424 - INFO - Clicking login button: 'Sign in'
+2026-02-05 16:14:20,433 - INFO - Waiting for login to complete...
+2026-02-05 16:14:20,958 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 16:14:22,966 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 16:14:22,966 - INFO - Login successful! (redirected from login page)
+2026-02-05 16:14:22,966 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15335
+2026-02-05 16:14:26,398 - INFO - Looking for video player...
+2026-02-05 16:14:26,447 - INFO - Clicked play button
+2026-02-05 16:14:26,447 - INFO - Watching video...
+2026-02-05 16:14:26,458 - INFO - Video progress: 0.0% (0s / 2161s)
+2026-02-05 16:14:56,472 - INFO - Video progress: 1.4% (30s / 2161s)
+2026-02-05 16:15:26,487 - INFO - Video progress: 2.8% (60s / 2161s)
+2026-02-05 16:15:56,500 - INFO - Video progress: 4.2% (90s / 2161s)
+2026-02-05 16:16:26,517 - INFO - Video progress: 5.6% (120s / 2161s)
+2026-02-05 16:16:56,581 - INFO - Video progress: 6.9% (150s / 2161s)
+2026-02-05 16:17:26,599 - INFO - Video progress: 8.3% (180s / 2161s)
+2026-02-05 16:17:56,615 - INFO - Video progress: 9.7% (210s / 2161s)
+2026-02-05 16:18:26,632 - INFO - Video progress: 11.1% (240s / 2161s)
+2026-02-05 16:18:56,646 - INFO - Video progress: 12.5% (270s / 2161s)
+2026-02-05 16:19:26,659 - INFO - Video progress: 13.9% (300s / 2161s)
+2026-02-05 16:19:56,675 - INFO - Video progress: 15.3% (330s / 2161s)
+2026-02-05 16:20:26,689 - INFO - Video progress: 16.7% (360s / 2161s)
+2026-02-05 16:20:56,704 - INFO - Video progress: 18.1% (390s / 2161s)
+2026-02-05 16:21:26,717 - INFO - Video progress: 19.4% (420s / 2161s)
+2026-02-05 16:21:56,727 - INFO - Video progress: 20.8% (450s / 2161s)
+2026-02-05 16:22:26,748 - INFO - Video progress: 22.2% (480s / 2161s)
+2026-02-05 16:22:56,758 - INFO - Video progress: 23.6% (510s / 2161s)
+2026-02-05 16:23:26,768 - INFO - Video progress: 25.0% (540s / 2161s)
+2026-02-05 16:23:56,781 - INFO - Video progress: 26.4% (570s / 2161s)
+2026-02-05 16:24:26,794 - INFO - Video progress: 27.8% (600s / 2161s)
+2026-02-05 16:24:56,808 - INFO - Video progress: 29.2% (630s / 2161s)
+2026-02-05 16:25:26,821 - INFO - Video progress: 30.6% (660s / 2161s)
+2026-02-05 16:25:56,834 - INFO - Video progress: 32.0% (690s / 2161s)
+2026-02-05 16:26:26,846 - INFO - Video progress: 33.3% (720s / 2161s)
+2026-02-05 16:26:56,859 - INFO - Video progress: 34.7% (750s / 2161s)
+2026-02-05 16:27:26,875 - INFO - Video progress: 36.1% (780s / 2161s)
+2026-02-05 16:27:56,889 - INFO - Video progress: 37.5% (810s / 2161s)
+2026-02-05 16:28:26,899 - INFO - Video progress: 38.9% (840s / 2161s)
+2026-02-05 16:28:56,911 - INFO - Video progress: 40.3% (870s / 2161s)
+2026-02-05 16:29:26,923 - INFO - Video progress: 41.7% (900s / 2161s)
+2026-02-05 16:29:56,939 - INFO - Video progress: 43.1% (930s / 2161s)
+2026-02-05 16:30:26,952 - INFO - Video progress: 44.5% (960s / 2161s)
+2026-02-05 16:30:56,969 - INFO - Video progress: 45.8% (990s / 2161s)
+2026-02-05 16:31:26,977 - INFO - Video progress: 47.2% (1021s / 2161s)
+2026-02-05 16:31:56,993 - INFO - Video progress: 48.6% (1051s / 2161s)
+2026-02-05 16:32:27,004 - INFO - Video progress: 50.0% (1081s / 2161s)
+2026-02-05 16:32:57,019 - INFO - Video progress: 51.4% (1111s / 2161s)
+2026-02-05 16:33:27,034 - INFO - Video progress: 52.8% (1141s / 2161s)
+2026-02-05 16:33:57,047 - INFO - Video progress: 54.2% (1171s / 2161s)
+2026-02-05 16:34:27,057 - INFO - Video progress: 55.6% (1201s / 2161s)
+2026-02-05 16:34:57,069 - INFO - Video progress: 57.0% (1231s / 2161s)
+2026-02-05 16:35:27,083 - INFO - Video progress: 58.3% (1261s / 2161s)
+2026-02-05 16:35:57,097 - INFO - Video progress: 59.7% (1291s / 2161s)
+2026-02-05 16:36:27,112 - INFO - Video progress: 61.1% (1321s / 2161s)
+2026-02-05 16:36:57,131 - INFO - Video progress: 62.5% (1351s / 2161s)
+2026-02-05 16:37:27,214 - INFO - Video progress: 63.9% (1381s / 2161s)
+2026-02-05 16:37:57,229 - INFO - Video progress: 65.3% (1411s / 2161s)
+2026-02-05 16:38:27,240 - INFO - Video progress: 66.7% (1441s / 2161s)
+2026-02-05 16:38:57,251 - INFO - Video progress: 68.1% (1471s / 2161s)
+2026-02-05 16:39:27,261 - INFO - Video progress: 69.5% (1501s / 2161s)
+2026-02-05 16:39:57,274 - INFO - Video progress: 70.8% (1531s / 2161s)
+2026-02-05 16:40:27,284 - INFO - Video progress: 72.2% (1561s / 2161s)
+2026-02-05 16:40:57,296 - INFO - Video progress: 73.6% (1591s / 2161s)
+2026-02-05 16:41:27,313 - INFO - Video progress: 75.0% (1621s / 2161s)
+2026-02-05 16:41:57,326 - INFO - Video progress: 76.4% (1651s / 2161s)
+2026-02-05 16:42:27,339 - INFO - Video progress: 77.8% (1681s / 2161s)
+2026-02-05 16:42:57,356 - INFO - Video progress: 79.2% (1711s / 2161s)
+2026-02-05 16:43:27,373 - INFO - Video progress: 80.6% (1741s / 2161s)
+2026-02-05 16:43:57,389 - INFO - Video progress: 82.0% (1771s / 2161s)
+2026-02-05 16:44:27,402 - INFO - Video progress: 83.3% (1801s / 2161s)
+2026-02-05 16:44:57,413 - INFO - Video progress: 84.7% (1831s / 2161s)
+2026-02-05 16:45:27,426 - INFO - Video progress: 86.1% (1861s / 2161s)
+2026-02-05 16:45:57,444 - INFO - Video progress: 87.5% (1891s / 2161s)
+2026-02-05 16:46:27,458 - INFO - Video progress: 88.9% (1921s / 2161s)
+2026-02-05 16:46:57,477 - INFO - Video progress: 90.3% (1951s / 2161s)
+2026-02-05 16:47:27,510 - INFO - Video progress: 91.7% (1981s / 2161s)
+2026-02-05 16:47:57,530 - INFO - Video progress: 93.1% (2011s / 2161s)
+2026-02-05 16:48:27,542 - INFO - Video progress: 94.5% (2041s / 2161s)
+2026-02-05 16:48:57,557 - INFO - Video progress: 95.9% (2071s / 2161s)
+2026-02-05 16:49:27,566 - INFO - Video progress: 97.2% (2101s / 2161s)
+2026-02-05 16:49:57,581 - INFO - Video progress: 98.6% (2131s / 2161s)
+2026-02-05 16:50:27,593 - INFO - Video completed!
+2026-02-05 16:50:27,656 - INFO - Looking for test button...
+2026-02-05 16:50:27,795 - WARNING - No test button found
+2026-02-05 16:50:27,795 - INFO - Lesson processing complete!
+2026-02-05 16:50:27,954 - INFO - WebDriver closed
+2026-02-05 20:02:41,354 - INFO - ====== WebDriver manager ======
+2026-02-05 20:02:42,562 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 20:02:42,974 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 20:02:43,326 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 20:02:45,399 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 20:02:45,484 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 20:02:45,484 - INFO - AI Helper initialized successfully
+2026-02-05 20:02:48,561 - INFO - Database tables created successfully
+2026-02-05 20:02:48,563 - INFO - Database initialized successfully
+2026-02-05 20:02:49,043 - INFO - Database connection test successful
+2026-02-05 20:02:49,043 - INFO - Database connection established successfully
+2026-02-05 20:02:49,043 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 20:02:52,864 - INFO - Looking for login elements...
+2026-02-05 20:02:52,871 - INFO - Entering credentials...
+2026-02-05 20:02:53,653 - INFO - Clicking login button: 'Sign in'
+2026-02-05 20:02:53,660 - INFO - Waiting for login to complete...
+2026-02-05 20:02:54,171 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 20:02:56,180 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 20:02:56,181 - INFO - Login successful! (redirected from login page)
+2026-02-05 20:02:56,181 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15336
+2026-02-05 20:02:59,437 - INFO - Looking for video player...
+2026-02-05 20:02:59,497 - INFO - Clicked play button
+2026-02-05 20:02:59,497 - INFO - Watching video...
+2026-02-05 20:02:59,505 - INFO - Video progress: 0.0% (0s / 537s)
+2026-02-05 20:03:29,519 - INFO - Video progress: 5.6% (30s / 537s)
+2026-02-05 20:03:59,534 - INFO - Video progress: 11.2% (60s / 537s)
+2026-02-05 20:04:29,552 - INFO - Video progress: 16.8% (90s / 537s)
+2026-02-05 20:04:59,564 - INFO - Video progress: 22.4% (120s / 537s)
+2026-02-05 20:05:29,577 - INFO - Video progress: 27.9% (150s / 537s)
+2026-02-05 20:05:59,592 - INFO - Video progress: 33.5% (180s / 537s)
+2026-02-05 20:06:29,604 - INFO - Video progress: 39.1% (210s / 537s)
+2026-02-05 20:06:59,619 - INFO - Video progress: 44.7% (240s / 537s)
+2026-02-05 20:07:29,636 - INFO - Video progress: 50.3% (270s / 537s)
+2026-02-05 20:07:59,651 - INFO - Video progress: 55.9% (300s / 537s)
+2026-02-05 20:08:29,666 - INFO - Video progress: 61.5% (330s / 537s)
+2026-02-05 20:08:59,680 - INFO - Video progress: 67.1% (360s / 537s)
+2026-02-05 20:09:29,697 - INFO - Video progress: 72.7% (390s / 537s)
+2026-02-05 20:09:59,718 - INFO - Video progress: 78.2% (420s / 537s)
+2026-02-05 20:10:29,733 - INFO - Video progress: 83.8% (450s / 537s)
+2026-02-05 20:10:59,750 - INFO - Video progress: 89.4% (480s / 537s)
+2026-02-05 20:11:29,764 - INFO - Video progress: 95.0% (510s / 537s)
+2026-02-05 20:11:59,781 - INFO - Video completed!
+2026-02-05 20:11:59,823 - INFO - Looking for test button...
+2026-02-05 20:11:59,911 - WARNING - No test button found
+2026-02-05 20:11:59,911 - INFO - Lesson processing complete!
+2026-02-05 20:12:00,073 - INFO - WebDriver closed
+2026-02-05 20:22:36,805 - INFO - ====== WebDriver manager ======
+2026-02-05 20:22:37,813 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 20:22:38,206 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 20:22:38,608 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 20:22:40,407 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 20:22:40,486 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 20:22:40,487 - INFO - AI Helper initialized successfully
+2026-02-05 20:22:43,525 - INFO - Database tables created successfully
+2026-02-05 20:22:43,525 - INFO - Database initialized successfully
+2026-02-05 20:22:43,997 - INFO - Database connection test successful
+2026-02-05 20:22:43,997 - INFO - Database connection established successfully
+2026-02-05 20:22:43,997 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 20:22:47,749 - INFO - Looking for login elements...
+2026-02-05 20:22:47,757 - INFO - Entering credentials...
+2026-02-05 20:22:48,538 - INFO - Clicking login button: 'Sign in'
+2026-02-05 20:22:48,542 - INFO - Waiting for login to complete...
+2026-02-05 20:22:49,058 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 20:22:51,069 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 20:22:51,069 - INFO - Login successful! (redirected from login page)
+2026-02-05 20:22:51,069 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15337
+2026-02-05 20:22:54,279 - INFO - Looking for video player...
+2026-02-05 20:22:54,322 - INFO - Clicked play button
+2026-02-05 20:22:54,322 - INFO - Watching video...
+2026-02-05 20:22:54,335 - INFO - Video progress: 0.0% (0s / 1005s)
+2026-02-05 20:23:24,350 - INFO - Video progress: 3.0% (30s / 1005s)
+2026-02-05 20:23:54,359 - INFO - Video progress: 6.0% (60s / 1005s)
+2026-02-05 20:24:24,380 - INFO - Video progress: 9.0% (90s / 1005s)
+2026-02-05 20:24:54,398 - INFO - Video progress: 12.0% (120s / 1005s)
+2026-02-05 20:25:24,411 - INFO - Video progress: 14.9% (150s / 1005s)
+2026-02-05 20:25:54,424 - INFO - Video progress: 17.9% (180s / 1005s)
+2026-02-05 20:26:24,439 - INFO - Video progress: 20.9% (210s / 1005s)
+2026-02-05 20:26:54,452 - INFO - Video progress: 23.9% (240s / 1005s)
+2026-02-05 20:27:24,460 - INFO - Video progress: 26.9% (270s / 1005s)
+2026-02-05 20:27:54,480 - INFO - Video progress: 29.9% (300s / 1005s)
+2026-02-05 20:28:24,505 - INFO - Video progress: 32.9% (330s / 1005s)
+2026-02-05 20:28:54,521 - INFO - Video progress: 35.9% (360s / 1005s)
+2026-02-05 20:29:24,545 - INFO - Video progress: 38.8% (390s / 1005s)
+2026-02-05 20:29:54,563 - INFO - Video progress: 41.8% (420s / 1005s)
+2026-02-05 20:30:24,579 - INFO - Video progress: 44.8% (450s / 1005s)
+2026-02-05 20:30:54,597 - INFO - Video progress: 47.8% (480s / 1005s)
+2026-02-05 20:31:24,615 - INFO - Video progress: 50.8% (510s / 1005s)
+2026-02-05 20:31:54,629 - INFO - Video progress: 53.8% (540s / 1005s)
+2026-02-05 20:32:24,638 - INFO - Video progress: 56.8% (570s / 1005s)
+2026-02-05 20:32:54,655 - INFO - Video progress: 59.8% (600s / 1005s)
+2026-02-05 20:33:24,666 - INFO - Video progress: 62.7% (630s / 1005s)
+2026-02-05 20:33:54,676 - INFO - Video progress: 65.7% (660s / 1005s)
+2026-02-05 20:34:24,691 - INFO - Video progress: 68.7% (690s / 1005s)
+2026-02-05 20:34:54,710 - INFO - Video progress: 71.7% (720s / 1005s)
+2026-02-05 20:35:24,723 - INFO - Video progress: 74.7% (750s / 1005s)
+2026-02-05 20:35:54,742 - INFO - Video progress: 77.7% (780s / 1005s)
+2026-02-05 20:36:24,754 - INFO - Video progress: 80.7% (810s / 1005s)
+2026-02-05 20:36:54,765 - INFO - Video progress: 83.7% (840s / 1005s)
+2026-02-05 20:37:24,776 - INFO - Video progress: 86.6% (870s / 1005s)
+2026-02-05 20:37:54,797 - INFO - Video progress: 89.6% (900s / 1005s)
+2026-02-05 20:38:24,815 - INFO - Video progress: 92.6% (930s / 1005s)
+2026-02-05 20:38:54,829 - INFO - Video progress: 95.6% (960s / 1005s)
+2026-02-05 20:39:24,843 - INFO - Video progress: 98.6% (990s / 1005s)
+2026-02-05 20:39:54,848 - INFO - Video completed!
+2026-02-05 20:39:54,897 - INFO - Looking for test button...
+2026-02-05 20:39:55,015 - WARNING - No test button found
+2026-02-05 20:39:55,015 - INFO - Lesson processing complete!
+2026-02-05 20:39:55,187 - INFO - WebDriver closed
+2026-02-05 21:12:47,328 - INFO - ====== WebDriver manager ======
+2026-02-05 21:12:48,590 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 21:12:49,023 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 21:12:49,397 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 21:12:51,599 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 21:12:51,714 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 21:12:51,714 - INFO - AI Helper initialized successfully
+2026-02-05 21:12:54,862 - INFO - Database tables created successfully
+2026-02-05 21:12:54,862 - INFO - Database initialized successfully
+2026-02-05 21:12:55,337 - INFO - Database connection test successful
+2026-02-05 21:12:55,338 - INFO - Database connection established successfully
+2026-02-05 21:12:55,338 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 21:12:58,525 - INFO - Looking for login elements...
+2026-02-05 21:12:58,534 - INFO - Entering credentials...
+2026-02-05 21:12:59,311 - INFO - Clicking login button: 'Sign in'
+2026-02-05 21:12:59,316 - INFO - Waiting for login to complete...
+2026-02-05 21:12:59,820 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 21:13:01,828 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 21:13:01,828 - INFO - Login successful! (redirected from login page)
+2026-02-05 21:13:01,828 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9853
+2026-02-05 21:13:05,148 - INFO - Looking for video player...
+2026-02-05 21:13:05,208 - INFO - Clicked play button
+2026-02-05 21:13:05,208 - INFO - Watching video...
+2026-02-05 21:13:05,223 - INFO - Video progress: 0.0% (0s / 353s)
+2026-02-05 21:13:35,250 - INFO - Video progress: 8.5% (30s / 353s)
+2026-02-05 21:14:05,271 - INFO - Video progress: 17.0% (60s / 353s)
+2026-02-05 21:14:35,290 - INFO - Video progress: 25.5% (90s / 353s)
+2026-02-05 21:15:05,306 - INFO - Video progress: 34.0% (120s / 353s)
+2026-02-05 21:15:35,318 - INFO - Video progress: 42.5% (150s / 353s)
+2026-02-05 21:16:05,344 - INFO - Video progress: 51.0% (180s / 353s)
+2026-02-05 21:16:35,356 - INFO - Video progress: 59.5% (210s / 353s)
+2026-02-05 21:17:05,369 - INFO - Video progress: 68.0% (240s / 353s)
+2026-02-05 21:17:35,385 - INFO - Video progress: 76.5% (270s / 353s)
+2026-02-05 21:18:05,403 - INFO - Video progress: 85.0% (300s / 353s)
+2026-02-05 21:18:35,422 - INFO - Video progress: 93.5% (330s / 353s)
+2026-02-05 21:19:05,458 - INFO - Video completed!
+2026-02-05 21:19:05,566 - INFO - Looking for test button...
+2026-02-05 21:19:05,620 - INFO - Found test button: 'Go to test'
+2026-02-05 21:19:05,632 - INFO - Waiting for test page to load...
+2026-02-05 21:19:08,638 - INFO - Looking for 'Start the test' button...
+2026-02-05 21:19:08,775 - INFO - Found button: 'Start the test'
+2026-02-05 21:19:08,781 - INFO - Clicked start/restart button
+2026-02-05 21:19:08,781 - INFO - Waiting for questions to load...
+2026-02-05 21:19:14,042 - INFO - Saved screenshot: images/debug_test_questions_1770308353.png
+2026-02-05 21:19:14,049 - INFO - Saved page source: images/debug_test_questions_1770308353.html
+2026-02-05 21:19:14,049 - INFO - Attempting question 1 of 5
+2026-02-05 21:19:14,164 - INFO - Clicking question number button: 1
+2026-02-05 21:19:16,209 - INFO - Found main content area
+2026-02-05 21:19:16,477 - INFO - Found question element: 1.What are the economic costs of IPV?...
+2026-02-05 21:19:16,477 - INFO - Question: 1.What are the economic costs of IPV?...
+2026-02-05 21:19:16,481 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:19:16,484 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:19:16,532 - INFO - Found 4 unique options: ['Decreased education funding.', 'Healthcare expenses, legal costs, and lost productivity.', 'Higher corporate taxes.', 'Increased cost of goods.']
+2026-02-05 21:19:16,532 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:19:20,127 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:19:20,131 - INFO - AI selected answer 2: Healthcare expenses, legal costs, and lost product...
+2026-02-05 21:19:20,873 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:19:20,874 - INFO - Question and answers saved to database
+2026-02-05 21:19:20,874 - INFO - Selecting answer 2: Healthcare expenses, legal costs, and lost product...
+2026-02-05 21:19:20,878 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:19:20,881 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,884 - INFO - Comparing option text: '1' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,887 - INFO - Comparing option text: '2' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,892 - INFO - Comparing option text: '3' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,894 - INFO - Comparing option text: '4' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,897 - INFO - Comparing option text: '5' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,899 - INFO - Comparing option text: 'Decreased education funding.' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,902 - INFO - Comparing option text: '' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,904 - INFO - Comparing option text: 'Healthcare expenses, legal costs, and lost productivity.' vs 'Healthcare expenses, legal costs, and lost productivity.'
+2026-02-05 21:19:20,904 - INFO - Re-found option element for: Healthcare expenses, legal cos...
+2026-02-05 21:19:21,954 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:19:22,999 - INFO - Retry click succeeded!
+2026-02-05 21:19:24,090 - INFO - Clicking: Next
+2026-02-05 21:19:27,097 - INFO - Successfully answered question 1
+2026-02-05 21:19:29,103 - INFO - Attempting question 2 of 5
+2026-02-05 21:19:29,230 - INFO - Clicking question number button: 2
+2026-02-05 21:19:31,266 - INFO - Found main content area
+2026-02-05 21:19:31,540 - INFO - Found question element: 2.According to WHO (World Health Organization), what percentage of women worldwi...
+2026-02-05 21:19:31,540 - INFO - Question: 2.According to WHO (World Health Organization), what percentage of women worldwide have experienced ...
+2026-02-05 21:19:31,542 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:19:31,544 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:19:31,594 - INFO - Found 4 unique options: ['10%.', '30%.', '45%.', '15%.']
+2026-02-05 21:19:31,594 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:19:34,761 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:19:34,764 - INFO - AI selected answer 2: 30%....
+2026-02-05 21:19:35,484 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:19:35,484 - INFO - Question and answers saved to database
+2026-02-05 21:19:35,484 - INFO - Selecting answer 2: 30%....
+2026-02-05 21:19:35,488 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:19:35,492 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs '30%.'
+2026-02-05 21:19:35,496 - INFO - Comparing option text: '1' vs '30%.'
+2026-02-05 21:19:35,500 - INFO - Comparing option text: '2' vs '30%.'
+2026-02-05 21:19:35,507 - INFO - Comparing option text: '3' vs '30%.'
+2026-02-05 21:19:35,510 - INFO - Comparing option text: '4' vs '30%.'
+2026-02-05 21:19:35,513 - INFO - Comparing option text: '5' vs '30%.'
+2026-02-05 21:19:35,516 - INFO - Comparing option text: '10%.' vs '30%.'
+2026-02-05 21:19:35,518 - INFO - Comparing option text: '' vs '30%.'
+2026-02-05 21:19:35,521 - INFO - Comparing option text: '30%.' vs '30%.'
+2026-02-05 21:19:35,521 - INFO - Re-found option element for: 30%....
+2026-02-05 21:19:36,030 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001051c7928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x00000001051bfc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x0000000104ca283c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104ca8a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000104caafb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x0000000104d2bf94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x0000000104d2afe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x0000000104ce007c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000105186884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000105189fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x000000010516b578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x000000010518a850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x000000010515b640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x00000001051ae194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x00000001051ae310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x00000001051bf85c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 21:19:36,067 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:19:37,105 - INFO - Retry click succeeded!
+2026-02-05 21:19:38,186 - INFO - Clicking: Next
+2026-02-05 21:19:41,196 - INFO - Successfully answered question 2
+2026-02-05 21:19:43,199 - INFO - Attempting question 3 of 5
+2026-02-05 21:19:43,323 - INFO - Clicking question number button: 3
+2026-02-05 21:19:45,348 - INFO - Found main content area
+2026-02-05 21:19:45,693 - INFO - Found question via regex: 3.What does IPV stand for?...
+2026-02-05 21:19:45,693 - INFO - Question: 3.What does IPV stand for?...
+2026-02-05 21:19:45,695 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:19:45,697 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:19:45,743 - INFO - Found 4 unique options: ['Inconsistent Partner Values.', 'Intimate Partner Violence.', 'Individual Personal Violence.', 'Interpersonal Verbal Abuse.']
+2026-02-05 21:19:45,744 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:19:58,483 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:19:58,488 - INFO - AI selected answer 2: Intimate Partner Violence....
+2026-02-05 21:19:59,222 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:19:59,222 - INFO - Question and answers saved to database
+2026-02-05 21:19:59,222 - INFO - Selecting answer 2: Intimate Partner Violence....
+2026-02-05 21:19:59,227 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:19:59,231 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,234 - INFO - Comparing option text: '1' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,237 - INFO - Comparing option text: '2' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,241 - INFO - Comparing option text: '3' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,245 - INFO - Comparing option text: '4' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,248 - INFO - Comparing option text: '5' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,250 - INFO - Comparing option text: 'Inconsistent Partner Values.' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,253 - INFO - Comparing option text: '' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,255 - INFO - Comparing option text: 'Intimate Partner Violence.' vs 'Intimate Partner Violence.'
+2026-02-05 21:19:59,255 - INFO - Re-found option element for: Intimate Partner Violence....
+2026-02-05 21:20:00,294 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:20:01,351 - INFO - Retry click succeeded!
+2026-02-05 21:20:02,451 - INFO - Clicking: Next
+2026-02-05 21:20:05,458 - INFO - Successfully answered question 3
+2026-02-05 21:20:07,462 - INFO - Attempting question 4 of 5
+2026-02-05 21:20:07,586 - INFO - Clicking question number button: 4
+2026-02-05 21:20:09,611 - INFO - Found main content area
+2026-02-05 21:20:09,917 - INFO - Found question via regex: 4.What is coercive control?...
+2026-02-05 21:20:09,917 - INFO - Question: 4.What is coercive control?...
+2026-02-05 21:20:09,919 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:20:09,921 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:20:09,968 - INFO - Found 4 unique options: ['A form of psychological abuse involving domination and manipulation.', 'A medical condition resulting from trauma.', 'A legal framework for handling abuse cases.', 'A conflict resolution strategy.']
+2026-02-05 21:20:09,968 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:20:53,954 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:20:53,973 - INFO - AI selected answer 1: A form of psychological abuse involving domination...
+2026-02-05 21:20:54,690 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:20:54,690 - INFO - Question and answers saved to database
+2026-02-05 21:20:54,690 - INFO - Selecting answer 1: A form of psychological abuse involving domination...
+2026-02-05 21:20:54,698 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:20:54,703 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'A form of psychological abuse involving domination and manipulation.'
+2026-02-05 21:20:54,707 - INFO - Comparing option text: '1' vs 'A form of psychological abuse involving domination and manipulation.'
+2026-02-05 21:20:54,710 - INFO - Comparing option text: '2' vs 'A form of psychological abuse involving domination and manipulation.'
+2026-02-05 21:20:54,717 - INFO - Comparing option text: '3' vs 'A form of psychological abuse involving domination and manipulation.'
+2026-02-05 21:20:54,720 - INFO - Comparing option text: '4' vs 'A form of psychological abuse involving domination and manipulation.'
+2026-02-05 21:20:54,724 - INFO - Comparing option text: '5' vs 'A form of psychological abuse involving domination and manipulation.'
+2026-02-05 21:20:54,727 - INFO - Comparing option text: 'A form of psychological abuse involving domination and manipulation.' vs 'A form of psychological abuse involving domination and manipulation.'
+2026-02-05 21:20:54,727 - INFO - Re-found option element for: A form of psychological abuse ...
+2026-02-05 21:20:55,750 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:20:56,796 - INFO - Retry click succeeded!
+2026-02-05 21:20:57,909 - INFO - Clicking: Next
+2026-02-05 21:21:00,917 - INFO - Successfully answered question 4
+2026-02-05 21:21:02,919 - INFO - Attempting question 5 of 5
+2026-02-05 21:21:03,048 - INFO - Clicking question number button: 5
+2026-02-05 21:21:05,070 - INFO - Found main content area
+2026-02-05 21:21:05,336 - INFO - Found question element: 5.What are the long-term effects of psychological abuse?...
+2026-02-05 21:21:05,336 - INFO - Question: 5.What are the long-term effects of psychological abuse?...
+2026-02-05 21:21:05,339 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:21:05,342 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:21:05,389 - INFO - Found 4 unique options: ['Depression, anxiety, and PTSD.', 'Physical injuries only.', 'Increased income opportunities.', 'Improved social standing.']
+2026-02-05 21:21:05,390 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:21:22,250 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:21:22,256 - INFO - AI selected answer 1: Depression, anxiety, and PTSD....
+2026-02-05 21:21:22,980 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:21:22,980 - INFO - Question and answers saved to database
+2026-02-05 21:21:22,980 - INFO - Selecting answer 1: Depression, anxiety, and PTSD....
+2026-02-05 21:21:22,993 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:21:22,999 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Depression, anxiety, and PTSD.'
+2026-02-05 21:21:23,004 - INFO - Comparing option text: '1' vs 'Depression, anxiety, and PTSD.'
+2026-02-05 21:21:23,009 - INFO - Comparing option text: '2' vs 'Depression, anxiety, and PTSD.'
+2026-02-05 21:21:23,013 - INFO - Comparing option text: '3' vs 'Depression, anxiety, and PTSD.'
+2026-02-05 21:21:23,016 - INFO - Comparing option text: '4' vs 'Depression, anxiety, and PTSD.'
+2026-02-05 21:21:23,019 - INFO - Comparing option text: '5' vs 'Depression, anxiety, and PTSD.'
+2026-02-05 21:21:23,022 - INFO - Comparing option text: 'Depression, anxiety, and PTSD.' vs 'Depression, anxiety, and PTSD.'
+2026-02-05 21:21:23,022 - INFO - Re-found option element for: Depression, anxiety, and PTSD....
+2026-02-05 21:21:24,054 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:21:25,108 - INFO - Retry click succeeded!
+2026-02-05 21:21:26,187 - INFO - Clicking: Next
+2026-02-05 21:21:29,199 - INFO - Successfully answered question 5
+2026-02-05 21:21:31,199 - INFO - Answered 5 out of 5 questions
+2026-02-05 21:21:31,200 - INFO - Looking for submit button...
+2026-02-05 21:21:31,292 - INFO - Clicking submit button: 'Send'
+2026-02-05 21:21:33,318 - INFO - Lesson processing complete!
+2026-02-05 21:21:33,494 - INFO - WebDriver closed
+2026-02-05 21:26:07,735 - INFO - ====== WebDriver manager ======
+2026-02-05 21:26:08,736 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 21:26:09,139 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 21:26:09,478 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 21:26:11,133 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 21:26:11,218 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 21:26:11,219 - INFO - AI Helper initialized successfully
+2026-02-05 21:26:14,199 - INFO - Database tables created successfully
+2026-02-05 21:26:14,201 - INFO - Database initialized successfully
+2026-02-05 21:26:14,667 - INFO - Database connection test successful
+2026-02-05 21:26:14,667 - INFO - Database connection established successfully
+2026-02-05 21:26:14,667 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 21:26:18,616 - INFO - Looking for login elements...
+2026-02-05 21:26:18,623 - INFO - Entering credentials...
+2026-02-05 21:26:19,406 - INFO - Clicking login button: 'Sign in'
+2026-02-05 21:26:19,411 - INFO - Waiting for login to complete...
+2026-02-05 21:26:19,918 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 21:26:21,935 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 21:26:21,935 - INFO - Login successful! (redirected from login page)
+2026-02-05 21:26:21,935 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9854
+2026-02-05 21:26:25,145 - INFO - Looking for video player...
+2026-02-05 21:26:25,209 - INFO - Clicked play button
+2026-02-05 21:26:25,209 - INFO - Watching video...
+2026-02-05 21:26:25,215 - INFO - Video progress: 0.0% (0s / 360s)
+2026-02-05 21:26:55,229 - INFO - Video progress: 8.3% (30s / 360s)
+2026-02-05 21:27:25,241 - INFO - Video progress: 16.7% (60s / 360s)
+2026-02-05 21:27:55,255 - INFO - Video progress: 25.0% (90s / 360s)
+2026-02-05 21:28:25,288 - INFO - Video progress: 33.4% (120s / 360s)
+2026-02-05 21:28:55,304 - INFO - Video progress: 41.7% (150s / 360s)
+2026-02-05 21:29:25,325 - INFO - Video progress: 50.1% (180s / 360s)
+2026-02-05 21:29:55,341 - INFO - Video progress: 58.4% (210s / 360s)
+2026-02-05 21:30:25,355 - INFO - Video progress: 66.8% (240s / 360s)
+2026-02-05 21:30:55,380 - INFO - Video progress: 75.1% (270s / 360s)
+2026-02-05 21:31:25,397 - INFO - Video progress: 83.5% (300s / 360s)
+2026-02-05 21:31:55,410 - INFO - Video progress: 91.8% (330s / 360s)
+2026-02-05 21:32:25,431 - INFO - Video completed!
+2026-02-05 21:32:25,485 - INFO - Looking for test button...
+2026-02-05 21:32:25,513 - INFO - Found test button: 'Go to test'
+2026-02-05 21:32:25,522 - INFO - Waiting for test page to load...
+2026-02-05 21:32:28,527 - INFO - Looking for 'Start the test' button...
+2026-02-05 21:32:28,667 - INFO - Found button: 'Start the test'
+2026-02-05 21:32:28,671 - INFO - Clicked start/restart button
+2026-02-05 21:32:28,671 - INFO - Waiting for questions to load...
+2026-02-05 21:32:33,935 - INFO - Saved screenshot: images/debug_test_questions_1770309153.png
+2026-02-05 21:32:33,945 - INFO - Saved page source: images/debug_test_questions_1770309153.html
+2026-02-05 21:32:33,945 - INFO - Attempting question 1 of 5
+2026-02-05 21:32:34,052 - INFO - Clicking question number button: 1
+2026-02-05 21:32:36,097 - INFO - Found main content area
+2026-02-05 21:32:36,367 - INFO - Found question element: 1.What is a key difference between cultural responses to domestic violence in Ka...
+2026-02-05 21:32:36,367 - INFO - Question: 1.What is a key difference between cultural responses to domestic violence in Kazakhstan and Ghana?...
+2026-02-05 21:32:36,370 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:32:36,373 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:32:36,421 - INFO - Found 4 unique options: ['Kazakhstan has no reporting mechanisms, while Ghana has comprehensive policies.', 'Ghana experiences less domestic violence than Kazakhstan.', 'Ghana prioritizes legal action, while Kazakhstan focuses on community solutions.', 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.']
+2026-02-05 21:32:36,421 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:32:48,568 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:32:48,576 - INFO - AI selected answer 4: Kazakhstan focuses on family honor, while Ghana em...
+2026-02-05 21:32:49,305 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:32:49,306 - INFO - Question and answers saved to database
+2026-02-05 21:32:49,306 - INFO - Selecting answer 4: Kazakhstan focuses on family honor, while Ghana em...
+2026-02-05 21:32:49,316 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:32:49,324 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,331 - INFO - Comparing option text: '1' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,337 - INFO - Comparing option text: '2' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,341 - INFO - Comparing option text: '3' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,345 - INFO - Comparing option text: '4' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,348 - INFO - Comparing option text: '5' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,351 - INFO - Comparing option text: 'Kazakhstan has no reporting mechanisms, while Ghana has comprehensive policies.' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,354 - INFO - Comparing option text: '' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,357 - INFO - Comparing option text: 'Ghana experiences less domestic violence than Kazakhstan.' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,359 - INFO - Comparing option text: '' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,362 - INFO - Comparing option text: 'Ghana prioritizes legal action, while Kazakhstan focuses on community solutions.' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,365 - INFO - Comparing option text: '' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,367 - INFO - Comparing option text: 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.' vs 'Kazakhstan focuses on family honor, while Ghana emphasizes gender roles.'
+2026-02-05 21:32:49,367 - INFO - Re-found option element for: Kazakhstan focuses on family h...
+2026-02-05 21:32:49,878 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102d63928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000102d5bc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010283e83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000102844a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000102846fb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001028c7f94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001028c6fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x000000010287c07c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000102d22884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000102d25fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000102d07578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000102d26850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000102cf7640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000102d4a194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000102d4a310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x0000000102d5b85c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 21:32:49,901 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:32:50,970 - INFO - Retry click succeeded!
+2026-02-05 21:32:52,065 - INFO - Clicking: Next
+2026-02-05 21:32:55,074 - INFO - Successfully answered question 1
+2026-02-05 21:32:57,077 - INFO - Attempting question 2 of 5
+2026-02-05 21:32:57,207 - INFO - Clicking question number button: 2
+2026-02-05 21:32:59,245 - INFO - Found main content area
+2026-02-05 21:32:59,527 - INFO - Found question element: 2.What role do patriarchal norms play in domestic violence?...
+2026-02-05 21:32:59,527 - INFO - Question: 2.What role do patriarchal norms play in domestic violence?...
+2026-02-05 21:32:59,529 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:32:59,532 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:32:59,581 - INFO - Found 4 unique options: ['They provide counseling services for victims.', 'They prevent legal action against abusers.', 'They normalize abusive behavior and reinforce power dynamics.', 'They eliminate the stigma surrounding reporting abuse.']
+2026-02-05 21:32:59,581 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:33:16,573 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:33:16,577 - INFO - AI selected answer 3: They normalize abusive behavior and reinforce powe...
+2026-02-05 21:33:17,284 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:33:17,284 - INFO - Question and answers saved to database
+2026-02-05 21:33:17,284 - INFO - Selecting answer 3: They normalize abusive behavior and reinforce powe...
+2026-02-05 21:33:17,297 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:33:17,303 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,308 - INFO - Comparing option text: '1' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,312 - INFO - Comparing option text: '2' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,316 - INFO - Comparing option text: '3' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,319 - INFO - Comparing option text: '4' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,322 - INFO - Comparing option text: '5' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,328 - INFO - Comparing option text: 'They provide counseling services for victims.' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,331 - INFO - Comparing option text: '' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,334 - INFO - Comparing option text: 'They prevent legal action against abusers.' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,337 - INFO - Comparing option text: '' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,344 - INFO - Comparing option text: 'They normalize abusive behavior and reinforce power dynamics.' vs 'They normalize abusive behavior and reinforce power dynamics.'
+2026-02-05 21:33:17,344 - INFO - Re-found option element for: They normalize abusive behavio...
+2026-02-05 21:33:18,384 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:33:19,450 - INFO - Retry click succeeded!
+2026-02-05 21:33:20,556 - INFO - Clicking: Next
+2026-02-05 21:33:23,565 - INFO - Successfully answered question 2
+2026-02-05 21:33:25,585 - INFO - Attempting question 3 of 5
+2026-02-05 21:33:25,720 - INFO - Clicking question number button: 3
+2026-02-05 21:33:27,747 - INFO - Found main content area
+2026-02-05 21:33:28,019 - INFO - Found question element: 3.What is a common justification for intimate partner violence in Ghana?...
+2026-02-05 21:33:28,019 - INFO - Question: 3.What is a common justification for intimate partner violence in Ghana?...
+2026-02-05 21:33:28,021 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:33:28,023 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:33:28,071 - INFO - Found 4 unique options: ['Promoting gender equality.', 'Maintaining control and discipline within the household.', 'Reducing economic disparities.', 'Encouraging societal integration.']
+2026-02-05 21:33:28,071 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:33:30,906 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:33:30,911 - INFO - AI selected answer 2: Maintaining control and discipline within the hous...
+2026-02-05 21:33:31,607 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:33:31,607 - INFO - Question and answers saved to database
+2026-02-05 21:33:31,607 - INFO - Selecting answer 2: Maintaining control and discipline within the hous...
+2026-02-05 21:33:31,617 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:33:31,625 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,631 - INFO - Comparing option text: '1' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,636 - INFO - Comparing option text: '2' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,640 - INFO - Comparing option text: '3' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,644 - INFO - Comparing option text: '4' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,647 - INFO - Comparing option text: '5' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,651 - INFO - Comparing option text: 'Promoting gender equality.' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,654 - INFO - Comparing option text: '' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,657 - INFO - Comparing option text: 'Maintaining control and discipline within the household.' vs 'Maintaining control and discipline within the household.'
+2026-02-05 21:33:31,657 - INFO - Re-found option element for: Maintaining control and discip...
+2026-02-05 21:33:32,682 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:33:33,742 - INFO - Retry click succeeded!
+2026-02-05 21:33:34,837 - INFO - Clicking: Next
+2026-02-05 21:33:37,846 - INFO - Successfully answered question 3
+2026-02-05 21:33:39,851 - INFO - Attempting question 4 of 5
+2026-02-05 21:33:39,988 - INFO - Clicking question number button: 4
+2026-02-05 21:33:42,023 - INFO - Found main content area
+2026-02-05 21:33:42,300 - INFO - Found question element: 4.What is a suggested approach to addressing intimate partner violence in Ghana?...
+2026-02-05 21:33:42,300 - INFO - Question: 4.What is a suggested approach to addressing intimate partner violence in Ghana?...
+2026-02-05 21:33:42,302 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:33:42,304 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:33:42,350 - INFO - Found 4 unique options: ['Increasing surveillance of private households.', 'Eliminating community-based interventions.', 'Engaging men and boys as allies in preventing violence.', 'Promoting individual isolation to ensure safety.']
+2026-02-05 21:33:42,350 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:33:56,755 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:33:56,758 - INFO - AI selected answer 3: Engaging men and boys as allies in preventing viol...
+2026-02-05 21:33:57,459 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:33:57,460 - INFO - Question and answers saved to database
+2026-02-05 21:33:57,460 - INFO - Selecting answer 3: Engaging men and boys as allies in preventing viol...
+2026-02-05 21:33:57,469 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:33:57,477 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,484 - INFO - Comparing option text: '1' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,490 - INFO - Comparing option text: '2' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,494 - INFO - Comparing option text: '3' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,498 - INFO - Comparing option text: '4' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,501 - INFO - Comparing option text: '5' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,505 - INFO - Comparing option text: 'Increasing surveillance of private households.' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,508 - INFO - Comparing option text: '' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,511 - INFO - Comparing option text: 'Eliminating community-based interventions.' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,514 - INFO - Comparing option text: '' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,517 - INFO - Comparing option text: 'Engaging men and boys as allies in preventing violence.' vs 'Engaging men and boys as allies in preventing violence.'
+2026-02-05 21:33:57,517 - INFO - Re-found option element for: Engaging men and boys as allie...
+2026-02-05 21:33:58,029 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102d63928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000102d5bc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010283e83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000102844a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000102846fb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001028c7f94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001028c6fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x000000010287c07c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000102d22884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000102d25fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000102d07578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000102d26850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000102cf7640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000102d4a194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000102d4a310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x0000000102d5b85c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 21:33:58,051 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:33:59,116 - INFO - Retry click succeeded!
+2026-02-05 21:34:00,212 - INFO - Clicking: Next
+2026-02-05 21:34:03,221 - INFO - Successfully answered question 4
+2026-02-05 21:34:05,223 - INFO - Attempting question 5 of 5
+2026-02-05 21:34:05,359 - INFO - Clicking question number button: 5
+2026-02-05 21:34:07,396 - INFO - Found main content area
+2026-02-05 21:34:07,673 - INFO - Found question element: 5.What is the impact of cultural norms on law enforcement's response to domestic...
+2026-02-05 21:34:07,673 - INFO - Question: 5.What is the impact of cultural norms on law enforcement's response to domestic violence in Kazakhs...
+2026-02-05 21:34:07,675 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 21:34:07,677 - INFO - Found 14 cursor-pointer divs
+2026-02-05 21:34:07,726 - INFO - Found 4 unique options: ['Courts mandate mandatory rehabilitation for abusers.', 'Police prioritize prosecuting abusers.', 'Law enforcement often discourages women from filing complaints.', 'Officers provide immediate shelter for victims.']
+2026-02-05 21:34:07,727 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 21:34:11,513 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 21:34:11,517 - INFO - AI selected answer 3: Law enforcement often discourages women from filin...
+2026-02-05 21:34:12,218 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 21:34:12,219 - INFO - Question and answers saved to database
+2026-02-05 21:34:12,219 - INFO - Selecting answer 3: Law enforcement often discourages women from filin...
+2026-02-05 21:34:12,228 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 21:34:12,237 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,245 - INFO - Comparing option text: '1' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,250 - INFO - Comparing option text: '2' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,255 - INFO - Comparing option text: '3' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,259 - INFO - Comparing option text: '4' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,262 - INFO - Comparing option text: '5' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,266 - INFO - Comparing option text: 'Courts mandate mandatory rehabilitation for abusers.' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,269 - INFO - Comparing option text: '' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,273 - INFO - Comparing option text: 'Police prioritize prosecuting abusers.' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,276 - INFO - Comparing option text: '' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,279 - INFO - Comparing option text: 'Law enforcement often discourages women from filing complaints.' vs 'Law enforcement often discourages women from filing complaints.'
+2026-02-05 21:34:12,279 - INFO - Re-found option element for: Law enforcement often discoura...
+2026-02-05 21:34:13,319 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 21:34:14,384 - INFO - Retry click succeeded!
+2026-02-05 21:34:15,478 - INFO - Clicking: Next
+2026-02-05 21:34:18,485 - INFO - Successfully answered question 5
+2026-02-05 21:34:20,488 - INFO - Answered 5 out of 5 questions
+2026-02-05 21:34:20,489 - INFO - Looking for submit button...
+2026-02-05 21:34:20,587 - INFO - Clicking submit button: 'Send'
+2026-02-05 21:34:22,609 - INFO - Lesson processing complete!
+2026-02-05 21:34:22,792 - INFO - WebDriver closed
+2026-02-05 22:18:32,499 - INFO - ====== WebDriver manager ======
+2026-02-05 22:18:33,740 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 22:18:34,164 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 22:18:34,537 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 22:18:36,063 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 22:18:36,152 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 22:18:36,152 - INFO - AI Helper initialized successfully
+2026-02-05 22:18:40,229 - INFO - Database tables created successfully
+2026-02-05 22:18:40,229 - INFO - Database initialized successfully
+2026-02-05 22:18:40,749 - INFO - Database connection test successful
+2026-02-05 22:18:40,750 - INFO - Database connection established successfully
+2026-02-05 22:18:40,750 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 22:18:44,566 - INFO - Looking for login elements...
+2026-02-05 22:18:44,573 - INFO - Entering credentials...
+2026-02-05 22:18:45,324 - INFO - Clicking login button: 'Sign in'
+2026-02-05 22:18:45,333 - INFO - Waiting for login to complete...
+2026-02-05 22:18:45,842 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 22:18:47,859 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 22:18:47,859 - INFO - Login successful! (redirected from login page)
+2026-02-05 22:18:47,859 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9855
+2026-02-05 22:18:51,111 - INFO - Looking for video player...
+2026-02-05 22:18:51,178 - INFO - Clicked play button
+2026-02-05 22:18:51,178 - INFO - Watching video...
+2026-02-05 22:18:51,189 - INFO - Video progress: 0.0% (0s / 409s)
+2026-02-05 22:19:21,206 - INFO - Video progress: 7.3% (30s / 409s)
+2026-02-05 22:19:51,215 - INFO - Video progress: 14.7% (60s / 409s)
+2026-02-05 22:20:21,229 - INFO - Video progress: 22.0% (90s / 409s)
+2026-02-05 22:20:51,241 - INFO - Video progress: 29.4% (120s / 409s)
+2026-02-05 22:21:21,254 - INFO - Video progress: 36.7% (150s / 409s)
+2026-02-05 22:21:51,268 - INFO - Video progress: 44.0% (180s / 409s)
+2026-02-05 22:22:21,281 - INFO - Video progress: 51.4% (210s / 409s)
+2026-02-05 22:22:51,298 - INFO - Video progress: 58.7% (240s / 409s)
+2026-02-05 22:23:21,312 - INFO - Video progress: 66.0% (270s / 409s)
+2026-02-05 22:23:51,325 - INFO - Video progress: 73.4% (300s / 409s)
+2026-02-05 22:24:21,339 - INFO - Video progress: 80.7% (330s / 409s)
+2026-02-05 22:24:51,356 - INFO - Video progress: 88.1% (360s / 409s)
+2026-02-05 22:25:21,371 - INFO - Video progress: 95.4% (390s / 409s)
+2026-02-05 22:25:51,383 - INFO - Video completed!
+2026-02-05 22:25:51,440 - INFO - Looking for test button...
+2026-02-05 22:25:51,468 - INFO - Found test button: 'Go to test'
+2026-02-05 22:25:51,479 - INFO - Waiting for test page to load...
+2026-02-05 22:25:54,482 - INFO - Looking for 'Start the test' button...
+2026-02-05 22:25:54,620 - INFO - Found button: 'Start the test'
+2026-02-05 22:25:54,624 - INFO - Clicked start/restart button
+2026-02-05 22:25:54,624 - INFO - Waiting for questions to load...
+2026-02-05 22:25:59,909 - INFO - Saved screenshot: images/debug_test_questions_1770312359.png
+2026-02-05 22:25:59,917 - INFO - Saved page source: images/debug_test_questions_1770312359.html
+2026-02-05 22:25:59,917 - INFO - Attempting question 1 of 5
+2026-02-05 22:26:00,036 - INFO - Clicking question number button: 1
+2026-02-05 22:26:02,074 - INFO - Found main content area
+2026-02-05 22:26:02,350 - INFO - Found question element: 1.What is a significant societal consequence of non-consensual bride kidnapping?...
+2026-02-05 22:26:02,350 - INFO - Question: 1.What is a significant societal consequence of non-consensual bride kidnapping?...
+2026-02-05 22:26:02,353 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 22:26:02,356 - INFO - Found 14 cursor-pointer divs
+2026-02-05 22:26:02,404 - INFO - Found 4 unique options: ['Improved mental health outcomes', 'Reduction in gender inequality', 'Reinforcement of patriarchal norms', 'Increase in education levels']
+2026-02-05 22:26:02,404 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 22:26:05,337 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 22:26:05,343 - INFO - AI selected answer 3: Reinforcement of patriarchal norms...
+2026-02-05 22:26:06,116 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 22:26:06,117 - INFO - Question and answers saved to database
+2026-02-05 22:26:06,117 - INFO - Selecting answer 3: Reinforcement of patriarchal norms...
+2026-02-05 22:26:06,126 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 22:26:06,134 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,141 - INFO - Comparing option text: '1' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,146 - INFO - Comparing option text: '2' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,150 - INFO - Comparing option text: '3' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,154 - INFO - Comparing option text: '4' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,157 - INFO - Comparing option text: '5' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,160 - INFO - Comparing option text: 'Improved mental health outcomes' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,163 - INFO - Comparing option text: '' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,166 - INFO - Comparing option text: 'Reduction in gender inequality' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,169 - INFO - Comparing option text: '' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,172 - INFO - Comparing option text: 'Reinforcement of patriarchal norms' vs 'Reinforcement of patriarchal norms'
+2026-02-05 22:26:06,172 - INFO - Re-found option element for: Reinforcement of patriarchal n...
+2026-02-05 22:26:07,216 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 22:26:08,279 - INFO - Retry click succeeded!
+2026-02-05 22:26:09,374 - INFO - Clicking: Next
+2026-02-05 22:26:12,383 - INFO - Successfully answered question 1
+2026-02-05 22:26:14,387 - INFO - Attempting question 2 of 5
+2026-02-05 22:26:14,510 - INFO - Clicking question number button: 2
+2026-02-05 22:26:16,545 - INFO - Found main content area
+2026-02-05 22:26:16,822 - INFO - Found question element: 2.What is bride kidnapping known as in Kyrgyzstan?...
+2026-02-05 22:26:16,822 - INFO - Question: 2.What is bride kidnapping known as in Kyrgyzstan?...
+2026-02-05 22:26:16,824 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 22:26:16,826 - INFO - Found 14 cursor-pointer divs
+2026-02-05 22:26:16,873 - INFO - Found 4 unique options: ['Forced marriage', 'Boko haram', 'Honor killing', 'Ala kachuu']
+2026-02-05 22:26:16,873 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 22:26:33,266 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 22:26:33,270 - INFO - AI selected answer 4: Ala kachuu...
+2026-02-05 22:26:34,027 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 22:26:34,027 - INFO - Question and answers saved to database
+2026-02-05 22:26:34,027 - INFO - Selecting answer 4: Ala kachuu...
+2026-02-05 22:26:34,037 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 22:26:34,044 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Ala kachuu'
+2026-02-05 22:26:34,051 - INFO - Comparing option text: '1' vs 'Ala kachuu'
+2026-02-05 22:26:34,056 - INFO - Comparing option text: '2' vs 'Ala kachuu'
+2026-02-05 22:26:34,060 - INFO - Comparing option text: '3' vs 'Ala kachuu'
+2026-02-05 22:26:34,064 - INFO - Comparing option text: '4' vs 'Ala kachuu'
+2026-02-05 22:26:34,068 - INFO - Comparing option text: '5' vs 'Ala kachuu'
+2026-02-05 22:26:34,071 - INFO - Comparing option text: 'Forced marriage' vs 'Ala kachuu'
+2026-02-05 22:26:34,074 - INFO - Comparing option text: '' vs 'Ala kachuu'
+2026-02-05 22:26:34,077 - INFO - Comparing option text: 'Boko haram' vs 'Ala kachuu'
+2026-02-05 22:26:34,080 - INFO - Comparing option text: '' vs 'Ala kachuu'
+2026-02-05 22:26:34,083 - INFO - Comparing option text: 'Honor killing' vs 'Ala kachuu'
+2026-02-05 22:26:34,085 - INFO - Comparing option text: '' vs 'Ala kachuu'
+2026-02-05 22:26:34,088 - INFO - Comparing option text: 'Ala kachuu' vs 'Ala kachuu'
+2026-02-05 22:26:34,088 - INFO - Re-found option element for: Ala kachuu...
+2026-02-05 22:26:34,600 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x000000010458f928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000104587c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010406a83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104070a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000104072fb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001040f3f94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001040f2fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x00000001040a807c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x000000010454e884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000104551fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000104533578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000104552850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000104523640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000104576194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000104576310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x000000010458785c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 22:26:34,622 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 22:26:35,692 - INFO - Retry click succeeded!
+2026-02-05 22:26:36,786 - INFO - Clicking: Next
+2026-02-05 22:26:39,792 - INFO - Successfully answered question 2
+2026-02-05 22:26:41,793 - INFO - Attempting question 3 of 5
+2026-02-05 22:26:41,920 - INFO - Clicking question number button: 3
+2026-02-05 22:26:43,952 - INFO - Found main content area
+2026-02-05 22:26:44,220 - INFO - Found question element: 3.How does societal pressure affect victims of bride kidnapping?...
+2026-02-05 22:26:44,220 - INFO - Question: 3.How does societal pressure affect victims of bride kidnapping?...
+2026-02-05 22:26:44,222 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 22:26:44,224 - INFO - Found 14 cursor-pointer divs
+2026-02-05 22:26:44,272 - INFO - Found 4 unique options: ['It helps them seek legal support.', 'It compels them to accept the marriage.', 'It reduces the likelihood of compliance.', 'It eliminates stigma around the practice.']
+2026-02-05 22:26:44,272 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 22:26:51,783 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 22:26:51,785 - INFO - AI selected answer 2: It compels them to accept the marriage....
+2026-02-05 22:26:52,528 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 22:26:52,528 - INFO - Question and answers saved to database
+2026-02-05 22:26:52,528 - INFO - Selecting answer 2: It compels them to accept the marriage....
+2026-02-05 22:26:52,544 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 22:26:52,548 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,551 - INFO - Comparing option text: '1' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,554 - INFO - Comparing option text: '2' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,559 - INFO - Comparing option text: '3' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,562 - INFO - Comparing option text: '4' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,567 - INFO - Comparing option text: '5' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,572 - INFO - Comparing option text: 'It helps them seek legal support.' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,576 - INFO - Comparing option text: '' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,580 - INFO - Comparing option text: 'It compels them to accept the marriage.' vs 'It compels them to accept the marriage.'
+2026-02-05 22:26:52,580 - INFO - Re-found option element for: It compels them to accept the ...
+2026-02-05 22:26:53,092 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x000000010458f928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000104587c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010406a83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104070a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000104072fb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001040f3f94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001040f2fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x00000001040a807c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x000000010454e884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000104551fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000104533578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000104552850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000104523640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000104576194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000104576310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x000000010458785c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 22:26:53,113 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 22:26:54,171 - INFO - Retry click succeeded!
+2026-02-05 22:26:55,265 - INFO - Clicking: Next
+2026-02-05 22:26:58,273 - INFO - Successfully answered question 3
+2026-02-05 22:27:00,278 - INFO - Attempting question 4 of 5
+2026-02-05 22:27:00,412 - INFO - Clicking question number button: 4
+2026-02-05 22:27:02,448 - INFO - Found main content area
+2026-02-05 22:27:02,723 - INFO - Found question element: 4.What is one psychological effect experienced by victims of non-consensual brid...
+2026-02-05 22:27:02,723 - INFO - Question: 4.What is one psychological effect experienced by victims of non-consensual bride kidnapping?...
+2026-02-05 22:27:02,725 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 22:27:02,727 - INFO - Found 14 cursor-pointer divs
+2026-02-05 22:27:02,774 - INFO - Found 4 unique options: ['Improved self-esteem', 'Post-traumatic stress disorder (PTSD)', 'Enhanced resilience', 'Increased economic independence']
+2026-02-05 22:27:02,774 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 22:27:17,800 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 22:27:17,803 - INFO - AI selected answer 2: Post-traumatic stress disorder (PTSD)...
+2026-02-05 22:27:18,537 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 22:27:18,537 - INFO - Question and answers saved to database
+2026-02-05 22:27:18,538 - INFO - Selecting answer 2: Post-traumatic stress disorder (PTSD)...
+2026-02-05 22:27:18,547 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 22:27:18,554 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,561 - INFO - Comparing option text: '1' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,566 - INFO - Comparing option text: '2' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,570 - INFO - Comparing option text: '3' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,574 - INFO - Comparing option text: '4' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,577 - INFO - Comparing option text: '5' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,580 - INFO - Comparing option text: 'Improved self-esteem' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,583 - INFO - Comparing option text: '' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,586 - INFO - Comparing option text: 'Post-traumatic stress disorder (PTSD)' vs 'Post-traumatic stress disorder (PTSD)'
+2026-02-05 22:27:18,587 - INFO - Re-found option element for: Post-traumatic stress disorder...
+2026-02-05 22:27:19,628 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 22:27:20,685 - INFO - Retry click succeeded!
+2026-02-05 22:27:21,780 - INFO - Clicking: Next
+2026-02-05 22:27:24,788 - INFO - Successfully answered question 4
+2026-02-05 22:27:26,791 - INFO - Attempting question 5 of 5
+2026-02-05 22:27:26,925 - INFO - Clicking question number button: 5
+2026-02-05 22:27:28,949 - INFO - Found main content area
+2026-02-05 22:27:29,221 - INFO - Found question element: 5.What is the role of grassroots initiatives in addressing bride kidnapping?...
+2026-02-05 22:27:29,221 - INFO - Question: 5.What is the role of grassroots initiatives in addressing bride kidnapping?...
+2026-02-05 22:27:29,223 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 22:27:29,225 - INFO - Found 14 cursor-pointer divs
+2026-02-05 22:27:29,272 - INFO - Found 4 unique options: ['They empower women and provide support networks.', 'They promote forced marriages.', 'They discourage community engagement.', 'They impose legal penalties on perpetrators.']
+2026-02-05 22:27:29,272 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 22:27:36,096 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 22:27:36,098 - INFO - AI selected answer 1: They empower women and provide support networks....
+2026-02-05 22:27:36,826 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 22:27:36,826 - INFO - Question and answers saved to database
+2026-02-05 22:27:36,826 - INFO - Selecting answer 1: They empower women and provide support networks....
+2026-02-05 22:27:36,835 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 22:27:36,842 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'They empower women and provide support networks.'
+2026-02-05 22:27:36,850 - INFO - Comparing option text: '1' vs 'They empower women and provide support networks.'
+2026-02-05 22:27:36,855 - INFO - Comparing option text: '2' vs 'They empower women and provide support networks.'
+2026-02-05 22:27:36,859 - INFO - Comparing option text: '3' vs 'They empower women and provide support networks.'
+2026-02-05 22:27:36,863 - INFO - Comparing option text: '4' vs 'They empower women and provide support networks.'
+2026-02-05 22:27:36,866 - INFO - Comparing option text: '5' vs 'They empower women and provide support networks.'
+2026-02-05 22:27:36,869 - INFO - Comparing option text: 'They empower women and provide support networks.' vs 'They empower women and provide support networks.'
+2026-02-05 22:27:36,869 - INFO - Re-found option element for: They empower women and provide...
+2026-02-05 22:27:37,907 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 22:27:38,942 - INFO - Retry click succeeded!
+2026-02-05 22:27:40,043 - INFO - Clicking: Next
+2026-02-05 22:27:43,053 - INFO - Successfully answered question 5
+2026-02-05 22:27:45,057 - INFO - Answered 5 out of 5 questions
+2026-02-05 22:27:45,057 - INFO - Looking for submit button...
+2026-02-05 22:27:45,159 - INFO - Clicking submit button: 'Send'
+2026-02-05 22:27:47,182 - INFO - Lesson processing complete!
+2026-02-05 22:27:47,379 - INFO - WebDriver closed
+2026-02-05 23:03:23,326 - INFO - ====== WebDriver manager ======
+2026-02-05 23:03:24,437 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 23:03:24,795 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 23:03:25,143 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 23:03:26,682 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 23:03:26,759 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 23:03:26,759 - INFO - AI Helper initialized successfully
+2026-02-05 23:03:30,387 - INFO - Database tables created successfully
+2026-02-05 23:03:30,387 - INFO - Database initialized successfully
+2026-02-05 23:03:30,895 - INFO - Database connection test successful
+2026-02-05 23:03:30,895 - INFO - Database connection established successfully
+2026-02-05 23:03:30,896 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 23:03:34,744 - INFO - Looking for login elements...
+2026-02-05 23:03:34,751 - INFO - Entering credentials...
+2026-02-05 23:03:35,498 - INFO - Clicking login button: 'Sign in'
+2026-02-05 23:03:35,506 - INFO - Waiting for login to complete...
+2026-02-05 23:03:36,013 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 23:03:38,024 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 23:03:38,025 - INFO - Login successful! (redirected from login page)
+2026-02-05 23:03:38,025 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9856
+2026-02-05 23:03:41,282 - INFO - Looking for video player...
+2026-02-05 23:03:41,334 - INFO - Clicked play button
+2026-02-05 23:03:41,335 - INFO - Watching video...
+2026-02-05 23:03:41,340 - INFO - Video progress: 0.0% (0s / 312s)
+2026-02-05 23:04:11,351 - INFO - Video progress: 9.6% (30s / 312s)
+2026-02-05 23:04:41,367 - INFO - Video progress: 19.2% (60s / 312s)
+2026-02-05 23:05:11,382 - INFO - Video progress: 28.9% (90s / 312s)
+2026-02-05 23:05:41,398 - INFO - Video progress: 38.5% (120s / 312s)
+2026-02-05 23:06:11,413 - INFO - Video progress: 48.1% (150s / 312s)
+2026-02-05 23:06:41,428 - INFO - Video progress: 57.7% (180s / 312s)
+2026-02-05 23:07:11,444 - INFO - Video progress: 67.4% (210s / 312s)
+2026-02-05 23:07:41,459 - INFO - Video progress: 77.0% (240s / 312s)
+2026-02-05 23:08:11,474 - INFO - Video progress: 86.6% (270s / 312s)
+2026-02-05 23:08:41,493 - INFO - Video progress: 96.3% (300s / 312s)
+2026-02-05 23:09:11,510 - INFO - Video completed!
+2026-02-05 23:09:11,556 - INFO - Looking for test button...
+2026-02-05 23:09:11,585 - INFO - Found test button: 'Go to test'
+2026-02-05 23:09:11,596 - INFO - Waiting for test page to load...
+2026-02-05 23:09:14,606 - INFO - Looking for 'Start the test' button...
+2026-02-05 23:09:14,744 - INFO - Found button: 'Start the test'
+2026-02-05 23:09:14,748 - INFO - Clicked start/restart button
+2026-02-05 23:09:14,748 - INFO - Waiting for questions to load...
+2026-02-05 23:09:20,011 - INFO - Saved screenshot: images/debug_test_questions_1770314959.png
+2026-02-05 23:09:20,016 - INFO - Saved page source: images/debug_test_questions_1770314959.html
+2026-02-05 23:09:20,017 - INFO - Attempting question 1 of 5
+2026-02-05 23:09:20,129 - INFO - Clicking question number button: 1
+2026-02-05 23:09:22,179 - INFO - Found main content area
+2026-02-05 23:09:22,454 - INFO - Found question element: 1.What can hinder victims or witnesses from reporting child abuse?...
+2026-02-05 23:09:22,455 - INFO - Question: 1.What can hinder victims or witnesses from reporting child abuse?...
+2026-02-05 23:09:22,458 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:09:22,461 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:09:22,508 - INFO - Found 4 unique options: ['Strict disciplinary laws', 'Availability of child protection hotlines', 'Fear of not being believed', 'Lack of knowledge about the abuse']
+2026-02-05 23:09:22,508 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:09:25,846 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:09:25,851 - INFO - AI selected answer 3: Fear of not being believed...
+2026-02-05 23:09:26,605 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:09:26,606 - INFO - Question and answers saved to database
+2026-02-05 23:09:26,606 - INFO - Selecting answer 3: Fear of not being believed...
+2026-02-05 23:09:26,615 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:09:26,623 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Fear of not being believed'
+2026-02-05 23:09:26,630 - INFO - Comparing option text: '1' vs 'Fear of not being believed'
+2026-02-05 23:09:26,636 - INFO - Comparing option text: '2' vs 'Fear of not being believed'
+2026-02-05 23:09:26,641 - INFO - Comparing option text: '3' vs 'Fear of not being believed'
+2026-02-05 23:09:26,644 - INFO - Comparing option text: '4' vs 'Fear of not being believed'
+2026-02-05 23:09:26,648 - INFO - Comparing option text: '5' vs 'Fear of not being believed'
+2026-02-05 23:09:26,651 - INFO - Comparing option text: 'Strict disciplinary laws' vs 'Fear of not being believed'
+2026-02-05 23:09:26,654 - INFO - Comparing option text: '' vs 'Fear of not being believed'
+2026-02-05 23:09:26,657 - INFO - Comparing option text: 'Availability of child protection hotlines' vs 'Fear of not being believed'
+2026-02-05 23:09:26,660 - INFO - Comparing option text: '' vs 'Fear of not being believed'
+2026-02-05 23:09:26,663 - INFO - Comparing option text: 'Fear of not being believed' vs 'Fear of not being believed'
+2026-02-05 23:09:26,663 - INFO - Re-found option element for: Fear of not being believed...
+2026-02-05 23:09:27,180 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102d9b928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000102d93c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010287683c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x000000010287ca7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x000000010287efb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001028fff94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001028fefe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x00000001028b407c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000102d5a884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000102d5dfcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000102d3f578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000102d5e850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000102d2f640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000102d82194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000102d82310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x0000000102d9385c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 23:09:27,212 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:09:28,280 - INFO - Retry click succeeded!
+2026-02-05 23:09:29,377 - INFO - Clicking: Next
+2026-02-05 23:09:32,391 - INFO - Successfully answered question 1
+2026-02-05 23:09:34,401 - INFO - Attempting question 2 of 5
+2026-02-05 23:09:34,532 - INFO - Clicking question number button: 2
+2026-02-05 23:09:36,573 - INFO - Found main content area
+2026-02-05 23:09:36,845 - INFO - Found question element: 2.What is an example of neglect as a form of child abuse?...
+2026-02-05 23:09:36,845 - INFO - Question: 2.What is an example of neglect as a form of child abuse?...
+2026-02-05 23:09:36,847 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:09:36,849 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:09:36,899 - INFO - Found 4 unique options: ['Exposing a child to inappropriate material.', 'Failing to provide basic needs like food, shelter, or medical care.', 'Physically disciplining a child harshly.', 'Verbally criticizing a child constantly.']
+2026-02-05 23:09:36,899 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:09:46,099 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:09:46,102 - INFO - AI selected answer 2: Failing to provide basic needs like food, shelter,...
+2026-02-05 23:09:46,820 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:09:46,820 - INFO - Question and answers saved to database
+2026-02-05 23:09:46,820 - INFO - Selecting answer 2: Failing to provide basic needs like food, shelter,...
+2026-02-05 23:09:46,829 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:09:46,836 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,843 - INFO - Comparing option text: '1' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,850 - INFO - Comparing option text: '2' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,854 - INFO - Comparing option text: '3' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,858 - INFO - Comparing option text: '4' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,861 - INFO - Comparing option text: '5' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,865 - INFO - Comparing option text: 'Exposing a child to inappropriate material.' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,867 - INFO - Comparing option text: '' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,870 - INFO - Comparing option text: 'Failing to provide basic needs like food, shelter, or medical care.' vs 'Failing to provide basic needs like food, shelter, or medical care.'
+2026-02-05 23:09:46,871 - INFO - Re-found option element for: Failing to provide basic needs...
+2026-02-05 23:09:47,387 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102d9b928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000102d93c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010287683c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x000000010287ca7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x000000010287efb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001028fff94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001028fefe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x00000001028b407c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000102d5a884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000102d5dfcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000102d3f578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000102d5e850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000102d2f640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000102d82194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000102d82310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x0000000102d9385c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 23:09:47,408 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:09:48,470 - INFO - Retry click succeeded!
+2026-02-05 23:09:49,557 - INFO - Clicking: Next
+2026-02-05 23:09:52,570 - INFO - Successfully answered question 2
+2026-02-05 23:09:54,580 - INFO - Attempting question 3 of 5
+2026-02-05 23:09:54,713 - INFO - Clicking question number button: 3
+2026-02-05 23:09:56,748 - INFO - Found main content area
+2026-02-05 23:09:57,030 - INFO - Found question element: 3.What is a key challenge in reporting child abuse?...
+2026-02-05 23:09:57,030 - INFO - Question: 3.What is a key challenge in reporting child abuse?...
+2026-02-05 23:09:57,033 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:09:57,035 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:09:57,085 - INFO - Found 4 unique options: ['Fear of retaliation from the abuser.', 'Over-reporting of minor disciplinary actions.', 'Lack of legal frameworks.', 'Absence of mandatory reporting laws.']
+2026-02-05 23:09:57,085 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:10:06,344 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:10:06,348 - INFO - AI selected answer 1: Fear of retaliation from the abuser....
+2026-02-05 23:10:07,088 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:10:07,088 - INFO - Question and answers saved to database
+2026-02-05 23:10:07,088 - INFO - Selecting answer 1: Fear of retaliation from the abuser....
+2026-02-05 23:10:07,098 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:10:07,106 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Fear of retaliation from the abuser.'
+2026-02-05 23:10:07,113 - INFO - Comparing option text: '1' vs 'Fear of retaliation from the abuser.'
+2026-02-05 23:10:07,121 - INFO - Comparing option text: '2' vs 'Fear of retaliation from the abuser.'
+2026-02-05 23:10:07,125 - INFO - Comparing option text: '3' vs 'Fear of retaliation from the abuser.'
+2026-02-05 23:10:07,129 - INFO - Comparing option text: '4' vs 'Fear of retaliation from the abuser.'
+2026-02-05 23:10:07,133 - INFO - Comparing option text: '5' vs 'Fear of retaliation from the abuser.'
+2026-02-05 23:10:07,136 - INFO - Comparing option text: 'Fear of retaliation from the abuser.' vs 'Fear of retaliation from the abuser.'
+2026-02-05 23:10:07,136 - INFO - Re-found option element for: Fear of retaliation from the a...
+2026-02-05 23:10:07,645 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102d9b928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000102d93c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010287683c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x000000010287ca7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x000000010287efb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001028fff94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001028fefe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x00000001028b407c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000102d5a884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000102d5dfcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000102d3f578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000102d5e850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000102d2f640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000102d82194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000102d82310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x0000000102d9385c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 23:10:07,657 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:10:08,717 - INFO - Retry click succeeded!
+2026-02-05 23:10:09,810 - INFO - Clicking: Next
+2026-02-05 23:10:12,824 - INFO - Successfully answered question 3
+2026-02-05 23:10:14,831 - INFO - Attempting question 4 of 5
+2026-02-05 23:10:14,962 - INFO - Clicking question number button: 4
+2026-02-05 23:10:17,005 - INFO - Found main content area
+2026-02-05 23:10:17,285 - INFO - Found question element: 4.Which mental health issues are commonly seen in children subjected to sexual a...
+2026-02-05 23:10:17,285 - INFO - Question: 4.Which mental health issues are commonly seen in children subjected to sexual abuse?...
+2026-02-05 23:10:17,287 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:10:17,289 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:10:17,335 - INFO - Found 4 unique options: ['Enhanced emotional resilience', 'Hyperactivity and increased self-esteem', 'Depression, anxiety, and PTSD', 'Improved problem-solving abilities']
+2026-02-05 23:10:17,336 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:10:25,180 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-02-05 23:10:25,183 - WARNING - AI request failed (attempt 1/5): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-02-05 23:10:25,183 - INFO - Retrying in 2 seconds...
+2026-02-05 23:10:27,192 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:10:29,432 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:10:29,435 - INFO - AI selected answer 3: Depression, anxiety, and PTSD...
+2026-02-05 23:10:30,159 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:10:30,160 - INFO - Question and answers saved to database
+2026-02-05 23:10:30,160 - INFO - Selecting answer 3: Depression, anxiety, and PTSD...
+2026-02-05 23:10:30,169 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:10:30,176 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,184 - INFO - Comparing option text: '1' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,189 - INFO - Comparing option text: '2' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,193 - INFO - Comparing option text: '3' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,196 - INFO - Comparing option text: '4' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,200 - INFO - Comparing option text: '5' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,203 - INFO - Comparing option text: 'Enhanced emotional resilience' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,206 - INFO - Comparing option text: '' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,209 - INFO - Comparing option text: 'Hyperactivity and increased self-esteem' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,212 - INFO - Comparing option text: '' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,215 - INFO - Comparing option text: 'Depression, anxiety, and PTSD' vs 'Depression, anxiety, and PTSD'
+2026-02-05 23:10:30,215 - INFO - Re-found option element for: Depression, anxiety, and PTSD...
+2026-02-05 23:10:30,730 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102d9b928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000102d93c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010287683c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x000000010287ca7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x000000010287efb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001028fff94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001028fefe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x00000001028b407c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000102d5a884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000102d5dfcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000102d3f578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000102d5e850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000102d2f640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x0000000102d82194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x0000000102d82310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x0000000102d9385c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 23:10:30,747 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:10:31,802 - INFO - Retry click succeeded!
+2026-02-05 23:10:32,893 - INFO - Clicking: Next
+2026-02-05 23:10:35,908 - INFO - Successfully answered question 4
+2026-02-05 23:10:37,915 - INFO - Attempting question 5 of 5
+2026-02-05 23:10:38,053 - INFO - Clicking question number button: 5
+2026-02-05 23:10:40,099 - INFO - Found main content area
+2026-02-05 23:10:40,375 - INFO - Found question element: 5.What is a critical component of addressing child abuse?...
+2026-02-05 23:10:40,375 - INFO - Question: 5.What is a critical component of addressing child abuse?...
+2026-02-05 23:10:40,377 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:10:40,379 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:10:40,425 - INFO - Found 4 unique options: ['Normalizing traditional disciplinary practices.', 'Ignoring cultural differences in practices.', 'Raising awareness about signs of abuse and reporting it.', 'Focusing only on physical abuse cases.']
+2026-02-05 23:10:40,425 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:10:43,118 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:10:43,121 - INFO - AI selected answer 3: Raising awareness about signs of abuse and reporti...
+2026-02-05 23:10:43,842 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:10:43,842 - INFO - Question and answers saved to database
+2026-02-05 23:10:43,842 - INFO - Selecting answer 3: Raising awareness about signs of abuse and reporti...
+2026-02-05 23:10:43,848 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:10:43,852 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,855 - INFO - Comparing option text: '1' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,858 - INFO - Comparing option text: '2' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,861 - INFO - Comparing option text: '3' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,864 - INFO - Comparing option text: '4' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,866 - INFO - Comparing option text: '5' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,869 - INFO - Comparing option text: 'Normalizing traditional disciplinary practices.' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,871 - INFO - Comparing option text: '' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,874 - INFO - Comparing option text: 'Ignoring cultural differences in practices.' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,876 - INFO - Comparing option text: '' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,879 - INFO - Comparing option text: 'Raising awareness about signs of abuse and reporting it.' vs 'Raising awareness about signs of abuse and reporting it.'
+2026-02-05 23:10:43,879 - INFO - Re-found option element for: Raising awareness about signs ...
+2026-02-05 23:10:44,918 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:10:45,987 - INFO - Retry click succeeded!
+2026-02-05 23:10:47,076 - INFO - Clicking: Next
+2026-02-05 23:10:50,092 - INFO - Successfully answered question 5
+2026-02-05 23:10:52,102 - INFO - Answered 5 out of 5 questions
+2026-02-05 23:10:52,102 - INFO - Looking for submit button...
+2026-02-05 23:10:52,186 - INFO - Clicking submit button: 'Send'
+2026-02-05 23:10:54,211 - INFO - Lesson processing complete!
+2026-02-05 23:10:54,409 - INFO - WebDriver closed
+2026-02-05 23:13:53,510 - INFO - ====== WebDriver manager ======
+2026-02-05 23:13:54,586 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 23:13:54,980 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-05 23:13:55,377 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-05 23:13:56,825 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-05 23:13:56,910 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-05 23:13:56,910 - INFO - AI Helper initialized successfully
+2026-02-05 23:13:59,656 - INFO - Database tables created successfully
+2026-02-05 23:13:59,657 - INFO - Database initialized successfully
+2026-02-05 23:14:00,100 - INFO - Database connection test successful
+2026-02-05 23:14:00,101 - INFO - Database connection established successfully
+2026-02-05 23:14:00,101 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-05 23:14:04,020 - INFO - Looking for login elements...
+2026-02-05 23:14:04,027 - INFO - Entering credentials...
+2026-02-05 23:14:04,792 - INFO - Clicking login button: 'Sign in'
+2026-02-05 23:14:04,800 - INFO - Waiting for login to complete...
+2026-02-05 23:14:05,309 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-05 23:14:07,327 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-05 23:14:07,327 - INFO - Login successful! (redirected from login page)
+2026-02-05 23:14:07,327 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9857
+2026-02-05 23:14:10,535 - INFO - Looking for video player...
+2026-02-05 23:14:10,597 - INFO - Clicked play button
+2026-02-05 23:14:10,597 - INFO - Watching video...
+2026-02-05 23:14:10,606 - INFO - Video progress: 0.0% (0s / 502s)
+2026-02-05 23:14:40,623 - INFO - Video progress: 6.0% (30s / 502s)
+2026-02-05 23:15:10,634 - INFO - Video progress: 11.9% (60s / 502s)
+2026-02-05 23:15:40,644 - INFO - Video progress: 17.9% (90s / 502s)
+2026-02-05 23:16:10,654 - INFO - Video progress: 23.9% (120s / 502s)
+2026-02-05 23:16:40,672 - INFO - Video progress: 29.9% (150s / 502s)
+2026-02-05 23:17:10,687 - INFO - Video progress: 35.8% (180s / 502s)
+2026-02-05 23:17:40,700 - INFO - Video progress: 41.8% (210s / 502s)
+2026-02-05 23:18:10,714 - INFO - Video progress: 47.8% (240s / 502s)
+2026-02-05 23:18:40,730 - INFO - Video progress: 53.8% (270s / 502s)
+2026-02-05 23:19:10,745 - INFO - Video progress: 59.7% (300s / 502s)
+2026-02-05 23:19:40,760 - INFO - Video progress: 65.7% (330s / 502s)
+2026-02-05 23:20:10,778 - INFO - Video progress: 71.7% (360s / 502s)
+2026-02-05 23:20:40,792 - INFO - Video progress: 77.7% (390s / 502s)
+2026-02-05 23:21:10,805 - INFO - Video progress: 83.6% (420s / 502s)
+2026-02-05 23:21:40,820 - INFO - Video progress: 89.6% (450s / 502s)
+2026-02-05 23:22:10,837 - INFO - Video progress: 95.6% (480s / 502s)
+2026-02-05 23:22:40,853 - INFO - Video completed!
+2026-02-05 23:22:40,906 - INFO - Looking for test button...
+2026-02-05 23:22:40,934 - INFO - Found test button: 'Go to test'
+2026-02-05 23:22:40,943 - INFO - Waiting for test page to load...
+2026-02-05 23:22:43,953 - INFO - Looking for 'Start the test' button...
+2026-02-05 23:22:44,110 - INFO - Found button: 'Start the test'
+2026-02-05 23:22:44,114 - INFO - Clicked start/restart button
+2026-02-05 23:22:44,115 - INFO - Waiting for questions to load...
+2026-02-05 23:22:49,430 - INFO - Saved screenshot: images/debug_test_questions_1770315769.png
+2026-02-05 23:22:49,436 - INFO - Saved page source: images/debug_test_questions_1770315769.html
+2026-02-05 23:22:49,436 - INFO - Attempting question 1 of 5
+2026-02-05 23:22:49,544 - INFO - Clicking question number button: 1
+2026-02-05 23:22:51,598 - INFO - Found main content area
+2026-02-05 23:22:51,873 - INFO - Found question element: 1.What is one example of patriarchal norms contributing to domestic violence?...
+2026-02-05 23:22:51,873 - INFO - Question: 1.What is one example of patriarchal norms contributing to domestic violence?...
+2026-02-05 23:22:51,876 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:22:51,880 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:22:51,928 - INFO - Found 4 unique options: ['The promotion of gender equality.', 'The societal acceptance of male dominance and female subordination.', 'The rejection of harmful gender norms.', 'The prioritization of legal accountability for abuse.']
+2026-02-05 23:22:51,928 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:22:54,278 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:22:54,282 - INFO - AI selected answer 2: The societal acceptance of male dominance and fema...
+2026-02-05 23:22:54,987 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:22:54,988 - INFO - Question and answers saved to database
+2026-02-05 23:22:54,988 - INFO - Selecting answer 2: The societal acceptance of male dominance and fema...
+2026-02-05 23:22:54,998 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:22:55,006 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,013 - INFO - Comparing option text: '1' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,020 - INFO - Comparing option text: '2' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,027 - INFO - Comparing option text: '3' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,033 - INFO - Comparing option text: '4' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,036 - INFO - Comparing option text: '5' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,039 - INFO - Comparing option text: 'The promotion of gender equality.' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,042 - INFO - Comparing option text: '' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,045 - INFO - Comparing option text: 'The societal acceptance of male dominance and female subordination.' vs 'The societal acceptance of male dominance and female subordination.'
+2026-02-05 23:22:55,045 - INFO - Re-found option element for: The societal acceptance of mal...
+2026-02-05 23:22:55,562 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100883928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x000000010087bc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010035e83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000100364a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000100366fb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001003e7f94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001003e6fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x000000010039c07c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000100842884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000100845fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000100827578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000100846850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000100817640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x000000010086a194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x000000010086a310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x000000010087b85c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 23:22:55,593 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:22:56,656 - INFO - Retry click succeeded!
+2026-02-05 23:22:57,753 - INFO - Clicking: Next
+2026-02-05 23:23:00,767 - INFO - Successfully answered question 1
+2026-02-05 23:23:02,769 - INFO - Attempting question 2 of 5
+2026-02-05 23:23:02,890 - INFO - Clicking question number button: 2
+2026-02-05 23:23:04,935 - INFO - Found main content area
+2026-02-05 23:23:05,211 - INFO - Found question element: 2.What is the main focus of attachment theory?...
+2026-02-05 23:23:05,211 - INFO - Question: 2.What is the main focus of attachment theory?...
+2026-02-05 23:23:05,213 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:23:05,215 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:23:05,262 - INFO - Found 4 unique options: ['The importance of early relationships for emotional and psychological development.', 'The learned behavior of violence in families.', 'The normalization of patriarchal norms.', 'The interplay between community and societal factors.']
+2026-02-05 23:23:05,262 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:23:18,762 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:23:18,764 - INFO - AI selected answer 1: The importance of early relationships for emotiona...
+2026-02-05 23:23:19,448 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:23:19,448 - INFO - Question and answers saved to database
+2026-02-05 23:23:19,448 - INFO - Selecting answer 1: The importance of early relationships for emotiona...
+2026-02-05 23:23:19,458 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:23:19,470 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'The importance of early relationships for emotional and psychological development.'
+2026-02-05 23:23:19,478 - INFO - Comparing option text: '1' vs 'The importance of early relationships for emotional and psychological development.'
+2026-02-05 23:23:19,482 - INFO - Comparing option text: '2' vs 'The importance of early relationships for emotional and psychological development.'
+2026-02-05 23:23:19,486 - INFO - Comparing option text: '3' vs 'The importance of early relationships for emotional and psychological development.'
+2026-02-05 23:23:19,489 - INFO - Comparing option text: '4' vs 'The importance of early relationships for emotional and psychological development.'
+2026-02-05 23:23:19,492 - INFO - Comparing option text: '5' vs 'The importance of early relationships for emotional and psychological development.'
+2026-02-05 23:23:19,495 - INFO - Comparing option text: 'The importance of early relationships for emotional and psychological development.' vs 'The importance of early relationships for emotional and psychological development.'
+2026-02-05 23:23:19,495 - INFO - Re-found option element for: The importance of early relati...
+2026-02-05 23:23:20,013 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100883928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x000000010087bc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010035e83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000100364a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000100366fb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001003e7f94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001003e6fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x000000010039c07c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000100842884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000100845fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000100827578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000100846850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000100817640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x000000010086a194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x000000010086a310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x000000010087b85c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 23:23:20,036 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:23:21,094 - INFO - Retry click succeeded!
+2026-02-05 23:23:22,188 - INFO - Clicking: Next
+2026-02-05 23:23:25,202 - INFO - Successfully answered question 2
+2026-02-05 23:23:27,210 - INFO - Attempting question 3 of 5
+2026-02-05 23:23:27,341 - INFO - Clicking question number button: 3
+2026-02-05 23:23:29,388 - INFO - Found main content area
+2026-02-05 23:23:29,664 - INFO - Found question element: 3.Which theoretical perspective focuses on gender inequality in domestic violenc...
+2026-02-05 23:23:29,664 - INFO - Question: 3.Which theoretical perspective focuses on gender inequality in domestic violence?...
+2026-02-05 23:23:29,666 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:23:29,668 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:23:29,715 - INFO - Found 4 unique options: ['Feminist theory', 'Attachment theory', 'Social learning theory', 'Ecological systems theory']
+2026-02-05 23:23:29,715 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:23:39,709 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:23:39,712 - INFO - AI selected answer 1: Feminist theory...
+2026-02-05 23:23:40,377 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:23:40,377 - INFO - Question and answers saved to database
+2026-02-05 23:23:40,377 - INFO - Selecting answer 1: Feminist theory...
+2026-02-05 23:23:40,387 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:23:40,395 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Feminist theory'
+2026-02-05 23:23:40,401 - INFO - Comparing option text: '1' vs 'Feminist theory'
+2026-02-05 23:23:40,407 - INFO - Comparing option text: '2' vs 'Feminist theory'
+2026-02-05 23:23:40,411 - INFO - Comparing option text: '3' vs 'Feminist theory'
+2026-02-05 23:23:40,415 - INFO - Comparing option text: '4' vs 'Feminist theory'
+2026-02-05 23:23:40,418 - INFO - Comparing option text: '5' vs 'Feminist theory'
+2026-02-05 23:23:40,422 - INFO - Comparing option text: 'Feminist theory' vs 'Feminist theory'
+2026-02-05 23:23:40,422 - INFO - Re-found option element for: Feminist theory...
+2026-02-05 23:23:41,475 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:23:42,535 - INFO - Retry click succeeded!
+2026-02-05 23:23:43,628 - INFO - Clicking: Next
+2026-02-05 23:23:46,642 - INFO - Successfully answered question 3
+2026-02-05 23:23:48,652 - INFO - Attempting question 4 of 5
+2026-02-05 23:23:48,787 - INFO - Clicking question number button: 4
+2026-02-05 23:23:50,819 - INFO - Found main content area
+2026-02-05 23:23:51,083 - INFO - Found question element: 4.What is IPV an abbreviation for?...
+2026-02-05 23:23:51,083 - INFO - Question: 4.What is IPV an abbreviation for?...
+2026-02-05 23:23:51,085 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:23:51,087 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:23:51,134 - INFO - Found 4 unique options: ['Integrated Parental Violence', 'Intimate Partner Violence', 'International Policy Vision', 'Interpersonal Violation Procedure']
+2026-02-05 23:23:51,134 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:23:53,875 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:23:53,878 - INFO - AI selected answer 2: Intimate Partner Violence...
+2026-02-05 23:23:54,558 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:23:54,558 - INFO - Question and answers saved to database
+2026-02-05 23:23:54,558 - INFO - Selecting answer 2: Intimate Partner Violence...
+2026-02-05 23:23:54,567 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:23:54,576 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,582 - INFO - Comparing option text: '1' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,586 - INFO - Comparing option text: '2' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,590 - INFO - Comparing option text: '3' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,593 - INFO - Comparing option text: '4' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,597 - INFO - Comparing option text: '5' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,600 - INFO - Comparing option text: 'Integrated Parental Violence' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,603 - INFO - Comparing option text: '' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,606 - INFO - Comparing option text: 'Intimate Partner Violence' vs 'Intimate Partner Violence'
+2026-02-05 23:23:54,606 - INFO - Re-found option element for: Intimate Partner Violence...
+2026-02-05 23:23:55,651 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:23:56,712 - INFO - Retry click succeeded!
+2026-02-05 23:23:57,811 - INFO - Clicking: Next
+2026-02-05 23:24:00,815 - INFO - Successfully answered question 4
+2026-02-05 23:24:02,826 - INFO - Attempting question 5 of 5
+2026-02-05 23:24:02,962 - INFO - Clicking question number button: 5
+2026-02-05 23:24:05,009 - INFO - Found main content area
+2026-02-05 23:24:05,322 - INFO - Found question via regex: 5.What is coercive control?...
+2026-02-05 23:24:05,322 - INFO - Question: 5.What is coercive control?...
+2026-02-05 23:24:05,324 - INFO - No radio inputs found, looking for clickable div options
+2026-02-05 23:24:05,326 - INFO - Found 14 cursor-pointer divs
+2026-02-05 23:24:05,373 - INFO - Found 4 unique options: ['A cultural practice normalized in some societies.', 'A form of psychological abuse involving manipulation and dominance.', 'A type of physical abuse involving harm to the body.', 'An economic abuse involving financial restrictions.']
+2026-02-05 23:24:05,373 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-05 23:24:15,494 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-02-05 23:24:15,496 - INFO - AI selected answer 2: A form of psychological abuse involving manipulati...
+2026-02-05 23:24:16,169 - INFO - Saved question with 4 answers for user n_ashekei@kbtu.kz
+2026-02-05 23:24:16,170 - INFO - Question and answers saved to database
+2026-02-05 23:24:16,170 - INFO - Selecting answer 2: A form of psychological abuse involving manipulati...
+2026-02-05 23:24:16,179 - INFO - Re-searching: found 14 cursor-pointer divs
+2026-02-05 23:24:16,187 - INFO - Comparing option text: 'Course
+Socio-Political Knowledge' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,194 - INFO - Comparing option text: '1' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,199 - INFO - Comparing option text: '2' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,203 - INFO - Comparing option text: '3' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,207 - INFO - Comparing option text: '4' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,210 - INFO - Comparing option text: '5' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,213 - INFO - Comparing option text: 'A cultural practice normalized in some societies.' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,216 - INFO - Comparing option text: '' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,219 - INFO - Comparing option text: 'A form of psychological abuse involving manipulation and dominance.' vs 'A form of psychological abuse involving manipulation and dominance.'
+2026-02-05 23:24:16,219 - INFO - Re-found option element for: A form of psychological abuse ...
+2026-02-05 23:24:16,735 - WARNING - Could not scroll to element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.132); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000100883928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x000000010087bc04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010035e83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000100364a7c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100160
+4   chromedriver                        0x0000000100366fb4 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109688
+5   chromedriver                        0x00000001003e7f94 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 638040
+6   chromedriver                        0x00000001003e6fe8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634028
+7   chromedriver                        0x000000010039c07c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326976
+8   chromedriver                        0x0000000100842884 cxxbridge1$str$ptr + 2831984
+9   chromedriver                        0x0000000100845fcc cxxbridge1$str$ptr + 2846136
+10  chromedriver                        0x0000000100827578 cxxbridge1$str$ptr + 2720612
+11  chromedriver                        0x0000000100846850 cxxbridge1$str$ptr + 2848316
+12  chromedriver                        0x0000000100817640 cxxbridge1$str$ptr + 2655276
+13  chromedriver                        0x000000010086a194 cxxbridge1$str$ptr + 2994048
+14  chromedriver                        0x000000010086a310 cxxbridge1$str$ptr + 2994428
+15  chromedriver                        0x000000010087b85c cxxbridge1$str$ptr + 3065416
+16  libsystem_pthread.dylib             0x000000019a4a5c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a4a0ba8 thread_start + 8
+
+2026-02-05 23:24:16,752 - ERROR - Failed to click option using any strategy - will retry
+2026-02-05 23:24:17,800 - INFO - Retry click succeeded!
+2026-02-05 23:24:18,897 - INFO - Clicking: Next
+2026-02-05 23:24:21,912 - INFO - Successfully answered question 5
+2026-02-05 23:24:23,913 - INFO - Answered 5 out of 5 questions
+2026-02-05 23:24:23,913 - INFO - Looking for submit button...
+2026-02-05 23:24:24,012 - INFO - Clicking submit button: 'Send'
+2026-02-05 23:24:26,039 - INFO - Lesson processing complete!
+2026-02-05 23:24:26,233 - INFO - WebDriver closed
+2026-02-06 08:44:08,578 - INFO - ====== WebDriver manager ======
+2026-02-06 08:44:10,808 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 08:44:11,302 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 08:44:11,648 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 08:44:12,525 - INFO - WebDriver version 144.0.7559.133 selected
+2026-02-06 08:44:12,530 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-06 08:44:12,530 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-06 08:44:13,030 - INFO - Driver downloading response is 200
+2026-02-06 08:44:14,336 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 08:44:14,765 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133]
+2026-02-06 08:44:15,977 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-06 08:44:16,058 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-06 08:44:16,058 - INFO - AI Helper initialized successfully
+2026-02-06 08:44:20,320 - INFO - Database tables created successfully
+2026-02-06 08:44:20,321 - INFO - Database initialized successfully
+2026-02-06 08:44:21,053 - INFO - Database connection test successful
+2026-02-06 08:44:21,053 - INFO - Database connection established successfully
+2026-02-06 08:44:21,053 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-06 08:44:24,838 - INFO - Looking for login elements...
+2026-02-06 08:44:24,845 - INFO - Entering credentials...
+2026-02-06 08:44:25,561 - INFO - Clicking login button: 'Sign in'
+2026-02-06 08:44:25,564 - INFO - Waiting for login to complete...
+2026-02-06 08:44:26,073 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-06 08:44:28,090 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-06 08:44:28,091 - INFO - Login successful! (redirected from login page)
+2026-02-06 08:44:28,091 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15338
+2026-02-06 08:44:32,091 - INFO - Looking for video player...
+2026-02-06 08:44:32,151 - INFO - Clicked play button
+2026-02-06 08:44:32,151 - INFO - Watching video...
+2026-02-06 08:44:32,163 - INFO - Video progress: 0.0% (0s / 942s)
+2026-02-06 08:44:41,938 - INFO - Interrupted by user
+2026-02-06 08:44:41,941 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/3f339606fede1a558dbb4ba70396bf9f
+2026-02-06 08:44:41,942 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63765): Failed to establish a new connection: [Errno 61] Connection refused")': /session/3f339606fede1a558dbb4ba70396bf9f
+2026-02-06 08:44:41,945 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63765): Failed to establish a new connection: [Errno 61] Connection refused")': /session/3f339606fede1a558dbb4ba70396bf9f
+2026-02-06 08:44:41,947 - INFO - WebDriver closed
+2026-02-06 08:44:44,643 - INFO - ====== WebDriver manager ======
+2026-02-06 08:44:45,089 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 08:44:45,467 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 08:44:45,858 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-06 08:44:46,620 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-06 08:44:46,687 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-06 08:44:46,687 - INFO - AI Helper initialized successfully
+2026-02-06 08:44:50,702 - INFO - Database tables created successfully
+2026-02-06 08:44:50,702 - INFO - Database initialized successfully
+2026-02-06 08:44:51,424 - INFO - Database connection test successful
+2026-02-06 08:44:51,425 - INFO - Database connection established successfully
+2026-02-06 08:44:51,425 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-06 08:44:55,315 - INFO - Looking for login elements...
+2026-02-06 08:44:55,321 - INFO - Entering credentials...
+2026-02-06 08:44:56,066 - INFO - Clicking login button: 'Sign in'
+2026-02-06 08:44:56,069 - INFO - Waiting for login to complete...
+2026-02-06 08:44:56,579 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-06 08:44:58,589 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-06 08:44:58,589 - INFO - Login successful! (redirected from login page)
+2026-02-06 08:44:58,589 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15338
+2026-02-06 08:45:02,296 - INFO - Looking for video player...
+2026-02-06 08:45:02,353 - INFO - Clicked play button
+2026-02-06 08:45:02,353 - INFO - Watching video...
+2026-02-06 08:45:02,360 - INFO - Video progress: 0.0% (0s / 942s)
+2026-02-06 08:45:32,373 - INFO - Video progress: 3.2% (30s / 942s)
+2026-02-06 08:46:02,386 - INFO - Video progress: 6.4% (60s / 942s)
+2026-02-06 08:46:32,401 - INFO - Video progress: 9.6% (90s / 942s)
+2026-02-06 08:47:02,413 - INFO - Video progress: 12.7% (120s / 942s)
+2026-02-06 08:47:32,431 - INFO - Video progress: 15.9% (150s / 942s)
+2026-02-06 08:48:02,442 - INFO - Video progress: 19.1% (180s / 942s)
+2026-02-06 08:48:32,459 - INFO - Video progress: 22.3% (210s / 942s)
+2026-02-06 08:49:02,476 - INFO - Video progress: 25.5% (240s / 942s)
+2026-02-06 08:49:32,490 - INFO - Video progress: 28.7% (270s / 942s)
+2026-02-06 08:50:02,504 - INFO - Video progress: 31.8% (300s / 942s)
+2026-02-06 08:50:32,525 - INFO - Video progress: 35.0% (330s / 942s)
+2026-02-06 08:51:02,548 - INFO - Video progress: 38.2% (360s / 942s)
+2026-02-06 08:51:32,561 - INFO - Video progress: 41.4% (390s / 942s)
+2026-02-06 08:52:02,574 - INFO - Video progress: 44.6% (420s / 942s)
+2026-02-06 08:52:32,597 - INFO - Video progress: 47.8% (450s / 942s)
+2026-02-06 08:53:02,605 - INFO - Video progress: 51.0% (480s / 942s)
+2026-02-06 08:53:32,616 - INFO - Video progress: 54.1% (510s / 942s)
+2026-02-06 08:54:02,631 - INFO - Video progress: 57.3% (540s / 942s)
+2026-02-06 08:54:32,646 - INFO - Video progress: 60.5% (570s / 942s)
+2026-02-06 08:55:02,662 - INFO - Video progress: 63.7% (600s / 942s)
+2026-02-06 08:55:32,679 - INFO - Video progress: 66.9% (630s / 942s)
+2026-02-06 08:56:02,690 - INFO - Video progress: 70.1% (660s / 942s)
+2026-02-06 08:56:32,704 - INFO - Video progress: 73.3% (690s / 942s)
+2026-02-06 08:57:02,719 - INFO - Video progress: 76.4% (720s / 942s)
+2026-02-06 08:57:32,731 - INFO - Video progress: 79.6% (750s / 942s)
+2026-02-06 08:58:02,740 - INFO - Video progress: 82.8% (780s / 942s)
+2026-02-06 08:58:32,752 - INFO - Video progress: 86.0% (810s / 942s)
+2026-02-06 08:59:02,766 - INFO - Video progress: 89.2% (840s / 942s)
+2026-02-06 08:59:32,778 - INFO - Video progress: 92.4% (870s / 942s)
+2026-02-06 09:00:02,792 - INFO - Video progress: 95.5% (900s / 942s)
+2026-02-06 09:16:22,845 - INFO - Interrupted by user
+2026-02-06 09:16:22,852 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63832): Failed to establish a new connection: [Errno 61] Connection refused")': /session/c620d2b764fe838e217bfac0613f94ee
+2026-02-06 09:16:22,853 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63832): Failed to establish a new connection: [Errno 61] Connection refused")': /session/c620d2b764fe838e217bfac0613f94ee
+2026-02-06 09:16:22,854 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63832): Failed to establish a new connection: [Errno 61] Connection refused")': /session/c620d2b764fe838e217bfac0613f94ee
+2026-02-06 09:16:22,859 - INFO - WebDriver closed
+2026-02-06 18:04:55,340 - INFO - ====== WebDriver manager ======
+2026-02-06 18:04:55,700 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 18:04:56,102 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 18:04:56,505 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-06 18:04:58,690 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-06 18:04:58,782 - INFO - AI Helper initialized with model: gemini-3-flash-preview
+2026-02-06 18:04:58,782 - INFO - AI Helper initialized successfully
+2026-02-06 18:05:01,845 - INFO - Database tables created successfully
+2026-02-06 18:05:01,845 - INFO - Database initialized successfully
+2026-02-06 18:05:02,305 - INFO - Database connection test successful
+2026-02-06 18:05:02,305 - INFO - Database connection established successfully
+2026-02-06 18:05:02,305 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-06 18:05:06,124 - INFO - Looking for login elements...
+2026-02-06 18:05:06,131 - INFO - Entering credentials...
+2026-02-06 18:05:06,884 - INFO - Clicking login button: 'Sign in'
+2026-02-06 18:05:06,889 - INFO - Waiting for login to complete...
+2026-02-06 18:05:07,396 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-06 18:05:09,416 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-06 18:05:09,417 - INFO - Login successful! (redirected from login page)
+2026-02-06 18:05:09,417 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/189
+2026-02-06 18:05:12,637 - INFO - Looking for video player...
+2026-02-06 18:05:12,681 - INFO - Clicked play button
+2026-02-06 18:05:12,682 - INFO - Watching video...
+2026-02-06 18:05:12,692 - INFO - Video progress: 0.0% (0s / 818s)
+2026-02-06 18:05:42,707 - INFO - Video progress: 3.7% (30s / 818s)
+2026-02-06 18:06:12,721 - INFO - Video progress: 7.3% (60s / 818s)
+2026-02-06 18:06:42,731 - INFO - Video progress: 11.0% (90s / 818s)
+2026-02-06 18:07:12,746 - INFO - Video progress: 14.7% (120s / 818s)
+2026-02-06 18:07:42,761 - INFO - Video progress: 18.3% (150s / 818s)
+2026-02-06 18:08:12,775 - INFO - Video progress: 22.0% (180s / 818s)
+2026-02-06 18:08:42,793 - INFO - Video progress: 25.7% (210s / 818s)
+2026-02-06 18:09:12,805 - INFO - Video progress: 29.4% (240s / 818s)
+2026-02-06 18:09:42,823 - INFO - Video progress: 33.0% (270s / 818s)
+2026-02-06 18:10:12,841 - INFO - Video progress: 36.7% (300s / 818s)
+2026-02-06 18:10:42,858 - INFO - Video progress: 40.4% (330s / 818s)
+2026-02-06 18:11:12,871 - INFO - Video progress: 44.0% (360s / 818s)
+2026-02-06 18:11:42,892 - INFO - Video progress: 47.7% (390s / 818s)
+2026-02-06 18:12:12,911 - INFO - Video progress: 51.4% (420s / 818s)
+2026-02-06 18:12:42,926 - INFO - Video progress: 55.1% (450s / 818s)
+2026-02-06 18:13:12,942 - INFO - Video progress: 58.7% (480s / 818s)
+2026-02-06 18:13:42,957 - INFO - Video progress: 62.4% (510s / 818s)
+2026-02-06 18:14:12,971 - INFO - Video progress: 66.1% (540s / 818s)
+2026-02-06 18:14:42,987 - INFO - Video progress: 69.7% (570s / 818s)
+2026-02-06 18:15:13,001 - INFO - Video progress: 73.4% (600s / 818s)
+2026-02-06 18:15:43,021 - INFO - Video progress: 77.1% (630s / 818s)
+2026-02-06 18:16:13,031 - INFO - Video progress: 80.7% (660s / 818s)
+2026-02-06 18:16:43,049 - INFO - Video progress: 84.4% (690s / 818s)
+2026-02-06 18:17:13,059 - INFO - Video progress: 88.1% (720s / 818s)
+2026-02-06 18:17:43,075 - INFO - Video progress: 91.8% (750s / 818s)
+2026-02-06 18:18:13,089 - INFO - Video progress: 95.4% (780s / 818s)
+2026-02-06 18:18:43,104 - INFO - Video progress: 99.1% (810s / 818s)
+2026-02-06 18:19:13,116 - INFO - Video completed!
+2026-02-06 18:19:13,168 - INFO - Looking for test button...
+2026-02-06 18:19:13,196 - INFO - Found test button: 'Go to test'
+2026-02-06 18:19:13,206 - INFO - Waiting for test page to load...
+2026-02-06 18:19:16,208 - INFO - Looking for 'Start the test' button...
+2026-02-06 18:19:16,353 - INFO - Found button: 'Start the test'
+2026-02-06 18:19:16,357 - INFO - Clicked start/restart button
+2026-02-06 18:19:16,357 - INFO - Waiting for questions to load...
+2026-02-06 18:19:21,638 - INFO - Saved screenshot: images/debug_test_questions_1770383961.png
+2026-02-06 18:19:21,646 - INFO - Saved page source: images/debug_test_questions_1770383961.html
+2026-02-06 18:19:21,646 - INFO - Attempting question 1 of 5
+2026-02-06 18:19:21,765 - INFO - Clicking question number button: 1
+2026-02-06 18:19:23,803 - INFO - Found main content area
+2026-02-06 18:19:24,077 - INFO - Found question element: 1.Use The Continuous Function Theorem for Sequences and solve the limit for the ...
+2026-02-06 18:19:24,077 - INFO - Question: 1.Use The Continuous Function Theorem for Sequences and solve the limit for the sequence a_n = √[(n ...
+2026-02-06 18:19:24,080 - INFO - No radio inputs found, looking for clickable div options
+2026-02-06 18:19:24,083 - INFO - Found 14 cursor-pointer divs
+2026-02-06 18:19:24,130 - INFO - Found 2 unique options: ['-1', '√2']
+2026-02-06 18:19:24,130 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-06 18:20:33,548 - INFO - Interrupted by user
+2026-02-06 18:20:33,560 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55636): Failed to establish a new connection: [Errno 61] Connection refused")': /session/9b3239c578271e8b1850d8c39ed88324
+2026-02-06 18:20:33,562 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55636): Failed to establish a new connection: [Errno 61] Connection refused")': /session/9b3239c578271e8b1850d8c39ed88324
+2026-02-06 18:20:33,563 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55636): Failed to establish a new connection: [Errno 61] Connection refused")': /session/9b3239c578271e8b1850d8c39ed88324
+2026-02-06 18:20:33,564 - INFO - WebDriver closed
+2026-02-12 00:14:48,640 - INFO - ====== WebDriver manager ======
+2026-02-12 00:14:53,796 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:14:54,291 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:14:54,814 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:14:56,685 - INFO - WebDriver version 144.0.7559.133 selected
+2026-02-12 00:14:56,690 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-12 00:14:56,690 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-12 00:14:57,123 - INFO - Driver downloading response is 200
+2026-02-12 00:14:57,998 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:14:58,584 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/144.0.7559.133]
+2026-02-12 00:15:00,824 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 00:15:00,825 - WARNING - AI Helper not available: GEMINI_API_KEY not found. Please set it in .env file.
+2026-02-12 00:15:00,827 - WARNING - Tests will require manual intervention
+2026-02-12 00:15:03,814 - INFO - Database tables created successfully
+2026-02-12 00:15:03,815 - INFO - Database initialized successfully
+2026-02-12 00:15:04,250 - INFO - Database connection test successful
+2026-02-12 00:15:04,250 - INFO - Database connection established successfully
+2026-02-12 00:15:04,251 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 00:15:08,184 - INFO - Looking for login elements...
+2026-02-12 00:15:08,191 - INFO - Entering credentials...
+2026-02-12 00:15:08,931 - INFO - Clicking login button: 'Sign in'
+2026-02-12 00:15:08,935 - INFO - Waiting for login to complete...
+2026-02-12 00:15:09,444 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 00:15:11,454 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 00:15:11,455 - INFO - Login successful! (redirected from login page)
+2026-02-12 00:15:11,455 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/190
+2026-02-12 00:15:14,755 - INFO - Looking for video player...
+2026-02-12 00:15:14,790 - INFO - Clicked play button
+2026-02-12 00:15:14,791 - INFO - Watching video...
+2026-02-12 00:19:15,006 - INFO - Interrupted by user
+2026-02-12 00:19:15,017 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61156): Failed to establish a new connection: [Errno 61] Connection refused")': /session/5dadff82e87db025b9ab5427fae0d23b
+2026-02-12 00:19:15,020 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61156): Failed to establish a new connection: [Errno 61] Connection refused")': /session/5dadff82e87db025b9ab5427fae0d23b
+2026-02-12 00:19:15,021 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61156): Failed to establish a new connection: [Errno 61] Connection refused")': /session/5dadff82e87db025b9ab5427fae0d23b
+2026-02-12 00:19:15,023 - INFO - WebDriver closed
+2026-02-12 00:19:18,373 - INFO - ====== WebDriver manager ======
+2026-02-12 00:19:22,214 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:19:24,263 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:19:25,076 - INFO - There is no [mac64] chromedriver "145.0.7632.46" for browser google-chrome "145.0.7632" in cache
+2026-02-12 00:19:25,091 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:19:26,366 - INFO - WebDriver version 145.0.7632.46 selected
+2026-02-12 00:19:26,371 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.46/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-12 00:19:26,371 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.46/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-12 00:19:26,966 - INFO - Driver downloading response is 200
+2026-02-12 00:19:28,106 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 00:19:28,902 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46]
+2026-02-12 00:19:31,595 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 00:19:32,516 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 00:19:32,517 - INFO - AI Helper initialized successfully
+2026-02-12 00:19:34,961 - INFO - Database tables created successfully
+2026-02-12 00:19:34,961 - INFO - Database initialized successfully
+2026-02-12 00:19:35,384 - INFO - Database connection test successful
+2026-02-12 00:19:35,385 - INFO - Database connection established successfully
+2026-02-12 00:19:35,385 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 00:19:39,159 - INFO - Looking for login elements...
+2026-02-12 00:19:39,166 - INFO - Entering credentials...
+2026-02-12 00:19:39,897 - INFO - Clicking login button: 'Sign in'
+2026-02-12 00:19:39,901 - INFO - Waiting for login to complete...
+2026-02-12 00:19:40,410 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 00:19:42,428 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 00:19:42,428 - INFO - Login successful! (redirected from login page)
+2026-02-12 00:19:42,429 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/190
+2026-02-12 00:19:45,668 - INFO - Looking for video player...
+2026-02-12 00:19:45,701 - INFO - Clicked play button
+2026-02-12 00:19:45,701 - INFO - Watching video...
+2026-02-12 00:21:29,111 - INFO - Interrupted by user
+2026-02-12 00:21:29,124 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61362): Failed to establish a new connection: [Errno 61] Connection refused")': /session/7cc1c0b31ed7468632804c4e84295ae6
+2026-02-12 00:21:29,126 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61362): Failed to establish a new connection: [Errno 61] Connection refused")': /session/7cc1c0b31ed7468632804c4e84295ae6
+2026-02-12 00:21:29,126 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61362): Failed to establish a new connection: [Errno 61] Connection refused")': /session/7cc1c0b31ed7468632804c4e84295ae6
+2026-02-12 00:21:29,130 - INFO - WebDriver closed
+2026-02-12 00:22:10,348 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 00:22:15,645 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 09:52:47,978 - INFO - ====== WebDriver manager ======
+2026-02-12 09:52:48,157 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 09:52:48,724 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 09:52:49,155 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 09:52:51,595 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 09:52:51,841 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 09:52:51,842 - INFO - AI Helper initialized successfully
+2026-02-12 09:52:56,575 - INFO - Database tables created successfully
+2026-02-12 09:52:56,576 - INFO - Database initialized successfully
+2026-02-12 09:52:57,502 - INFO - Database connection test successful
+2026-02-12 09:52:57,503 - INFO - Database connection established successfully
+2026-02-12 09:52:57,503 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 09:53:01,445 - INFO - Looking for login elements...
+2026-02-12 09:53:01,452 - INFO - Entering credentials...
+2026-02-12 09:53:02,171 - INFO - Clicking login button: 'Sign in'
+2026-02-12 09:53:02,179 - INFO - Waiting for login to complete...
+2026-02-12 09:53:02,689 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 09:53:04,699 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 09:53:04,699 - INFO - Login successful! (redirected from login page)
+2026-02-12 09:53:04,699 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/190
+2026-02-12 09:53:16,186 - INFO - Looking for video player...
+2026-02-12 09:53:46,342 - WARNING - No video found on page
+2026-02-12 09:53:46,347 - ERROR - Error completing test: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.45)
+Stacktrace:
+0   chromedriver                        0x00000001008bfcdc cxxbridge1$str$ptr + 3127864
+1   chromedriver                        0x00000001008b80cc cxxbridge1$str$ptr + 3096104
+2   chromedriver                        0x00000001003959f4 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75356
+3   chromedriver                        0x000000010036e8c4 chromedriver + 157892
+4   chromedriver                        0x0000000100406994 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 538108
+5   chromedriver                        0x000000010041c6b4 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 627484
+6   chromedriver                        0x00000001003d22bc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323364
+7   chromedriver                        0x000000010087e800 cxxbridge1$str$ptr + 2860380
+8   chromedriver                        0x0000000100881f40 cxxbridge1$str$ptr + 2874524
+9   chromedriver                        0x0000000100863c1c cxxbridge1$str$ptr + 2750840
+10  chromedriver                        0x00000001008827c4 cxxbridge1$str$ptr + 2876704
+11  chromedriver                        0x0000000100854224 cxxbridge1$str$ptr + 2686848
+12  chromedriver                        0x00000001008a6ec0 cxxbridge1$str$ptr + 3025948
+13  chromedriver                        0x00000001008a703c cxxbridge1$str$ptr + 3026328
+14  chromedriver                        0x00000001008b7d24 cxxbridge1$str$ptr + 3095168
+15  libsystem_pthread.dylib             0x0000000184d99c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000184d94ba8 thread_start + 8
+
+2026-02-12 09:53:46,347 - ERROR - Failed to save debug info: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.45)
+Stacktrace:
+0   chromedriver                        0x00000001008bfcdc cxxbridge1$str$ptr + 3127864
+1   chromedriver                        0x00000001008b80cc cxxbridge1$str$ptr + 3096104
+2   chromedriver                        0x00000001003959f4 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75356
+3   chromedriver                        0x000000010036e8c4 chromedriver + 157892
+4   chromedriver                        0x0000000100406994 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 538108
+5   chromedriver                        0x000000010041c6b4 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 627484
+6   chromedriver                        0x00000001003d22bc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323364
+7   chromedriver                        0x000000010087e800 cxxbridge1$str$ptr + 2860380
+8   chromedriver                        0x0000000100881f40 cxxbridge1$str$ptr + 2874524
+9   chromedriver                        0x0000000100863c1c cxxbridge1$str$ptr + 2750840
+10  chromedriver                        0x00000001008827c4 cxxbridge1$str$ptr + 2876704
+11  chromedriver                        0x0000000100854224 cxxbridge1$str$ptr + 2686848
+12  chromedriver                        0x00000001008a6ec0 cxxbridge1$str$ptr + 3025948
+13  chromedriver                        0x00000001008a703c cxxbridge1$str$ptr + 3026328
+14  chromedriver                        0x00000001008b7d24 cxxbridge1$str$ptr + 3095168
+15  libsystem_pthread.dylib             0x0000000184d99c08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000184d94ba8 thread_start + 8
+
+2026-02-12 09:53:46,348 - INFO - Lesson processing complete!
+2026-02-12 09:53:46,441 - INFO - WebDriver closed
+2026-02-12 12:38:58,307 - INFO - ====== WebDriver manager ======
+2026-02-12 12:38:59,655 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 12:39:00,312 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 12:39:00,808 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 12:39:02,939 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 12:39:03,177 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 12:39:03,177 - INFO - AI Helper initialized successfully
+2026-02-12 12:39:07,037 - INFO - Database tables created successfully
+2026-02-12 12:39:07,037 - INFO - Database initialized successfully
+2026-02-12 12:39:07,672 - INFO - Database connection test successful
+2026-02-12 12:39:07,672 - INFO - Database connection established successfully
+2026-02-12 12:39:07,672 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 12:39:11,238 - INFO - Looking for login elements...
+2026-02-12 12:39:11,245 - INFO - Entering credentials...
+2026-02-12 12:39:11,981 - INFO - Clicking login button: 'Sign in'
+2026-02-12 12:39:11,985 - INFO - Waiting for login to complete...
+2026-02-12 12:39:12,493 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 12:39:14,508 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 12:39:14,509 - INFO - Login successful! (redirected from login page)
+2026-02-12 12:39:14,509 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15338
+2026-02-12 12:39:17,715 - INFO - Looking for video player...
+2026-02-12 12:39:17,763 - INFO - Clicked play button
+2026-02-12 12:39:17,763 - INFO - Watching video...
+2026-02-12 12:39:17,769 - INFO - Video progress: 0.0% (0s / 942s)
+2026-02-12 12:39:47,783 - INFO - Video progress: 3.2% (30s / 942s)
+2026-02-12 12:40:17,798 - INFO - Video progress: 6.4% (60s / 942s)
+2026-02-12 12:40:47,813 - INFO - Video progress: 9.6% (90s / 942s)
+2026-02-12 12:41:17,827 - INFO - Video progress: 12.7% (120s / 942s)
+2026-02-12 12:41:47,839 - INFO - Video progress: 15.9% (150s / 942s)
+2026-02-12 12:42:17,854 - INFO - Video progress: 19.1% (180s / 942s)
+2026-02-12 12:42:47,869 - INFO - Video progress: 22.3% (210s / 942s)
+2026-02-12 12:43:17,880 - INFO - Video progress: 25.5% (240s / 942s)
+2026-02-12 12:43:47,896 - INFO - Video progress: 28.7% (270s / 942s)
+2026-02-12 12:44:17,911 - INFO - Video progress: 31.8% (300s / 942s)
+2026-02-12 12:44:47,929 - INFO - Video progress: 35.0% (330s / 942s)
+2026-02-12 12:45:17,942 - INFO - Video progress: 38.2% (360s / 942s)
+2026-02-12 12:45:47,966 - INFO - Video progress: 41.4% (390s / 942s)
+2026-02-12 12:46:17,979 - INFO - Video progress: 44.6% (420s / 942s)
+2026-02-12 12:46:47,993 - INFO - Video progress: 47.8% (450s / 942s)
+2026-02-12 12:47:18,007 - INFO - Video progress: 51.0% (480s / 942s)
+2026-02-12 12:47:48,022 - INFO - Video progress: 54.1% (510s / 942s)
+2026-02-12 12:48:18,037 - INFO - Video progress: 57.3% (540s / 942s)
+2026-02-12 12:48:48,051 - INFO - Video progress: 60.5% (570s / 942s)
+2026-02-12 12:49:18,064 - INFO - Video progress: 63.7% (600s / 942s)
+2026-02-12 12:49:48,077 - INFO - Video progress: 66.9% (630s / 942s)
+2026-02-12 12:50:18,095 - INFO - Video progress: 70.1% (660s / 942s)
+2026-02-12 12:50:48,111 - INFO - Video progress: 73.3% (690s / 942s)
+2026-02-12 12:51:18,124 - INFO - Video progress: 76.4% (720s / 942s)
+2026-02-12 12:51:48,143 - INFO - Video progress: 79.6% (750s / 942s)
+2026-02-12 12:52:18,158 - INFO - Video progress: 82.8% (780s / 942s)
+2026-02-12 12:52:48,172 - INFO - Video progress: 86.0% (810s / 942s)
+2026-02-12 12:53:18,186 - INFO - Video progress: 89.2% (840s / 942s)
+2026-02-12 12:53:48,201 - INFO - Video progress: 92.4% (870s / 942s)
+2026-02-12 12:54:18,217 - INFO - Video progress: 95.5% (900s / 942s)
+2026-02-12 12:54:48,233 - INFO - Video progress: 98.7% (930s / 942s)
+2026-02-12 12:55:18,245 - INFO - Video completed!
+2026-02-12 12:55:18,296 - INFO - Looking for test button...
+2026-02-12 12:55:18,393 - WARNING - No test button found
+2026-02-12 12:55:18,393 - INFO - Lesson processing complete!
+2026-02-12 12:55:18,517 - INFO - WebDriver closed
+2026-02-12 13:02:23,387 - INFO - ====== WebDriver manager ======
+2026-02-12 13:02:24,616 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 13:02:25,106 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 13:02:25,677 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.46/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-12 13:02:27,672 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-12 13:02:27,912 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-12 13:02:27,912 - INFO - AI Helper initialized successfully
+2026-02-12 13:02:31,981 - INFO - Database tables created successfully
+2026-02-12 13:02:31,982 - INFO - Database initialized successfully
+2026-02-12 13:02:32,720 - INFO - Database connection test successful
+2026-02-12 13:02:32,720 - INFO - Database connection established successfully
+2026-02-12 13:02:32,720 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-12 13:02:36,613 - INFO - Looking for login elements...
+2026-02-12 13:02:36,619 - INFO - Entering credentials...
+2026-02-12 13:02:37,355 - INFO - Clicking login button: 'Sign in'
+2026-02-12 13:02:37,360 - INFO - Waiting for login to complete...
+2026-02-12 13:02:37,867 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-12 13:02:39,876 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-12 13:02:39,877 - INFO - Login successful! (redirected from login page)
+2026-02-12 13:02:39,877 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/15339
+2026-02-12 13:02:43,290 - INFO - Looking for video player...
+2026-02-12 13:02:43,348 - INFO - Clicked play button
+2026-02-12 13:02:43,349 - INFO - Watching video...
+2026-02-12 13:02:43,356 - INFO - Video progress: 0.0% (0s / 881s)
+2026-02-12 13:03:13,368 - INFO - Video progress: 3.4% (30s / 881s)
+2026-02-12 13:03:43,379 - INFO - Video progress: 6.8% (60s / 881s)
+2026-02-12 13:04:13,391 - INFO - Video progress: 10.2% (90s / 881s)
+2026-02-12 13:04:43,405 - INFO - Video progress: 13.6% (120s / 881s)
+2026-02-12 13:05:13,409 - INFO - Video progress: 17.0% (150s / 881s)
+2026-02-12 13:05:43,415 - INFO - Video progress: 20.4% (180s / 881s)
+2026-02-12 13:06:13,430 - INFO - Video progress: 23.8% (210s / 881s)
+2026-02-12 13:06:43,446 - INFO - Video progress: 27.2% (240s / 881s)
+2026-02-12 13:07:13,462 - INFO - Video progress: 30.6% (270s / 881s)
+2026-02-12 13:07:43,477 - INFO - Video progress: 34.1% (300s / 881s)
+2026-02-12 13:07:57,414 - INFO - Interrupted by user
+2026-02-12 13:07:57,418 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/d6b36577dc387127e94fa741f70c67ba
+2026-02-12 13:07:57,423 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59223): Failed to establish a new connection: [Errno 61] Connection refused")': /session/d6b36577dc387127e94fa741f70c67ba
+2026-02-12 13:07:57,424 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59223): Failed to establish a new connection: [Errno 61] Connection refused")': /session/d6b36577dc387127e94fa741f70c67ba
+2026-02-12 13:07:57,428 - INFO - WebDriver closed

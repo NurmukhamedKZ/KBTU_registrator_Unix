@@ -5,8 +5,10 @@ AI Helper Module for answering test questions using Google Gemini.
 import os
 import time
 import logging
-from google import genai
-from typing import Optional
+from langchain_openai import ChatOpenAI
+from typing import Optional, Literal
+
+from pydantic import BaseModel, Field
 
 logger = logging.getLogger(__name__)
 
@@ -15,27 +17,32 @@ MAX_RETRIES = 5
 INITIAL_RETRY_DELAY = 2  # seconds
 MAX_RETRY_DELAY = 30  # seconds
 
+class LLMOutput(BaseModel):
+    explanation: str
+    correct_answer_number: Literal[1,2,3,4] = Field("Ответ в виде номера вопроса")
+
 
 class AIHelper:
     """Helper class for AI-powered test question answering using Google Gemini."""
     
-    def __init__(self, api_key: Optional[str] = None, model: str = "gemini-3-flash-preview"):
+    def __init__(self, api_key: Optional[str] = None, model: str = "gpt-4o"):
         """
         Initialize the AI helper with Gemini API.
         
         Args:
-            api_key: Gemini API key. If not provided, reads from GEMINI_API_KEY env var.
+            api_key: Gemini API key. If not provided, reads from OPENAI_API_KEY env var.
             model: Model name to use (default: gemini-1.5-flash)
         """
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY")
+        self.api_key = os.getenv("OPENAI_API_KEY")
         if not self.api_key:
-            raise ValueError("GEMINI_API_KEY not found. Please set it in .env file.")
+            raise ValueError("OPENAI_API_KEY not found. Please set it in .env file.")
         
-        self.client = genai.Client(api_key=self.api_key)
+        self.llm = ChatOpenAI(model=model, api_key=self.api_key)
+        self.llm_with_structured_output = self.llm.with_structured_output(LLMOutput)
         self.model_name = model
         logger.info(f"AI Helper initialized with model: {model}")
     
-    def _call_with_retry(self, prompt: str) -> Optional[str]:
+    def _call_with_retry(self, prompt: str) -> LLMOutput:
         """
         Call the AI model with retry logic for handling temporary failures.
         
@@ -50,8 +57,8 @@ class AIHelper:
         
         for attempt in range(MAX_RETRIES):
             try:
-                response = self.client.models.generate_content(model=self.model_name, contents=prompt)
-                return response.text.strip()
+                response = self.llm_with_structured_output.invoke(prompt)
+                return response
                 
             except Exception as e:
                 last_error = e
@@ -86,100 +93,40 @@ class AIHelper:
             Index of the correct answer (0-based)
         """
         # Format options for the prompt
-        options_text = "\n".join([f"{i+1}. {opt}" for i, opt in enumerate(options)])
+        options_text = "\n".join([f"Option #{i}: {opt}" for i, opt in enumerate(options, start=1)])
         
-        prompt = f"""Ты эксперт по социально-политическим наукам. Тебе дан вопрос из университетского теста.
-Проанализируй вопрос и варианты ответов, затем выбери ТОЛЬКО ОДИН правильный ответ.
+        prompt = f"""Ты эксперт в тестах. твоя задача дать один верный ответ на вопрос из 4 возможных ответов
 
-ВАЖНО: В ответе напиши ТОЛЬКО номер правильного ответа (1, 2, 3, 4 или 5). Ничего больше.
+ВАЖНО: Только один вариант правильный
 
 Вопрос: {question}
 
 Варианты ответов:
 {options_text}
-
-{f"Контекст из лекции: {context}" if context else ""}
-
-Правильный ответ (только номер):"""
+"""
 
         # Call AI with retry logic
-        answer_text = self._call_with_retry(prompt)
+        result = self._call_with_retry(prompt)
         
-        if answer_text is None:
+        if result is None:
             logger.error("AI unavailable after retries. Defaulting to first option.")
             return 0
         
         # Extract the number from response
         # Handle cases like "1", "1.", "Answer: 1", etc.
-        for char in answer_text:
-            if char.isdigit():
-                answer_num = int(char)
-                if 1 <= answer_num <= len(options):
-                    logger.info(f"AI selected answer {answer_num}: {options[answer_num-1][:50]}...")
-                    return answer_num - 1  # Convert to 0-based index
+        return result.correct_answer_number - 1
         
-        # Fallback: try to find number in response
-        import re
-        numbers = re.findall(r'\d+', answer_text)
-        if numbers:
-            answer_num = int(numbers[0])
-            if 1 <= answer_num <= len(options):
-                logger.info(f"AI selected answer {answer_num} (from regex): {options[answer_num-1][:50]}...")
-                return answer_num - 1
+        # # Fallback: try to find number in response
+        # import re
+        # numbers = re.findall(r'\d+', result)
+        # if numbers:
+        #     answer_num = int(numbers[0])
+        #     if 1 <= answer_num <= len(options):
+        #         logger.info(f"AI selected answer {answer_num} (from regex): {options[answer_num-1][:50]}...")
+        #         return answer_num - 1
         
-        logger.warning(f"Could not parse AI response: {answer_text}. Defaulting to first option.")
-        return 0
-    
-    def answer_multiple_choice(self, question: str, options: list[str], context: str = "") -> list[int]:
-        """
-        For multiple-choice questions where more than one answer can be correct.
-        
-        Args:
-            question: The question text
-            options: List of answer options
-            context: Optional context from the lecture
-            
-        Returns:
-            List of indices of correct answers (0-based)
-        """
-        options_text = "\n".join([f"{i+1}. {opt}" for i, opt in enumerate(options)])
-        
-        prompt = f"""Ты эксперт по социально-политическим наукам. Тебе дан вопрос из университетского теста.
-Это вопрос с НЕСКОЛЬКИМИ правильными ответами.
-
-ВАЖНО: В ответе напиши ТОЛЬКО номера правильных ответов через запятую (например: 1, 3, 4). Ничего больше.
-
-Вопрос: {question}
-
-Варианты ответов:
-{options_text}
-
-{f"Контекст из лекции: {context}" if context else ""}
-
-Правильные ответы (только номера через запятую):"""
-
-        # Call AI with retry logic
-        answer_text = self._call_with_retry(prompt)
-        
-        if answer_text is None:
-            logger.error("AI unavailable after retries. Defaulting to first option.")
-            return [0]
-        
-        import re
-        numbers = re.findall(r'\d+', answer_text)
-        result = []
-        for num_str in numbers:
-            num = int(num_str)
-            if 1 <= num <= len(options):
-                result.append(num - 1)  # Convert to 0-based index
-        
-        if result:
-            logger.info(f"AI selected answers: {[options[i][:30] for i in result]}")
-            return result
-        
-        logger.warning(f"Could not parse AI response: {answer_text}. Defaulting to first option.")
-        return [0]
-
+        # logger.warning(f"Could not parse AI response: {result}. Defaulting to first option.")
+        # return 0
 
 def test_ai_helper():
     """Test the AI helper with a sample question."""
