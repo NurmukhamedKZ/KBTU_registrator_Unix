@@ -148,7 +148,8 @@ def _run_agent_impl(session_id: str, lesson_id: str, skip_video: bool, unix_emai
 
 
 def _run_batch_agent_impl(session_id: str, lesson_ids: str, skip_video: bool, unix_email: str, unix_password: str):
-    """Run batch agent: sequential single-lesson runs. After each agent closes, start next."""
+    """Run batch agent: one process, one browser, same logic as single mode in a loop."""
+    import re
     session = agent_sessions.get(session_id)
     if not session:
         return
@@ -166,7 +167,7 @@ def _run_batch_agent_impl(session_id: str, lesson_ids: str, skip_video: bool, un
     session["process"] = None
     
     try:
-        session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] 🚀 Starting BATCH mode: {len(ids)} lessons")
+        session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] 🚀 Starting BATCH mode: {len(ids)} lessons (one browser session)")
         session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] IDs: {', '.join(ids)}")
         session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] Skip video: {skip_video}")
         
@@ -174,41 +175,38 @@ def _run_batch_agent_impl(session_id: str, lesson_ids: str, skip_video: bool, un
         env["UNIX_EMAIL"] = unix_email
         env["UNIX_PASSWORD"] = unix_password
         
-        for i, lesson_id in enumerate(ids):
-            session["current_lesson"] = f"Lesson {lesson_id} ({i + 1}/{len(ids)})"
-            lesson_url = f"https://uni-x.almv.kz/platform/lessons/{lesson_id}"
-            cmd = ["python3", "unix_agent.py", "--lesson", lesson_url]
-            if skip_video:
-                cmd.append("--skip-video")
-            
-            session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] ⏳ Starting agent for lesson {lesson_id}...")
-            
-            process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1, env=env)
-            session["process"] = process
-            
-            for line in iter(process.stdout.readline, ''):
-                if line:
-                    session["logs"].append(line.strip())
-                    if len(session["logs"]) > 500:
-                        session["logs"] = session["logs"][-500:]
-                if process.poll() is not None:
-                    break
-            
-            process.wait()
-            exit_code = process.returncode
-            session["process"] = None
-            
-            if exit_code in (-9, -15):
-                session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] ⛔ Batch stopped by user")
-                break
-            
-            session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] ✅ Lesson {lesson_id} done (exit {exit_code})")
-            
-            if i < len(ids) - 1:
-                session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] ⏳ Opening next lesson in 2 sec...")
-                time.sleep(2)
+        cmd = ["python3", "unix_agent.py", "--lesson-ids", lesson_ids]
+        if skip_video:
+            cmd.append("--skip-video")
         
-        session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] 🏁 Batch complete")
+        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1, env=env)
+        session["process"] = process
+        
+        for line in iter(process.stdout.readline, ''):
+            if line:
+                line_stripped = line.strip()
+                if "Processing lesson" in line_stripped:
+                    match = re.search(r'Processing lesson (\d+).*?\((\d+)/(\d+)\)', line_stripped)
+                    if match:
+                        session["current_lesson"] = f"Lesson {match.group(1)} ({match.group(2)}/{match.group(3)})"
+                    else:
+                        m = re.search(r'Processing lesson (\d+)', line_stripped)
+                        if m:
+                            session["current_lesson"] = f"Lesson {m.group(1)}"
+                session["logs"].append(line_stripped)
+                if len(session["logs"]) > 500:
+                    session["logs"] = session["logs"][-500:]
+            if process.poll() is not None:
+                break
+        
+        process.wait()
+        exit_code = process.returncode
+        session["process"] = None
+        
+        if exit_code in (-9, -15):
+            session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] ⛔ Batch stopped by user")
+        else:
+            session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] 🏁 Batch complete")
         
     except Exception as e:
         session["logs"].append(f"[{datetime.now().strftime('%H:%M:%S')}] ❌ Error: {str(e)}")
@@ -351,8 +349,8 @@ async def home():
                 </div>
                 
                 <div class="bg-blue-50 border border-blue-200 rounded-lg p-3 text-sm text-blue-800">
-                    <strong>Batch Mode:</strong> Enter lesson IDs separated by commas. The agent will process each lesson one by one: 
-                    after the first agent finishes (closes the browser window), the next lesson will open automatically.
+                    <strong>Batch Mode:</strong> Enter lesson IDs separated by commas. One browser session processes all lessons in sequence 
+                    (same logic as single mode). Login once, then each lesson: video → test → next.
                 </div>
             </div>
             
