@@ -110,7 +110,12 @@ def _run_agent_impl(session_id: str, lesson_id: str, skip_video: bool, unix_emai
     session["process"] = None
     
     try:
-        lesson_url = f"https://uni-x.almv.kz/platform/lessons/{lesson_id}"
+        # Accept both full URL and lesson ID
+        lesson_input = lesson_id.strip()
+        if lesson_input.startswith("http://") or lesson_input.startswith("https://"):
+            lesson_url = lesson_input
+        else:
+            lesson_url = f"https://uni-x.almv.kz/platform/lessons/{lesson_input}"
         cmd = ["python3", "unix_agent.py", "--lesson", lesson_url]
         if skip_video:
             cmd.append("--skip-video")
@@ -293,11 +298,11 @@ async def home():
             <!-- Single Lesson Mode -->
             <div x-show="mode === 'single'" class="flex flex-wrap gap-4 items-end">
                 <div class="flex-1 min-w-[200px]">
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Lesson ID</label>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Lesson ID or URL</label>
                     <input 
                         type="text" 
                         x-model="lessonId" 
-                        placeholder="https://uni-x.almv.kz/platform/lessons/191 | нужно написать только id (191)"
+                        placeholder="e.g., 191 or https://uni-x.almv.kz/platform/lessons/191"
                         class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                         :disabled="agentStatus.running"
                     >
