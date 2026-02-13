@@ -11872,3 +11872,8 @@ Calculus II' vs 'a_n = 1/n'
 2026-02-12 23:21:01,623 - INFO - Video progress: 31.4% (270s / 860s)
 2026-02-12 23:21:31,636 - INFO - Video progress: 34.9% (300s / 860s)
 2026-02-12 23:22:01,654 - INFO - Video progress: 37.7% (324s / 860s)
+2026-02-12 23:25:07,459 - INFO - Interrupted by user
+2026-02-12 23:25:07,463 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/091d39acc76de38429e871084cac7174
+2026-02-12 23:25:07,466 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55943): Failed to establish a new connection: [Errno 61] Connection refused")': /session/091d39acc76de38429e871084cac7174
+2026-02-12 23:25:07,467 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55943): Failed to establish a new connection: [Errno 61] Connection refused")': /session/091d39acc76de38429e871084cac7174
+2026-02-12 23:25:07,470 - INFO - WebDriver closed
