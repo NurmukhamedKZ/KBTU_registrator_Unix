@@ -15,3 +15,27 @@ body {
   min-height: 100vh;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
+
+.ub-input {
+  background-color: #3a3a3b;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+.ub-btn {
+  background-color: #3a3a3b;
+  color: #d7d7d7;
+  border-radius: 6px !important;
+  transition: background-color 0.2s ease;
+}
+
+.ub-btn:hover:not(:disabled) {
+  background-color: #2f2f30;
+}
+
+.ub-btn:active:not(:disabled) {
+  background-color: #252526;
+}
+
+.ub-btn-active {
+  background-color: #252526 !important;
+}

@@ -8,10 +8,10 @@ function NavItem({ to, children }) {
       to={to}
       className={({ isActive }) =>
         [
-          "rounded-full px-4 py-2 text-sm font-medium transition-colors",
+          "ub-btn rounded-full px-4 py-2 text-sm font-medium",
           isActive
-            ? "bg-ub-blue text-white"
-            : "bg-ub-panel text-ub-muted hover:text-ub-text",
+            ? "ub-btn-active text-ub-accent"
+            : "text-ub-text/70 hover:text-ub-text",
         ].join(" ")
       }
     >
@@ -23,17 +23,20 @@ function NavItem({ to, children }) {
 export default function App() {
   return (
     <div className="min-h-screen bg-ub-bg text-ub-text">
-      <header className="border-b border-ub-border bg-[#0D111B]/90 backdrop-blur">
+      <header className="bg-ub-panel">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-4">
           <div>
-            <p className="text-xs uppercase tracking-[0.18em] text-ub-muted">
-              Uni-Bot
+            <p className="text-3xl uppercase tracking-[0.18em] text-ub-text/75">
+              <span style={{ color: "#2F6CFF" }} className="text-ub-accent">Uni-</span>
+              <span style={{ color: "#F58220" }}>Bot</span>
             </p>
-            <h1 className="text-lg font-semibold">Auto Lesson Registration</h1>
+            <h1 className="text-lg font-semibold">
+              Автоматизация уроков UniX
+            </h1>
           </div>
           <nav className="flex items-center gap-2">
-            <NavItem to="/">Main</NavItem>
-            <NavItem to="/questions">Q&A</NavItem>
+            <NavItem to="/">Главная</NavItem>
+            <NavItem to="/questions">Вопросы и ответы</NavItem>
           </nav>
         </div>
       </header>

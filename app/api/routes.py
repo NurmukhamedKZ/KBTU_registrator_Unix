@@ -2,8 +2,8 @@ import threading
 from pathlib import Path
 from typing import List
 
-from fastapi import APIRouter, HTTPException, Query
-from fastapi.responses import StreamingResponse, FileResponse
+from fastapi import APIRouter, HTTPException, Query, Request
+from fastapi.responses import StreamingResponse, FileResponse, RedirectResponse
 
 from app.models.schemas import AgentStatus, BatchRequest, LessonRequest, StopRequest
 from app.deps.database import get_db
@@ -12,6 +12,7 @@ from app.services.questions import build_questions_csv
 from app.services.sessions import agent_sessions, create_session
 from app.services.frontend import (
     FRONTEND_DIST_DIR,
+    build_frontend_redirect_target,
     ensure_frontend_built_or_503,
     serve_frontend_index,
 )
@@ -162,14 +163,21 @@ def register_routes(logger):
     @router.get("/")
     async def home():
         """Serve React frontend."""
+        redirect_target = build_frontend_redirect_target()
+        if redirect_target:
+            return RedirectResponse(url=redirect_target, status_code=307)
         ensure_frontend_built_or_503()
         return serve_frontend_index()
 
     @router.get("/{full_path:path}")
-    async def frontend_routes(full_path: str):
+    async def frontend_routes(full_path: str, request: Request):
         """Serve React routes and static files that are outside /assets."""
         if full_path.startswith("api/"):
             raise HTTPException(status_code=404, detail="Not found")
+
+        redirect_target = build_frontend_redirect_target(full_path, dict(request.query_params))
+        if redirect_target:
+            return RedirectResponse(url=redirect_target, status_code=307)
 
         ensure_frontend_built_or_503()
 

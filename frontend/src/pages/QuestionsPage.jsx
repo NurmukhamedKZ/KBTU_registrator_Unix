@@ -34,47 +34,47 @@ export default function QuestionsPage() {
   }
 
   return (
-    <section className="rounded-2xl border border-ub-border bg-ub-panel p-6 shadow-ub">
+    <section className="rounded-2xl bg-ub-panel p-6 shadow-ub">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="text-2xl font-bold">Questions and answers</h2>
-          <p className="mt-1 text-sm text-ub-muted">Total: {total}</p>
+          <h2 className="text-2xl font-bold">Вопросы и ответы</h2>
+          <p className="mt-1 text-sm text-ub-text/70">Всего: {total}</p>
         </div>
         <a
           href="/api/questions/export/csv"
           download="questions.csv"
-          className="rounded-lg bg-ub-green px-4 py-2 text-sm font-medium text-white"
+          className="ub-btn rounded-lg px-4 py-2 text-sm font-medium text-white"
         >
-          Download CSV
+          Скачать CSV
         </a>
       </div>
 
       {error ? (
-        <p className="mt-4 rounded-lg border border-ub-danger/30 bg-ub-danger/10 px-3 py-2 text-sm text-red-300">
+        <p className="mt-4 rounded-lg bg-ub-control px-3 py-2 text-sm text-ub-text">
           {error}
         </p>
       ) : null}
 
       {loading ? (
-        <p className="mt-6 text-ub-muted">Loading...</p>
+        <p className="mt-6 text-ub-text/70">Загрузка...</p>
       ) : questions.length === 0 ? (
-        <p className="mt-6 text-ub-muted">No saved questions yet.</p>
+        <p className="mt-6 text-ub-text/70">Сохраненных вопросов пока нет.</p>
       ) : (
         <div className="mt-6 space-y-4">
           {questions.map((question) => (
             <article
               key={question.id}
-              className="rounded-xl border border-ub-border bg-ub-panelSoft p-4"
+              className="rounded-xl bg-ub-control p-4"
             >
               <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-                <span className="text-xs text-ub-muted">#{question.id}</span>
-                <span className="text-xs text-ub-muted">{formatDate(question.created_at)}</span>
+                <span className="text-xs text-ub-text/70">#{question.id}</span>
+                <span className="text-xs text-ub-text/70">{formatDate(question.created_at)}</span>
               </div>
 
               <h3 className="text-base font-semibold">{question.question_text}</h3>
 
-              <p className="mt-1 text-xs text-ub-muted">
-                {question.lesson_name || "Unknown lesson"}
+              <p className="mt-1 text-xs text-ub-text/70">
+                {question.lesson_name || "Неизвестный урок"}
                 {question.user_email ? ` • ${question.user_email}` : ""}
               </p>
 
@@ -83,13 +83,13 @@ export default function QuestionsPage() {
                   <div
                     key={`${question.id}-${idx}`}
                     className={[
-                      "rounded-lg border px-3 py-2 text-sm",
+                      "rounded-lg px-3 py-2 text-sm",
                       answer.is_selected
-                        ? "border-ub-blue/40 bg-ub-blue/15 text-blue-200"
-                        : "border-ub-border bg-ub-bg text-ub-text",
+                        ? "bg-ub-accent/20 text-ub-text"
+                        : "bg-ub-panel text-ub-text",
                     ].join(" ")}
                   >
-                    <span className="mr-2 text-xs text-ub-muted">{idx + 1}.</span>
+                    <span className="mr-2 text-xs text-ub-text/70">{idx + 1}.</span>
                     {answer.text}
                   </div>
                 ))}
@@ -104,18 +104,18 @@ export default function QuestionsPage() {
           type="button"
           disabled={page === 0}
           onClick={() => setPage((prev) => Math.max(0, prev - 1))}
-          className="rounded-lg border border-ub-border px-3 py-2 text-sm text-ub-muted disabled:opacity-40"
+          className="ub-btn rounded-lg px-3 py-2 text-sm text-ub-text/70 disabled:opacity-40"
         >
-          Previous
+          Назад
         </button>
-        <span className="text-sm text-ub-muted">Page {page + 1}</span>
+        <span className="text-sm text-ub-text/70">Страница {page + 1}</span>
         <button
           type="button"
           disabled={(page + 1) * LIMIT >= total}
           onClick={() => setPage((prev) => prev + 1)}
-          className="rounded-lg border border-ub-border px-3 py-2 text-sm text-ub-muted disabled:opacity-40"
+          className="ub-btn rounded-lg px-3 py-2 text-sm text-ub-text/70 disabled:opacity-40"
         >
-          Next
+          Далее
         </button>
       </div>
     </section>

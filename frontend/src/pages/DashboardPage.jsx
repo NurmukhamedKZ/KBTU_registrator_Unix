@@ -174,176 +174,185 @@ export default function DashboardPage() {
   }
 
   const statusColor = useMemo(
-    () => (safeStatus.running ? "bg-ub-green/20 text-emerald-300" : "bg-ub-panelSoft text-ub-muted"),
+    () => (safeStatus.running ? "bg-ub-accent/20 text-ub-text" : "bg-ub-control text-ub-text/70"),
     [safeStatus.running]
   );
 
   return (
     <div className="space-y-6">
-      <section className="rounded-2xl border border-ub-border bg-ub-panel p-6 shadow-ub">
-        <h2 className="text-2xl font-bold">Main page</h2>
-        <p className="mt-1 text-sm text-ub-muted">
-          Enter UniX credentials and run the bot in single or batch mode.
+      <section className="rounded-2xl bg-ub-panel p-6 shadow-ub">
+        <h2 className="text-2xl font-bold">Главная страница</h2>
+        <p className="mt-1 text-sm text-ub-text/70">
+          Короткая инструкция по запуску бота.
         </p>
+        <div className="mt-4 p-1 text-sm text-ub-text/70">
+          <p>1) Выберите режим: одна лекция или несколько лекций.</p>
+          <p>2) Введите UniX email и пароль. (мы не сохраняем ваши пароли)</p>
+          <p>3) Укажите ID/URL урока или список ID и нажмите «Запустить». (ID можно найти в URL(ссылке) урока)</p>
+          <p>4) Делайте свои дела, пока бот проходит уроки и делает тесты.</p>
+          <p>5) После завершения тестов, бот сохранит вопросы и ответы в Базе данных.</p>
+        </div>
+      </section>
 
-        <div className="mt-5 grid gap-4 rounded-xl border border-ub-border bg-ub-panelSoft p-4 md:grid-cols-2">
+      <section className="rounded-2xl bg-ub-panel p-6 shadow-ub">
+        
+        <div className="mb-4 flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setMode("single")}
+            className={classNames(
+              "ub-btn rounded-full px-4 py-2 text-sm font-medium",
+              mode === "single" ? "ub-btn-active text-ub-accent" : "text-ub-text/70"
+            )}
+          >
+            Одна лекция
+          </button>
+          <button
+            type="button"
+            onClick={() => setMode("batch")}
+            className={classNames(
+              "ub-btn rounded-full px-4 py-2 text-sm font-medium",
+              mode === "batch" ? "ub-btn-active text-ub-accent" : "text-ub-text/70"
+            )}
+          >
+            Несколько лекций
+          </button>
+        </div>
+
+        <div className="mb-4 grid gap-4 md:grid-cols-2">
           <label className="text-sm">
-            <span className="mb-1 block text-ub-muted">Email</span>
+            <span className="mb-1 block text-ub-text/70">Email UniX</span>
             <input
               name="username"
               autoComplete="username"
               type="email"
               value={unixEmail}
               onChange={(e) => setUnixEmail(e.target.value)}
-              className="w-full rounded-lg border border-ub-border bg-ub-bg px-3 py-2 outline-none ring-0 transition focus:border-ub-blue"
+              className="ub-input w-full rounded-lg px-3 py-2 outline-none ring-0 transition"
               placeholder="your@kbtu.kz"
             />
           </label>
           <label className="text-sm">
-            <span className="mb-1 block text-ub-muted">Password</span>
+            <span className="mb-1 block text-ub-text/70">Password UniX</span>
             <input
               name="password"
               autoComplete="current-password"
               type="password"
               value={unixPassword}
               onChange={(e) => setUnixPassword(e.target.value)}
-              className="w-full rounded-lg border border-ub-border bg-ub-bg px-3 py-2 outline-none ring-0 transition focus:border-ub-blue"
+              className="ub-input w-full rounded-lg px-3 py-2 outline-none ring-0 transition"
               placeholder="********"
             />
           </label>
-        </div>
-      </section>
-
-      <section className="rounded-2xl border border-ub-border bg-ub-panel p-6 shadow-ub">
-        <div className="mb-4 flex flex-wrap items-center gap-2">
-          <button
-            type="button"
-            onClick={() => setMode("single")}
-            className={classNames(
-              "rounded-full px-4 py-2 text-sm font-medium",
-              mode === "single" ? "bg-ub-blue text-white" : "bg-ub-panelSoft text-ub-muted"
-            )}
-          >
-            Single mode
-          </button>
-          <button
-            type="button"
-            onClick={() => setMode("batch")}
-            className={classNames(
-              "rounded-full px-4 py-2 text-sm font-medium",
-              mode === "batch" ? "bg-ub-violet text-white" : "bg-ub-panelSoft text-ub-muted"
-            )}
-          >
-            Batch mode
-          </button>
         </div>
 
         {mode === "single" ? (
           <div className="grid gap-4 md:grid-cols-[1fr_auto_auto]">
             <label className="text-sm">
-              <span className="mb-1 block text-ub-muted">Lesson ID or URL</span>
+              <span className="mb-1 block text-ub-text/70">ID урока или URL</span>
               <input
                 type="text"
                 value={lessonId}
                 onChange={(e) => setLessonId(e.target.value)}
-                className="w-full rounded-lg border border-ub-border bg-ub-bg px-3 py-2 outline-none transition focus:border-ub-blue"
-                placeholder="191 or https://uni-x.almv.kz/platform/lessons/191"
+                className="ub-input w-full rounded-lg px-3 py-2 outline-none transition"
+                placeholder="191 или https://uni-x.almv.kz/platform/lessons/191"
               />
             </label>
-            <label className="flex items-center gap-2 text-sm text-ub-muted">
+            {/* <label className="flex items-center gap-2 text-sm text-ub-text/70">
               <input
                 type="checkbox"
                 checked={skipVideo}
                 onChange={(e) => setSkipVideo(e.target.checked)}
               />
-              Skip video
-            </label>
+
+              Пропустить видео
+            </label> */}
             <button
               type="button"
               disabled={!canStartSingle}
               onClick={handleStartSingle}
-              className="rounded-lg bg-ub-blue px-4 py-2 font-medium text-white disabled:cursor-not-allowed disabled:opacity-50"
+              className="ub-btn rounded-lg px-4 py-2 font-medium text-white disabled:cursor-not-allowed disabled:opacity-50"
             >
-              Start
+              Запустить
             </button>
           </div>
         ) : (
           <div className="grid gap-4 md:grid-cols-[1fr_auto_auto]">
             <label className="text-sm">
-              <span className="mb-1 block text-ub-muted">Lesson IDs (comma-separated)</span>
+              <span className="mb-1 block text-ub-text/70">ID уроков (через запятую)</span>
               <input
                 type="text"
                 value={batchLessonIds}
                 onChange={(e) => setBatchLessonIds(e.target.value)}
-                className="w-full rounded-lg border border-ub-border bg-ub-bg px-3 py-2 outline-none transition focus:border-ub-violet"
+                className="ub-input w-full rounded-lg px-3 py-2 outline-none transition"
                 placeholder="9843, 9845, 9910"
               />
             </label>
-            <label className="flex items-center gap-2 text-sm text-ub-muted">
+            {/* <label className="flex items-center gap-2 text-sm text-ub-text/70">
               <input
                 type="checkbox"
                 checked={batchSkipVideo}
                 onChange={(e) => setBatchSkipVideo(e.target.checked)}
               />
-              Skip videos
-            </label>
+              
+            </label> */}
             <button
               type="button"
               disabled={!canStartBatch}
               onClick={handleStartBatch}
-              className="rounded-lg bg-ub-violet px-4 py-2 font-medium text-white disabled:cursor-not-allowed disabled:opacity-50"
+              className="ub-btn rounded-lg px-4 py-2 font-medium text-white disabled:cursor-not-allowed disabled:opacity-50"
             >
-              Start batch
+              Запустить
             </button>
           </div>
         )}
 
         <div className="mt-5 flex flex-wrap items-center gap-3 text-sm">
           <span className={classNames("rounded-full px-3 py-1", statusColor)}>
-            {safeStatus.running ? "Running" : "Idle"}
+            {safeStatus.running ? "Запущен" : "Ожидание"}
           </span>
           {safeStatus.current_lesson ? (
-            <span className="text-ub-muted">{safeStatus.current_lesson}</span>
+            <span className="text-ub-text/70">{safeStatus.current_lesson}</span>
           ) : null}
-          {sessionId ? <span className="text-xs text-ub-muted/80">Session: {sessionId}</span> : null}
+          {sessionId ? <span className="text-xs text-ub-text/70">Сессия: {sessionId}</span> : null}
           <button
             type="button"
             onClick={handleStop}
             disabled={!safeStatus.running || busy}
-            className="ml-auto rounded-lg bg-ub-danger px-3 py-2 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-50"
+            className="ub-btn ml-auto rounded-lg px-3 py-2 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-50"
           >
-            Stop
+            Остановить
           </button>
         </div>
 
         {error ? (
-          <p className="mt-4 rounded-lg border border-ub-danger/30 bg-ub-danger/10 px-3 py-2 text-sm text-red-300">
+          <p className="mt-4 rounded-lg bg-ub-control px-3 py-2 text-sm text-ub-text">
             {error}
           </p>
         ) : null}
       </section>
 
-      <section className="rounded-2xl border border-ub-border bg-ub-panel p-6 shadow-ub">
+      <section className="rounded-2xl bg-ub-panel p-6 shadow-ub">
         <div className="mb-3 flex items-center justify-between">
-          <h3 className="font-semibold">Agent logs</h3>
+          <h3 className="font-semibold">Логи агента</h3>
           <button
             type="button"
             onClick={() => {
               shouldAutoScrollRef.current = true;
               setLogs([]);
             }}
-            className="rounded-lg border border-ub-border px-3 py-1 text-xs text-ub-muted hover:text-ub-text"
+            className="ub-btn rounded-lg px-3 py-1 text-xs text-ub-text/70 hover:text-ub-text"
           >
-            Clear
+            Очистить
           </button>
         </div>
         <div
           ref={logsRef}
           onScroll={handleLogsScroll}
-          className="h-72 overflow-y-auto rounded-xl border border-ub-border bg-black/60 p-3 font-mono text-xs text-emerald-300"
+          className="h-72 overflow-y-auto rounded-xl bg-ub-bg p-3 font-mono text-xs text-ub-text"
         >
           {logs.length === 0 ? (
-            <p className="text-ub-muted">No logs yet.</p>
+            <p className="text-ub-text/70">Логи пока пустые.</p>
           ) : (
             logs.map((line, idx) => <p key={`${line}-${idx}`}>{line}</p>)
           )}

@@ -5,17 +5,11 @@ export default {
     extend: {
       colors: {
         ub: {
-          bg: "#090B10",
-          panel: "#111725",
-          panelSoft: "#181F30",
-          border: "#2A344E",
-          text: "#E8EDF7",
-          muted: "#9CA9C5",
-          blue: "#2F6CFF",
-          violet: "#7747F9",
-          green: "#2F8D66",
-          amber: "#A8711C",
-          danger: "#E05353",
+          bg: "#000000",
+          panel: "#1a1a1a",
+          control: "#3a3a3b",
+          text: "#d7d7d7",
+          accent: "#005DC9",
         },
       },
       boxShadow: {

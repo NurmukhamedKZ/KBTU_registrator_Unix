@@ -1,4 +1,6 @@
+import os
 from pathlib import Path
+from urllib.parse import urlencode
 
 from fastapi import HTTPException
 from fastapi.responses import FileResponse
@@ -39,3 +41,24 @@ def ensure_frontend_built_or_503():
             status_code=503,
             detail="Frontend build not found. Run: cd frontend && npm install && npm run build",
         )
+
+
+def frontend_public_url() -> str:
+    """External frontend URL for redirect mode (e.g. Vercel)."""
+    return os.getenv("FRONTEND_PUBLIC_URL", "").strip().rstrip("/")
+
+
+def build_frontend_redirect_target(full_path: str = "", query_params: dict | None = None) -> str:
+    """Build redirect target URL to external frontend, preserving path and query."""
+    base_url = frontend_public_url()
+    if not base_url:
+        return ""
+
+    path = full_path.lstrip("/")
+    target = base_url if not path else f"{base_url}/{path}"
+
+    if query_params:
+        encoded = urlencode({k: v for k, v in query_params.items() if v is not None}, doseq=True)
+        if encoded:
+            target = f"{target}?{encoded}"
+    return target
