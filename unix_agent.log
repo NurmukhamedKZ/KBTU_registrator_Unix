@@ -12060,3 +12060,32 @@ Test task
 2026-02-14 07:52:46,527 - INFO - Answered 0 out of 5 questions
 2026-02-14 07:52:46,528 - INFO - Lesson processing complete!
 2026-02-14 07:52:46,729 - INFO - WebDriver closed
+2026-02-14 08:22:35,327 - INFO - ====== WebDriver manager ======
+2026-02-14 08:22:39,297 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 08:22:39,677 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 08:22:40,044 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.76/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-14 08:22:42,761 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-14 08:22:43,074 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-14 08:22:43,074 - INFO - AI Helper initialized successfully
+2026-02-14 08:22:45,868 - INFO - Database tables created successfully
+2026-02-14 08:22:45,869 - INFO - Database initialized successfully
+2026-02-14 08:22:46,312 - INFO - Database connection test successful
+2026-02-14 08:22:46,312 - INFO - Database connection established successfully
+2026-02-14 08:22:46,312 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-14 08:22:50,078 - INFO - Looking for login elements...
+2026-02-14 08:22:50,085 - INFO - Entering credentials...
+2026-02-14 08:22:50,820 - INFO - Clicking login button: 'Sign in'
+2026-02-14 08:22:50,824 - INFO - Waiting for login to complete...
+2026-02-14 08:22:51,334 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-14 08:22:53,341 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-14 08:22:53,341 - INFO - Login successful! (redirected from login page)
+2026-02-14 08:22:53,341 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9858
+2026-02-14 08:22:56,645 - INFO - Looking for video player...
+2026-02-14 08:22:56,686 - INFO - Clicked play button
+2026-02-14 08:22:56,686 - INFO - Watching video...
+2026-02-14 08:22:56,692 - INFO - Video progress: 0.0% (0s / 736s)
+2026-02-14 08:25:24,020 - INFO - Interrupted by user
+2026-02-14 08:25:24,035 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62530): Failed to establish a new connection: [Errno 61] Connection refused")': /session/112668330b93d9f758ba6ee147a3ec0f
+2026-02-14 08:25:24,036 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62530): Failed to establish a new connection: [Errno 61] Connection refused")': /session/112668330b93d9f758ba6ee147a3ec0f
+2026-02-14 08:25:24,037 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62530): Failed to establish a new connection: [Errno 61] Connection refused")': /session/112668330b93d9f758ba6ee147a3ec0f
+2026-02-14 08:25:24,041 - INFO - WebDriver closed

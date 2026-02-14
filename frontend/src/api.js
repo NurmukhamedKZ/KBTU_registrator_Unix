@@ -1,12 +1,22 @@
+const RAW_API_BASE_URL = (import.meta.env.VITE_API_URL || "").trim();
+const API_BASE_URL = RAW_API_BASE_URL.replace(/\/+$/, "");
+
+function withApiBase(path) {
+  if (!API_BASE_URL) return path;
+  if (path.startsWith("http://") || path.startsWith("https://")) return path;
+  return `${API_BASE_URL}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
 export async function apiRequest(path, options = {}) {
-  const response = await fetch(path, options);
+  const url = withApiBase(path);
+  const response = await fetch(url, options);
   const contentType = response.headers.get("content-type") || "";
   const expectsJson = options.expectsJson !== false;
   const data = contentType.includes("application/json") ? await response.json() : null;
 
   if (expectsJson && !contentType.includes("application/json")) {
     throw new Error(
-      `API ${path} returned non-JSON response (${response.status}). Check backend/proxy configuration.`
+      `API ${url} returned non-JSON response (${response.status}). Check backend/proxy configuration.`
     );
   }
 
