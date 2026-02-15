@@ -61,6 +61,12 @@ class UniXAgent:
         self.db_manager = None
         self.current_lesson_name = None  # Track current lesson for context
         self.current_lesson_url = None
+        self.save_debug_artifacts = os.getenv("SAVE_DEBUG_ARTIFACTS", "false").strip().lower() in {
+            "1",
+            "true",
+            "yes",
+            "on",
+        }
         
     def setup_driver(self):
         """Set up the Chrome WebDriver with anti-detection measures."""
@@ -1234,6 +1240,8 @@ class UniXAgent:
     
     def _save_debug_info(self, prefix: str):
         """Save debug information for troubleshooting."""
+        if not self.save_debug_artifacts:
+            return
         try:
             timestamp = int(time.time())
             

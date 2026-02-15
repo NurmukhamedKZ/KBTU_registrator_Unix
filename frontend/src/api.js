@@ -64,3 +64,21 @@ export function getAgentLogs(sessionId) {
 export function getQuestions(limit, offset) {
   return apiRequest(`/api/questions?limit=${limit}&offset=${offset}`);
 }
+
+export async function downloadQuestionsCsv() {
+  const url = withApiBase("/api/questions/export/csv");
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    let message = `Request failed: ${response.status}`;
+    try {
+      const data = await response.json();
+      if (data?.detail) message = data.detail;
+    } catch {
+      // ignore json parse errors for non-json responses
+    }
+    throw new Error(message);
+  }
+
+  return response.blob();
+}

@@ -92,3 +92,4 @@ INFO     | 2026-02-14 21:29:48 | uni_bot | API get questions requested: limit=20
 INFO     | 2026-02-14 21:29:54 | uni_bot | API get questions response: questions_count=20 total_count=309
 INFO     | 2026-02-14 21:32:22 | uni_bot | CORS enabled for origins: http://localhost:5173
 INFO     | 2026-02-14 21:32:29 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-15 12:06:37 | uni_bot | CORS enabled for origins: http://localhost:5173
