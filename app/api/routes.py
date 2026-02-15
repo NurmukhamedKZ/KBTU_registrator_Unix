@@ -124,7 +124,7 @@ def register_routes(logger):
         if not db:
             return {"questions": [], "total": 0}
         
-        logger.info("API get questions requested: limit=%s offset=%s", limit, offset)
+        # logger.info("API get questions requested: limit=%s offset=%s", limit, offset)
 
         questions = db.get_all_questions(limit=limit, offset=offset)
         total = db.get_all_question_count()

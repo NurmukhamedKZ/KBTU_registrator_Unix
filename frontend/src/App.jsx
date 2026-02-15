@@ -2,6 +2,15 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import DashboardPage from "./pages/DashboardPage";
 import QuestionsPage from "./pages/QuestionsPage";
 
+const feedbackEmail = (import.meta.env.VITE_FEEDBACK_EMAIL || "").trim();
+const feedbackSubject = encodeURIComponent("Жалоба / идея / предложение / реклама");
+const feedbackBody = encodeURIComponent(
+  "Тема обращения:\n\nСообщение:\n\nКонтакт для ответа:"
+);
+const feedbackHref = feedbackEmail
+  ? `mailto:${feedbackEmail}?subject=${feedbackSubject}&body=${feedbackBody}`
+  : "mailto:";
+
 function NavItem({ to, children }) {
   return (
     <NavLink
@@ -37,6 +46,12 @@ export default function App() {
           <nav className="flex items-center gap-2">
             <NavItem to="/">Главная</NavItem>
             <NavItem to="/questions">Вопросы и ответы</NavItem>
+            <a
+              href={feedbackHref}
+              className="ub-btn rounded-full px-4 py-2 text-sm font-medium text-ub-text/70 hover:text-ub-text"
+            >
+              Обратная связь
+            </a>
           </nav>
         </div>
       </header>

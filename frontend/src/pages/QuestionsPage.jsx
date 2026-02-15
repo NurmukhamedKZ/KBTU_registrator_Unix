@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getQuestions } from "../api";
+import { downloadQuestionsCsv, getQuestions } from "../api";
 
 const LIMIT = 20;
 
@@ -13,6 +13,7 @@ export default function QuestionsPage() {
   const [total, setTotal] = useState(0);
   const [page, setPage] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [downloadingCsv, setDownloadingCsv] = useState(false);
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -33,6 +34,26 @@ export default function QuestionsPage() {
     }
   }
 
+  async function handleDownloadCsv() {
+    setError("");
+    setDownloadingCsv(true);
+    try {
+      const blob = await downloadQuestionsCsv();
+      const blobUrl = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = blobUrl;
+      link.download = "questions.csv";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(blobUrl);
+    } catch (e) {
+      setError(e.message);
+    } finally {
+      setDownloadingCsv(false);
+    }
+  }
+
   return (
     <section className="rounded-2xl bg-ub-panel p-6 shadow-ub">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -40,13 +61,14 @@ export default function QuestionsPage() {
           <h2 className="text-2xl font-bold">Вопросы и ответы</h2>
           <p className="mt-1 text-sm text-ub-text/70">Всего: {total}</p>
         </div>
-        <a
-          href="/api/questions/export/csv"
-          download="questions.csv"
+        <button
+          type="button"
+          onClick={handleDownloadCsv}
+          disabled={downloadingCsv}
           className="ub-btn rounded-lg px-4 py-2 text-sm font-medium text-white"
         >
-          Скачать CSV
-        </a>
+          {downloadingCsv ? "Скачивание..." : "Скачать CSV"}
+        </button>
       </div>
 
       {error ? (
