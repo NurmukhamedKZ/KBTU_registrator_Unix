@@ -11877,3 +11877,215 @@ Calculus II' vs 'a_n = 1/n'
 2026-02-12 23:25:07,466 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55943): Failed to establish a new connection: [Errno 61] Connection refused")': /session/091d39acc76de38429e871084cac7174
 2026-02-12 23:25:07,467 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55943): Failed to establish a new connection: [Errno 61] Connection refused")': /session/091d39acc76de38429e871084cac7174
 2026-02-12 23:25:07,470 - INFO - WebDriver closed
+2026-02-14 07:44:27,371 - INFO - ====== WebDriver manager ======
+2026-02-14 07:44:29,815 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 07:44:30,166 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 07:44:30,558 - INFO - There is no [mac64] chromedriver "145.0.7632.76" for browser google-chrome "145.0.7632" in cache
+2026-02-14 07:44:30,573 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 07:44:31,524 - INFO - WebDriver version 145.0.7632.76 selected
+2026-02-14 07:44:31,529 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.76/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-14 07:44:31,529 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.76/mac-arm64/chromedriver-mac-arm64.zip
+2026-02-14 07:44:31,969 - INFO - Driver downloading response is 200
+2026-02-14 07:44:32,820 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 07:44:34,273 - INFO - Driver has been saved in cache [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.76]
+2026-02-14 07:44:36,149 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-14 07:44:36,383 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-14 07:44:36,383 - INFO - AI Helper initialized successfully
+2026-02-14 07:44:39,487 - INFO - Database tables created successfully
+2026-02-14 07:44:39,487 - INFO - Database initialized successfully
+2026-02-14 07:44:39,956 - INFO - Database connection test successful
+2026-02-14 07:44:39,956 - INFO - Database connection established successfully
+2026-02-14 07:44:39,956 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-14 07:44:44,073 - INFO - Looking for login elements...
+2026-02-14 07:44:44,080 - INFO - Entering credentials...
+2026-02-14 07:44:44,836 - INFO - Clicking login button: 'Sign in'
+2026-02-14 07:44:44,841 - INFO - Waiting for login to complete...
+2026-02-14 07:44:45,350 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-14 07:44:47,362 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-14 07:44:47,362 - INFO - Login successful! (redirected from login page)
+2026-02-14 07:44:47,362 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/242
+2026-02-14 07:44:50,579 - INFO - Looking for video player...
+2026-02-14 07:44:50,635 - INFO - Clicked play button
+2026-02-14 07:44:50,635 - INFO - Watching video...
+2026-02-14 07:44:50,641 - INFO - Video progress: 0.0% (0s / 426s)
+2026-02-14 07:45:20,648 - INFO - Video progress: 7.0% (30s / 426s)
+2026-02-14 07:45:50,663 - INFO - Video progress: 14.1% (60s / 426s)
+2026-02-14 07:46:20,677 - INFO - Video progress: 21.1% (90s / 426s)
+2026-02-14 07:46:50,695 - INFO - Video progress: 28.2% (120s / 426s)
+2026-02-14 07:47:20,710 - INFO - Video progress: 35.3% (150s / 426s)
+2026-02-14 07:47:50,724 - INFO - Video progress: 42.3% (180s / 426s)
+2026-02-14 07:48:20,744 - INFO - Video progress: 49.4% (210s / 426s)
+2026-02-14 07:48:50,761 - INFO - Video progress: 56.4% (240s / 426s)
+2026-02-14 07:49:20,777 - INFO - Video progress: 63.5% (270s / 426s)
+2026-02-14 07:49:50,790 - INFO - Video progress: 70.5% (300s / 426s)
+2026-02-14 07:50:20,805 - INFO - Video progress: 77.6% (330s / 426s)
+2026-02-14 07:50:50,823 - INFO - Video progress: 84.6% (360s / 426s)
+2026-02-14 07:51:20,840 - INFO - Video progress: 91.7% (390s / 426s)
+2026-02-14 07:51:50,850 - INFO - Video progress: 98.7% (420s / 426s)
+2026-02-14 07:52:20,863 - INFO - Video completed!
+2026-02-14 07:52:20,914 - INFO - Looking for test button...
+2026-02-14 07:52:20,944 - INFO - Found test button: 'Go to test'
+2026-02-14 07:52:20,950 - INFO - Waiting for test page to load...
+2026-02-14 07:52:23,956 - INFO - Looking for 'Start the test' button...
+2026-02-14 07:52:24,108 - INFO - Found button: 'Restart'
+2026-02-14 07:52:24,115 - INFO - Clicked start/restart button
+2026-02-14 07:52:24,115 - INFO - Waiting for questions to load...
+2026-02-14 07:52:29,399 - INFO - Saved screenshot: images/debug_test_questions_1771037549.png
+2026-02-14 07:52:29,405 - INFO - Saved page source: images/debug_test_questions_1771037549.html
+2026-02-14 07:52:29,405 - INFO - Attempting question 1 of 5
+2026-02-14 07:52:29,536 - WARNING - Could not find question number button 1
+2026-02-14 07:52:30,573 - INFO - Found main content area
+2026-02-14 07:52:30,774 - INFO - No question text found. Content text preview:
+2026-02-14 07:52:30,774 - INFO - Module
+Academic courses
+Course
+Calculus II
+Required lecture
+Infinite Series; The Integral Test
+Lesson Geometric Series
+You have completed watching the video lesson
+Go to test
+Watch again
+Restart
+Rewind 10s
+Play
+00:00
+07:05
+Enter fullscreen
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-02-14 07:52:30,774 - WARNING - Failed to answer question 1, continuing to next...
+2026-02-14 07:52:32,833 - INFO - Attempting question 2 of 5
+2026-02-14 07:52:32,970 - WARNING - Could not find question number button 2
+2026-02-14 07:52:33,999 - INFO - Found main content area
+2026-02-14 07:52:34,200 - INFO - No question text found. Content text preview:
+2026-02-14 07:52:34,201 - INFO - Module
+Academic courses
+Course
+Calculus II
+Required lecture
+Infinite Series; The Integral Test
+Lesson Geometric Series
+You have completed watching the video lesson
+Go to test
+Watch again
+Restart
+Rewind 10s
+Play
+00:00
+07:05
+Enter fullscreen
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-02-14 07:52:34,201 - WARNING - Failed to answer question 2, continuing to next...
+2026-02-14 07:52:36,258 - INFO - Attempting question 3 of 5
+2026-02-14 07:52:36,381 - WARNING - Could not find question number button 3
+2026-02-14 07:52:37,410 - INFO - Found main content area
+2026-02-14 07:52:37,608 - INFO - No question text found. Content text preview:
+2026-02-14 07:52:37,608 - INFO - Module
+Academic courses
+Course
+Calculus II
+Required lecture
+Infinite Series; The Integral Test
+Lesson Geometric Series
+You have completed watching the video lesson
+Go to test
+Watch again
+Restart
+Rewind 10s
+Play
+00:00
+07:05
+Enter fullscreen
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-02-14 07:52:37,608 - WARNING - Failed to answer question 3, continuing to next...
+2026-02-14 07:52:39,670 - INFO - Attempting question 4 of 5
+2026-02-14 07:52:39,807 - WARNING - Could not find question number button 4
+2026-02-14 07:52:40,838 - INFO - Found main content area
+2026-02-14 07:52:41,040 - INFO - No question text found. Content text preview:
+2026-02-14 07:52:41,040 - INFO - Module
+Academic courses
+Course
+Calculus II
+Required lecture
+Infinite Series; The Integral Test
+Lesson Geometric Series
+You have completed watching the video lesson
+Go to test
+Watch again
+Restart
+Rewind 10s
+Play
+00:00
+07:05
+Enter fullscreen
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-02-14 07:52:41,040 - WARNING - Failed to answer question 4, continuing to next...
+2026-02-14 07:52:43,098 - INFO - Attempting question 5 of 5
+2026-02-14 07:52:43,237 - WARNING - Could not find question number button 5
+2026-02-14 07:52:44,267 - INFO - Found main content area
+2026-02-14 07:52:44,468 - INFO - No question text found. Content text preview:
+2026-02-14 07:52:44,468 - INFO - Module
+Academic courses
+Course
+Calculus II
+Required lecture
+Infinite Series; The Integral Test
+Lesson Geometric Series
+You have completed watching the video lesson
+Go to test
+Watch again
+Restart
+Rewind 10s
+Play
+00:00
+07:05
+Enter fullscreen
+Settings
+Play
+Test task
+Пожалуйста, посмотрите видео перед прохождением теста.
+2026-02-14 07:52:44,468 - WARNING - Failed to answer question 5, continuing to next...
+2026-02-14 07:52:46,527 - INFO - Answered 0 out of 5 questions
+2026-02-14 07:52:46,528 - INFO - Lesson processing complete!
+2026-02-14 07:52:46,729 - INFO - WebDriver closed
+2026-02-14 08:22:35,327 - INFO - ====== WebDriver manager ======
+2026-02-14 08:22:39,297 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 08:22:39,677 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-14 08:22:40,044 - INFO - Driver [/Users/nurma/.wdm/drivers/chromedriver/mac64/145.0.7632.76/chromedriver-mac-arm64/chromedriver] found in cache
+2026-02-14 08:22:42,761 - INFO - WebDriver initialized successfully with anti-detection
+2026-02-14 08:22:43,074 - INFO - AI Helper initialized with model: gpt-4o
+2026-02-14 08:22:43,074 - INFO - AI Helper initialized successfully
+2026-02-14 08:22:45,868 - INFO - Database tables created successfully
+2026-02-14 08:22:45,869 - INFO - Database initialized successfully
+2026-02-14 08:22:46,312 - INFO - Database connection test successful
+2026-02-14 08:22:46,312 - INFO - Database connection established successfully
+2026-02-14 08:22:46,312 - INFO - Navigating to login page: https://uni-x.almv.kz/platform/login
+2026-02-14 08:22:50,078 - INFO - Looking for login elements...
+2026-02-14 08:22:50,085 - INFO - Entering credentials...
+2026-02-14 08:22:50,820 - INFO - Clicking login button: 'Sign in'
+2026-02-14 08:22:50,824 - INFO - Waiting for login to complete...
+2026-02-14 08:22:51,334 - INFO - Redirected to: https://uni-x.almv.kz/platform
+2026-02-14 08:22:53,341 - INFO - Current URL after login attempt: https://uni-x.almv.kz/platform
+2026-02-14 08:22:53,341 - INFO - Login successful! (redirected from login page)
+2026-02-14 08:22:53,341 - INFO - Navigating to lesson: https://uni-x.almv.kz/platform/lessons/9858
+2026-02-14 08:22:56,645 - INFO - Looking for video player...
+2026-02-14 08:22:56,686 - INFO - Clicked play button
+2026-02-14 08:22:56,686 - INFO - Watching video...
+2026-02-14 08:22:56,692 - INFO - Video progress: 0.0% (0s / 736s)
+2026-02-14 08:25:24,020 - INFO - Interrupted by user
+2026-02-14 08:25:24,035 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62530): Failed to establish a new connection: [Errno 61] Connection refused")': /session/112668330b93d9f758ba6ee147a3ec0f
+2026-02-14 08:25:24,036 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62530): Failed to establish a new connection: [Errno 61] Connection refused")': /session/112668330b93d9f758ba6ee147a3ec0f
+2026-02-14 08:25:24,037 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62530): Failed to establish a new connection: [Errno 61] Connection refused")': /session/112668330b93d9f758ba6ee147a3ec0f
+2026-02-14 08:25:24,041 - INFO - WebDriver closed

@@ -1,0 +1,94 @@
+2026-02-14 08:22:34 | INFO     | uni_bot | API start single requested: lesson=9858
+2026-02-14 08:22:34 | INFO     | uni_bot | Session created: id=7a790f7b mode=single
+2026-02-14 08:22:34 | INFO     | uni_bot | Single agent started: session=7a790f7b lesson=9858 skip_video=False
+INFO     | 2026-02-14 19:33:42 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 19:36:01 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 19:37:28 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 19:37:47 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 19:37:58 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 19:38:07 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 19:38:12 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 19:38:21 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 19:38:26 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 19:38:26 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 19:38:32 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 20:21:56 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 20:21:59 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 20:22:05 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 20:22:05 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 20:22:08 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 20:22:13 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 20:44:18 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 20:44:23 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 20:44:23 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 20:44:29 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 20:59:16 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 20:59:22 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 20:59:22 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 20:59:27 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:05:03 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:05:08 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:05:08 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:05:13 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:05:53 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:05:58 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:05:58 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:06:04 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:06:04 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:06:09 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:06:09 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:06:15 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:12:10 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:12:15 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:12:15 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:12:21 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:13:04 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:13:10 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:13:10 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:13:15 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:13:47 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:13:53 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:13:53 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:13:58 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:14:25 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:14:30 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:14:30 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:14:36 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:16:26 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:16:31 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:16:31 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:16:37 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:18:56 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:19:02 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:19:02 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:19:07 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:23:02 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:23:07 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:23:07 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:23:12 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:23:12 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:23:18 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:23:18 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:23:23 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:25:10 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:25:15 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:25:15 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:25:21 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:25:21 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:25:26 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:25:28 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:25:33 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:25:33 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:25:39 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:26:06 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:26:11 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:26:19 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:26:25 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:26:37 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:26:43 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:26:43 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:26:48 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:29:48 | uni_bot | API get questions requested: limit=20 offset=0
+INFO     | 2026-02-14 21:29:54 | uni_bot | API get questions response: questions_count=20 total_count=309
+INFO     | 2026-02-14 21:32:22 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-14 21:32:29 | uni_bot | CORS enabled for origins: http://localhost:5173
