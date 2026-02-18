@@ -95,6 +95,10 @@ class UniXAgent:
         options.add_argument("--disable-gpu")
         options.add_argument("--disable-software-rasterizer")
         options.add_argument("--mute-audio")  # Mute all audio in the browser
+        options.add_argument("--disable-extensions")
+        options.add_argument("--disable-background-networking")
+        options.add_argument("--disable-component-update")
+        options.add_argument("--renderer-process-limit=1")
         
         # User agent - use a real Chrome user agent
         options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")

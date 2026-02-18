@@ -93,3 +93,7 @@ INFO     | 2026-02-14 21:29:54 | uni_bot | API get questions response: questions
 INFO     | 2026-02-14 21:32:22 | uni_bot | CORS enabled for origins: http://localhost:5173
 INFO     | 2026-02-14 21:32:29 | uni_bot | CORS enabled for origins: http://localhost:5173
 INFO     | 2026-02-15 12:06:37 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-18 15:16:05 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-18 15:17:00 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-18 15:17:41 | uni_bot | CORS enabled for origins: http://localhost:5173
+INFO     | 2026-02-18 15:17:48 | uni_bot | CORS enabled for origins: http://localhost:5173

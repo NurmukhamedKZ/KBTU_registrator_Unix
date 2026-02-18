@@ -1,4 +1,3 @@
-import threading
 from pathlib import Path
 from typing import List
 
@@ -7,9 +6,9 @@ from fastapi.responses import StreamingResponse, FileResponse, RedirectResponse
 
 from app.models.schemas import AgentStatus, BatchRequest, LessonRequest, StopRequest
 from app.deps.database import get_db
-from app.services.agent_runner import run_batch_agent, run_single_agent, stop_agent_by_session
+from app.services.agent_runner import enqueue_batch_agent, enqueue_single_agent, stop_agent_by_session
 from app.services.questions import build_questions_csv
-from app.services.sessions import agent_sessions, create_session
+from app.services.sessions import create_session, get_logs, get_session, mark_session_finished
 from app.services.frontend import (
     FRONTEND_DIST_DIR,
     build_frontend_redirect_target,
@@ -30,20 +29,17 @@ def register_routes(logger):
 
         logger.info("API start single requested: lesson=%s", request.lesson_id)
         session_id = create_session(logger=logger, mode="single")
-
-        thread = threading.Thread(
-            target=run_single_agent,
-            args=(
+        try:
+            enqueue_single_agent(
                 session_id,
                 request.lesson_id,
                 request.skip_video,
                 request.unix_email,
                 request.unix_password,
-                logger,
-            ),
-        )
-        thread.daemon = True
-        thread.start()
+            )
+        except Exception:
+            mark_session_finished(session_id)
+            raise
         return {"message": "Agent started", "lesson_id": request.lesson_id, "session_id": session_id}
 
     @router.post("/api/agent/batch")
@@ -56,20 +52,17 @@ def register_routes(logger):
 
         logger.info("API start batch requested: lesson_ids=%s", request.lesson_ids)
         session_id = create_session(logger=logger, mode="batch")
-
-        thread = threading.Thread(
-            target=run_batch_agent,
-            args=(
+        try:
+            enqueue_batch_agent(
                 session_id,
                 request.lesson_ids,
                 request.skip_video,
                 request.unix_email,
                 request.unix_password,
-                logger,
-            ),
-        )
-        thread.daemon = True
-        thread.start()
+            )
+        except Exception:
+            mark_session_finished(session_id)
+            raise
 
         ids = [item.strip() for item in request.lesson_ids.split(",") if item.strip()]
         return {
@@ -95,15 +88,16 @@ def register_routes(logger):
         if not session_id:
             return AgentStatus(running=False, current_lesson=None, last_run=None, log_count=0, session_id=None)
 
-        session = agent_sessions.get(session_id)
+        session = get_session(session_id)
         if not session:
             return AgentStatus(running=False, current_lesson=None, last_run=None, log_count=0, session_id=session_id)
 
+        logs = get_logs(session_id)
         return AgentStatus(
             running=session.get("running", False),
             current_lesson=session.get("current_lesson"),
             last_run=session.get("last_run"),
-            log_count=len(session.get("logs", [])),
+            log_count=len(logs),
             session_id=session_id,
         )
 
@@ -112,10 +106,7 @@ def register_routes(logger):
         """Get agent logs for a session."""
         if not session_id:
             return []
-        session = agent_sessions.get(session_id)
-        if not session:
-            return []
-        return session.get("logs", [])
+        return get_logs(session_id)
 
     @router.get("/api/questions")
     async def get_questions(limit: int = 20, offset: int = 0):

@@ -8,3 +8,5 @@ fastapi
 uvicorn[standard]
 langchain
 langchain-openai
+redis
+rq
